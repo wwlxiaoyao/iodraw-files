@@ -130,6 +130,9 @@
         <mxCell id="qq41lNsbz4j-vITwScmn-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-2" source="qq41lNsbz4j-vITwScmn-6" target="qq41lNsbz4j-vITwScmn-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="qq41lNsbz4j-vITwScmn-63" value="Main Thread&lt;div&gt;(black box)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
+          <mxGeometry x="30" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-28" value="AICore" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1220" width="200" height="2070" as="geometry" />
         </mxCell>
