@@ -28,7 +28,7 @@
         <mxCell id="qq41lNsbz4j-vITwScmn-41" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-28">
           <mxGeometry x="50" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qq41lNsbz4j-vITwScmn-35" value="KernelEntry&lt;div&gt;每个AICore一个&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-28">
+        <mxCell id="qq41lNsbz4j-vITwScmn-35" value="&lt;div&gt;Stream 1&lt;/div&gt;KernelEntry&lt;div&gt;每个AICore一个&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-28">
           <mxGeometry x="50" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-28" source="qq41lNsbz4j-vITwScmn-35" target="qq41lNsbz4j-vITwScmn-44">
