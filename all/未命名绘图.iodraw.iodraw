@@ -16,8 +16,8 @@
         <mxCell id="qq41lNsbz4j-vITwScmn-4" value="Device" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="80" width="400" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="qq41lNsbz4j-vITwScmn-5" value="KernelEntry" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="160" width="120" height="60" as="geometry" />
+        <mxCell id="qq41lNsbz4j-vITwScmn-5" value="KernelEntry" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-4">
+          <mxGeometry x="240" y="90" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
