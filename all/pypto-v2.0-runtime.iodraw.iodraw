@@ -212,7 +212,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qq41lNsbz4j-vITwScmn-72" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qq41lNsbz4j-vITwScmn-72" value="Host" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-470" y="20" width="540" height="1640" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-72" source="qq41lNsbz4j-vITwScmn-73" target="qq41lNsbz4j-vITwScmn-74">
@@ -224,7 +224,7 @@
         <mxCell id="qq41lNsbz4j-vITwScmn-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-72" source="qq41lNsbz4j-vITwScmn-74" target="qq41lNsbz4j-vITwScmn-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qq41lNsbz4j-vITwScmn-74" value="DynamicLaunch" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
+        <mxCell id="qq41lNsbz4j-vITwScmn-74" value="DynamicLaunch" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
           <mxGeometry x="20" y="260" width="330" height="730" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-72" source="qq41lNsbz4j-vITwScmn-75" target="qq41lNsbz4j-vITwScmn-73">
