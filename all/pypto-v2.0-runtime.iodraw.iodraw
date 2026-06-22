@@ -28,6 +28,12 @@
         <mxCell id="qq41lNsbz4j-vITwScmn-41" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-28">
           <mxGeometry x="50" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="qq41lNsbz4j-vITwScmn-35" value="KernelEntry&lt;div&gt;每个AICore一个&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-28">
+          <mxGeometry x="50" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qq41lNsbz4j-vITwScmn-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-28" source="qq41lNsbz4j-vITwScmn-35" target="qq41lNsbz4j-vITwScmn-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-2" value="AICPU" style="swimlane;whiteSpace=wrap;html=1;startSize=23;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="50" width="1170" height="2070" as="geometry" />
         </mxCell>
@@ -164,12 +170,6 @@
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-63" value="Main Thread&lt;div&gt;(black box)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
           <mxGeometry x="30" y="30" width="220" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qq41lNsbz4j-vITwScmn-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qq41lNsbz4j-vITwScmn-35" target="qq41lNsbz4j-vITwScmn-44">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qq41lNsbz4j-vITwScmn-35" value="KernelEntry&lt;div&gt;每个AICore一个&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qq41lNsbz4j-vITwScmn-29" target="qq41lNsbz4j-vITwScmn-36">
           <mxGeometry relative="1" as="geometry" />
