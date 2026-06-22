@@ -265,6 +265,11 @@
             <mxPoint x="460" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="qq41lNsbz4j-vITwScmn-93" value="AiCpuArgs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qq41lNsbz4j-vITwScmn-92">
+          <mxGeometry x="0.1493" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-85" value="AicpuKernelLaunch for AICpu: sched stream" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
           <mxGeometry x="60" y="710" width="250" height="60" as="geometry" />
         </mxCell>
