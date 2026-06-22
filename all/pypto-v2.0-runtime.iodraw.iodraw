@@ -19,6 +19,9 @@
         <mxCell id="qq41lNsbz4j-vITwScmn-5" value="KernelEntry" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-4">
           <mxGeometry x="240" y="90" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="qq41lNsbz4j-vITwScmn-6" value="DynTileFwkBackendKernelServer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
