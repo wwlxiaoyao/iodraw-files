@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qq41lNsbz4j-vITwScmn-28" value="AICore" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1220" width="440" height="2070" as="geometry" />
+          <mxGeometry x="1220" width="440" height="1520" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-28" source="qq41lNsbz4j-vITwScmn-44" target="qq41lNsbz4j-vITwScmn-68">
           <mxGeometry relative="1" as="geometry" />
