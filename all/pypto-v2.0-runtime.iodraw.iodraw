@@ -7,6 +7,9 @@
         <mxCell id="qq41lNsbz4j-vITwScmn-2" value="AICPU" style="swimlane;whiteSpace=wrap;html=1;startSize=23;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="50" width="1170" height="2070" as="geometry" />
         </mxCell>
+        <mxCell id="qq41lNsbz4j-vITwScmn-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-2" source="qq41lNsbz4j-vITwScmn-6" target="qq41lNsbz4j-vITwScmn-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-6" value="DynTileFwkBackendKernelServer" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
           <mxGeometry x="30" y="290" width="220" height="40" as="geometry" />
         </mxCell>
@@ -179,7 +182,7 @@
             <mxPoint x="459.0799999999999" y="107.98000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qq41lNsbz4j-vITwScmn-65" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qq41lNsbz4j-vITwScmn-61">
+        <mxCell id="qq41lNsbz4j-vITwScmn-65" value="fork" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qq41lNsbz4j-vITwScmn-61">
           <mxGeometry x="-0.3014" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
