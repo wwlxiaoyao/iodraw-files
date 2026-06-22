@@ -64,9 +64,6 @@
         <mxCell id="qq41lNsbz4j-vITwScmn-24" value="HandShakeTryPreFetchDevTask" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
           <mxGeometry x="837" y="790" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qq41lNsbz4j-vITwScmn-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.471;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-2" source="qq41lNsbz4j-vITwScmn-22" target="qq41lNsbz4j-vITwScmn-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-26" value="HandShakeByGmForAic" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
           <mxGeometry x="857" y="920" width="200" height="60" as="geometry" />
         </mxCell>
