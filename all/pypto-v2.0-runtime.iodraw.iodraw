@@ -68,7 +68,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-26" value="HandShakeByGmForAic" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
-          <mxGeometry x="857" y="970" width="200" height="60" as="geometry" />
+          <mxGeometry x="857" y="920" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-28" value="AICore" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1210" width="200" height="1310" as="geometry" />
