@@ -14,7 +14,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-7" value="DynTileFwkBackendKernelServerInit" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
-          <mxGeometry x="30" y="90" width="220" height="60" as="geometry" />
+          <mxGeometry x="30" y="120" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-9" value="ctrl stream" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
           <mxGeometry x="410" y="85" width="230" height="60" as="geometry" />
@@ -131,7 +131,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-63" value="Main Thread&lt;div&gt;(black box)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
-          <mxGeometry x="30" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="30" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-28" value="AICore" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1220" width="200" height="2070" as="geometry" />
