@@ -296,7 +296,7 @@
         <mxCell id="qq41lNsbz4j-vITwScmn-88" value="KernelLaunch for AICore&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Batch sched mode: * (blockDim)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
           <mxGeometry x="60" y="1160" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qq41lNsbz4j-vITwScmn-96" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qq41lNsbz4j-vITwScmn-96" value="AclInit" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-290" y="240" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
