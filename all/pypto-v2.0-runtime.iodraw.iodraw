@@ -17,16 +17,16 @@
           <mxGeometry x="30" y="90" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-9" value="ctrl stream" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
-          <mxGeometry x="270" y="90" width="230" height="60" as="geometry" />
+          <mxGeometry x="410" y="85" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-10" value="sched stream" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
-          <mxGeometry x="520" y="90" width="200" height="60" as="geometry" />
+          <mxGeometry x="857" y="90" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-12" value="PyptoKernelCtrlServer" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
-          <mxGeometry x="290" y="280" width="170" height="60" as="geometry" />
+          <mxGeometry x="450" y="295" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-11" value="PyptoKernelCtrlServerInit" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
-          <mxGeometry x="280" y="190" width="210" height="60" as="geometry" />
+          <mxGeometry x="420" y="200" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="qq41lNsbz4j-vITwScmn-2" source="qq41lNsbz4j-vITwScmn-9" target="qq41lNsbz4j-vITwScmn-11">
           <mxGeometry relative="1" as="geometry" />
