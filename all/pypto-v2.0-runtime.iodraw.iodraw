@@ -212,7 +212,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qq41lNsbz4j-vITwScmn-72" value="Host" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qq41lNsbz4j-vITwScmn-72" value="Host" style="swimlane;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-490" width="540" height="1640" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-72" source="qq41lNsbz4j-vITwScmn-73" target="qq41lNsbz4j-vITwScmn-74">
@@ -242,7 +242,7 @@
         <mxCell id="qq41lNsbz4j-vITwScmn-80" value="RunPrepare: 调测能力&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;copy H2D: perfData_: 初始化的地址列表&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
           <mxGeometry x="50" y="320" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qq41lNsbz4j-vITwScmn-81" value="DynamicTripleStreamLaunch" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
+        <mxCell id="qq41lNsbz4j-vITwScmn-81" value="DynamicTripleStreamLaunch" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
           <mxGeometry x="30" y="440" width="310" height="530" as="geometry" />
         </mxCell>
       </root>
