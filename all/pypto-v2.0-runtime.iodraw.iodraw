@@ -240,7 +240,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-80" value="RunPrepare: 调测能力&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;copy H2D: perfData_: 初始化的地址列表&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
-          <mxGeometry x="50" y="320" width="260" height="60" as="geometry" />
+          <mxGeometry x="55" y="320" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-81" value="DynamicTripleStreamLaunch" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
           <mxGeometry x="30" y="440" width="310" height="530" as="geometry" />
@@ -262,6 +262,16 @@
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-85" value="AicpuKernelLaunch for AICpu: sched stream" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
           <mxGeometry x="60" y="710" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qq41lNsbz4j-vITwScmn-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="qq41lNsbz4j-vITwScmn-72" source="qq41lNsbz4j-vITwScmn-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qq41lNsbz4j-vITwScmn-91" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qq41lNsbz4j-vITwScmn-90">
+          <mxGeometry x="0.113" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-88" value="KernelLaunch for AICore&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Batch sched mode&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
           <mxGeometry x="60" y="840" width="250" height="80" as="geometry" />
