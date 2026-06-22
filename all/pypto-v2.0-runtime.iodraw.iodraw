@@ -260,6 +260,11 @@
         <mxCell id="qq41lNsbz4j-vITwScmn-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-72" source="qq41lNsbz4j-vITwScmn-85" target="qq41lNsbz4j-vITwScmn-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="qq41lNsbz4j-vITwScmn-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="qq41lNsbz4j-vITwScmn-72" source="qq41lNsbz4j-vITwScmn-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-85" value="AicpuKernelLaunch for AICpu: sched stream" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
           <mxGeometry x="60" y="710" width="250" height="60" as="geometry" />
         </mxCell>
@@ -268,7 +273,7 @@
             <mxPoint x="420" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qq41lNsbz4j-vITwScmn-91" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qq41lNsbz4j-vITwScmn-90">
+        <mxCell id="qq41lNsbz4j-vITwScmn-91" value="DeviceKernelArgs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qq41lNsbz4j-vITwScmn-90">
           <mxGeometry x="0.113" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
