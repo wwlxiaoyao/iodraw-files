@@ -26,7 +26,7 @@
           <mxGeometry x="857" y="90" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-12" value="PyptoKernelCtrlServer" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
-          <mxGeometry x="390" y="710" width="270" height="700" as="geometry" />
+          <mxGeometry x="390" y="710" width="270" height="560" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-11" value="PyptoKernelCtrlServerInit" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
           <mxGeometry x="390" y="200" width="270" height="460" as="geometry" />
@@ -126,6 +126,9 @@
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-59" value="RunControlFlow&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;AOT处理&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
           <mxGeometry x="445" y="1060" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="qq41lNsbz4j-vITwScmn-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-2" source="qq41lNsbz4j-vITwScmn-6" target="qq41lNsbz4j-vITwScmn-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-28" value="AICore" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1220" width="200" height="2070" as="geometry" />
