@@ -13,8 +13,8 @@
         <mxCell id="qq41lNsbz4j-vITwScmn-3" value="AICore" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="720" y="100" width="200" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="qq41lNsbz4j-vITwScmn-4" value="CANN Driver" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="80" width="200" height="206" as="geometry" />
+        <mxCell id="qq41lNsbz4j-vITwScmn-4" value="Device" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="80" width="400" height="560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
