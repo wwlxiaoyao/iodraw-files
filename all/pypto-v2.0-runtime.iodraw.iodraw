@@ -248,11 +248,11 @@
         <mxCell id="qq41lNsbz4j-vITwScmn-83" value="AiCpuArgs" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
           <mxGeometry x="60" y="500" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qq41lNsbz4j-vITwScmn-84" value="AicpuKernelLaunch for AICpu" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
+        <mxCell id="qq41lNsbz4j-vITwScmn-84" value="AicpuKernelLaunch for AICpu: ctrl stream" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
           <mxGeometry x="60" y="595" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qq41lNsbz4j-vITwScmn-85" value="AicpuKernelLaunch for AICpu" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-420" y="605" width="250" height="60" as="geometry" />
+        <mxCell id="qq41lNsbz4j-vITwScmn-85" value="AicpuKernelLaunch for AICpu" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
+          <mxGeometry x="70" y="710" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
