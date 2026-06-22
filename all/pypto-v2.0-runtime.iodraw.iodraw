@@ -28,8 +28,8 @@
         <mxCell id="qq41lNsbz4j-vITwScmn-12" value="PyptoKernelCtrlServer" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
           <mxGeometry x="420" y="1120" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qq41lNsbz4j-vITwScmn-11" value="PyptoKernelCtrlServerInit" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
-          <mxGeometry x="420" y="200" width="210" height="590" as="geometry" />
+        <mxCell id="qq41lNsbz4j-vITwScmn-11" value="PyptoKernelCtrlServerInit" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
+          <mxGeometry x="420" y="200" width="240" height="590" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="qq41lNsbz4j-vITwScmn-2" source="qq41lNsbz4j-vITwScmn-9" target="qq41lNsbz4j-vITwScmn-11">
           <mxGeometry relative="1" as="geometry" />
