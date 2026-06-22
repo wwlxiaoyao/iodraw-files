@@ -248,6 +248,9 @@
         <mxCell id="qq41lNsbz4j-vITwScmn-83" value="AiCpuArgs" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
           <mxGeometry x="60" y="500" width="250" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="qq41lNsbz4j-vITwScmn-84" value="AiCpuArgs" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
+          <mxGeometry x="60" y="595" width="250" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
