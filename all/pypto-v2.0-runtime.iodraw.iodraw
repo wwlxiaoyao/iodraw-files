@@ -144,20 +144,20 @@
         <mxCell id="qq41lNsbz4j-vITwScmn-28" value="AICore" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1220" width="440" height="2070" as="geometry" />
         </mxCell>
-        <mxCell id="qq41lNsbz4j-vITwScmn-36" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-28">
-          <mxGeometry x="60" y="1020" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-28" source="qq41lNsbz4j-vITwScmn-44" target="qq41lNsbz4j-vITwScmn-68">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qq41lNsbz4j-vITwScmn-36" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-28">
+          <mxGeometry x="60" y="1020" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-44" value="HandshakeClient" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-28">
           <mxGeometry x="50" y="670" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="qq41lNsbz4j-vITwScmn-68" value="GetCoreFunctionData" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="qq41lNsbz4j-vITwScmn-28">
+          <mxGeometry x="180" y="795" width="150" height="510" as="geometry" />
+        </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-28" source="qq41lNsbz4j-vITwScmn-68" target="qq41lNsbz4j-vITwScmn-70">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qq41lNsbz4j-vITwScmn-68" value="GetCoreFunctionData" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="qq41lNsbz4j-vITwScmn-28">
-          <mxGeometry x="35" y="800" width="150" height="510" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-70" value="ExecCoreFunctionKernel" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-28">
           <mxGeometry x="25" y="1350" width="170" height="70" as="geometry" />
