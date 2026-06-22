@@ -160,7 +160,7 @@
           <mxGeometry x="35" y="800" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-70" value="ExecCoreFunctionKernel" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-28">
-          <mxGeometry x="25" y="910" width="170" height="60" as="geometry" />
+          <mxGeometry x="25" y="910" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qq41lNsbz4j-vITwScmn-35" target="qq41lNsbz4j-vITwScmn-44">
           <mxGeometry relative="1" as="geometry" />
