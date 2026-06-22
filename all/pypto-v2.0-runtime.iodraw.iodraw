@@ -225,7 +225,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-74" value="DynamicLaunch" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
-          <mxGeometry x="20" y="260" width="330" height="330" as="geometry" />
+          <mxGeometry x="20" y="260" width="330" height="730" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-72" source="qq41lNsbz4j-vITwScmn-75" target="qq41lNsbz4j-vITwScmn-73">
           <mxGeometry relative="1" as="geometry" />
@@ -234,7 +234,7 @@
           <mxGeometry x="125" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-78" value="DynamicLaunchSync&lt;div&gt;三条流&lt;/div&gt;&lt;div&gt;schedStream&lt;/div&gt;&lt;div&gt;ctrlStream&lt;/div&gt;&lt;div&gt;aiccoreStream&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
-          <mxGeometry x="35" y="620" width="170" height="110" as="geometry" />
+          <mxGeometry x="100" y="1160" width="170" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
