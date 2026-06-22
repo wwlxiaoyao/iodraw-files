@@ -14,7 +14,7 @@
           <mxGeometry x="35" y="795" width="150" height="510" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-44" value="HandshakeClient" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-28">
-          <mxGeometry x="30" y="670" width="140" height="60" as="geometry" />
+          <mxGeometry x="30" y="670" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-28" source="qq41lNsbz4j-vITwScmn-68" target="qq41lNsbz4j-vITwScmn-70">
           <mxGeometry relative="1" as="geometry" />
@@ -142,7 +142,7 @@
           <mxGeometry x="465" y="580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-55" value="ctx.GELaunch" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
-          <mxGeometry x="410" y="740" width="230" height="490" as="geometry" />
+          <mxGeometry x="410" y="760" width="230" height="470" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-2" source="qq41lNsbz4j-vITwScmn-56" target="qq41lNsbz4j-vITwScmn-57">
           <mxGeometry relative="1" as="geometry" />
