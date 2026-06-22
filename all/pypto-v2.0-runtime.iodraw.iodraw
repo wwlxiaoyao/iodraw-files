@@ -233,6 +233,9 @@
         <mxCell id="qq41lNsbz4j-vITwScmn-75" value="RunOnBoard" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
           <mxGeometry x="125" y="40" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="qq41lNsbz4j-vITwScmn-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-72" source="qq41lNsbz4j-vITwScmn-78" target="qq41lNsbz4j-vITwScmn-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-78" value="DynamicLaunchSync&lt;div&gt;三条流&lt;/div&gt;&lt;div&gt;schedStream&lt;/div&gt;&lt;div&gt;ctrlStream&lt;/div&gt;&lt;div&gt;aiccoreStream&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
           <mxGeometry x="100" y="1370" width="170" height="110" as="geometry" />
         </mxCell>
@@ -314,8 +317,8 @@
         <mxCell id="qq41lNsbz4j-vITwScmn-99" value="Init aicpuArgs" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
           <mxGeometry x="125" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qq41lNsbz4j-vITwScmn-102" value="Copy D2H" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="1510" width="120" height="60" as="geometry" />
+        <mxCell id="qq41lNsbz4j-vITwScmn-102" value="Copy D2H" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
+          <mxGeometry x="125" y="1540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
