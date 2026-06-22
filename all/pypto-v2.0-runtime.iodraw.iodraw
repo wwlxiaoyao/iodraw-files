@@ -19,7 +19,7 @@
         <mxCell id="qq41lNsbz4j-vITwScmn-7" value="DynTileFwkBackendKernelServerInit" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
           <mxGeometry x="30" y="90" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qq41lNsbz4j-vITwScmn-9" value="RUN_SPLITTED_STREAM_CTRL" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
+        <mxCell id="qq41lNsbz4j-vITwScmn-9" value="ctrl stream" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
           <mxGeometry x="270" y="90" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-10" value="RUN_SPLITTED_STREAM_SCHE" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
@@ -36,6 +36,9 @@
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-11" value="PyptoKernelCtrlServerInit" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="290" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qq41lNsbz4j-vITwScmn-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qq41lNsbz4j-vITwScmn-9" target="qq41lNsbz4j-vITwScmn-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
