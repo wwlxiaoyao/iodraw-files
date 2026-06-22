@@ -219,13 +219,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-73" value="DynamicRun" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
-          <mxGeometry x="125" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="125" y="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-72" source="qq41lNsbz4j-vITwScmn-74" target="qq41lNsbz4j-vITwScmn-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-74" value="DynamicLaunch" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
-          <mxGeometry x="20" y="290" width="330" height="730" as="geometry" />
+          <mxGeometry x="20" y="580" width="330" height="730" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-72" source="qq41lNsbz4j-vITwScmn-75" target="qq41lNsbz4j-vITwScmn-73">
           <mxGeometry relative="1" as="geometry" />
@@ -234,29 +234,29 @@
           <mxGeometry x="125" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-78" value="DynamicLaunchSync&lt;div&gt;三条流&lt;/div&gt;&lt;div&gt;schedStream&lt;/div&gt;&lt;div&gt;ctrlStream&lt;/div&gt;&lt;div&gt;aiccoreStream&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
-          <mxGeometry x="100" y="1080" width="170" height="110" as="geometry" />
+          <mxGeometry x="100" y="1370" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-72" source="qq41lNsbz4j-vITwScmn-80" target="qq41lNsbz4j-vITwScmn-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-80" value="RunPrepare: 调测能力&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;copy H2D: perfData_: 初始化的地址列表&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
-          <mxGeometry x="55" y="350" width="260" height="60" as="geometry" />
+          <mxGeometry x="55" y="640" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-81" value="DynamicTripleStreamLaunch" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
-          <mxGeometry x="30" y="470" width="310" height="530" as="geometry" />
+          <mxGeometry x="30" y="760" width="310" height="530" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-72" source="qq41lNsbz4j-vITwScmn-83" target="qq41lNsbz4j-vITwScmn-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-83" value="AiCpuArgs" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
-          <mxGeometry x="60" y="510" width="250" height="40" as="geometry" />
+          <mxGeometry x="60" y="800" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-72" source="qq41lNsbz4j-vITwScmn-84" target="qq41lNsbz4j-vITwScmn-85">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="qq41lNsbz4j-vITwScmn-72" source="qq41lNsbz4j-vITwScmn-84">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="650" as="targetPoint" />
+            <mxPoint x="450" y="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-95" value="AiCpuArgs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qq41lNsbz4j-vITwScmn-94">
@@ -265,14 +265,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-84" value="AicpuKernelLaunch for AICpu:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;ctrl stream * 1&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
-          <mxGeometry x="60" y="625" width="250" height="60" as="geometry" />
+          <mxGeometry x="60" y="915" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-72" source="qq41lNsbz4j-vITwScmn-85" target="qq41lNsbz4j-vITwScmn-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="qq41lNsbz4j-vITwScmn-72" source="qq41lNsbz4j-vITwScmn-85">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="460" y="770" as="targetPoint" />
+            <mxPoint x="460" y="1060" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-93" value="AiCpuArgs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qq41lNsbz4j-vITwScmn-92">
@@ -281,11 +281,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-85" value="AicpuKernelLaunch for AICpu:&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;sched stream * (aicpuNum)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
-          <mxGeometry x="60" y="740" width="250" height="60" as="geometry" />
+          <mxGeometry x="60" y="1030" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="qq41lNsbz4j-vITwScmn-72" source="qq41lNsbz4j-vITwScmn-88">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="910" as="targetPoint" />
+            <mxPoint x="420" y="1200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-91" value="DeviceKernelArgs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qq41lNsbz4j-vITwScmn-90">
@@ -294,7 +294,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-88" value="KernelLaunch for AICore&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Batch sched mode: * (blockDim)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
-          <mxGeometry x="60" y="870" width="250" height="80" as="geometry" />
+          <mxGeometry x="60" y="1160" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qq41lNsbz4j-vITwScmn-96" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="240" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
