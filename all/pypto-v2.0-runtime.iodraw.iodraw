@@ -26,7 +26,7 @@
           <mxGeometry x="520" y="90" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-12" value="PyptoKernelCtrlServer" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
-          <mxGeometry x="530" y="190" width="170" height="60" as="geometry" />
+          <mxGeometry x="290" y="280" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-3" value="AICore" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="940" y="90" width="450" height="540" as="geometry" />
