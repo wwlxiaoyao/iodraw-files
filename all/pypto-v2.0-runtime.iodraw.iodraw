@@ -124,7 +124,7 @@
         <mxCell id="qq41lNsbz4j-vITwScmn-57" value="RunInit" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
           <mxGeometry x="450" y="960" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qq41lNsbz4j-vITwScmn-59" value="RunControlFlow&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;AOT处理&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
+        <mxCell id="qq41lNsbz4j-vITwScmn-59" value="RunControlFlow&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;AOT处理&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
           <mxGeometry x="445" y="1060" width="170" height="140" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-28" value="AICore" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
