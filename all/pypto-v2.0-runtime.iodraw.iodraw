@@ -234,7 +234,7 @@
           <mxGeometry x="125" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-78" value="DynamicLaunchSync&lt;div&gt;三条流&lt;/div&gt;&lt;div&gt;schedStream&lt;/div&gt;&lt;div&gt;ctrlStream&lt;/div&gt;&lt;div&gt;aiccoreStream&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-72">
-          <mxGeometry x="100" y="1160" width="170" height="110" as="geometry" />
+          <mxGeometry x="100" y="1050" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qq41lNsbz4j-vITwScmn-72" source="qq41lNsbz4j-vITwScmn-80" target="qq41lNsbz4j-vITwScmn-81">
           <mxGeometry relative="1" as="geometry" />
