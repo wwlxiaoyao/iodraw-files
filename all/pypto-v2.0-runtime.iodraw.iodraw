@@ -100,8 +100,8 @@
         <mxCell id="qq41lNsbz4j-vITwScmn-49" value="InitProgram" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
           <mxGeometry x="465" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qq41lNsbz4j-vITwScmn-51" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
-          <mxGeometry x="470" y="620" width="120" height="60" as="geometry" />
+        <mxCell id="qq41lNsbz4j-vITwScmn-51" value="InitTaskPipeWithSched" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
+          <mxGeometry x="450" y="620" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-28" value="AICore" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1220" width="200" height="2070" as="geometry" />
