@@ -125,7 +125,7 @@
           <mxGeometry x="450" y="960" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-59" value="RunControlFlow" style="whiteSpace=wrap;html=1;" vertex="1" parent="qq41lNsbz4j-vITwScmn-2">
-          <mxGeometry x="445" y="1140" width="170" height="60" as="geometry" />
+          <mxGeometry x="445" y="1060" width="170" height="140" as="geometry" />
         </mxCell>
         <mxCell id="qq41lNsbz4j-vITwScmn-28" value="AICore" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1220" width="200" height="2070" as="geometry" />
