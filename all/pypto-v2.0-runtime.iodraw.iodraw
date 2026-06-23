@@ -18,6 +18,11 @@
         <mxCell id="3_UMMmwYGQAMZjU9GiCS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3_UMMmwYGQAMZjU9GiCS-2" target="3_UMMmwYGQAMZjU9GiCS-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="3_UMMmwYGQAMZjU9GiCS-9" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3_UMMmwYGQAMZjU9GiCS-8">
+          <mxGeometry x="-0.2593" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3_UMMmwYGQAMZjU9GiCS-2" value="SEND_CORE_TASK" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="340" width="120" height="60" as="geometry" />
         </mxCell>
@@ -25,7 +30,7 @@
           <mxGeometry x="310" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3_UMMmwYGQAMZjU9GiCS-4" value="WAIT_TAIL_TASK_FINISH" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="400" width="190" height="60" as="geometry" />
+          <mxGeometry x="450" y="460" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3_UMMmwYGQAMZjU9GiCS-5" value="WAIT_ALL_SCH_FINISH" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="520" width="180" height="60" as="geometry" />
