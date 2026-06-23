@@ -4,6 +4,56 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7ZxyFqrtkPRAVWrvJ_Aj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7ZxyFqrtkPRAVWrvJ_Aj-3" target="7ZxyFqrtkPRAVWrvJ_Aj-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZxyFqrtkPRAVWrvJ_Aj-2" value="PreProcessTask done" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7ZxyFqrtkPRAVWrvJ_Aj-1">
+          <mxGeometry x="-0.04" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZxyFqrtkPRAVWrvJ_Aj-3" value="INIT" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZxyFqrtkPRAVWrvJ_Aj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7ZxyFqrtkPRAVWrvJ_Aj-6" target="7ZxyFqrtkPRAVWrvJ_Aj-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZxyFqrtkPRAVWrvJ_Aj-5" value="IsCoreTAskSendFinish" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7ZxyFqrtkPRAVWrvJ_Aj-4">
+          <mxGeometry x="-0.2593" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZxyFqrtkPRAVWrvJ_Aj-6" value="SEND_CORE_TASK" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZxyFqrtkPRAVWrvJ_Aj-7" value="FINISH" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZxyFqrtkPRAVWrvJ_Aj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7ZxyFqrtkPRAVWrvJ_Aj-12" target="7ZxyFqrtkPRAVWrvJ_Aj-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZxyFqrtkPRAVWrvJ_Aj-9" value="非并行模式" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7ZxyFqrtkPRAVWrvJ_Aj-8">
+          <mxGeometry x="0.1231" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZxyFqrtkPRAVWrvJ_Aj-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7ZxyFqrtkPRAVWrvJ_Aj-12" target="7ZxyFqrtkPRAVWrvJ_Aj-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZxyFqrtkPRAVWrvJ_Aj-11" value="并行模式，等所有sched完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7ZxyFqrtkPRAVWrvJ_Aj-10">
+          <mxGeometry x="0.1636" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZxyFqrtkPRAVWrvJ_Aj-12" value="WAIT_TAIL_TASK_FINISH" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="380" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZxyFqrtkPRAVWrvJ_Aj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7ZxyFqrtkPRAVWrvJ_Aj-14" target="7ZxyFqrtkPRAVWrvJ_Aj-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZxyFqrtkPRAVWrvJ_Aj-14" value="WAIT_ALL_SCH_FINISH" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="580" width="180" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
