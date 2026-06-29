@@ -108,6 +108,9 @@
         <mxCell id="OpA2idjCnP9OOFakG4Vd-37" value="Vector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="767" y="440" width="60" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="OpA2idjCnP9OOFakG4Vd-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.338;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.995;exitY=0.388;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OpA2idjCnP9OOFakG4Vd-31" target="OpA2idjCnP9OOFakG4Vd-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
