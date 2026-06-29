@@ -16,10 +16,10 @@
         <mxCell id="OpA2idjCnP9OOFakG4Vd-2" value="L2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="210" width="50" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="OpA2idjCnP9OOFakG4Vd-6" value="AIC" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="350" y="150" width="400" height="160" as="geometry" />
+        <mxCell id="OpA2idjCnP9OOFakG4Vd-6" value="AIC" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="350" y="180" width="400" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="OpA2idjCnP9OOFakG4Vd-7" value="AIVx2" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="OpA2idjCnP9OOFakG4Vd-7" value="AIVx2" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="350" y="370" width="400" height="160" as="geometry" />
         </mxCell>
       </root>
