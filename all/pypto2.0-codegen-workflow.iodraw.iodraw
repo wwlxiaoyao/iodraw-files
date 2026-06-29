@@ -49,6 +49,9 @@
         <mxCell id="OpA2idjCnP9OOFakG4Vd-11" value="MTE1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="551" y="230" width="80" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="OpA2idjCnP9OOFakG4Vd-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OpA2idjCnP9OOFakG4Vd-13" target="OpA2idjCnP9OOFakG4Vd-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OpA2idjCnP9OOFakG4Vd-13" value="MTE1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="551" y="271" width="80" height="20" as="geometry" />
         </mxCell>
@@ -56,7 +59,7 @@
           <mxGeometry x="670" y="220" width="60" height="39" as="geometry" />
         </mxCell>
         <mxCell id="OpA2idjCnP9OOFakG4Vd-20" value="L0B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="271" width="60" height="39" as="geometry" />
+          <mxGeometry x="670" y="262" width="60" height="39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
