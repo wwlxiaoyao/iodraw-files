@@ -61,8 +61,8 @@
         <mxCell id="OpA2idjCnP9OOFakG4Vd-20" value="L0B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="671" y="262" width="60" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="OpA2idjCnP9OOFakG4Vd-23" value="L1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="230" width="60" height="80" as="geometry" />
+        <mxCell id="OpA2idjCnP9OOFakG4Vd-23" value="Cube" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="767" y="221" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
