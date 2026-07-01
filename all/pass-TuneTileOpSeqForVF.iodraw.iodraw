@@ -28,7 +28,7 @@
         <mxCell id="mCJFeki_mjrRwJRuVmO0-5" value="Transpose MoveOut" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="670" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mCJFeki_mjrRwJRuVmO0-6" value="Expand" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mCJFeki_mjrRwJRuVmO0-6" value="Mul" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mCJFeki_mjrRwJRuVmO0-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="mCJFeki_mjrRwJRuVmO0-1">
