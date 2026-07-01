@@ -16,6 +16,9 @@
         <mxCell id="mCJFeki_mjrRwJRuVmO0-4" value="Transpose MoveIn" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="530" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="mCJFeki_mjrRwJRuVmO0-5" value="Transpose MoveOut" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
