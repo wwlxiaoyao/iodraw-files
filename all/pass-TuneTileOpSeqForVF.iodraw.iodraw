@@ -24,11 +24,11 @@
         <mxCell id="mCJFeki_mjrRwJRuVmO0-4" value="Transpose MoveIn" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mCJFeki_mjrRwJRuVmO0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mCJFeki_mjrRwJRuVmO0-5" target="mCJFeki_mjrRwJRuVmO0-6">
+        <mxCell id="mCJFeki_mjrRwJRuVmO0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mCJFeki_mjrRwJRuVmO0-5" target="mCJFeki_mjrRwJRuVmO0-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mCJFeki_mjrRwJRuVmO0-5" value="Transpose MoveOut" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mCJFeki_mjrRwJRuVmO0-6" value="Mul" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="550" width="120" height="60" as="geometry" />
