@@ -24,10 +24,10 @@
           <mxGeometry x="1705.5" y="2150" width="131" height="40" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-113" value="WaitFlag ID2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1711" y="2210" width="120" height="40" as="geometry" />
+          <mxGeometry x="1588" y="2210" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-114" value="SetFlag ID5" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1711" y="2270" width="120" height="40" as="geometry" />
+          <mxGeometry x="1560" y="2270" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-156" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#FF1231;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -899,6 +899,9 @@
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-303" value="DataMove" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="748" y="2190" width="134" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="luap7YNSXODogtiq4o7u-305" value="SetFlag ID5" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="2280" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
