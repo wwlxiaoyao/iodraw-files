@@ -568,7 +568,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-139" value="LoadData" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="592" y="1439" width="131" height="40" as="geometry" />
+          <mxGeometry x="591" y="1441" width="131" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="luap7YNSXODogtiq4o7u-143" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="1124" as="sourcePoint" />
+            <mxPoint x="601" y="1210" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
