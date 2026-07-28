@@ -805,8 +805,8 @@
         <mxCell id="luap7YNSXODogtiq4o7u-199" value="PipeBarrirer M" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="luap7YNSXODogtiq4o7u-201">
           <mxGeometry x="913" y="654" width="131" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-263" value="Sync Model for Intra-AICore: GM -&amp;gt; L0C" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="30" y="577" width="1220" height="830" as="geometry" />
+        <mxCell id="luap7YNSXODogtiq4o7u-263" value="Sync Model for Intra-AICore: GM -&amp;gt; Vector -&amp;gt; GM" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="30" y="540" width="1220" height="830" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
