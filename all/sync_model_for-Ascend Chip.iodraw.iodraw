@@ -1212,8 +1212,15 @@
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-370" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#FF1231;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1487" y="2542" as="sourcePoint" />
-            <mxPoint x="981" y="2541.5" as="targetPoint" />
+            <mxPoint x="966" y="2911.5" as="sourcePoint" />
+            <mxPoint x="460" y="2911" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="luap7YNSXODogtiq4o7u-371" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="luap7YNSXODogtiq4o7u-368">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="631" y="2830" as="sourcePoint" />
+            <mxPoint x="693" y="2864" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
