@@ -368,6 +368,9 @@
         <mxCell id="luap7YNSXODogtiq4o7u-88" value="MTE1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry y="1040" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="luap7YNSXODogtiq4o7u-89" value="Cube" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry y="1169" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
