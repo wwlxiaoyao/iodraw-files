@@ -137,7 +137,7 @@
         <mxCell id="luap7YNSXODogtiq4o7u-41" value="" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;endSize=6;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-65">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="720" y="420" as="sourcePoint" />
-            <mxPoint x="1360" y="420" as="targetPoint" />
+            <mxPoint x="1480" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-42" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-35" target="luap7YNSXODogtiq4o7u-38">
@@ -147,10 +147,10 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-43" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.608;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-38" target="luap7YNSXODogtiq4o7u-19">
+        <mxCell id="luap7YNSXODogtiq4o7u-43" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-38">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="522" y="450" as="sourcePoint" />
-            <mxPoint x="623" y="490" as="targetPoint" />
+            <mxPoint x="830" y="560" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
