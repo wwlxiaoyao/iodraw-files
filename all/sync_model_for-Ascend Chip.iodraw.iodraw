@@ -681,7 +681,7 @@
           <mxGeometry x="400" y="1810" width="100" height="29" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-173" value="UB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="680" y="1920" width="100" height="29" as="geometry" />
+          <mxGeometry x="667" y="1905.5" width="100" height="29" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-176" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-166" target="luap7YNSXODogtiq4o7u-174">
           <mxGeometry relative="1" as="geometry">
@@ -759,7 +759,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-189" value="WaitFlag ID2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="827" y="1948" width="120" height="40" as="geometry" />
+          <mxGeometry x="827" y="1940" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
