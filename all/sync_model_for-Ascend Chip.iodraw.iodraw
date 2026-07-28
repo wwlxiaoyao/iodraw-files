@@ -543,16 +543,10 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-128">
+        <mxCell id="luap7YNSXODogtiq4o7u-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-128" target="luap7YNSXODogtiq4o7u-139">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="657" y="1280" as="sourcePoint" />
             <mxPoint x="656.5" y="1300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-142" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="luap7YNSXODogtiq4o7u-139">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="656.5" y="1340" as="sourcePoint" />
-            <mxPoint x="657" y="1840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-139" value="LoadData" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
@@ -634,6 +628,9 @@
             <mxPoint x="1890" y="1279" as="sourcePoint" />
             <mxPoint x="1260" y="1278.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="luap7YNSXODogtiq4o7u-157" value="WaitFlag ID2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="1100" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
