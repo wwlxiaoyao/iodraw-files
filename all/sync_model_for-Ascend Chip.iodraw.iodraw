@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="H1bwgAJ9R8mgisTD29zz">
-    <mxGraphModel dx="3348" dy="2645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1594" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,8 +25,8 @@
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-156" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#FF1231;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2131" y="3120.5" as="sourcePoint" />
-            <mxPoint x="1501" y="3120" as="targetPoint" />
+            <mxPoint x="2146" y="3640.5" as="sourcePoint" />
+            <mxPoint x="1516" y="3640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-165" value="Cube" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -671,7 +671,7 @@
         <mxCell id="luap7YNSXODogtiq4o7u-199" value="PipeBarrirer M" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1038" y="1254" width="131" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-196" value="Sync Model for Intra-AICore: Vector -&amp;gt; Cube Coordinate" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="luap7YNSXODogtiq4o7u-196" value="Sync Model for Intra-AICore: Vector -&amp;gt; Cube Coordinate, Mix算子" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="24" y="1820" width="1686" height="1340" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-171" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-187" target="luap7YNSXODogtiq4o7u-170">
