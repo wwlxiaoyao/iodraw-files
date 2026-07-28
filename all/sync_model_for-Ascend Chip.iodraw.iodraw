@@ -886,8 +886,8 @@
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-302" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1690" y="1980" as="sourcePoint" />
-            <mxPoint x="1791" y="2020" as="targetPoint" />
+            <mxPoint x="860" y="2137.5" as="sourcePoint" />
+            <mxPoint x="961" y="2177.5" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
