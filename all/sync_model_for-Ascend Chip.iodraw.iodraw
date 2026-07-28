@@ -1216,7 +1216,7 @@
             <mxPoint x="460" y="2911" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-371" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0.42;exitY=0.897;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-364" target="luap7YNSXODogtiq4o7u-368">
+        <mxCell id="luap7YNSXODogtiq4o7u-371" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0.42;exitY=0.897;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-364" target="luap7YNSXODogtiq4o7u-372">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="631" y="2830" as="sourcePoint" />
             <mxPoint x="693" y="2864" as="targetPoint" />
@@ -1230,7 +1230,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-372" value="DataCopy" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="751" y="2940" width="131" height="40" as="geometry" />
+          <mxGeometry x="751" y="2940" width="129" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
