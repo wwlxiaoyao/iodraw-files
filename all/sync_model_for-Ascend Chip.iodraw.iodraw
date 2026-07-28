@@ -1154,14 +1154,14 @@
         <mxCell id="luap7YNSXODogtiq4o7u-357" value="SetFlag ID6" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1300" y="2703" width="129" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-360" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-305" target="luap7YNSXODogtiq4o7u-359">
+        <mxCell id="luap7YNSXODogtiq4o7u-360" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-305" target="luap7YNSXODogtiq4o7u-359">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="554" y="2243" as="sourcePoint" />
             <mxPoint x="554" y="2820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-359" value="WaitFlag ID6" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="495" y="2743" width="120" height="40" as="geometry" />
+          <mxGeometry x="494" y="2743" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
