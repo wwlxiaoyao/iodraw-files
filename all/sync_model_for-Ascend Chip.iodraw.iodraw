@@ -1207,7 +1207,7 @@
             <mxPoint x="815" y="3100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-368" value="SetFlag ID7" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="luap7YNSXODogtiq4o7u-368" value="WaitFlag ID7" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="743" y="2879" width="129" height="40" as="geometry" />
         </mxCell>
       </root>
