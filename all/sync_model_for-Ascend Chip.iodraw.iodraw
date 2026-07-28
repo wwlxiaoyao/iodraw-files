@@ -423,9 +423,6 @@
         <mxCell id="luap7YNSXODogtiq4o7u-92" value="L1 (A-1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="416" y="768" width="100" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-266" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-93" target="luap7YNSXODogtiq4o7u-183">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-93" value="L0C" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1419" y="1242" width="100" height="29" as="geometry" />
         </mxCell>
@@ -798,6 +795,13 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1451" y="962" as="sourcePoint" />
             <mxPoint x="1552" y="1002" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="luap7YNSXODogtiq4o7u-267" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0.397;exitY=0.908;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-93">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1400" y="1296" as="sourcePoint" />
+            <mxPoint x="1501" y="1330" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
