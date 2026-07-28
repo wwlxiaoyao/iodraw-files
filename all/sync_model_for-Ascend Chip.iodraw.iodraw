@@ -234,11 +234,11 @@
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-64" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="luap7YNSXODogtiq4o7u-62">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="960" y="292" as="sourcePoint" />
+            <mxPoint x="980" y="290" as="sourcePoint" />
             <mxPoint x="996" y="343" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1000" y="290" />
-              <mxPoint x="961" y="294" />
+              <mxPoint x="980" y="292" />
             </Array>
           </mxGeometry>
         </mxCell>
