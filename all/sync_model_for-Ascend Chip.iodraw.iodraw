@@ -777,7 +777,7 @@
         <mxCell id="luap7YNSXODogtiq4o7u-270" value="Sync Model for Intra-AICore: Cube -&amp;gt; Vector Coordinate" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1690" y="2743" width="310" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-273" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-295" target="luap7YNSXODogtiq4o7u-272">
+        <mxCell id="luap7YNSXODogtiq4o7u-273" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-298" target="luap7YNSXODogtiq4o7u-272">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-271" value="Vector" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -872,8 +872,14 @@
             <mxPoint x="920" y="1283" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="luap7YNSXODogtiq4o7u-299" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-295" target="luap7YNSXODogtiq4o7u-298">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="2110" as="sourcePoint" />
+            <mxPoint x="555" y="2610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-298" value="PipeBarrirer V" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="489" y="2150" width="131" height="40" as="geometry" />
+          <mxGeometry x="489" y="2143" width="131" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
