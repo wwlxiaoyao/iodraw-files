@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="luap7YNSXODogtiq4o7u-198" value="Sync Model for Intra-AICore: GM -&amp;gt; L0C" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="luap7YNSXODogtiq4o7u-198" value="Sync Model for Intra-AICore: GM -&amp;gt; Cube -&amp;gt; GM" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="18" y="590" width="1690" height="1130" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-105" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
