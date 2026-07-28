@@ -937,10 +937,10 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-312" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="luap7YNSXODogtiq4o7u-312" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-303">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="701" y="2175" as="sourcePoint" />
-            <mxPoint x="758" y="2296" as="targetPoint" />
+            <mxPoint x="701" y="2225" as="sourcePoint" />
+            <mxPoint x="758" y="2346" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
