@@ -31,8 +31,8 @@
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-156" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#FF1231;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1941" y="2331.5" as="sourcePoint" />
-            <mxPoint x="1311" y="2331" as="targetPoint" />
+            <mxPoint x="2150" y="2337.5" as="sourcePoint" />
+            <mxPoint x="1520" y="2337" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-165" value="Cube" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -775,7 +775,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-270" value="Sync Model for Intra-AICore: Cube -&amp;gt; Vector Coordinate" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="18" y="2720" width="900" height="550" as="geometry" />
+          <mxGeometry x="560" y="2610" width="900" height="550" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
