@@ -771,7 +771,7 @@
         <mxCell id="luap7YNSXODogtiq4o7u-270" value="Sync Model for Intra-AICore: Cube -&amp;gt; Vector Coordinate" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1690" y="2743" width="310" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-273" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-359" target="luap7YNSXODogtiq4o7u-272">
+        <mxCell id="luap7YNSXODogtiq4o7u-273" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-356" target="luap7YNSXODogtiq4o7u-272">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-271" value="Vector" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -1142,9 +1142,6 @@
             <mxPoint x="1278" y="2659" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-356" value="DataMove" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="502" y="2824.5" width="134" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-358" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-352" target="luap7YNSXODogtiq4o7u-357">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1365" y="2669" as="sourcePoint" />
@@ -1162,6 +1159,15 @@
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-359" value="WaitFlag ID6" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="494" y="2743" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="luap7YNSXODogtiq4o7u-361" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-359" target="luap7YNSXODogtiq4o7u-356">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="554" y="2783" as="sourcePoint" />
+            <mxPoint x="554" y="3100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="luap7YNSXODogtiq4o7u-356" value="DataMove" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="474" y="2824.5" width="134" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
