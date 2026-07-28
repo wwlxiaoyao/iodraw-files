@@ -232,12 +232,13 @@
         <mxCell id="luap7YNSXODogtiq4o7u-62" value="UB1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="331" width="100" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-64" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="luap7YNSXODogtiq4o7u-64" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="luap7YNSXODogtiq4o7u-62">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="960" y="211" as="sourcePoint" />
-            <mxPoint x="996" y="262" as="targetPoint" />
+            <mxPoint x="960" y="292" as="sourcePoint" />
+            <mxPoint x="996" y="343" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="961" y="213" />
+              <mxPoint x="1000" y="290" />
+              <mxPoint x="961" y="294" />
             </Array>
           </mxGeometry>
         </mxCell>
