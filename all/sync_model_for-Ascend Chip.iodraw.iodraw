@@ -584,7 +584,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-145" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="luap7YNSXODogtiq4o7u-145" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-101" target="luap7YNSXODogtiq4o7u-132">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="850" y="1397" as="sourcePoint" />
             <mxPoint x="981" y="1441" as="targetPoint" />
