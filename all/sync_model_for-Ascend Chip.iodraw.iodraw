@@ -897,7 +897,7 @@
         <mxCell id="luap7YNSXODogtiq4o7u-303" value="DataMove" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="748" y="2297" width="134" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-306" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-298" target="luap7YNSXODogtiq4o7u-305">
+        <mxCell id="luap7YNSXODogtiq4o7u-306" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-298" target="luap7YNSXODogtiq4o7u-305">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="555" y="2183" as="sourcePoint" />
             <mxPoint x="555" y="2610" as="targetPoint" />
