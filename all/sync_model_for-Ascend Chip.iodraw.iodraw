@@ -954,7 +954,7 @@
           <mxGeometry x="235" y="2030" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-315" value="WaitFlag ID1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="765" y="2212" width="120" height="40" as="geometry" />
+          <mxGeometry x="1030" y="2042" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
