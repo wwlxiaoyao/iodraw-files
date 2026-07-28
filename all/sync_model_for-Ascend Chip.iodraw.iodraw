@@ -718,7 +718,7 @@
           <mxGeometry x="818" y="2201" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-182" value="GM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="963" y="2037" width="70" height="40" as="geometry" />
+          <mxGeometry x="989" y="2050" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-184" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-169" target="luap7YNSXODogtiq4o7u-183">
           <mxGeometry relative="1" as="geometry">
@@ -768,7 +768,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-191" value="DataCopy" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="804" y="2010" width="134" height="40" as="geometry" />
+          <mxGeometry x="811" y="2010" width="134" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="luap7YNSXODogtiq4o7u-193" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="1980" as="sourcePoint" />
+            <mxPoint x="1421" y="2020" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
