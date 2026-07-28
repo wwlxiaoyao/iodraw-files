@@ -814,7 +814,7 @@
           <mxGeometry x="70" y="1920" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-284" value="L1 (B-1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="871" y="2320" width="100" height="29" as="geometry" />
+          <mxGeometry x="920" y="2330" width="100" height="29" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-286" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-291" target="luap7YNSXODogtiq4o7u-288">
           <mxGeometry relative="1" as="geometry" />
@@ -895,7 +895,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-303" value="DataMove" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="748" y="2277" width="134" height="40" as="geometry" />
+          <mxGeometry x="748" y="2265" width="134" height="40" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-306" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-298" target="luap7YNSXODogtiq4o7u-305">
           <mxGeometry relative="1" as="geometry">
@@ -934,6 +934,13 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="635" y="2164" as="sourcePoint" />
             <mxPoint x="712" y="2209" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="luap7YNSXODogtiq4o7u-312" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="701" y="2175" as="sourcePoint" />
+            <mxPoint x="758" y="2296" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
