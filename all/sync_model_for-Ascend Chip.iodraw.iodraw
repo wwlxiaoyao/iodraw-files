@@ -512,7 +512,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-128" value="SetFlag ID2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="594.5" y="1266.5" width="120" height="40" as="geometry" />
+          <mxGeometry x="596.5" y="1248.5" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
