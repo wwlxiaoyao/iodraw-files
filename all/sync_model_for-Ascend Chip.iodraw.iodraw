@@ -448,7 +448,7 @@
           <mxGeometry x="913" y="654" width="131" height="40" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-264" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="29" y="-40" width="1690" height="590" as="geometry" />
+          <mxGeometry x="18" y="-40" width="1690" height="590" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-1" value="MTE2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="luap7YNSXODogtiq4o7u-264">
           <mxGeometry x="11" y="131" width="120" height="40" as="geometry" />
@@ -808,7 +808,7 @@
             <mxPoint x="1650" y="459" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-263" value="Sync Model for Intra-AICore: GM -&amp;gt; Vector -&amp;gt; GM" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;strokeWidth=2;" vertex="1" parent="luap7YNSXODogtiq4o7u-264">
+        <mxCell id="luap7YNSXODogtiq4o7u-263" value="1) Sync Model for Intra-AICore: GM -&amp;gt; Vector -&amp;gt; GM" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;strokeWidth=2;" vertex="1" parent="luap7YNSXODogtiq4o7u-264">
           <mxGeometry width="1690" height="590" as="geometry" />
         </mxCell>
       </root>
