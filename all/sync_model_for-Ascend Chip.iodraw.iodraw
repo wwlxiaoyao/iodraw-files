@@ -804,7 +804,7 @@
             <mxPoint x="440" y="1420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-269" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-173" target="luap7YNSXODogtiq4o7u-191">
+        <mxCell id="luap7YNSXODogtiq4o7u-269" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.674;entryY=0.85;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-173" target="luap7YNSXODogtiq4o7u-191">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1150" y="1440" as="sourcePoint" />
             <mxPoint x="1068" y="1480" as="targetPoint" />
