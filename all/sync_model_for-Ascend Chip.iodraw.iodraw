@@ -415,8 +415,8 @@
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-105" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="370" y="780" as="sourcePoint" />
-            <mxPoint x="471" y="820" as="targetPoint" />
+            <mxPoint x="160" y="760" as="sourcePoint" />
+            <mxPoint x="261" y="800" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -430,8 +430,8 @@
         <mxCell id="luap7YNSXODogtiq4o7u-107" value="L1 (2)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="420" y="1010" width="100" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-108" value="GM (1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="140" y="850" width="70" height="40" as="geometry" />
+        <mxCell id="luap7YNSXODogtiq4o7u-108" value="GM (2)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="364" y="840" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
