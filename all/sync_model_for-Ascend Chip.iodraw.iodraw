@@ -672,7 +672,7 @@
           <mxGeometry x="1038" y="1254" width="131" height="40" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-196" value="Sync Model for Intra-AICore: Vector -&amp;gt; Cube Coordinate" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="24" y="1820" width="2159" height="320" as="geometry" />
+          <mxGeometry x="24" y="1820" width="2159" height="1340" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-171" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-187" target="luap7YNSXODogtiq4o7u-170">
           <mxGeometry relative="1" as="geometry" />
