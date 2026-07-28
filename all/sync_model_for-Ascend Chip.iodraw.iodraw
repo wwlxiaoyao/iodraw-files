@@ -1185,10 +1185,10 @@
         <mxCell id="luap7YNSXODogtiq4o7u-364" value="UB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="355" y="2850" width="100" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-365" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="luap7YNSXODogtiq4o7u-365" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.42;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-356" target="luap7YNSXODogtiq4o7u-364">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1308" y="2603" as="sourcePoint" />
-            <mxPoint x="1228" y="2659" as="targetPoint" />
+            <mxPoint x="435" y="2781.5" as="sourcePoint" />
+            <mxPoint x="355" y="2837.5" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
