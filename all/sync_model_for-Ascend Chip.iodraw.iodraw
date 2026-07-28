@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="luap7YNSXODogtiq4o7u-198" value="Sync Model for Intra-AICore: GM -&amp;gt; L0C" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="600" width="1220" height="830" as="geometry" />
+        </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-1" value="MTE2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1" y="91" width="120" height="40" as="geometry" />
         </mxCell>
@@ -789,9 +792,6 @@
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-196" value="Sync Model for Intra-AICore: L0C -&amp;gt; GM" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;strokeWidth=2;" vertex="1" parent="luap7YNSXODogtiq4o7u-197">
           <mxGeometry width="900" height="550" as="geometry" />
-        </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-198" value="Sync Model for Intra-AICore: GM -&amp;gt; L0C" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="30" y="600" width="1140" height="830" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
