@@ -46,7 +46,7 @@
         <mxCell id="luap7YNSXODogtiq4o7u-11" value="SetFlag ID1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="270" y="270" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-13" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="luap7YNSXODogtiq4o7u-13" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-8" target="luap7YNSXODogtiq4o7u-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="165" y="292" as="sourcePoint" />
             <mxPoint x="200" y="332" as="targetPoint" />
@@ -54,6 +54,9 @@
               <mxPoint x="170" y="312" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="luap7YNSXODogtiq4o7u-14" value="MTE2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="280" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
