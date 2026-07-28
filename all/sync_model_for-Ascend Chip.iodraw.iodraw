@@ -295,7 +295,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-76" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;entryX=0.583;entryY=0.275;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="luap7YNSXODogtiq4o7u-72">
+        <mxCell id="luap7YNSXODogtiq4o7u-76" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;entryX=0.358;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.43;exitY=1.069;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-73" target="luap7YNSXODogtiq4o7u-72">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1440" y="331" as="sourcePoint" />
             <mxPoint x="1520" y="372" as="targetPoint" />
