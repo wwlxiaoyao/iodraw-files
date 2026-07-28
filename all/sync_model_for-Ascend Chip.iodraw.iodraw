@@ -10,8 +10,17 @@
         <mxCell id="luap7YNSXODogtiq4o7u-2" value="UB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="340" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-4" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1" vertex="1" parent="1">
-          <mxGeometry x="240" y="460" width="95" height="40" as="geometry" />
+        <mxCell id="luap7YNSXODogtiq4o7u-5" value="" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;endSize=6;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="480" as="sourcePoint" />
+            <mxPoint x="390" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="luap7YNSXODogtiq4o7u-6" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="440" as="sourcePoint" />
+            <mxPoint x="330" y="460" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
