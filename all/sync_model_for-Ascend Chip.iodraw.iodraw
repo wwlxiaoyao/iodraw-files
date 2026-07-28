@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="luap7YNSXODogtiq4o7u-1" value="MTE2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="luap7YNSXODogtiq4o7u-1" value="MTE2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-40" y="270" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-2" value="UB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -13,7 +13,7 @@
         <mxCell id="luap7YNSXODogtiq4o7u-5" value="" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;endSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="210" y="280" as="sourcePoint" />
-            <mxPoint x="370" y="280" as="targetPoint" />
+            <mxPoint x="680" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-6" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;" edge="1" parent="1">
