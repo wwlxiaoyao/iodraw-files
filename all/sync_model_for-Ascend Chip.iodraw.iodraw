@@ -443,7 +443,7 @@
           <mxGeometry x="582.5" y="850" width="131" height="40" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-113" value="WaitFlag ID2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="793" y="850" width="120" height="40" as="geometry" />
+          <mxGeometry x="1320" y="1090" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-114" value="SetFlag ID5" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1320" y="1150" width="120" height="40" as="geometry" />
