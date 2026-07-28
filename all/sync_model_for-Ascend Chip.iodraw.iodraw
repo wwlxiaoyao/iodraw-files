@@ -774,7 +774,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-270" value="Sync Model for Intra-AICore: Vector -&amp;gt; Cube Coordinate" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="luap7YNSXODogtiq4o7u-270" value="Sync Model for Intra-AICore: Cube -&amp;gt; Vector Coordinate" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="10" y="1955" width="900" height="550" as="geometry" />
         </mxCell>
       </root>
