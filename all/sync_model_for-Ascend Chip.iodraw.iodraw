@@ -1058,6 +1058,13 @@
             <mxPoint x="965.5" y="2203" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="luap7YNSXODogtiq4o7u-340" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="892" y="2298" as="sourcePoint" />
+            <mxPoint x="928" y="2338" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
