@@ -662,6 +662,9 @@
         <mxCell id="luap7YNSXODogtiq4o7u-162" value="PipeBarrier M" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="937" y="1253" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="luap7YNSXODogtiq4o7u-165" value="Cube" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="949" y="650" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
