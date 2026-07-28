@@ -817,7 +817,7 @@
           <mxGeometry x="70" y="1920" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-284" value="L1 (B-1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="670" y="2221" width="100" height="29" as="geometry" />
+          <mxGeometry x="871" y="2230" width="100" height="29" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-286" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-291" target="luap7YNSXODogtiq4o7u-288">
           <mxGeometry relative="1" as="geometry" />
@@ -884,7 +884,7 @@
         <mxCell id="luap7YNSXODogtiq4o7u-300" value="UB (B-1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="660" y="2143" width="100" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-302" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="luap7YNSXODogtiq4o7u-302" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-295" target="luap7YNSXODogtiq4o7u-300">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="860" y="2137.5" as="sourcePoint" />
             <mxPoint x="961" y="2177.5" as="targetPoint" />
