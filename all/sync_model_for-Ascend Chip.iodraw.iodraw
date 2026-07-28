@@ -636,7 +636,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-157" value="WaitFlag ID2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="943" y="1282" width="120" height="40" as="geometry" />
+          <mxGeometry x="943" y="1240" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
