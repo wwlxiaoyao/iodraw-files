@@ -114,10 +114,10 @@
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-36" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="241" y="302" as="sourcePoint" />
-            <mxPoint x="321" y="342" as="targetPoint" />
+            <mxPoint x="269" y="353" as="sourcePoint" />
+            <mxPoint x="349" y="393" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="221" y="304" />
+              <mxPoint x="249" y="355" />
             </Array>
           </mxGeometry>
         </mxCell>
