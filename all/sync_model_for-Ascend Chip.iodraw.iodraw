@@ -784,8 +784,8 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-196" value="Sync Model for Intra-AICore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1680" width="120" height="60" as="geometry" />
+        <mxCell id="luap7YNSXODogtiq4o7u-196" value="Sync Model for Intra-AICore" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1680" width="500" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
