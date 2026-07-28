@@ -923,8 +923,8 @@
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-310" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#FF1231;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="881" y="2238" as="sourcePoint" />
-            <mxPoint x="375" y="2237.5" as="targetPoint" />
+            <mxPoint x="907" y="2238" as="sourcePoint" />
+            <mxPoint x="401" y="2237.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-311" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-300" target="luap7YNSXODogtiq4o7u-303">
@@ -1052,10 +1052,10 @@
         <mxCell id="luap7YNSXODogtiq4o7u-336" value="WaitFlag ID4" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1016" y="2321.5" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="luap7YNSXODogtiq4o7u-338" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#FF1231;" edge="1" parent="1">
+        <mxCell id="luap7YNSXODogtiq4o7u-339" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#FF1231;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1495" y="2203.5" as="sourcePoint" />
-            <mxPoint x="1000" y="2200" as="targetPoint" />
+            <mxPoint x="1471.5" y="2203.5" as="sourcePoint" />
+            <mxPoint x="965.5" y="2203" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
