@@ -829,7 +829,7 @@
           <mxGeometry x="80" y="2210" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-290" value="L1 (A-1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="372" y="2009" width="100" height="29" as="geometry" />
+          <mxGeometry x="373" y="2000" width="100" height="29" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-292" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-287" target="luap7YNSXODogtiq4o7u-291">
           <mxGeometry relative="1" as="geometry">
@@ -879,7 +879,7 @@
           <mxGeometry x="489" y="2140" width="131" height="40" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-300" value="UB (B-1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="641" y="2126" width="100" height="29" as="geometry" />
+          <mxGeometry x="641" y="2138" width="100" height="29" as="geometry" />
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-302" value="" style="shape=mxgraph.lean_mapping.electronic_info_flow_edge;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="luap7YNSXODogtiq4o7u-295" target="luap7YNSXODogtiq4o7u-300">
           <mxGeometry relative="1" as="geometry">
@@ -920,8 +920,8 @@
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-309" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#FF1231;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="670" y="2053" as="sourcePoint" />
-            <mxPoint x="440" y="2051" as="targetPoint" />
+            <mxPoint x="670" y="2174" as="sourcePoint" />
+            <mxPoint x="440" y="2172" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="luap7YNSXODogtiq4o7u-310" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#FF1231;" edge="1" parent="1">
