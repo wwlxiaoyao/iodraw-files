@@ -1243,7 +1243,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rNZE___yhTUtBOTpcvxG-100" value="MTE2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="220" y="3280" width="120" height="40" as="geometry" />
+          <mxGeometry x="240" y="3280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rNZE___yhTUtBOTpcvxG-101" value="MTE2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="250" y="3290" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
