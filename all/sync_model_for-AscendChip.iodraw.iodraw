@@ -1345,7 +1345,7 @@
         <mxCell id="_XZBx3QfbKFBiEY0MeiP-42" value="Scalar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="884" y="-519" width="55" height="279" as="geometry" />
         </mxCell>
-        <mxCell id="_XZBx3QfbKFBiEY0MeiP-43" value="Ascend310P(V200)/A1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="_XZBx3QfbKFBiEY0MeiP-43" value="Ascend310P(V200)/A1 + Pipeline" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="-580" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_XZBx3QfbKFBiEY0MeiP-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF3333;strokeWidth=2;" edge="1" parent="1">
