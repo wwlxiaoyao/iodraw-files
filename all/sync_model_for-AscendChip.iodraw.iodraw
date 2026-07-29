@@ -1212,7 +1212,7 @@
           <mxGeometry x="30" y="-579" width="950" height="400" as="geometry" />
         </mxCell>
         <mxCell id="_XZBx3QfbKFBiEY0MeiP-2" value="AICore" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="259" y="-540" width="690" height="340" as="geometry" />
+          <mxGeometry x="249" y="-549" width="690" height="340" as="geometry" />
         </mxCell>
         <mxCell id="_XZBx3QfbKFBiEY0MeiP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_XZBx3QfbKFBiEY0MeiP-4" target="_XZBx3QfbKFBiEY0MeiP-7">
           <mxGeometry relative="1" as="geometry" />
