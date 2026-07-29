@@ -1242,7 +1242,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rNZE___yhTUtBOTpcvxG-103" value="3）Sync Model for Intra-AICore: Vector -&amp;gt; Cube Coordinate, Mix算子" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="rNZE___yhTUtBOTpcvxG-103" value="4）Sync Model for Intra-AICore: Cube -&amp;gt; Vector Coordinate, Mix算子" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="20" y="3150" width="1686" height="1340" as="geometry" />
         </mxCell>
         <mxCell id="rNZE___yhTUtBOTpcvxG-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rNZE___yhTUtBOTpcvxG-193" target="rNZE___yhTUtBOTpcvxG-106">
