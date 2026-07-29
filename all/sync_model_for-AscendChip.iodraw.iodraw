@@ -1350,10 +1350,10 @@
         <mxCell id="_XZBx3QfbKFBiEY0MeiP-43" value="Ascend310P(V200)/A1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="-580" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_XZBx3QfbKFBiEY0MeiP-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF3333;strokeWidth=2;" edge="1" parent="1">
+        <mxCell id="_XZBx3QfbKFBiEY0MeiP-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF3333;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1100" y="-329" as="sourcePoint" />
-            <mxPoint x="1239" y="-329" as="targetPoint" />
+            <mxPoint x="1070" y="-329" as="sourcePoint" />
+            <mxPoint x="1170" y="-330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_XZBx3QfbKFBiEY0MeiP-45" value="PIPE_M" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_XZBx3QfbKFBiEY0MeiP-44">
