@@ -66,6 +66,9 @@
         <mxCell id="9uC7WeYg00rbZup0sLIb-24" value="mybuild.sh&lt;div&gt;(一键式构建脚本)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="390" width="150" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="9uC7WeYg00rbZup0sLIb-32" value="CodeGraph查询" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9uC7WeYg00rbZup0sLIb-25" target="9uC7WeYg00rbZup0sLIb-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-25" value="源码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="390" width="130" height="40" as="geometry" />
         </mxCell>
