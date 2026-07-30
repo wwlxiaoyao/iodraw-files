@@ -116,7 +116,7 @@
           <mxGeometry x="285" y="940" width="255" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-47" value="Ascend310P3&lt;div&gt;(8卡 NPU硬件)&lt;/div&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="130.5" y="1050" width="404" height="80" as="geometry" />
+          <mxGeometry x="130.5" y="1050" width="262" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-48" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9uC7WeYg00rbZup0sLIb-45" target="9uC7WeYg00rbZup0sLIb-47">
           <mxGeometry relative="1" as="geometry" />
