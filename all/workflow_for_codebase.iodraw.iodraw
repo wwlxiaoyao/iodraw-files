@@ -100,8 +100,8 @@
         <mxCell id="9uC7WeYg00rbZup0sLIb-40" value="pto-isa-dxz" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="810" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9uC7WeYg00rbZup0sLIb-41" value="pto-isa-dxz" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="810" width="140" height="40" as="geometry" />
+        <mxCell id="9uC7WeYg00rbZup0sLIb-41" value="br_my_pypto/third_party_path/" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="810" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
