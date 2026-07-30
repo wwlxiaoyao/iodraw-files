@@ -94,7 +94,7 @@
         <mxCell id="9uC7WeYg00rbZup0sLIb-38" value="目录(name: 001_projects)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="200" y="750" width="420" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="9uC7WeYg00rbZup0sLIb-42" value="&lt;div&gt;--3rd-path&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9uC7WeYg00rbZup0sLIb-41" target="9uC7WeYg00rbZup0sLIb-45">
+        <mxCell id="9uC7WeYg00rbZup0sLIb-42" value="&lt;div&gt;--3rd-path&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.813;exitY=0.964;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;exitPerimeter=0;" edge="1" parent="1" source="9uC7WeYg00rbZup0sLIb-41" target="9uC7WeYg00rbZup0sLIb-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-43" value="&lt;div&gt;--pto-isa-dir&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9uC7WeYg00rbZup0sLIb-40" target="9uC7WeYg00rbZup0sLIb-45">
