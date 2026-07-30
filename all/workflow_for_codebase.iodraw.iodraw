@@ -8,7 +8,7 @@
           <mxGeometry x="160" y="40" width="660" height="470" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-4" value="Remote (Linux)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="160" y="550" width="560" height="190" as="geometry" />
+          <mxGeometry x="160" y="550" width="660" height="340" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-7" value="Codex CLI" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" vertex="1" parent="1">
           <mxGeometry x="20" y="260" width="26.5" height="50" as="geometry" />
