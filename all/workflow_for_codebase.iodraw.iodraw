@@ -107,7 +107,7 @@
           <mxGeometry x="430" y="870" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-41" value="br_my_pypto/third_party_path/" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="800" width="180" height="40" as="geometry" />
+          <mxGeometry x="440" y="790" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
