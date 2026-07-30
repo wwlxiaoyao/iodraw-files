@@ -75,7 +75,7 @@
         <mxCell id="9uC7WeYg00rbZup0sLIb-27" value="构建日志回收目录&lt;br&gt;&lt;div&gt;(&lt;span style=&quot;background-color: initial;&quot;&gt;folder name: ~/003_logs/&amp;lt;date&amp;gt;)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="650" y="120" width="150" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="9uC7WeYg00rbZup0sLIb-30" value="源码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9uC7WeYg00rbZup0sLIb-30" value=".codegraph" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="430" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
