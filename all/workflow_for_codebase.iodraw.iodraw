@@ -11,16 +11,16 @@
           <mxGeometry x="160" y="550" width="660" height="530" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-7" value="Codex CLI" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" vertex="1" parent="1">
-          <mxGeometry x="20" y="260" width="26.5" height="50" as="geometry" />
+          <mxGeometry x="88" y="260" width="26.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-8" value="Claude Code" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" vertex="1" parent="1">
-          <mxGeometry x="20" y="160" width="26.5" height="50" as="geometry" />
+          <mxGeometry x="88" y="160" width="26.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-11" value="Hermes Agent" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" vertex="1" parent="1">
-          <mxGeometry x="20" y="360" width="26.5" height="50" as="geometry" />
+          <mxGeometry x="88" y="360" width="26.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-12" value="开发者" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" vertex="1" parent="1">
-          <mxGeometry x="20" y="60" width="26.5" height="50" as="geometry" />
+          <mxGeometry x="88" y="60" width="26.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-15" value="Wiki&lt;div&gt;(&lt;span style=&quot;background-color: initial;&quot;&gt;主工作目录&lt;/span&gt;&lt;/div&gt;&lt;div&gt;folder name: pypto_from_escc.wiki)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="240" y="120" width="320" height="160" as="geometry" />
