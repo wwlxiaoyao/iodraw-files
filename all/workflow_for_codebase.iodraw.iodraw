@@ -106,7 +106,7 @@
         <mxCell id="9uC7WeYg00rbZup0sLIb-39" value="br_pypto_from_escc&lt;div&gt;（经常变化）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="790" width="130" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="9uC7WeYg00rbZup0sLIb-40" value="pto-isa-dxz&lt;div&gt;（已部署，基本不变）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9uC7WeYg00rbZup0sLIb-40" value="pto-isa-dxz&lt;div&gt;（已部署，基本不变）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="350" y="840" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-41" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;br_my_pypto/third_party_path/&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;（已部署，不变）&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
@@ -124,13 +124,13 @@
         <mxCell id="9uC7WeYg00rbZup0sLIb-52" value="默认工具链" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="9uC7WeYg00rbZup0sLIb-49" target="9uC7WeYg00rbZup0sLIb-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9uC7WeYg00rbZup0sLIb-49" value="目录(CANN Toolkit&lt;div&gt;name: /usr/local/Ascend9.0.0&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="9uC7WeYg00rbZup0sLIb-49" value="目录(CANN Toolkit&lt;div&gt;name: /usr/local/Ascend9.0.0&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="655" y="840" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9uC7WeYg00rbZup0sLIb-50" target="9uC7WeYg00rbZup0sLIb-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9uC7WeYg00rbZup0sLIb-50" value="目录(CANN Driver&lt;div&gt;name: /usr/local/Ascend/driver&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="9uC7WeYg00rbZup0sLIb-50" value="目录(CANN Driver&lt;div&gt;name: /usr/local/Ascend/driver&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="655" y="929" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
