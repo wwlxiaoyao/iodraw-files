@@ -104,9 +104,9 @@
           <mxGeometry x="230" y="790" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-40" value="pto-isa-dxz" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="870" width="180" height="30" as="geometry" />
+          <mxGeometry x="440" y="870" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9uC7WeYg00rbZup0sLIb-41" value="br_my_pypto/third_party_path/" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9uC7WeYg00rbZup0sLIb-41" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;br_my_pypto/third_party_path/&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;（已部署，不变）&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="790" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
