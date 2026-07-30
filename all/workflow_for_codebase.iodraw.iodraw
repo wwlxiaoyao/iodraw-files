@@ -145,7 +145,7 @@
         <mxCell id="9uC7WeYg00rbZup0sLIb-55" value="输出日志runtime_logs/log_&amp;lt;date&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="215" y="900" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9uC7WeYg00rbZup0sLIb-56" value="产生" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.739;entryY=0.921;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9uC7WeYg00rbZup0sLIb-45" target="9uC7WeYg00rbZup0sLIb-55">
+        <mxCell id="9uC7WeYg00rbZup0sLIb-56" value="产生" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.705;entryY=1.036;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="9uC7WeYg00rbZup0sLIb-45" target="9uC7WeYg00rbZup0sLIb-55">
           <mxGeometry x="-0.3541" y="1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
