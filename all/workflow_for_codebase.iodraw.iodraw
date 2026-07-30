@@ -112,11 +112,11 @@
         <mxCell id="9uC7WeYg00rbZup0sLIb-41" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;br_my_pypto/third_party_path/&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;（已部署，不变）&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="780" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9uC7WeYg00rbZup0sLIb-45" value="mybuild.sh&lt;div&gt;(一键式构建脚本)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9uC7WeYg00rbZup0sLIb-45" value="mybuild.sh&lt;div&gt;(一键式构建脚本： 编译， Kernel, 上板)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="285" y="940" width="255" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-47" value="Ascend310P3&lt;div&gt;(8卡 NPU硬件)&lt;/div&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="227" y="1100" width="400" height="80" as="geometry" />
+          <mxGeometry x="220" y="1100" width="404" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-48" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=190;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9uC7WeYg00rbZup0sLIb-45" target="9uC7WeYg00rbZup0sLIb-47">
           <mxGeometry relative="1" as="geometry" />
