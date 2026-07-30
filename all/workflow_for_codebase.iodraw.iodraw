@@ -104,7 +104,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-39" value="br_pypto_from_escc&lt;div&gt;（经常变化）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="790" width="110" height="110" as="geometry" />
+          <mxGeometry x="210" y="790" width="130" height="110" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-40" value="pto-isa-dxz&lt;div&gt;（已部署，基本不变）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="840" width="130" height="30" as="geometry" />
