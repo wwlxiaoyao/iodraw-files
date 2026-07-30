@@ -94,15 +94,10 @@
         <mxCell id="9uC7WeYg00rbZup0sLIb-38" value="目录(name: 001_projects)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="200" y="750" width="440" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="9uC7WeYg00rbZup0sLIb-42" value="compile依赖:&lt;div&gt;--3rd-path&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9uC7WeYg00rbZup0sLIb-41" target="9uC7WeYg00rbZup0sLIb-45">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="575" y="900" />
-              <mxPoint x="486" y="900" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="9uC7WeYg00rbZup0sLIb-42" value="compile依赖:&lt;div&gt;--3rd-path&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9uC7WeYg00rbZup0sLIb-41" target="9uC7WeYg00rbZup0sLIb-45">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9uC7WeYg00rbZup0sLIb-43" value="&lt;div&gt;依赖:&lt;/div&gt;--pto-isa-dir" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9uC7WeYg00rbZup0sLIb-40" target="9uC7WeYg00rbZup0sLIb-45">
+        <mxCell id="9uC7WeYg00rbZup0sLIb-43" value="&lt;div&gt;依赖:&lt;/div&gt;--pto-isa-dir" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9uC7WeYg00rbZup0sLIb-40" target="9uC7WeYg00rbZup0sLIb-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-46" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9uC7WeYg00rbZup0sLIb-39" target="9uC7WeYg00rbZup0sLIb-45">
