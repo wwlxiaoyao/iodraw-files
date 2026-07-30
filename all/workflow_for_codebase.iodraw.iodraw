@@ -16,8 +16,8 @@
         <mxCell id="9uC7WeYg00rbZup0sLIb-6" value="wiki" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.folder;" vertex="1" parent="1">
           <mxGeometry x="414" y="260" width="78" height="71" as="geometry" />
         </mxCell>
-        <mxCell id="9uC7WeYg00rbZup0sLIb-7" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" vertex="1" parent="1">
-          <mxGeometry x="70" y="190" width="26.5" height="50" as="geometry" />
+        <mxCell id="9uC7WeYg00rbZup0sLIb-7" value="Codex CLI" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" vertex="1" parent="1">
+          <mxGeometry x="30" y="170" width="26.5" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
