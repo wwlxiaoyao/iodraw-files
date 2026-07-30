@@ -31,8 +31,8 @@
         <mxCell id="9uC7WeYg00rbZup0sLIb-14" value="AGENTS.md" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="269.86" y="245" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9uC7WeYg00rbZup0sLIb-15" value="Wiki(主工作目录)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="150" width="120" height="60" as="geometry" />
+        <mxCell id="9uC7WeYg00rbZup0sLIb-15" value="Wiki(主工作目录)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="200" y="134.5" width="210" height="155.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
