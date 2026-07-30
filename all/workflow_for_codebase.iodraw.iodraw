@@ -147,16 +147,10 @@
         <mxCell id="9uC7WeYg00rbZup0sLIb-50" value="目录(CANN Driver&lt;div&gt;name: /usr/local/Ascend/driver&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="655" y="1005" width="140" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="9uC7WeYg00rbZup0sLIb-53" value="1. rsync -av&lt;div&gt;代码同步&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.3;entryDx=0;entryDy=0;strokeColor=#FF3333;entryPerimeter=0;" edge="1" parent="1" target="9uC7WeYg00rbZup0sLIb-39">
+        <mxCell id="9uC7WeYg00rbZup0sLIb-53" value="1. rsync -av&lt;div&gt;代码同步&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.3;entryDx=0;entryDy=0;strokeColor=#FF3333;entryPerimeter=0;" edge="1" parent="1" target="9uC7WeYg00rbZup0sLIb-39">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="409.9985714285715" y="500" as="sourcePoint" />
             <mxPoint x="219.97" y="820" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="410" y="530" />
-              <mxPoint x="120" y="530" />
-              <mxPoint x="120" y="840" />
-              <mxPoint x="210" y="840" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-55" value="输出日志runtime_logs/log_&amp;lt;date&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
