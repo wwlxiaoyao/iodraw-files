@@ -168,7 +168,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-62" value="&lt;div&gt;文件（name: ~/001_tools/remote_linux_server.md）&lt;/div&gt;远端Linux信息&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="620" y="249" width="150" height="81" as="geometry" />
+          <mxGeometry x="580" y="249" width="220" height="51" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
