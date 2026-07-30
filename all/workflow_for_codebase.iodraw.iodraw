@@ -4,11 +4,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9uC7WeYg00rbZup0sLIb-2" value="Remote (Linux)" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="120" y="520" width="320" height="320" as="geometry" />
-        </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-3" value="Local (WSL+Ubuntu24.04)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9uC7WeYg00rbZup0sLIb-4" value="Remote (Linux)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="340" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
