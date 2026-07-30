@@ -109,7 +109,12 @@
           <mxGeometry x="129" y="750" width="420" height="300" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-42" value="&lt;div&gt;--3rd-path&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.813;exitY=0.964;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;exitPerimeter=0;" edge="1" parent="1" source="9uC7WeYg00rbZup0sLIb-41" target="9uC7WeYg00rbZup0sLIb-45">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="474" y="890" />
+              <mxPoint x="407" y="890" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-43" value="&lt;div&gt;--pto-isa-dir&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.562;entryY=0.018;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="9uC7WeYg00rbZup0sLIb-40" target="9uC7WeYg00rbZup0sLIb-45">
           <mxGeometry relative="1" as="geometry" />
