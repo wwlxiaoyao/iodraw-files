@@ -107,13 +107,16 @@
           <mxGeometry x="210" y="790" width="130" height="110" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-40" value="pto-isa-dxz&lt;div&gt;（已部署，基本不变）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="840" width="130" height="30" as="geometry" />
+          <mxGeometry x="350" y="840" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-41" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;br_my_pypto/third_party_path/&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;（已部署，不变）&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="790" width="180" height="40" as="geometry" />
+          <mxGeometry x="430" y="780" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-45" value="mybuild.sh&lt;div&gt;(一键式构建脚本)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="285" y="940" width="255" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9uC7WeYg00rbZup0sLIb-47" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="1089" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
