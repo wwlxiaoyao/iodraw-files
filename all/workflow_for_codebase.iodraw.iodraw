@@ -11,7 +11,7 @@
           <mxGeometry x="160" y="560" width="560" height="190" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-5" value="wiki (工作目录)" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.folder;" vertex="1" parent="1">
-          <mxGeometry x="220" y="130" width="131.83" height="120" as="geometry" />
+          <mxGeometry x="220" y="130" width="142.82" height="130" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-6" value="wiki" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.folder;" vertex="1" parent="1">
           <mxGeometry x="540" y="134.5" width="132.93" height="121" as="geometry" />
