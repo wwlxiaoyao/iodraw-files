@@ -22,7 +22,7 @@
         <mxCell id="9uC7WeYg00rbZup0sLIb-8" value="Claude Code" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" vertex="1" parent="1">
           <mxGeometry x="30" y="310" width="26.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9uC7WeYg00rbZup0sLIb-11" value="Claude Code" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" vertex="1" parent="1">
+        <mxCell id="9uC7WeYg00rbZup0sLIb-11" value="Hermes Agent" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" vertex="1" parent="1">
           <mxGeometry x="30" y="410" width="26.5" height="50" as="geometry" />
         </mxCell>
       </root>
