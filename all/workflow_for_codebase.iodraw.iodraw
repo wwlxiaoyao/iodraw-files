@@ -94,7 +94,7 @@
         <mxCell id="9uC7WeYg00rbZup0sLIb-38" value="目录(name: 001_projects)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="200" y="750" width="560" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="9uC7WeYg00rbZup0sLIb-39" value="001_projects/br_pypto_from_escc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9uC7WeYg00rbZup0sLIb-39" value="br_pypto_from_escc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="830" width="230" height="40" as="geometry" />
         </mxCell>
       </root>
