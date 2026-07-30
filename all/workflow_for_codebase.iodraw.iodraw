@@ -143,7 +143,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-55" value="输出日志runtime_logs/log_&amp;lt;date&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="46.5" y="949" width="160" height="40" as="geometry" />
+          <mxGeometry x="215" y="900" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9uC7WeYg00rbZup0sLIb-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.739;entryY=0.921;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9uC7WeYg00rbZup0sLIb-45" target="9uC7WeYg00rbZup0sLIb-55">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
