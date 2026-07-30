@@ -94,8 +94,13 @@
         <mxCell id="9uC7WeYg00rbZup0sLIb-38" value="目录(name: 001_projects)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="200" y="750" width="440" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="9uC7WeYg00rbZup0sLIb-42" value="compile依赖" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9uC7WeYg00rbZup0sLIb-39" target="9uC7WeYg00rbZup0sLIb-45">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9uC7WeYg00rbZup0sLIb-42" value="compile依赖" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9uC7WeYg00rbZup0sLIb-41" target="9uC7WeYg00rbZup0sLIb-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="575" y="900" />
+              <mxPoint x="486" y="900" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-43" value="run依赖" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9uC7WeYg00rbZup0sLIb-40" target="9uC7WeYg00rbZup0sLIb-45">
           <mxGeometry relative="1" as="geometry" />
@@ -107,7 +112,7 @@
           <mxGeometry x="230" y="790" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-40" value="pto-isa-dxz&lt;div&gt;（已部署，基本不变）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="855" width="130" height="30" as="geometry" />
+          <mxGeometry x="400" y="850" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-41" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;br_my_pypto/third_party_path/&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;（已部署，不变）&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="790" width="180" height="40" as="geometry" />
