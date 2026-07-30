@@ -115,8 +115,8 @@
         <mxCell id="9uC7WeYg00rbZup0sLIb-45" value="mybuild.sh&lt;div&gt;(一键式构建脚本)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="285" y="940" width="255" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9uC7WeYg00rbZup0sLIb-47" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="325" y="1089" width="120" height="80" as="geometry" />
+        <mxCell id="9uC7WeYg00rbZup0sLIb-47" value="Ascend310P3&lt;div&gt;(8卡 NPU硬件)&lt;/div&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1100" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
