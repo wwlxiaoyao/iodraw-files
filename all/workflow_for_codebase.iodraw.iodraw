@@ -94,11 +94,14 @@
         <mxCell id="9uC7WeYg00rbZup0sLIb-38" value="目录(name: 001_projects)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="200" y="750" width="560" height="160" as="geometry" />
         </mxCell>
+        <mxCell id="9uC7WeYg00rbZup0sLIb-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9uC7WeYg00rbZup0sLIb-39" target="9uC7WeYg00rbZup0sLIb-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-39" value="br_pypto_from_escc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="810" width="140" height="40" as="geometry" />
+          <mxGeometry x="230" y="800" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-40" value="pto-isa-dxz" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="860" width="180" height="40" as="geometry" />
+          <mxGeometry x="430" y="870" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-41" value="br_my_pypto/third_party_path/" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="800" width="180" height="40" as="geometry" />
