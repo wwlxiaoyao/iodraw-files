@@ -113,7 +113,7 @@
           <mxGeometry x="430" y="780" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-45" value="mybuild.sh&lt;div&gt;(一键式构建脚本： 编译， Kernel, 上板)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="285" y="940" width="255" height="40" as="geometry" />
+          <mxGeometry x="286.5" y="999" width="255" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-47" value="Ascend310P3&lt;div&gt;(8卡 NPU硬件)&lt;/div&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
           <mxGeometry x="308.5" y="1112" width="208" height="57" as="geometry" />
@@ -143,7 +143,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9uC7WeYg00rbZup0sLIb-55" value="输出日志runtime_logs/log_&amp;lt;date&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="1010" width="160" height="40" as="geometry" />
+          <mxGeometry x="46.5" y="949" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
