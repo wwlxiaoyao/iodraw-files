@@ -62,10 +62,10 @@
           <mxGeometry x="405" y="349" width="293" height="153" as="geometry" />
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-16" value="L1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="yEtunvBTEiV4XXmo3jzQ-25">
-          <mxGeometry x="-35" y="-23" width="90" height="31" as="geometry" />
+          <mxGeometry x="-35" y="-23" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-17" value="L0A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="yEtunvBTEiV4XXmo3jzQ-25">
-          <mxGeometry x="207" y="114" width="90" height="30" as="geometry" />
+          <mxGeometry x="207" y="114" width="90" height="29" as="geometry" />
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-18" value="L1_TO_L0A&lt;div&gt;#24643&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="yEtunvBTEiV4XXmo3jzQ-25">
           <mxGeometry x="87" y="59" width="120" height="40" as="geometry" />
