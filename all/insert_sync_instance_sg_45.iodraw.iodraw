@@ -142,7 +142,7 @@
             <mxPoint x="552" y="1600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yEtunvBTEiV4XXmo3jzQ-53" value="SYNC_SRC&lt;div&gt;#24839&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="yEtunvBTEiV4XXmo3jzQ-53" value="SYNC_DST&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;#24840&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="492" y="790" width="120" height="32" as="geometry" />
         </mxCell>
       </root>
