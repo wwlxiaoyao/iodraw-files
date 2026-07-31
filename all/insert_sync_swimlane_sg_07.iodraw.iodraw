@@ -88,7 +88,12 @@
           <mxGeometry x="540" y="723" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HV8sWQ82NgcHwIIpghFe-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;curved=1;strokeColor=#FF00FF;" edge="1" parent="1" source="c26" target="c28">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="851" />
+              <mxPoint x="750" y="1007" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="c26" value="A_MULACC_B&lt;div&gt;#10117&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="831" width="120" height="40" as="geometry" />
@@ -452,6 +457,16 @@
         </mxCell>
         <mxCell id="HV8sWQ82NgcHwIIpghFe-2" value="同一个L0A空间：64KB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="720" y="690" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HV8sWQ82NgcHwIIpghFe-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;curved=1;strokeColor=#FF00FF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="861" as="sourcePoint" />
+            <mxPoint x="670" y="1017" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="861" />
+              <mxPoint x="760" y="1017" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
