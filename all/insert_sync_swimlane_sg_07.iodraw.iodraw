@@ -472,8 +472,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HV8sWQ82NgcHwIIpghFe-9" value="同一个L0A空间：64KB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="730" y="700" width="90" height="30" as="geometry" />
+        <mxCell id="HV8sWQ82NgcHwIIpghFe-9" value="这个连线不对，确实L0C-&amp;gt;UB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1489" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
