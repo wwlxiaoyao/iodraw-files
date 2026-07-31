@@ -59,10 +59,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-25" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="405" y="357" width="293" height="153" as="geometry" />
+          <mxGeometry x="405" y="350" width="293" height="153" as="geometry" />
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-16" value="L1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="yEtunvBTEiV4XXmo3jzQ-25">
-          <mxGeometry width="90" height="30" as="geometry" />
+          <mxGeometry y="-17" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-17" value="L0A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="yEtunvBTEiV4XXmo3jzQ-25">
           <mxGeometry x="203" y="123" width="90" height="30" as="geometry" />
@@ -89,7 +89,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-32" value="COPY_IN&lt;div&gt;#24642&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="302" y="293" width="120" height="40" as="geometry" />
+          <mxGeometry x="302" y="279" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-34" value="GM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="16" y="241" width="90" height="30" as="geometry" />
