@@ -230,7 +230,7 @@
           <mxGeometry x="540" y="3675" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c76" value="COPY_OUT&lt;div&gt;#24759&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="3675" width="120" height="40" as="geometry" />
+          <mxGeometry x="60" y="3676" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c77" value="A_MUL_B&lt;div&gt;#24690&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="3783" width="120" height="40" as="geometry" />
@@ -1124,9 +1124,9 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1020" y="5190" />
-              <mxPoint x="1010" y="5190" />
-              <mxPoint x="1010" y="5307" />
-              <mxPoint x="180" y="5307" />
+              <mxPoint x="740" y="5190" />
+              <mxPoint x="740" y="5300" />
+              <mxPoint x="180" y="5300" />
             </Array>
           </mxGeometry>
         </mxCell>
