@@ -104,7 +104,7 @@
           <mxGeometry x="540" y="1537" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c34" value="L0C_COPY_OUT_CONV&lt;div&gt;#10124&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1555" width="120" height="40" as="geometry" />
+          <mxGeometry x="40" y="1555" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c35" value="LOAD2D&lt;div&gt;#10158&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="1595" width="120" height="40" as="geometry" />
