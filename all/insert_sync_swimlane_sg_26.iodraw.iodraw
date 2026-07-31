@@ -74,7 +74,7 @@
           <mxGeometry x="780" y="557" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c24" value="L0C_COPY_OUT_CONV&lt;div&gt;#19797&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="233" width="120" height="40" as="geometry" />
+          <mxGeometry x="60" y="597" width="124" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c25" value="SYNC_SRC&lt;div&gt;#19803&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="300" y="291" width="120" height="32" as="geometry" />
