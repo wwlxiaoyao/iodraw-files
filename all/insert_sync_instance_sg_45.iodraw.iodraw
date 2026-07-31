@@ -173,7 +173,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-60" value="SYNC_SRC&lt;div&gt;#24841&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="670" y="940" width="120" height="32" as="geometry" />
+          <mxGeometry x="681" y="940" width="120" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
