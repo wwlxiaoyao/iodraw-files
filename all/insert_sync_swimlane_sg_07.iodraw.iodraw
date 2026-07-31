@@ -447,11 +447,8 @@
         <mxCell id="c46" value="L0C_COPY_OUT_CONV&lt;div&gt;#10169&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="45" y="2607" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HV8sWQ82NgcHwIIpghFe-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HV8sWQ82NgcHwIIpghFe-2" target="c25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="HV8sWQ82NgcHwIIpghFe-2" value="同一个L0A空间：64KB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="751" width="90" height="30" as="geometry" />
+          <mxGeometry x="730" y="680" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
