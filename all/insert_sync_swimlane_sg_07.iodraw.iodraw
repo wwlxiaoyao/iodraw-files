@@ -443,7 +443,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HV8sWQ82NgcHwIIpghFe-2" value="同一个L0A空间：64KB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="740" width="90" height="30" as="geometry" />
+          <mxGeometry x="230" y="751" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
