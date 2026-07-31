@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yEtunvBTEiV4XXmo3jzQ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yEtunvBTEiV4XXmo3jzQ-60" target="yEtunvBTEiV4XXmo3jzQ-2">
+        <mxCell id="yEtunvBTEiV4XXmo3jzQ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yEtunvBTEiV4XXmo3jzQ-65" target="yEtunvBTEiV4XXmo3jzQ-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-1" value="MTE2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -183,6 +183,15 @@
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-60" value="SYNC_SRC&lt;div&gt;#24842&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="253" y="1080" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="yEtunvBTEiV4XXmo3jzQ-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yEtunvBTEiV4XXmo3jzQ-60" target="yEtunvBTEiV4XXmo3jzQ-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="313" y="1112" as="sourcePoint" />
+            <mxPoint x="313" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yEtunvBTEiV4XXmo3jzQ-65" value="COPY_IN&lt;div&gt;#24647&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="253" y="1160" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
