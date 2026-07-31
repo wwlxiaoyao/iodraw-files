@@ -53,7 +53,7 @@
           <mxGeometry x="405" y="280" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-17" value="L0A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="608" y="420" width="90" height="30" as="geometry" />
+          <mxGeometry x="608" y="410" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yEtunvBTEiV4XXmo3jzQ-5" target="yEtunvBTEiV4XXmo3jzQ-18">
           <mxGeometry relative="1" as="geometry">
