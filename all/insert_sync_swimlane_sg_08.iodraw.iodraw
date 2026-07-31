@@ -98,7 +98,7 @@
           <mxGeometry x="60" y="1073" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c67" value="ASSEMBLE&lt;div&gt;#24777&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="1260" y="763" width="120" height="40" as="geometry" />
+          <mxGeometry x="1260" y="798" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c68" value="ASSEMBLE&lt;div&gt;#24778&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1260" y="960" width="120" height="40" as="geometry" />
@@ -245,8 +245,8 @@
         <mxCell id="c70" value="t17653" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6c8ebf;strokeWidth=1;dashedPattern=8 4;fontColor=#6c8ebf;fontSize=10;" parent="1" source="c26" target="c67" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="440" y="770" />
-              <mxPoint x="1240" y="770" />
+              <mxPoint x="420" y="770" />
+              <mxPoint x="1260" y="770" />
             </Array>
           </mxGeometry>
         </mxCell>
