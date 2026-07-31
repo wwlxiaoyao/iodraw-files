@@ -88,13 +88,8 @@
         <mxCell id="c28" value="A_MULACC_B&lt;div&gt;#16682&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="989" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aaZCBNC9WTxJLo_6swa3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="c29">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="120" y="980" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="c29" value="L0C_COPY_OUT_CONV&lt;div&gt;#16683&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="233" width="120" height="40" as="geometry" />
+          <mxGeometry x="60" y="233" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c30" value="SYNC_SRC&lt;div&gt;#16693&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="300" y="291" width="120" height="32" as="geometry" />
