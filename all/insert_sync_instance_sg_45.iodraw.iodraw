@@ -28,7 +28,7 @@
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-9" value="MTE3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="85" y="1600" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yEtunvBTEiV4XXmo3jzQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yEtunvBTEiV4XXmo3jzQ-11" target="yEtunvBTEiV4XXmo3jzQ-12">
+        <mxCell id="yEtunvBTEiV4XXmo3jzQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yEtunvBTEiV4XXmo3jzQ-69" target="yEtunvBTEiV4XXmo3jzQ-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-11" value="M" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -202,8 +202,17 @@
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-67" value="SYNC_SRC&lt;div&gt;#24843&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="253" y="1240" width="120" height="32" as="geometry" />
         </mxCell>
+        <mxCell id="yEtunvBTEiV4XXmo3jzQ-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yEtunvBTEiV4XXmo3jzQ-11" target="yEtunvBTEiV4XXmo3jzQ-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="742" y="213" as="sourcePoint" />
+            <mxPoint x="742" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-69" value="SYNC_DST&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;#24844&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="682" y="940" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="yEtunvBTEiV4XXmo3jzQ-71" value="A_MUL_B&lt;br&gt;&lt;div&gt;#24646&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1050" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
