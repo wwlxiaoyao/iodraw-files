@@ -1,0 +1,12 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram id="ooo_fm246" name="OOO Schedule - leaf234">
+    <mxGraphModel dx="1314" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1024" pageHeight="2604" math="0" shadow="0">
+      <root>
+        <mxCell id="c94" value="Bar" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" vertex="1">
+          <mxGeometry x="740" y="2504" width="150" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="1" parent="c94" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
