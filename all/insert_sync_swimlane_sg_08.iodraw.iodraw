@@ -32,10 +32,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c10" value="Cube" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="780" y="173" width="120" height="40" as="geometry" />
+          <mxGeometry x="600" y="173" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c11" value="Cube" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="780" y="1335" width="120" height="40" as="geometry" />
+          <mxGeometry x="600" y="1335" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="c10" target="c11" edge="1">
           <mxGeometry relative="1" as="geometry" />
