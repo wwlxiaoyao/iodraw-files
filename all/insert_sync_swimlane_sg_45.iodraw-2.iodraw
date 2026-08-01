@@ -10,8 +10,11 @@
         <mxCell id="c2" value="MTE3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="5857" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="c3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="c1" target="c2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="c3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="90" as="sourcePoint" />
+            <mxPoint x="120" y="5734" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="c4" value="MTE2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="173" width="120" height="40" as="geometry" />
@@ -161,7 +164,7 @@
           <mxGeometry x="540" y="2293" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c53" value="COPY_OUT&lt;div&gt;#24761&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="2383" width="120" height="40" as="geometry" />
+          <mxGeometry x="60" y="2260" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c54" value="COPY_IN&lt;div&gt;#24748&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="2293" width="120" height="40" as="geometry" />
