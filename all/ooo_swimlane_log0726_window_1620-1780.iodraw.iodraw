@@ -697,7 +697,12 @@
           <mxGeometry x="-410" y="3964" width="200" height="36" as="geometry" />
         </mxCell>
         <mxCell id="c231" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#6c8ebf;strokeWidth=1;dashedPattern=8 4;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="c11" target="c230" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-540" y="290" />
+              <mxPoint x="-540" y="3982" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="c232" value="A_MULACC_B&lt;div&gt;#12423 [2085] span=463&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;dashed=1;fontStyle=2;" parent="1" vertex="1">
           <mxGeometry x="-410" y="4016" width="200" height="36" as="geometry" />
