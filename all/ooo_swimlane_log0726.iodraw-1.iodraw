@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="ooo" name="OOO Scheduler - Mixed AIC+AIV (log_07261344 ops 1620-1780)">
-    <mxGraphModel dx="1314" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1024" pageHeight="5048" math="0" shadow="0">
+    <mxGraphModel dx="2389" dy="1269" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1024" pageHeight="5048" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -671,16 +671,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c224" value="Data(AIC)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="770" y="4896" width="180" height="24" as="geometry" />
+          <mxGeometry x="830" y="4888" width="180" height="24" as="geometry" />
         </mxCell>
         <mxCell id="c225" value="Data(AIV)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="750" y="4840" width="180" height="24" as="geometry" />
+          <mxGeometry x="810" y="4832" width="180" height="24" as="geometry" />
         </mxCell>
         <mxCell id="c226" value="Core Switch" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d6b656;strokeWidth=2;fontColor=#d6b656;fontStyle=1;fontSize=10;dashed=1;dashedPattern=4 4;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="750" y="4770" width="180" height="24" as="geometry" />
+          <mxGeometry x="810" y="4762" width="180" height="24" as="geometry" />
         </mxCell>
         <mxCell id="c227" value="Data Dep" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;dashed=1;strokeColor=#6c8ebf;strokeWidth=1;dashedPattern=8 4;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="750" y="4708" width="180" height="24" as="geometry" />
+          <mxGeometry x="810" y="4700" width="180" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
