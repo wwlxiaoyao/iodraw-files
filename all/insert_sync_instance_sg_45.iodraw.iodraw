@@ -31,16 +31,16 @@
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-11" value="M" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="742" y="173" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yEtunvBTEiV4XXmo3jzQ-12" value="M" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="yEtunvBTEiV4XXmo3jzQ-12" value="Cube" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="742" y="1087" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yEtunvBTEiV4XXmo3jzQ-14" target="yEtunvBTEiV4XXmo3jzQ-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yEtunvBTEiV4XXmo3jzQ-14" value="V" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="yEtunvBTEiV4XXmo3jzQ-14" value="Vector" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="882" y="173" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yEtunvBTEiV4XXmo3jzQ-15" value="V" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="yEtunvBTEiV4XXmo3jzQ-15" value="Vector" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="882" y="1087" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yEtunvBTEiV4XXmo3jzQ-39" target="yEtunvBTEiV4XXmo3jzQ-18" edge="1">
