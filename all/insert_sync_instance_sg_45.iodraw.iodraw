@@ -102,8 +102,8 @@
             <mxPoint x="313" y="1040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yEtunvBTEiV4XXmo3jzQ-43" value="COPY_IN&lt;div&gt;#24739&lt;/div&gt;&lt;div&gt;GM -&amp;gt; L1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="253" y="406" width="120" height="40" as="geometry" />
+        <mxCell id="yEtunvBTEiV4XXmo3jzQ-43" value="COPY_IN&lt;div&gt;#24739&lt;/div&gt;&lt;div&gt;GM -&amp;gt; L1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" parent="1" vertex="1">
+          <mxGeometry x="281" y="672" width="64" height="120" as="geometry" />
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-18" value="L1_TO_L0A&lt;div&gt;#24643&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="492" y="408" width="120" height="40" as="geometry" />
