@@ -175,13 +175,8 @@
             <mxPoint x="552" y="1600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rL2SmetB_a8-1UZipXaU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;curved=1;strokeColor=#007FFF;" edge="1" parent="1" source="yEtunvBTEiV4XXmo3jzQ-56" target="yEtunvBTEiV4XXmo3jzQ-71">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="650" y="880" />
-              <mxPoint x="650" y="1030" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="rL2SmetB_a8-1UZipXaU-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;strokeColor=#007FFF;" edge="1" parent="1" source="yEtunvBTEiV4XXmo3jzQ-56" target="yEtunvBTEiV4XXmo3jzQ-71">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-56" value="L1_TO_L0B&lt;div&gt;#24645&lt;/div&gt;&lt;div&gt;size:&amp;nbsp;&lt;/div&gt;&lt;div&gt;L1 -&amp;gt; L0B&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="492" y="850" width="120" height="60" as="geometry" />
@@ -219,7 +214,7 @@
             <mxPoint x="802" y="1600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rL2SmetB_a8-1UZipXaU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="yEtunvBTEiV4XXmo3jzQ-71" target="rL2SmetB_a8-1UZipXaU-7">
+        <mxCell id="rL2SmetB_a8-1UZipXaU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;curved=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="yEtunvBTEiV4XXmo3jzQ-71" target="rL2SmetB_a8-1UZipXaU-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-71" value="A_MUL_B&lt;br&gt;&lt;div&gt;#24646&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
