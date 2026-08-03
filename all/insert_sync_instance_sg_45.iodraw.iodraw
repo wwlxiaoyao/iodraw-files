@@ -177,32 +177,26 @@
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-58" value="SYNC_SRC&lt;div&gt;#24841&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="492" y="940" width="120" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="yEtunvBTEiV4XXmo3jzQ-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yEtunvBTEiV4XXmo3jzQ-47" target="yEtunvBTEiV4XXmo3jzQ-62" edge="1">
+        <mxCell id="yEtunvBTEiV4XXmo3jzQ-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yEtunvBTEiV4XXmo3jzQ-47" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="313" y="502" as="sourcePoint" />
-            <mxPoint x="313" y="1600" as="targetPoint" />
+            <mxPoint x="313" y="990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yEtunvBTEiV4XXmo3jzQ-62" value="COPY_IN&lt;div&gt;#24647&lt;/div&gt;&lt;div&gt;size:&lt;/div&gt;&lt;div&gt;GM -&amp;gt; L1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="253" y="990" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="yEtunvBTEiV4XXmo3jzQ-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yEtunvBTEiV4XXmo3jzQ-62" target="yEtunvBTEiV4XXmo3jzQ-60" edge="1">
+        <mxCell id="yEtunvBTEiV4XXmo3jzQ-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="313" y="1050" as="sourcePoint" />
-            <mxPoint x="313" y="1600" as="targetPoint" />
+            <mxPoint x="313" y="1080" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yEtunvBTEiV4XXmo3jzQ-60" value="SYNC_SRC&lt;div&gt;#24842&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="253" y="1080" width="120" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="yEtunvBTEiV4XXmo3jzQ-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yEtunvBTEiV4XXmo3jzQ-60" target="yEtunvBTEiV4XXmo3jzQ-65" edge="1">
+        <mxCell id="yEtunvBTEiV4XXmo3jzQ-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="yEtunvBTEiV4XXmo3jzQ-65" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="313" y="1112" as="sourcePoint" />
             <mxPoint x="313" y="1600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-65" value="COPY_IN&lt;div&gt;#24740&lt;/div&gt;&lt;div&gt;size:&lt;/div&gt;&lt;div&gt;GM -&amp;gt; L1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="253" y="1160" width="120" height="40" as="geometry" />
+          <mxGeometry x="253" y="1140" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yEtunvBTEiV4XXmo3jzQ-65" target="yEtunvBTEiV4XXmo3jzQ-67" edge="1">
           <mxGeometry relative="1" as="geometry">
