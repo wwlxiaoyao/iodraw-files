@@ -72,7 +72,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yEtunvBTEiV4XXmo3jzQ-32" value="COPY_IN&lt;div&gt;#24642&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="yEtunvBTEiV4XXmo3jzQ-32" value="COPY_IN&lt;div&gt;#24642&lt;/div&gt;&lt;div&gt;GM -&amp;gt; L1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="253" y="279" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yEtunvBTEiV4XXmo3jzQ-32" target="yEtunvBTEiV4XXmo3jzQ-38" edge="1">
