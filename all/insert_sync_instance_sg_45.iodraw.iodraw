@@ -231,8 +231,8 @@
         <mxCell id="rL2SmetB_a8-1UZipXaU-6" value="Scalar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1030" y="1087" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rL2SmetB_a8-1UZipXaU-7" value="L1_TO_L0A&lt;div&gt;#24665&lt;/div&gt;&lt;div&gt;size:&amp;nbsp;&lt;/div&gt;&lt;div&gt;L1 -&amp;gt; L0A&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="502" y="640" width="120" height="60" as="geometry" />
+        <mxCell id="rL2SmetB_a8-1UZipXaU-7" value="L0C_COPY_OUT_COV&lt;br&gt;&lt;div&gt;#25933&lt;/div&gt;&lt;div&gt;size:&amp;nbsp;&lt;/div&gt;&lt;div&gt;L0C -&amp;gt; GM&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="98" y="926" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
