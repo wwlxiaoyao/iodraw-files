@@ -145,7 +145,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-51" value="L1_TO_L0A&lt;div&gt;#24676&lt;/div&gt;&lt;div&gt;size:&amp;nbsp;&lt;/div&gt;&lt;div&gt;L1 -&amp;gt; L0A&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="492" y="705" width="120" height="56" as="geometry" />
+          <mxGeometry x="492" y="711" width="120" height="59" as="geometry" />
         </mxCell>
         <mxCell id="yEtunvBTEiV4XXmo3jzQ-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yEtunvBTEiV4XXmo3jzQ-51" target="yEtunvBTEiV4XXmo3jzQ-53" edge="1">
           <mxGeometry relative="1" as="geometry">
