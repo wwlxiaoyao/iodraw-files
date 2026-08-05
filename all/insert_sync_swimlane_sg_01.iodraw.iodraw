@@ -68,7 +68,7 @@
           <mxGeometry x="1850" y="615" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c22" value="MUL&lt;div&gt;#10527&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="771" width="120" height="40" as="geometry" />
+          <mxGeometry x="1950" y="771" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c23" value="COPY_OUT&lt;div&gt;#11686&lt;/div&gt;&lt;div&gt;size: 64KB&lt;/div&gt;&lt;div&gt;UB-&gt;GM&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="1211" width="120" height="72" as="geometry" />
@@ -1493,7 +1493,7 @@
           <mxGeometry x="1400" y="1712" width="120" height="32" as="geometry" />
         </mxCell>
         <mxCell id="c497" value="BAR.V&lt;div&gt;#11878&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1850" y="783" width="120" height="32" as="geometry" />
+          <mxGeometry x="1850" y="808" width="120" height="32" as="geometry" />
         </mxCell>
         <mxCell id="c498" value="SYNC_SRC&lt;div&gt;#11891&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="60" y="1484" width="120" height="32" as="geometry" />
