@@ -22,7 +22,7 @@
         <mxCell id="h6" value="Scalar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="1040" y="40" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="l1" style="endArrow=none;html=1;" parent="1" edge="1">
+        <mxCell id="l1" style="endArrow=none;html=1;exitX=0.456;exitY=1.1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="h1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120" y="40" as="sourcePoint" />
             <mxPoint x="120" y="2300" as="targetPoint" />
