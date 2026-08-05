@@ -119,10 +119,10 @@
           <mxGeometry x="40" y="980" width="380" height="48" as="geometry" />
         </mxCell>
         <mxCell id="l0a_q" value="&lt;b&gt;L0A: Q tile (operand A for bmm1)&lt;/b&gt;&lt;br&gt;&lt;b&gt;BF16&lt;/b&gt; fractal&lt;br&gt;来自 L1_Q&lt;br&gt;IMG2COL 格式转换&lt;br&gt;shape: [M0, K0] = [S1_tile, D]&lt;br&gt;M0 = 256, K0 = 128 (典型)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="280" y="970" width="260" height="110" as="geometry" />
+          <mxGeometry x="240" y="960" width="260" height="110" as="geometry" />
         </mxCell>
         <mxCell id="l0a_attn" value="&lt;b&gt;L0A: attn tile (operand A for bmm2)&lt;/b&gt;&lt;br&gt;&lt;b&gt;INT8&lt;/b&gt; fractal&lt;br&gt;softmax 输出重新量化&lt;br&gt;来自 UB (mm1ResUb 经 softmax + quant)&lt;br&gt;shape: [M0, K0] = [S1_tile, S2_tile]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="720" y="980" width="280" height="110" as="geometry" />
+          <mxGeometry x="790" y="970" width="280" height="110" as="geometry" />
         </mxCell>
         <mxCell id="l0b_desc" value="Cube 引擎 operand B 输入, 64 KB&lt;br&gt;L1→L0B 带宽: 256 bytes/cycle&lt;br&gt;数据格式: &lt;b&gt;Fractal NZ&lt;/b&gt;" style="text;html=1;align=left;fontSize=10;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="40" y="1180" width="380" height="48" as="geometry" />
@@ -137,7 +137,7 @@
           <mxGeometry x="40" y="1380" width="380" height="48" as="geometry" />
         </mxCell>
         <mxCell id="l0c_bmm1" value="&lt;b&gt;L0C: bmm1 结果&lt;/b&gt;&lt;br&gt;&lt;b&gt;INT32&lt;/b&gt; fractal [M0, N0]&lt;br&gt;= Q_BF16 (→INT8) × K^T_INT8&lt;br&gt;= [256, 128] 典型&lt;br&gt;INT32 累加, 后经 dequant scale 调整&lt;br&gt;→ 写回 UB (mm1ResUb)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="440" y="1380" width="280" height="120" as="geometry" />
+          <mxGeometry x="390" y="1380" width="280" height="120" as="geometry" />
         </mxCell>
         <mxCell id="l0c_bmm2" value="&lt;b&gt;L0C: bmm2 结果&lt;/b&gt;&lt;br&gt;&lt;b&gt;INT32&lt;/b&gt; fractal [M0, N0]&lt;br&gt;= attn_INT8 × V_INT8&lt;br&gt;= [256, 128] 典型&lt;br&gt;INT32 累加, 后 dequant&lt;br&gt;→ 写回 UB (mm2ResUb)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1040" y="1380" width="280" height="120" as="geometry" />
