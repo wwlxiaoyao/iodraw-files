@@ -59,10 +59,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="t0" value="TilingKey: QBF16_KVBF16_OUTBF16_BNSD_KVNZ_PAGEDCACHE_MLA_TILING = 105000000020222220" style="text;html=1;align=left;fontSize=14;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="-20" width="1100" height="40" as="geometry" />
+          <mxGeometry x="40" y="-52" width="1100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="t1" value="场景: BNSD layout, KV in NZ format, PagedAttention, MLA decode, BF16 all, block_table 存在" style="text;html=1;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="40" width="1100" height="30" as="geometry" />
+          <mxGeometry x="40" y="-32" width="1100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p0" value="━━ Prolog: MLA Q 降维 rope (D=512 → D=128) ━━" style="text;html=1;align=left;fontSize=11;fontStyle=5;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="40" y="90" width="1100" height="24" as="geometry" />
