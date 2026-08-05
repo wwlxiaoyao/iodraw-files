@@ -82,7 +82,7 @@
         <mxCell id="c26" value="A_MUL_B&lt;div&gt;#10536&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1400" y="1749" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="c27" value="COPY_IN&lt;div&gt;#11781&lt;/div&gt;&lt;div&gt;size: 64KB&lt;/div&gt;&lt;div&gt;GM-&gt;L1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="c27" value="COPY_IN&lt;div&gt;#11781&lt;/div&gt;&lt;div&gt;size: 64KB&lt;/div&gt;&lt;div&gt;GM-&gt;UB&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="424" width="120" height="72" as="geometry" />
         </mxCell>
         <mxCell id="c28" value="COPY_IN&lt;div&gt;#10628&lt;/div&gt;&lt;div&gt;size: 64KB&lt;/div&gt;&lt;div&gt;GM-&gt;L1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -94,7 +94,7 @@
         <mxCell id="c30" value="L0C_COPY_UB&lt;div&gt;#10537&lt;/div&gt;&lt;div&gt;size: 4KB&lt;/div&gt;&lt;div&gt;L0C-&gt;UB&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1850" y="1831" width="120" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="c31" value="COPY_IN&lt;div&gt;#10091&lt;/div&gt;&lt;div&gt;size: 64KB&lt;/div&gt;&lt;div&gt;GM-&gt;L1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="c31" value="COPY_IN&lt;div&gt;#10091&lt;/div&gt;&lt;div&gt;size: 64KB&lt;/div&gt;&lt;div&gt;GM-&gt;UB&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="501" width="120" height="72" as="geometry" />
         </mxCell>
         <mxCell id="c32" value="L1_TO_L0B&lt;div&gt;#10547&lt;/div&gt;&lt;div&gt;size: 32KB&lt;/div&gt;&lt;div&gt;L1-&gt;L0B&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -124,7 +124,7 @@
         <mxCell id="c40" value="COPY_IN&lt;div&gt;#10914&lt;/div&gt;&lt;div&gt;GM-&gt;L1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="9997" width="120" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="c41" value="COPY_IN&lt;div&gt;#10531&lt;/div&gt;&lt;div&gt;size: 64KB&lt;/div&gt;&lt;div&gt;GM-&gt;L1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="c41" value="COPY_IN&lt;div&gt;#10531&lt;/div&gt;&lt;div&gt;size: 64KB&lt;/div&gt;&lt;div&gt;GM-&gt;UB&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="1015" width="120" height="72" as="geometry" />
         </mxCell>
         <mxCell id="c42" value="L1_TO_L0A&lt;div&gt;#10545&lt;/div&gt;&lt;div&gt;size: 4KB&lt;/div&gt;&lt;div&gt;L1-&gt;L0A&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -136,7 +136,7 @@
         <mxCell id="c44" value="COPY_OUT&lt;div&gt;#11738&lt;/div&gt;&lt;div&gt;UB-&gt;GM&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="11306" width="120" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="c45" value="COPY_IN&lt;div&gt;#10526&lt;/div&gt;&lt;div&gt;size: 64KB&lt;/div&gt;&lt;div&gt;GM-&gt;L1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="c45" value="COPY_IN&lt;div&gt;#10526&lt;/div&gt;&lt;div&gt;size: 64KB&lt;/div&gt;&lt;div&gt;GM-&gt;UB&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="782" width="120" height="72" as="geometry" />
         </mxCell>
         <mxCell id="c46" value="L1_TO_L0A&lt;div&gt;#10551&lt;/div&gt;&lt;div&gt;size: 4KB&lt;/div&gt;&lt;div&gt;L1-&gt;L0A&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -445,7 +445,7 @@
         <mxCell id="c147" value="A_MUL_B&lt;div&gt;#10626&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1400" y="8537" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="c148" value="COPY_IN&lt;div&gt;#10646&lt;/div&gt;&lt;div&gt;size: 64KB&lt;/div&gt;&lt;div&gt;GM-&gt;L1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="c148" value="COPY_IN&lt;div&gt;#10646&lt;/div&gt;&lt;div&gt;size: 64KB&lt;/div&gt;&lt;div&gt;GM-&gt;UB&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="4899" width="120" height="72" as="geometry" />
         </mxCell>
         <mxCell id="c149" value="L0C_COPY_UB&lt;div&gt;#10925&lt;/div&gt;&lt;div&gt;L0C-&gt;UB&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
