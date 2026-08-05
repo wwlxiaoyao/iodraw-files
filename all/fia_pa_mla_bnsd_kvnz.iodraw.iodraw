@@ -5,22 +5,22 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="h1" value="MTE3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="37" width="160" height="40" as="geometry" />
+          <mxGeometry x="40" y="-2" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="h2" value="MTE2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="37" width="160" height="40" as="geometry" />
+          <mxGeometry x="240" y="-2" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="h3" value="MTE1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="37" width="160" height="40" as="geometry" />
+          <mxGeometry x="440" y="-2" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="h4" value="Cube" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="37" width="160" height="40" as="geometry" />
+          <mxGeometry x="640" y="-2" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="h5" value="Vector" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="840" y="37" width="160" height="40" as="geometry" />
+          <mxGeometry x="840" y="-2" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="h6" value="Scalar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="37" width="160" height="40" as="geometry" />
+          <mxGeometry x="1040" y="-2" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="l1" style="endArrow=none;html=1;exitX=0.456;exitY=1.1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="h1">
           <mxGeometry relative="1" as="geometry">
@@ -80,7 +80,7 @@
           <mxGeometry x="1040" y="120" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="m0" value="━━ Main Loop (per block, 共 total_blocks 次) ━━" style="text;html=1;align=left;fontSize=11;fontStyle=5;fontColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="40" y="200" width="1100" height="24" as="geometry" />
+          <mxGeometry x="30" y="200" width="1100" height="24" as="geometry" />
         </mxCell>
         <mxCell id="s1" value="K[block_table[i]]&lt;div&gt;GM → L1 (NZ)&lt;/div&gt;&lt;div&gt;MTE3 DMA&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;" parent="1" vertex="1">
           <mxGeometry x="40" y="240" width="160" height="64" as="geometry" />
