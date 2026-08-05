@@ -1,0 +1,223 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0" version="24.7.17">
+  <diagram id="mem_layout" name="A2_W8A8_Memory_Layout">
+    <mxGraphModel dx="2314" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t0" value="Qwen3-32B W8A8 A2 (Ascend910B4) — 内存层级布局" style="text;html=1;align=left;fontSize=18;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="1000" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t1" value="kernel: FiaKernelNonQuant + FiaBlockCubeNonQuantGqa (arch22)    |    FIAType: Q=BF16, KV=INT8, out=BF16, PagedCache=true    |    A2 Cube INT8×INT8→INT32" style="text;html=1;align=left;fontSize=11;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="40" y="50" width="1400" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="h1" value="GM (HBM)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="40" y="100" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2" value="L1 (per core, 512 KB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="40" y="300" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h3" value="UB (per core, 256 KB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="40" y="620" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h4" value="L0A (64 KB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="40" y="940" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h5" value="L0B (64 KB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1140" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h6" value="L0C (128 KB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1340" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l1" style="endArrow=none;html=1;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="280" as="sourcePoint" />
+            <mxPoint x="2160" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l2" style="endArrow=none;html=1;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="600" as="sourcePoint" />
+            <mxPoint x="2160" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l3" style="endArrow=none;html=1;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="920" as="sourcePoint" />
+            <mxPoint x="2160" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4" style="endArrow=none;html=1;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="1120" as="sourcePoint" />
+            <mxPoint x="2160" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5" style="endArrow=none;html=1;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="1320" as="sourcePoint" />
+            <mxPoint x="2160" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gm_q" value="Q: [B, N1, 1, D]&lt;br&gt;&lt;b&gt;BF16&lt;/b&gt; row-major&lt;br&gt;[B, 40, 1, 128] = 10 KB/batch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="240" y="110" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gm_kv" value="KV cache (Paged):&lt;br&gt;&lt;b&gt;INT8&lt;/b&gt; [B, N2, S2, D]&lt;br&gt;分 block 存储, 每 block = block_size × D&lt;br&gt;[B, 8, S2, 128] = 128 B/token/head" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="460" y="110" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gm_blocktable" value="block_table&lt;br&gt;&lt;b&gt;INT32&lt;/b&gt; [B, max_blocks]&lt;br&gt;PA 索引表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="760" y="110" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gm_mask" value="atten_mask (causal)&lt;br&gt;&lt;b&gt;INT8&lt;/b&gt; [1, 1, S2] 或 sparse&lt;br&gt;可选" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="960" y="110" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gm_out" value="attention_out&lt;br&gt;&lt;b&gt;BF16&lt;/b&gt; [B, N1, 1, D]&lt;br&gt;[B, 40, 1, 128]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="110" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gm_lse" value="softmax_lse&lt;br&gt;&lt;b&gt;FP32&lt;/b&gt; [B, N1, 1]&lt;br&gt;FlashDecode 跨核规约用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="110" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gm_scale" value="dequant / quant scale&lt;br&gt;&lt;b&gt;FP32&lt;/b&gt; 反量化系数&lt;br&gt;per-channel / per-token" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="110" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l1_note" value="来源: fia_block_cube_nonquant_gqa.h:291-293, 680-688&lt;br&gt;L1 共 512 KB, 分 3 个 buffer pool, 每个 pool 多 buffer 用于 MTE3 预取流水" style="text;html=1;align=left;fontSize=10;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="40" y="340" width="700" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l1_q" value="&lt;b&gt;L1_Q buffer pool&lt;/b&gt;&lt;br&gt;Q_L1Tensor[2][256×192]&lt;br&gt;每 buffer 96 KB, 共 192 KB&lt;br&gt;&lt;b&gt;BF16&lt;/b&gt; (Q_T = half)&lt;br&gt;双 buffer 流水线" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="240" y="380" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="l1_v" value="&lt;b&gt;L1_V buffer pool&lt;/b&gt;&lt;br&gt;V_L1Tensor[2][256×128]&lt;br&gt;每 buffer 64 KB, 共 128 KB&lt;br&gt;&lt;b&gt;INT8&lt;/b&gt; (KV_T = int8_t)&lt;br&gt;双 buffer 流水线" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="480" y="380" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="l1_kp" value="&lt;b&gt;L1_KP buffer pool (K + PSE 共享)&lt;/b&gt;&lt;br&gt;KP_L1Tensor[3][128×256]&lt;br&gt;每 buffer 64 KB, 共 192 KB&lt;br&gt;&lt;b&gt;INT8&lt;/b&gt; (KV_T = int8_t)&lt;br&gt;三 buffer, K/PSE 交替复用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="720" y="380" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="l1_sum" value="Σ L1 buffer pool = 192 + 128 + 192 = &lt;b&gt;512 KB&lt;/b&gt;&lt;br&gt;正好打满 512 KB L1" style="text;html=1;align=left;fontSize=11;fontStyle=5;fontColor=#CC0000;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="380" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ub_note" value="UB 256 KB, 分多个 LocalTensor, 用于 Vector 计算 + Cube 输出缓冲" style="text;html=1;align=left;fontSize=10;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="40" y="660" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ub_q" value="qUbTensor&lt;br&gt;&lt;b&gt;BF16&lt;/b&gt; [S1_tile, D]&lt;br&gt;当前处理的 Q tile" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="240" y="690" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ub_mm1" value="mm1ResUb (bmm1 结果)&lt;br&gt;&lt;b&gt;INT32&lt;/b&gt; [S1_tile, S2_tile]&lt;br&gt;Cube L0C → UB&lt;br&gt;(ANTIQUANT 模式下 mm_out = int32)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="440" y="690" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ub_softmax" value="softmaxTmpUb&lt;br&gt;softmax 中间状态&lt;br&gt;&lt;b&gt;FP32&lt;/b&gt; max/sum/exp&lt;br&gt;FlashAttention 跨 S2 迭代状态" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="680" y="690" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ub_mm2" value="mm2ResUb (bmm2 结果)&lt;br&gt;&lt;b&gt;INT32&lt;/b&gt; [S1_tile, D]&lt;br&gt;反量化前结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="920" y="690" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ub_accum" value="accumOutUb&lt;br&gt;&lt;b&gt;FP32&lt;/b&gt; [S1_tile, D]&lt;br&gt;累加器 (FlashAttention 状态)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="690" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ub_out" value="outUb (最终输出)&lt;br&gt;&lt;b&gt;BF16&lt;/b&gt; [S1_tile, D]&lt;br&gt;int32 → bf16 转换后" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="690" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l0a_desc" value="Cube 引擎 operand A 输入, 64 KB&lt;br&gt;L1→L0A 带宽: 512 bytes/cycle&lt;br&gt;数据格式: &lt;b&gt;Fractal NZ (Zn &amp; C0 交织)&lt;/b&gt;" style="text;html=1;align=left;fontSize=10;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="40" y="980" width="380" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="l0a_q" value="&lt;b&gt;L0A: Q tile (operand A for bmm1)&lt;/b&gt;&lt;br&gt;&lt;b&gt;BF16&lt;/b&gt; fractal&lt;br&gt;来自 L1_Q&lt;br&gt;IMG2COL 格式转换&lt;br&gt;shape: [M0, K0] = [S1_tile, D]&lt;br&gt;M0 = 256, K0 = 128 (典型)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="440" y="980" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="l0a_attn" value="&lt;b&gt;L0A: attn tile (operand A for bmm2)&lt;/b&gt;&lt;br&gt;&lt;b&gt;INT8&lt;/b&gt; fractal&lt;br&gt;softmax 输出重新量化&lt;br&gt;来自 UB (mm1ResUb 经 softmax + quant)&lt;br&gt;shape: [M0, K0] = [S1_tile, S2_tile]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="720" y="980" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="l0b_desc" value="Cube 引擎 operand B 输入, 64 KB&lt;br&gt;L1→L0B 带宽: 256 bytes/cycle&lt;br&gt;数据格式: &lt;b&gt;Fractal NZ&lt;/b&gt;" style="text;html=1;align=left;fontSize=10;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1180" width="380" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="l0b_k" value="&lt;b&gt;L0B: K^T tile (operand B for bmm1)&lt;/b&gt;&lt;br&gt;&lt;b&gt;INT8&lt;/b&gt; fractal&lt;br&gt;来自 L1_KP (经 MTE2 或直接 DMA)&lt;br&gt;LOAD2D 格式转换&lt;br&gt;shape: [K0, N0] = [D, S2_tile] (转置后)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="440" y="1180" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="l0b_v" value="&lt;b&gt;L0B: V tile (operand B for bmm2)&lt;/b&gt;&lt;br&gt;&lt;b&gt;INT8&lt;/b&gt; fractal&lt;br&gt;来自 L1_V (经 MTE2 或直接 DMA)&lt;br&gt;LOAD2D 格式转换&lt;br&gt;shape: [K0, N0] = [S2_tile, D]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="740" y="1180" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="l0c_desc" value="Cube 引擎输出, 128 KB&lt;br&gt;L0C→UB 带宽: 256 bytes/cycle&lt;br&gt;INT8×INT8→INT32 累加" style="text;html=1;align=left;fontSize=10;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1380" width="380" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="l0c_bmm1" value="&lt;b&gt;L0C: bmm1 结果&lt;/b&gt;&lt;br&gt;&lt;b&gt;INT32&lt;/b&gt; fractal [M0, N0]&lt;br&gt;= Q_BF16 (→INT8) × K^T_INT8&lt;br&gt;= [256, 128] 典型&lt;br&gt;INT32 累加, 后经 dequant scale 调整&lt;br&gt;→ 写回 UB (mm1ResUb)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="440" y="1380" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="l0c_bmm2" value="&lt;b&gt;L0C: bmm2 结果&lt;/b&gt;&lt;br&gt;&lt;b&gt;INT32&lt;/b&gt; fractal [M0, N0]&lt;br&gt;= attn_INT8 × V_INT8&lt;br&gt;= [256, 128] 典型&lt;br&gt;INT32 累加, 后 dequant&lt;br&gt;→ 写回 UB (mm2ResUb)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="740" y="1380" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" value="MTE3" style="endArrow=classic;html=1;strokeWidth=2;fontStyle=1;fontColor=#CC0000;strokeColor=#CC0000;" parent="1" source="gm_q" target="l1_q" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2" value="MTE3" style="endArrow=classic;html=1;strokeWidth=2;fontStyle=1;fontColor=#CC0000;strokeColor=#CC0000;" parent="1" source="gm_kv" target="l1_kp" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f3" value="MTE3" style="endArrow=classic;html=1;strokeWidth=2;fontStyle=1;fontColor=#CC0000;strokeColor=#CC0000;" parent="1" source="gm_kv" target="l1_v" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f4" value="block_table 索引" style="endArrow=classic;html=1;strokeWidth=1;fontStyle=2;strokeColor=#9673a6;" parent="1" source="gm_blocktable" target="l1_kp" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f5" value="MTE2" style="endArrow=classic;html=1;strokeWidth=2;fontStyle=1;fontColor=#0066CC;strokeColor=#0066CC;" parent="1" source="l1_q" target="ub_q" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f6" value="IMG2COL" style="endArrow=classic;html=1;strokeWidth=2;fontStyle=1;strokeColor=#6c8ebf;" parent="1" source="l1_q" target="l0a_q" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7" value="LOAD2D" style="endArrow=classic;html=1;strokeWidth=2;fontStyle=1;strokeColor=#6c8ebf;" parent="1" source="l1_kp" target="l0b_k" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f8" value="LOAD2D" style="endArrow=classic;html=1;strokeWidth=2;fontStyle=1;strokeColor=#6c8ebf;" parent="1" source="l1_v" target="l0b_v" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9" value="INT8×INT8→INT32" style="endArrow=classic;html=1;strokeWidth=3;fontStyle=1;strokeColor=#B85450;" parent="1" source="l0a_q" target="l0c_bmm1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f10" value="INT8×INT8→INT32" style="endArrow=classic;html=1;strokeWidth=3;fontStyle=1;strokeColor=#B85450;" parent="1" source="l0b_k" target="l0c_bmm1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f11" value="INT8×INT8→INT32" style="endArrow=classic;html=1;strokeWidth=3;fontStyle=1;strokeColor=#B85450;" parent="1" source="l0a_attn" target="l0c_bmm2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f12" value="INT8×INT8→INT32" style="endArrow=classic;html=1;strokeWidth=3;fontStyle=1;strokeColor=#B85450;" parent="1" source="l0b_v" target="l0c_bmm2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f13" value="L0C→UB (256 B/cycle)" style="endArrow=classic;html=1;strokeWidth=2;fontStyle=1;strokeColor=#82b366;" parent="1" source="l0c_bmm1" target="ub_mm1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f14" value="L0C→UB" style="endArrow=classic;html=1;strokeWidth=2;fontStyle=1;strokeColor=#82b366;" parent="1" source="l0c_bmm2" target="ub_mm2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f15" value="INT32 → dequant → FP32" style="endArrow=classic;html=1;strokeWidth=2;fontStyle=2;strokeColor=#82b366;" parent="1" source="ub_mm1" target="ub_softmax" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f16" value="softmax → INT8 量化" style="endArrow=classic;html=1;strokeWidth=2;fontStyle=2;strokeColor=#82b366;" parent="1" source="ub_softmax" target="l0a_attn" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f17" value="INT32 → dequant → 累加" style="endArrow=classic;html=1;strokeWidth=2;fontStyle=2;strokeColor=#82b366;" parent="1" source="ub_mm2" target="ub_accum" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f18" value="MTE1" style="endArrow=classic;html=1;strokeWidth=2;fontStyle=1;fontColor=#009900;strokeColor=#009900;" parent="1" source="ub_out" target="gm_out" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend0" value="关键要点" style="text;html=1;align=left;fontSize=14;fontStyle=5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1540" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend1" value="1. &lt;b&gt;A2 W8A8 实际路径&lt;/b&gt;: Q 以 BF16 存储, 在 Cube 计算前转 INT8; KV cache 以 INT8 存储; Cube 执行 INT8×INT8→INT32" style="text;html=1;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1570" width="1100" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legend2" value="2. &lt;b&gt;L1 完全打满&lt;/b&gt;: Q (192 KB) + V (128 KB) + KP (192 KB) = 512 KB, 刚好用满每核 L1 (fia_block_cube_nonquant_gqa.h:680-688)" style="text;html=1;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1595" width="1100" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legend3" value="3. &lt;b&gt;多 buffer 流水线&lt;/b&gt;: Q/V 各 2 buffer, KP 3 buffer, 支持 MTE3 预取与 Cube 计算并行 (double/triple buffering)" style="text;html=1;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1620" width="1100" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legend4" value="4. &lt;b&gt;Fractal 格式&lt;/b&gt;: L0A/L0B/L0C 都使用 Ascend 特有的 fractal NZ 格式 (M0=256, K0/N0=128, C0=16), 通过 IMG2COL/LOAD2D 转换" style="text;html=1;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1645" width="1100" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legend5" value="5. &lt;b&gt;INT32 中间结果&lt;/b&gt;: bmm1/bmm2 在 L0C 累加为 INT32, 写回 UB 后经 dequant scale 调整 → FP32 → softmax → 再 INT8 量化回 L0A" style="text;html=1;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1670" width="1100" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legend6" value="6. &lt;b&gt;GQA 特殊处理&lt;/b&gt;: Q 有 40 heads, KV 仅 8 heads, gSize=5. FiaBlockCubeNonQuantGqa 按 gSize 分组, 每 KV head 对应 5 个 Q head 复用同一 K/V" style="text;html=1;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1695" width="1200" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
