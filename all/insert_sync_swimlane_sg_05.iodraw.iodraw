@@ -1225,6 +1225,9 @@
         <mxCell id="c407" value="SYNC_SRC&lt;div&gt;#12083&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="320" y="8826" width="120" height="32" as="geometry" />
         </mxCell>
+        <mxCell id="lBGDmUyhbL5vNgQrnSVz-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c408" target="c445">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="c408" value="SYNC_DST&lt;div&gt;#12125&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="580" y="8826" width="120" height="32" as="geometry" />
         </mxCell>
