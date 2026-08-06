@@ -179,7 +179,11 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a7" style="edgeStyle=orthogonalEdgeStyle;" parent="1" source="s14" target="s17" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="700" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="a8" style="edgeStyle=orthogonalEdgeStyle;" parent="1" source="s17" target="s19" edge="1">
           <mxGeometry relative="1" as="geometry" />
