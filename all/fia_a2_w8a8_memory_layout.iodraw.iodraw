@@ -94,8 +94,8 @@
         <mxCell id="ub_title" value="UB (per core, 256 KB) — 中间结果 + Vector 计算缓冲" style="text;html=1;align=left;fontSize=13;fontStyle=5;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="50" y="865" width="700" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="ub_note" value="UB 不直接参与 Cube 计算, 主要用途:&lt;br style=&quot;font-size: 13px;&quot;&gt;1. Cube L0C 输出的中转 (INT32 结果先写 UB)&lt;br style=&quot;font-size: 13px;&quot;&gt;2. Vector 单元做 softmax/dequant/quant 的工作区&lt;br style=&quot;font-size: 13px;&quot;&gt;3. 累加器 accumOut 的存储&lt;br style=&quot;font-size: 13px;&quot;&gt;4. 向 L0A 喂 attn (softmax 后 INT8 量化) 的来源&lt;br style=&quot;font-size: 13px;&quot;&gt;5. 最终输出 BF16 的暂存, 再由 MTE1 写回 GM" style="text;html=1;align=left;fontSize=13;fontColor=#666666;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="50" y="895" width="500" height="110" as="geometry" />
+        <mxCell id="ub_note" value="UB 不直接参与 Cube 计算, 主要用途:&lt;br style=&quot;font-size: 14px;&quot;&gt;1. Cube L0C 输出的中转 (INT32 结果先写 UB)&lt;br style=&quot;font-size: 14px;&quot;&gt;2. Vector 单元做 softmax/dequant/quant 的工作区&lt;br style=&quot;font-size: 14px;&quot;&gt;3. 累加器 accumOut 的存储&lt;br style=&quot;font-size: 14px;&quot;&gt;4. 向 L0A 喂 attn (softmax 后 INT8 量化) 的来源&lt;br style=&quot;font-size: 14px;&quot;&gt;5. 最终输出 BF16 的暂存, 再由 MTE1 写回 GM" style="text;html=1;align=left;fontSize=14;fontColor=#666666;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="50" y="920" width="500" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ub_q" value="&lt;b&gt;qUbTensor&lt;/b&gt;&lt;br&gt;[S1_tile, D] BF16&lt;br&gt;当前处理 Q 头组的 UB 副本&lt;br&gt;(从 L1_Q 转来, 给 Vector 用)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="600" y="900" width="240" height="90" as="geometry" />
