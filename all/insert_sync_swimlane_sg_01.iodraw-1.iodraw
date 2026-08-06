@@ -145,6 +145,9 @@
         <mxCell id="c47" value="L1_TO_L0B&lt;div&gt;#10559&lt;/div&gt;&lt;div&gt;size: 32KB&lt;/div&gt;&lt;div&gt;L1-&gt;L0B&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="4321" width="120" height="72" as="geometry" />
         </mxCell>
+        <mxCell id="S89GZWrrB17sbU7p-hQY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="c48" target="c25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="c48" value="RELU&lt;div&gt;#10530&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1100" y="1166" width="120" height="40" as="geometry" />
         </mxCell>
