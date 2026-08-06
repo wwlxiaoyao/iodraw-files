@@ -1,197 +1,191 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0" version="24.7.17">
-  <diagram id="mem_layout" name="A2_W8A8_Memory_Layout">
-    <mxGraphModel dx="1728" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="3200" math="0" shadow="0">
+  <diagram id="fia_mla_pa" name="PA_MLA_BNSD_KVNZ">
+    <mxGraphModel dx="2074" dy="3587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1628" pageHeight="2400" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="t0" value="Qwen3-32B W8A8 on A2 (Ascend910B4) — 内存布局图" style="text;html=1;align=left;fontSize=18;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="10" width="1000" height="40" as="geometry" />
+        <mxCell id="h1" value="MTE3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-2" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="t1" value="kernel: FiaKernelNonQuant + FiaBlockCubeNonQuantGqa (arch22/fia_block_cube_nonquant_gqa.h)&lt;br&gt;FIAType: Q_T=BF16, KV_T=INT8, OUT_T=BF16, PagedCache=true, layout=BNSD    |    Cube: INT8×INT8→INT32" style="text;html=1;align=left;fontSize=10;fontColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="40" y="40" width="1400" height="40" as="geometry" />
+        <mxCell id="h2" value="MTE2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="-2" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gm_box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#666666;strokeWidth=2;verticalAlign=top;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="40" y="100" width="1960" height="260" as="geometry" />
+        <mxCell id="h3" value="MTE1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="-2" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gm_title" value="GM (HBM) — 全局内存，所有 tensor 的原始存储" style="text;html=1;align=left;fontSize=13;fontStyle=5;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="50" y="105" width="600" height="24" as="geometry" />
+        <mxCell id="h4" value="Cube" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="-2" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gm_q" value="&lt;b&gt;query&lt;/b&gt;&lt;br&gt;[B, N1, 1, D] = [B, 40, 1, 128]&lt;br&gt;dtype: &lt;b&gt;BF16&lt;/b&gt;&lt;br&gt;layout: row-major ND&lt;br&gt;size: B×40×1×128×2 B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="60" y="140" width="240" height="110" as="geometry" />
+        <mxCell id="h5" value="Vector" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="840" y="-2" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gm_k" value="&lt;b&gt;key cache (paged)&lt;/b&gt;&lt;br&gt;[B, N2, S2_max, D] = [B, 8, S2, 128]&lt;br&gt;dtype: &lt;b&gt;INT8&lt;/b&gt; (W8)&lt;br&gt;分 block 存储, 每 block = block_size × D&lt;br&gt;物理上不连续, 由 block_table 索引" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="320" y="140" width="320" height="110" as="geometry" />
+        <mxCell id="h6" value="Scalar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="-2" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gm_v" value="&lt;b&gt;value cache (paged)&lt;/b&gt;&lt;br&gt;[B, N2, S2_max, D] = [B, 8, S2, 128]&lt;br&gt;dtype: &lt;b&gt;INT8&lt;/b&gt; (W8)&lt;br&gt;与 K 共享 block 索引&lt;br&gt;每 token 每 head = 128 B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="660" y="140" width="320" height="110" as="geometry" />
+        <mxCell id="l1" style="endArrow=none;html=1;exitX=0.456;exitY=1.1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="h1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="40" as="sourcePoint" />
+            <mxPoint x="120" y="2300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="gm_bt" value="&lt;b&gt;block_table&lt;/b&gt;&lt;br&gt;[B, max_blocks]&lt;br&gt;dtype: &lt;b&gt;INT32&lt;/b&gt;&lt;br&gt;PA 索引表, 每 entry 指向&lt;br&gt;一个 K/V block 的 GM 起始地址" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="140" width="240" height="110" as="geometry" />
+        <mxCell id="l2" style="endArrow=none;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="40" as="sourcePoint" />
+            <mxPoint x="320" y="2300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="gm_mask" value="&lt;b&gt;atten_mask&lt;/b&gt; (causal)&lt;br&gt;[1, 1, S2_max] 或 sparse&lt;br&gt;dtype: &lt;b&gt;INT8&lt;/b&gt;&lt;br&gt;Qwen3 用 causal, 可不传&lt;br&gt;(kernel 内部 hard code)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1260" y="140" width="220" height="110" as="geometry" />
+        <mxCell id="l3" style="endArrow=none;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="40" as="sourcePoint" />
+            <mxPoint x="520" y="2300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="gm_scale" value="&lt;b&gt;dequant / quant scale&lt;/b&gt;&lt;br&gt;dtype: &lt;b&gt;FP32&lt;/b&gt;&lt;br&gt;per-channel / per-token 反量化系数&lt;br&gt;key_antiquant_scale, value_antiquant_scale&lt;br&gt;deq_scale1, deq_scale2 等" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="1500" y="140" width="280" height="110" as="geometry" />
+        <mxCell id="l4" style="endArrow=none;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="40" as="sourcePoint" />
+            <mxPoint x="720" y="2300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="gm_out" value="&lt;b&gt;attention_out&lt;/b&gt;&lt;br&gt;[B, N1, 1, D] = [B, 40, 1, 128]&lt;br&gt;dtype: &lt;b&gt;BF16&lt;/b&gt;&lt;br&gt;最终输出&lt;br&gt;size: B×40×1×128×2 B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="60" y="260" width="240" height="90" as="geometry" />
+        <mxCell id="l5" style="endArrow=none;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="40" as="sourcePoint" />
+            <mxPoint x="920" y="2300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="gm_lse" value="&lt;b&gt;softmax_lse&lt;/b&gt;&lt;br&gt;[B, N1, 1]&lt;br&gt;dtype: &lt;b&gt;FP32&lt;/b&gt;&lt;br&gt;FlashDecode 跨核规约所需的&lt;br&gt;每 head 的 log-sum-exp 值" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="320" y="260" width="240" height="90" as="geometry" />
+        <mxCell id="l6" style="endArrow=none;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="40" as="sourcePoint" />
+            <mxPoint x="1120" y="2300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="gm_workspace" value="&lt;b&gt;workspace&lt;/b&gt;&lt;br&gt;FlashDecode 用: 每核 partial result + lse 暂存区&lt;br&gt;dtype: &lt;b&gt;FP32&lt;/b&gt;&lt;br&gt;size: n_pes × [B, N1, 1, D] + n_pes × [B, N1, 1]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="580" y="260" width="380" height="90" as="geometry" />
+        <mxCell id="t0" value="TilingKey: QBF16_KVBF16_OUTBF16_BNSD_KVNZ_PAGEDCACHE_MLA_TILING = 105000000020222220" style="text;html=1;align=left;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-52" width="1100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="l1_box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff5e6;strokeColor=#d79b00;strokeWidth=2;verticalAlign=top;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="40" y="400" width="1960" height="440" as="geometry" />
+        <mxCell id="t1" value="场景: BNSD layout, KV in NZ format, PagedAttention, MLA decode, BF16 all, block_table 存在" style="text;html=1;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-32" width="1100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l1_title" value="L1 (per core, 512 KB) — 3 个 buffer pool 完全打满 L1" style="text;html=1;align=left;fontSize=13;fontStyle=5;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="50" y="405" width="700" height="24" as="geometry" />
+        <mxCell id="p0" value="━━ Prolog: MLA Q 降维 rope (D=512 → D=128) ━━" style="text;html=1;align=left;fontSize=11;fontStyle=5;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="40" y="90" width="1100" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="l1_src" value="来源: fia_block_cube_nonquant_gqa.h:291-293, 680-688&lt;br&gt;Q_T = half (BF16), KV_T = int8_t&lt;br&gt;多 buffer 支持 MTE3 预取流水 (double/triple buffering)" style="text;html=1;align=left;fontSize=10;fontColor=#666666;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="50" y="430" width="600" height="40" as="geometry" />
+        <mxCell id="p1" value="Q(GM) DataCopy&lt;div&gt;GM → L1&lt;/div&gt;&lt;div&gt;BF16 [B,N,1,512]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="40" y="120" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="l1_q_outer" value="&lt;b&gt;L1_Q buffer pool — 192 KB&lt;/b&gt;&lt;br&gt;qL1Tensor: Array&amp;lt;LocalTensor&amp;lt;half&amp;gt;, 2, 256×192&amp;gt;&lt;br&gt;初始化: pipe.InitBuffer(L1_Q, L1_Q_SIZE × 2 × sizeof(half)) = 96 KB × 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d79b00;strokeWidth=2;verticalAlign=top;fontSize=11;align=left;" parent="1" vertex="1">
-          <mxGeometry x="60" y="490" width="560" height="160" as="geometry" />
+        <mxCell id="p2" value="Q L1→UB&lt;div&gt;MTE2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="120" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="l1_q_b0" value="&lt;b&gt;Q buffer [0]&lt;/b&gt;&lt;br&gt;[256, 192] half&lt;br&gt;= 96 KB&lt;br&gt;当前迭代的 Q tile&lt;br&gt;(256 = batch×gSize×S1 合并轴上限)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="80" y="550" width="240" height="90" as="geometry" />
+        <mxCell id="p3" value="Q Rope MLA&lt;div&gt;Combine D=512→128&lt;/div&gt;&lt;div&gt;Vector MatMul&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="840" y="120" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="l1_q_b1" value="&lt;b&gt;Q buffer [1]&lt;/b&gt;&lt;br&gt;[256, 192] half&lt;br&gt;= 96 KB&lt;br&gt;预取中的下一迭代 Q tile&lt;br&gt;(double buffer)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="340" y="550" width="240" height="90" as="geometry" />
+        <mxCell id="p4" value="loop_counter&lt;div&gt;total_blocks&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="120" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="l1_v_outer" value="&lt;b&gt;L1_V buffer pool — 128 KB&lt;/b&gt;&lt;br&gt;vL1Tensor: Array&amp;lt;LocalTensor&amp;lt;int8_t&amp;gt;, 2, 256×128&amp;gt;&lt;br&gt;初始化: pipe.InitBuffer(L1_V, L1_V_SIZE × 2 × sizeof(int8_t)) = 64 KB × 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d79b00;strokeWidth=2;verticalAlign=top;fontSize=11;align=left;" parent="1" vertex="1">
-          <mxGeometry x="640" y="490" width="560" height="160" as="geometry" />
+        <mxCell id="m0" value="━━ Main Loop (per block, 共 total_blocks 次) ━━" style="text;html=1;align=left;fontSize=11;fontStyle=5;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="30" y="200" width="1100" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="l1_v_b0" value="&lt;b&gt;V buffer [0]&lt;/b&gt;&lt;br&gt;[256, 128] int8&lt;br&gt;= 64 KB&lt;br&gt;当前迭代的 V tile&lt;br&gt;INT8 (W8 weight)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="660" y="550" width="240" height="90" as="geometry" />
+        <mxCell id="s1" value="K[block_table[i]]&lt;div&gt;GM → L1 (NZ)&lt;/div&gt;&lt;div&gt;MTE3 DMA&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="40" y="240" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="l1_v_b1" value="&lt;b&gt;V buffer [1]&lt;/b&gt;&lt;br&gt;[256, 128] int8&lt;br&gt;= 64 KB&lt;br&gt;预取中的下一迭代 V tile&lt;br&gt;(double buffer)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="920" y="550" width="240" height="90" as="geometry" />
+        <mxCell id="s2" value="K NZ→ND conv&lt;div&gt;Fractal → ND&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="240" width="160" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="l1_kp_outer" value="&lt;b&gt;L1_KP buffer pool — 192 KB (K 与 PSE 共享)&lt;/b&gt;&lt;br&gt;kpL1Tensor: Array&amp;lt;LocalTensor&amp;lt;int8_t&amp;gt;, 3, 128×256&amp;gt;&lt;br&gt;初始化: pipe.InitBuffer(L1_KP, L1_KP_SIZE × 3 × sizeof(int8_t)) = 64 KB × 3&lt;br&gt;注: K tile shape = [128, 192] 或 [128, 256], PSE 复用此 pool" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d79b00;strokeWidth=2;verticalAlign=top;fontSize=11;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="490" width="760" height="160" as="geometry" />
+        <mxCell id="s3" value="K block_table&lt;div&gt;index compute&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="240" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="l1_kp_b0" value="&lt;b&gt;KP buffer [0]&lt;/b&gt;&lt;br&gt;[128, 256] int8&lt;br&gt;= 64 KB&lt;br&gt;当前 K 或 PSE tile" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="1240" y="550" width="220" height="90" as="geometry" />
+        <mxCell id="s4" value="V[block_table[i]]&lt;div&gt;GM → L1 (NZ)&lt;/div&gt;&lt;div&gt;MTE3 DMA&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="40" y="320" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="l1_kp_b1" value="&lt;b&gt;KP buffer [1]&lt;/b&gt;&lt;br&gt;[128, 256] int8&lt;br&gt;= 64 KB&lt;br&gt;预取中的下一 K tile" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="1480" y="550" width="220" height="90" as="geometry" />
+        <mxCell id="s5" value="V NZ→ND conv&lt;div&gt;Fractal → ND&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="320" width="160" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="l1_kp_b2" value="&lt;b&gt;KP buffer [2]&lt;/b&gt;&lt;br&gt;[128, 256] int8&lt;br&gt;= 64 KB&lt;br&gt;PSE 复用 或&lt;br&gt;更深 pre-load" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="1720" y="550" width="220" height="90" as="geometry" />
+        <mxCell id="s6" value="Q_reduced L1→L0A&lt;div&gt;IMG2COL&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="400" width="160" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="l1_sum" value="Σ L1 使用: 192 (Q) + 128 (V) + 192 (KP) = &lt;b&gt;512 KB&lt;/b&gt; = A2 单核 L1 全部容量&lt;br&gt;全部用于 bmm1/bmm2 的 A/B operand 预取, 双/三 buffer 流水掩盖 GM→L1 延迟" style="text;html=1;align=left;fontSize=11;fontStyle=5;fontColor=#CC0000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="60" y="690" width="1000" height="40" as="geometry" />
+        <mxCell id="s7" value="K_reduced^T L1→L0B&lt;div&gt;LOAD2D&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="460" width="160" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="l1_block_note" value="每 block 内部物理布局 (以 L1_K 为例):&lt;br&gt;行 = 128 (K0 dim, Cube 引擎固定 K 维)&lt;br&gt;列 = 192/256 (S2 tile 上限)&lt;br&gt;dtype = INT8 (1 byte/element)&lt;br&gt;fractal 格式: Z 形交织 (M0=16, K0=16 子块)" style="text;html=1;align=left;fontSize=10;fontColor=#666666;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="690" width="400" height="90" as="geometry" />
+        <mxCell id="s8" value="bmm1: Q @ K^T&lt;div&gt;A_MUL_B&lt;/div&gt;&lt;div&gt;[B,N,1,S_blk]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="640" y="400" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="ub_box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#82b366;strokeWidth=2;verticalAlign=top;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="40" y="860" width="1960" height="500" as="geometry" />
+        <mxCell id="s9" value="scores * scale&lt;div&gt;RowMuls 1/sqrt(d)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="840" y="400" width="160" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="ub_title" value="UB (per core, 256 KB) — 中间结果 + Vector 计算缓冲" style="text;html=1;align=left;fontSize=13;fontStyle=5;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="50" y="865" width="700" height="24" as="geometry" />
+        <mxCell id="s10" value="atten_mask apply&lt;div&gt;Add(-inf mask)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="840" y="460" width="160" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="ub_note" value="UB 不直接参与 Cube 计算, 主要用途:&lt;br style=&quot;font-size: 14px;&quot;&gt;1. Cube L0C 输出的中转 (INT32 结果先写 UB)&lt;br style=&quot;font-size: 14px;&quot;&gt;2. Vector 单元做 softmax/dequant/quant 的工作区&lt;br style=&quot;font-size: 14px;&quot;&gt;3. 累加器 accumOut 的存储&lt;br style=&quot;font-size: 14px;&quot;&gt;4. 向 L0A 喂 attn (softmax 后 INT8 量化) 的来源&lt;br style=&quot;font-size: 14px;&quot;&gt;5. 最终输出 BF16 的暂存, 再由 MTE1 写回 GM" style="text;html=1;align=left;fontSize=14;fontColor=#666666;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="50" y="920" width="500" height="110" as="geometry" />
+        <mxCell id="s11" value="Row Max&lt;div&gt;ReduceMax&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="840" y="520" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ub_q" value="&lt;b&gt;qUbTensor&lt;/b&gt;&lt;br&gt;[S1_tile, D] BF16&lt;br&gt;当前处理 Q 头组的 UB 副本&lt;br&gt;(从 L1_Q 转来, 给 Vector 用)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="600" y="900" width="240" height="90" as="geometry" />
+        <mxCell id="s12" value="sub + exp&lt;div&gt;Exp(scores - max)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="840" y="570" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ub_mm1" value="&lt;b&gt;mm1ResUb (bmm1 结果)&lt;/b&gt;&lt;br&gt;[S1_tile, S2_tile] &lt;b&gt;INT32&lt;/b&gt;&lt;br&gt;Cube L0C 输出, INT8×INT8 累加&lt;br&gt;后接 dequant scale 调整&lt;br&gt;→ 转 FP32 进 softmax&lt;br&gt;(size: mmResUbSize)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="860" y="900" width="260" height="120" as="geometry" />
+        <mxCell id="s13" value="Row Sum&lt;div&gt;ReduceSum&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="840" y="620" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ub_softmax" value="&lt;b&gt;softmaxTmpUb&lt;/b&gt;&lt;br&gt;softmax 中间状态&lt;br&gt;FP32 max/sum/exp&lt;br&gt;FlashAttention 跨 S2 迭代的状态&lt;br&gt;(prev_max, prev_sum 携带)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1140" y="900" width="260" height="120" as="geometry" />
+        <mxCell id="s14" value="div (attn = exp/sum)&lt;div&gt;RowDivs&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="840" y="670" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ub_attnq" value="&lt;b&gt;attnQuantUb&lt;/b&gt;&lt;br&gt;softmax 输出&lt;br&gt;&lt;b&gt;INT8&lt;/b&gt; 量化后&lt;br&gt;写回 L0A 作为 bmm2 的 A 操作数&lt;br&gt;(A8 activation)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="1420" y="900" width="240" height="120" as="geometry" />
+        <mxCell id="s15" value="attn L1→L0A&lt;div&gt;IMG2COL&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="730" width="160" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="ub_mm2" value="&lt;b&gt;mm2ResUb (bmm2 结果)&lt;/b&gt;&lt;br&gt;[S1_tile, D] &lt;b&gt;INT32&lt;/b&gt;&lt;br&gt;Cube L0C 输出&lt;br&gt;= attn_INT8 × V_INT8 累加&lt;br&gt;后接 dequant 反量化到 FP32" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1680" y="900" width="260" height="120" as="geometry" />
+        <mxCell id="s16" value="V L1→L0B&lt;div&gt;LOAD2D&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="790" width="160" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="ub_accum" value="&lt;b&gt;accumOutUb (累加器)&lt;/b&gt;&lt;br&gt;[S1_tile, D] &lt;b&gt;FP32&lt;/b&gt;&lt;br&gt;FlashAttention 跨 S2 迭代累加&lt;br&gt;new_accum = old_accum × exp_factor + partial&lt;br&gt;最终结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="600" y="1050" width="300" height="120" as="geometry" />
+        <mxCell id="s17" value="bmm2: attn @ V&lt;div&gt;A_MUL_B&lt;/div&gt;&lt;div&gt;[B,N,1,D_reduced]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="640" y="730" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="ub_lse" value="&lt;b&gt;softmaxMaxUb / softmaxSumUb&lt;/b&gt;&lt;br&gt;[S1_tile, 1] &lt;b&gt;FP32&lt;/b&gt;&lt;br&gt;FlashAttention 跨 S2 迭代的 max/sum 状态&lt;br&gt;与 accumOut 同步更新&lt;br&gt;new_max = cur_max, new_sum = old_sum × exp + cur_sum" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="920" y="1050" width="320" height="120" as="geometry" />
+        <mxCell id="s18" value="bmm2_out L0C→UB&lt;div&gt;COPY&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="730" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ub_out" value="&lt;b&gt;outUb (最终输出)&lt;/b&gt;&lt;br&gt;[S1_tile, D] &lt;b&gt;BF16&lt;/b&gt;&lt;br&gt;accumOut 除以 softmax_sum 后&lt;br&gt;FP32 → BF16 转换&lt;br&gt;→ MTE1 写回 GM attention_out" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1260" y="1050" width="260" height="120" as="geometry" />
+        <mxCell id="s19" value="MLA 升维 D=128→512&lt;div&gt;Vector MatMul&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="840" y="810" width="160" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="ub_fd" value="&lt;b&gt;FlashDecode 工作区&lt;/b&gt;&lt;br&gt;per-core partial result + lse&lt;br&gt;FP32, 写 workspace&lt;br&gt;rank0 收集所有核结果&lt;br&gt;做跨核加权规约" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="1540" y="1050" width="260" height="120" as="geometry" />
+        <mxCell id="s20" value="accum_out += partial&lt;div&gt;Add (FlashAttention)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="840" y="870" width="160" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="l0a_box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#6c8ebf;strokeWidth=2;verticalAlign=top;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1400" width="1960" height="260" as="geometry" />
+        <mxCell id="s21" value="i++ &amp; loop check" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="870" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="l0a_title" value="L0A (64 KB) — Cube operand A 输入, 来自 L1, 经 IMG2COL 转换为 fractal 格式" style="text;html=1;align=left;fontSize=13;fontStyle=5;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="50" y="1405" width="900" height="24" as="geometry" />
+        <mxCell id="e0" value="━━ Epilog: 最终归一化 + 写回 ━━" style="text;html=1;align=left;fontSize=11;fontStyle=5;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="40" y="940" width="1100" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="l0a_bw" value="L1→L0A 带宽: 512 bytes/cycle&lt;br&gt;fractal 格式: 16×16 子块 (M0=16, K0=16)&lt;br&gt;整个 L0A = 256 × 128 (典型 Cube tile)" style="text;html=1;align=left;fontSize=10;fontColor=#666666;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="50" y="1435" width="400" height="50" as="geometry" />
+        <mxCell id="e1" value="accum / softmax_sum&lt;div&gt;RowDivs final&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="840" y="970" width="160" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="l0a_bmm1" value="&lt;b&gt;场景 1: bmm1 operand A (Q 端)&lt;/b&gt;&lt;br&gt;来源: L1_Q → IMG2COL → L0A&lt;br&gt;dtype: &lt;b&gt;BF16&lt;/b&gt; (Q_T = half)&lt;br&gt;logical shape: [S1_tile, D] = [256, 128]&lt;br&gt;fractal shape: [M0=16, K0=8, C0=16]&lt;br&gt;每行 = S1 维, 每列 = D 维&lt;br&gt;注: BF16 → Cube 内部转 INT8 参与计算" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="500" y="1450" width="380" height="160" as="geometry" />
+        <mxCell id="e2" value="BF16 cast&lt;div&gt;(if COMPUTE=FP32)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="840" y="1030" width="160" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="l0a_bmm2" value="&lt;b&gt;场景 2: bmm2 operand A (attn 端)&lt;/b&gt;&lt;br&gt;来源: UB attnQuantUb → LOAD → L0A&lt;br&gt;dtype: &lt;b&gt;INT8&lt;/b&gt; (softmax 后重新量化)&lt;br&gt;logical shape: [S1_tile, S2_tile] = [256, 128]&lt;br&gt;fractal shape: [M0=16, K0=8, C0=16]&lt;br&gt;每行 = S1 维 (Q 位置), 每列 = S2 维 (K 位置)&lt;br&gt;每元素 = softmax(Q×K^T) 的 INT8 量化值 (A8)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="920" y="1450" width="400" height="160" as="geometry" />
+        <mxCell id="e3" value="attention_out&lt;div&gt;UB → GM&lt;/div&gt;&lt;div&gt;MTE1 DMA&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="440" y="1030" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="l0a_fract" value="Fractal NZ 内部布局 (示意):&lt;br&gt;┌──┬──┬──...─┐&lt;br&gt;│16│16│16     │ ← K0=16 子块&lt;br&gt;├──┼──┼──...─┤&lt;br&gt;│16│16│16     │&lt;br&gt;└──┴──┴──...─┘&lt;br&gt;↑ M0=16&lt;br&gt;共 16 列 K0 子块 (K0_total=256)" style="text;html=1;align=left;fontSize=9;fontColor=#666666;fillColor=#f5f5f5;strokeColor=#999999;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="1450" width="260" height="160" as="geometry" />
+        <mxCell id="e4" value="softmax_lse (FP32)&lt;div&gt;UB → GM&lt;/div&gt;&lt;div&gt;MTE1 DMA&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="440" y="1110" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="l0b_box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#6c8ebf;strokeWidth=2;verticalAlign=top;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1700" width="1960" height="260" as="geometry" />
+        <mxCell id="a1" style="edgeStyle=orthogonalEdgeStyle;" parent="1" source="p1" target="p2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l0b_title" value="L0B (64 KB) — Cube operand B 输入, 来自 L1, 经 LOAD2D 转换为 fractal 格式" style="text;html=1;align=left;fontSize=13;fontStyle=5;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="50" y="1705" width="900" height="24" as="geometry" />
+        <mxCell id="a2" style="edgeStyle=orthogonalEdgeStyle;" parent="1" source="p2" target="p3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l0b_bw" value="L1→L0B 带宽: 256 bytes/cycle (比 L0A 慢一半)&lt;br&gt;fractal 格式: 16×16 子块 (K0=16, N0=16)&lt;br&gt;整个 L0B = 128 × 256 (典型 Cube tile)" style="text;html=1;align=left;fontSize=10;fontColor=#666666;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="50" y="1735" width="400" height="50" as="geometry" />
+        <mxCell id="a3" style="edgeStyle=orthogonalEdgeStyle;" parent="1" source="s1" target="s2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l0b_bmm1" value="&lt;b&gt;场景 1: bmm1 operand B (K^T 端)&lt;/b&gt;&lt;br&gt;来源: L1_KP → LOAD2D → L0B&lt;br&gt;dtype: &lt;b&gt;INT8&lt;/b&gt; (KV_T = int8_t, W8 weight)&lt;br&gt;logical shape: [D, S2_tile] = [128, 128]&lt;br&gt;fractal shape: [K0=8, N0=8, C0=16]&lt;br&gt;每行 = D 维 (head_dim), 每列 = S2 维 (K 位置)&lt;br&gt;= K 的转置, W8 权重路径" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="500" y="1750" width="380" height="160" as="geometry" />
+        <mxCell id="a4" style="edgeStyle=orthogonalEdgeStyle;" parent="1" source="s4" target="s5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l0b_bmm2" value="&lt;b&gt;场景 2: bmm2 operand B (V 端)&lt;/b&gt;&lt;br&gt;来源: L1_V → LOAD2D → L0B&lt;br&gt;dtype: &lt;b&gt;INT8&lt;/b&gt; (KV_T = int8_t, W8 weight)&lt;br&gt;logical shape: [S2_tile, D] = [128, 128]&lt;br&gt;fractal shape: [K0=8, N0=8, C0=16]&lt;br&gt;每行 = S2 维 (K 位置), 每列 = D 维 (head_dim)&lt;br&gt;= V, W8 权重路径" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="920" y="1750" width="400" height="160" as="geometry" />
+        <mxCell id="a5" style="edgeStyle=orthogonalEdgeStyle;" parent="1" source="p3" target="s8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l0c_box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#6c8ebf;strokeWidth=2;verticalAlign=top;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="40" y="2000" width="1960" height="300" as="geometry" />
+        <mxCell id="a6" style="edgeStyle=orthogonalEdgeStyle;" parent="1" source="s8" target="s9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l0c_title" value="L0C (128 KB) — Cube 累加输出, 写回 UB" style="text;html=1;align=left;fontSize=13;fontStyle=5;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="50" y="2005" width="700" height="24" as="geometry" />
+        <mxCell id="a7" style="edgeStyle=orthogonalEdgeStyle;" parent="1" source="s14" target="s17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l0c_bw" value="L0C→UB 带宽: 256 bytes/cycle&lt;br&gt;Cube 引擎累加结果, 精度由 operand 决定:&lt;br&gt;INT8 × INT8 → INT32 (本场景)&lt;br&gt;BF16 × BF16 → FP32 (NonQuant BF16 路径)" style="text;html=1;align=left;fontSize=10;fontColor=#666666;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="50" y="2035" width="450" height="70" as="geometry" />
+        <mxCell id="a8" style="edgeStyle=orthogonalEdgeStyle;" parent="1" source="s17" target="s19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l0c_bmm1" value="&lt;b&gt;场景 1: bmm1 结果&lt;/b&gt;&lt;br&gt;= L0A[Q_BF16] × L0B[K^T_INT8]&lt;br&gt;dtype: &lt;b&gt;INT32&lt;/b&gt; (累加器精度)&lt;br&gt;logical shape: [S1_tile, S2_tile] = [256, 128]&lt;br&gt;fractal shape: [M0=16, N0=8, C0=16]&lt;br&gt;每元素 = Σ_k Q[k] × K^T[k] (INT8×INT8 累加)&lt;br&gt;→ 写 UB mm1ResUb, 后接 dequant scale" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="540" y="2050" width="400" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="l0c_bmm2" value="&lt;b&gt;场景 2: bmm2 结果&lt;/b&gt;&lt;br&gt;= L0A[attn_INT8] × L0B[V_INT8]&lt;br&gt;dtype: &lt;b&gt;INT32&lt;/b&gt; (累加器精度)&lt;br&gt;logical shape: [S1_tile, D] = [256, 128]&lt;br&gt;fractal shape: [M0=16, N0=8, C0=16]&lt;br&gt;每元素 = Σ_k attn[k] × V[k] (INT8×INT8 累加)&lt;br&gt;→ 写 UB mm2ResUb, 后接 dequant → 累加到 accumOut" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="980" y="2050" width="420" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="summary0" value="关键要点 (结合 Qwen3-32B W8A8 on A2)" style="text;html=1;align=left;fontSize=14;fontStyle=5;" parent="1" vertex="1">
-          <mxGeometry x="40" y="2340" width="500" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="summary1" value="1. &lt;b&gt;A2 上 W8A8 的实际含义&lt;/b&gt;: Q 以 BF16 存储, 在 L0A 由 Cube 内部转为 INT8; KV cache 以 INT8 存储 (W8); Cube 执行 INT8×INT8→INT32; softmax 后 attn 再 INT8 量化回 L0A (A8). 即 &#39;A8&#39; 指 attn 量化, &#39;W8&#39; 指 KV 量化, 整体在 Cube 内走 INT8 路径" style="text;html=1;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="40" y="2370" width="1400" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="summary2" value="2. &lt;b&gt;L1 是性能瓶颈&lt;/b&gt;: 512 KB 全部打满, 无剩余. 通过 double/triple buffering 让 MTE3 预取与 Cube 计算并行. 增加 pre-load 深度需要牺牲 tile 大小" style="text;html=1;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="40" y="2395" width="1400" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="summary3" value="3. &lt;b&gt;GQA 影响 L1 复用&lt;/b&gt;: Qwen3-32B 的 gSize=5 (40/5 = 8 KV heads). 同一 K/V tile 被 5 个 Q head 复用, 提高 L1_KP 和 L1_V 的有效利用率" style="text;html=1;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="40" y="2420" width="1400" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="summary4" value="4. &lt;b&gt;L0A 与 L0B 带宽不对称&lt;/b&gt;: L1→L0A 512 B/cycle vs L1→L0B 256 B/cycle. 设计上 A 操作数 (Q/attn) 喂得比 B 操作数 (K^T/V) 快, 与 A 侧需频繁换 (每 S2 iter 都变) 而 B 侧相对稳定匹配" style="text;html=1;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="40" y="2445" width="1500" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="summary5" value="5. &lt;b&gt;UB 是 Vector 单元的主战场&lt;/b&gt;: softmax 的 max/exp/sum/div、dequant/quant 类型转换、累加器状态维护全在 UB 上完成. UB 256 KB 需容纳 mm1/mm2 结果 + softmax 状态 + accum + 输出, 是 UB 容量规划的关键" style="text;html=1;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="40" y="2470" width="1500" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="summary6" value="6. &lt;b&gt;Cube 输出是 INT32&lt;/b&gt;: 即使 operand 是 INT8, 累加结果也按 INT32 保留 (避免溢出). 写回 UB 后由 Vector 单元做 dequant scale 调整 + 类型转换 (INT32 → FP32 → BF16)" style="text;html=1;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="40" y="2495" width="1500" height="24" as="geometry" />
+        <mxCell id="a9" style="edgeStyle=orthogonalEdgeStyle;" parent="1" source="e1" target="e3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
