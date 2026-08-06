@@ -136,6 +136,11 @@
         <mxCell id="c44" value="L1_TO_L0A&lt;div&gt;#10551&lt;/div&gt;&lt;div&gt;size: 4KB&lt;/div&gt;&lt;div&gt;L1-&gt;L0A&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="2369" width="120" height="72" as="geometry" />
         </mxCell>
+        <mxCell id="S89GZWrrB17sbU7p-hQY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="3479" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="c45" value="L0C_COPY_UB&lt;div&gt;#10549&lt;/div&gt;&lt;div&gt;size: 4KB&lt;/div&gt;&lt;div&gt;L0C-&gt;UB&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1100" y="3443" width="120" height="72" as="geometry" />
         </mxCell>
