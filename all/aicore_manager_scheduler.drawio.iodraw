@@ -167,10 +167,6 @@
         </mxCell>
         <mxCell id="dep-task-ctx" value="pendingIds_/runningIds_&lt;div&gt;A1 依赖 wrapCoreAvail_（强制True）校验&lt;/div&gt;&lt;div&gt;（可忽略）&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#CC6600;strokeColor=#CC6600;strokeWidth=1;dashed=1;exitX=0.3;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mgr-task" target="ctx-pr-f3" edge="1">
           <mxGeometry x="0.3926" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-360" y="-506" />
-              <mxPoint x="-360" y="516" />
-            </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
