@@ -238,7 +238,7 @@
           <mxGeometry x="1350" y="740" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-4" value="执行中&#xa;pending=INIT&#xa;running=taskId" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="1000" width="210" height="60" as="geometry" />
+          <mxGeometry x="920" y="1110" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-5" value="双缓冲&#xa;pending=taskId_B&#xa;running=taskId_A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="1350" y="1000" width="210" height="60" as="geometry" />
@@ -300,14 +300,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fsm-e33" value="CopyOut (running 继续)&#xa;resolveIndexBase 推进&#xa;ResolveCopyOutDepDyn" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#3366CC;strokeColor=#3366CC;strokeWidth=1.5;dashed=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="wuAuFMzWLC_8M6y4LzJn-4" target="wuAuFMzWLC_8M6y4LzJn-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="880" y="1015" />
-              <mxPoint x="880" y="990" />
-              <mxPoint x="1160" y="990" />
-              <mxPoint x="1160" y="1015" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fsm-note" value="ReleaseCoreByRegVal 读 GetFinishedTask(coreIdx) → finTaskRegVal&#xa;  ├─ finTaskId = REG_LOW_TASK_ID (低31位) 匹配 pendingIds_ / runningIds_&#xa;  ├─ finTaskState = REG_LOW_TASK_STATE (bit31): FINISH=1 完成, ACK=0 确认&#xa;  ├─ aicpuCallCode = finTaskRegVal &gt;&gt; 32: ≠0 表示 CopyOut (部分输出已完成, 任务继续执行)&#xa;  └─ ResolveCopyOutDepDyn: 按 copyOutResolveCounter 推进依赖解析游标&#xa;CheckStopTaskCanBeSent: 尾批 ACK 即标记完成, 不等 FINISH (并行化尾批停止)" style="text;html=1;strokeColor=#82b366;fillColor=#f0fff0;align=left;verticalAlign=middle;spacingLeft=6;spacingTop=11;fontSize=12;fontFamily=Courier New;fontColor=#333333;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="860" y="1300" width="620" height="120" as="geometry" />
