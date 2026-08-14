@@ -80,58 +80,58 @@
           <mxGeometry y="41" width="750" height="19" as="geometry" />
         </mxCell>
         <mxCell id="ctx" value="SchduleContext (跨 AICPU 共享)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-100" y="450" width="700" height="503" as="geometry" />
+          <mxGeometry x="-100" y="450" width="840" height="503" as="geometry" />
         </mxCell>
         <mxCell id="ctx-qd" value="快表派发 (第一阶段 BatchSendTask)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="ctx" vertex="1">
-          <mxGeometry y="30" width="700" height="139" as="geometry" />
+          <mxGeometry y="30" width="840" height="139" as="geometry" />
         </mxCell>
         <mxCell id="ctx-qd-f1" value="uint8_t coreRunReadyCnt_[2]         ← 快表中的就绪核数 (AIC=0, AIV=1)：按照任务类型分别管理" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-qd" vertex="1">
-          <mxGeometry y="22" width="700" height="33" as="geometry" />
+          <mxGeometry y="22" width="840" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-qd-f2" value="uint8_t runReadyCoreIdx_[2][8]      ← 快表：就绪核索引数组 [type][0..7]，此处要考虑双缓冲场景，应该为16." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-qd" vertex="1">
-          <mxGeometry y="55" width="700" height="30" as="geometry" />
+        <mxCell id="ctx-qd-f2" value="uint8_t runReadyCoreIdx_[2][8]      ← 快表：就绪核索引数组 [type][0..7]，此处要考虑双缓冲场景，应该为16.&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;第2维的索引保存在coreRunReadCnt_中&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-qd" vertex="1">
+          <mxGeometry y="55" width="840" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ctx-qd-f3" value="uint8_t coreIdxPosition_[16]        ← 核在 runReadyCoreIdx_[type] 中的位置" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-qd" vertex="1">
-          <mxGeometry y="85" width="700" height="25" as="geometry" />
+          <mxGeometry y="85" width="840" height="25" as="geometry" />
         </mxCell>
         <mxCell id="ctx-qd-f4" value="  INVALID_COREIDX_POSITION = 0xff  ← 不在任何快表中; 默认值 0 是潜在 bug" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;fontColor=#CC0000;" parent="ctx-qd" vertex="1">
-          <mxGeometry y="110" width="700" height="29" as="geometry" />
+          <mxGeometry y="110" width="840" height="29" as="geometry" />
         </mxCell>
         <mxCell id="ctx-pr" value="环形扫描派发 (第二阶段 BatchSendTask)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="ctx" vertex="1">
-          <mxGeometry y="169" width="700" height="139" as="geometry" />
+          <mxGeometry y="169" width="840" height="139" as="geometry" />
         </mxCell>
         <mxCell id="ctx-pr-f1" value="uint8_t corePendReadyCnt_[2]        ← 可派发的核总数 (快表 + pend 扫描)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-pr" vertex="1">
-          <mxGeometry y="22" width="700" height="29" as="geometry" />
+          <mxGeometry y="22" width="840" height="29" as="geometry" />
         </mxCell>
         <mxCell id="ctx-pr-f2" value="uint8_t lastPendReadyCoreIdx_[2]    ← 环形扫描游标，记录上次扫描到的位置" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-pr" vertex="1">
-          <mxGeometry y="51" width="700" height="30" as="geometry" />
+          <mxGeometry y="51" width="840" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ctx-pr-f3" value="bool wrapCoreAvail_[16]             ← 核是否空闲 (true=可用, false=已占用)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-pr" vertex="1">
-          <mxGeometry y="81" width="700" height="30" as="geometry" />
+          <mxGeometry y="81" width="840" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ctx-pr-f4" value="  派发时设 false; tail task 完成时 CheckStopTaskCanBeSent 恢复 true" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;fontColor=#666666;" parent="ctx-pr" vertex="1">
-          <mxGeometry y="111" width="700" height="28" as="geometry" />
+          <mxGeometry y="111" width="840" height="28" as="geometry" />
         </mxCell>
         <mxCell id="ctx-tw" value="任务等待" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" parent="ctx" vertex="1">
-          <mxGeometry y="308" width="700" height="83" as="geometry" />
+          <mxGeometry y="308" width="840" height="83" as="geometry" />
         </mxCell>
         <mxCell id="ctx-tw-f1" value="uint32_t waitTaskCnt_[2]            ← 待处理任务计数器" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-tw" vertex="1">
-          <mxGeometry y="22" width="700" height="31" as="geometry" />
+          <mxGeometry y="22" width="840" height="31" as="geometry" />
         </mxCell>
         <mxCell id="ctx-tw-f2" value="ParallelSchDeviceTaskContext schParallelDevTaskCtx  ← 并行 devTask 上下文" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-tw" vertex="1">
-          <mxGeometry y="53" width="700" height="30" as="geometry" />
+          <mxGeometry y="53" width="840" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ctx-cn" value="约束 (uint8_t 溢出风险)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="ctx" vertex="1">
-          <mxGeometry y="391" width="700" height="112" as="geometry" />
+          <mxGeometry y="391" width="840" height="112" as="geometry" />
         </mxCell>
         <mxCell id="ctx-cn-f1" value="coreRunReadyCnt_[type] ≤ coreNum    ← BatchSendTask line 1079 检查" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-cn" vertex="1">
-          <mxGeometry y="22" width="700" height="27" as="geometry" />
+          <mxGeometry y="22" width="840" height="27" as="geometry" />
         </mxCell>
         <mxCell id="ctx-cn-f2" value="corePendReadyCnt_[type] ≤ coreNum   ← 超限返回 CORE_INFO_INVALID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-cn" vertex="1">
-          <mxGeometry y="49" width="700" height="32" as="geometry" />
+          <mxGeometry y="49" width="840" height="32" as="geometry" />
         </mxCell>
         <mxCell id="ctx-cn-f3" value="--coreRunReadyCnt_[type] 若 type 计数为 0 → 下溢到 255 → runReadyCoreIdx_[255] OOB" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;fontColor=#CC0000;" parent="ctx-cn" vertex="1">
-          <mxGeometry y="81" width="700" height="31" as="geometry" />
+          <mxGeometry y="81" width="840" height="31" as="geometry" />
         </mxCell>
         <mxCell id="hw" value="Hardware Registers (通过 AicoreHAL 访问)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1040" y="350" width="670" height="144" as="geometry" />
