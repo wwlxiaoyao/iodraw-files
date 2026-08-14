@@ -440,6 +440,9 @@
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-10" value="CheckSTopTaskCanBeSent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wuAuFMzWLC_8M6y4LzJn-63">
           <mxGeometry x="140" width="200" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-65" value="bool wrapCoreAvail_[16]             ← 核是否空闲 (true=可用, false=已占用)： 仅A5使用，其他芯片均为True&lt;div&gt;&lt;span style=&quot;color: rgb(102, 102, 102);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 派发时设 false; tail task 完成时 CheckStopTaskCanBeSent 恢复 true&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="500" width="840" height="41" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
