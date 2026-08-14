@@ -407,7 +407,7 @@
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-49" value="aivStart_" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1305.01" y="-780" width="75.01" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wuAuFMzWLC_8M6y4LzJn-50" value="aicEnd_" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-50" value="aivEnd_" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1550.02" y="-780" width="75.01" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.034;entryY=0.056;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF00FF;" edge="1" parent="1">
@@ -418,6 +418,12 @@
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-52" value="adjAivEnd_" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1475.01" y="-820" width="75.01" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-53" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;whiteSpace=wrap;strokeColor=#999999;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="-221.31" width="410.01" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-54" value="总核数aicValidNum_" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1182.51" y="-201.31" width="115.01" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
