@@ -194,7 +194,7 @@
           <mxGeometry y="125" width="670" height="19" as="geometry" />
         </mxCell>
         <mxCell id="fsm" value="核状态矩阵 (pendingIds_ × runningIds_ 双缓冲)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="540" y="510" width="620" height="846" as="geometry" />
+          <mxGeometry x="830" y="610" width="620" height="846" as="geometry" />
         </mxCell>
         <mxCell id="fsm-h0" value="" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="fsm">
           <mxGeometry y="26" width="620" height="26" as="geometry" />
@@ -307,6 +307,11 @@
               <mxPoint x="-330" y="-139" />
               <mxPoint x="-330" y="1013" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="legend">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-330" y="1300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="legend" value="图例" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;" parent="1" vertex="1">
