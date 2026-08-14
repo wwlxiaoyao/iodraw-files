@@ -80,7 +80,7 @@
           <mxGeometry y="41" width="750" height="19" as="geometry" />
         </mxCell>
         <mxCell id="part-detail" value="4 字段分区模型" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1120" y="30" width="610" height="280" as="geometry" />
+          <mxGeometry x="930" y="-110" width="610" height="280" as="geometry" />
         </mxCell>
         <mxCell id="part-d1" value="DAV_2002 (A1) 动态分区" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=12;fontStyle=1" parent="part-detail" vertex="1">
           <mxGeometry y="26" width="610" height="20" as="geometry" />
@@ -262,7 +262,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dep-task-ctx" value="pendingIds_/runningIds_ 依赖 wrapCoreAvail_ 校验" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#CC6600;strokeColor=#CC6600;strokeWidth=1;dashed=1;exitX=0.3;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mgr-task" target="ctx-pr-f3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-330" y="-139" />
+              <mxPoint x="-330" y="1013" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="legend" value="图例" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="900" y="1090" width="490" height="90" as="geometry" />
