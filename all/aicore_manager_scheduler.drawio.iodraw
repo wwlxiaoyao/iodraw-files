@@ -347,6 +347,30 @@
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-32" value="CheckSTopTaskCanBeSent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1050" y="-140" width="200" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1024.99" y="-720" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-34" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;whiteSpace=wrap;strokeColor=#999999;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="1024.98" y="-681.31" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-35" value="AIC段&lt;div&gt;!= aicNum_&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1092.49" y="-661.31" width="115.01" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="wuAuFMzWLC_8M6y4LzJn-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1024.99" y="-750" as="sourcePoint" />
+            <mxPoint x="1274.99" y="-586" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1273.99" y="-749" as="sourcePoint" />
+            <mxPoint x="1273.99" y="-719" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-38" value="aicStart_" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="994.99" y="-780" width="75.01" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
