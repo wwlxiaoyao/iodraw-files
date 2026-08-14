@@ -238,7 +238,7 @@
           <mxGeometry x="1260" y="727.5" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-4" value="执行中&#xa;pending=INIT&#xa;running=taskId" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="887.5" width="150" height="60" as="geometry" />
+          <mxGeometry x="970" y="1010" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-5" value="双缓冲&#xa;pending=taskId_B&#xa;running=taskId_A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="1260" y="887.5" width="150" height="60" as="geometry" />
