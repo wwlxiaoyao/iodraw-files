@@ -25,7 +25,7 @@
         <mxCell id="mgr-part-f5" value="int adjAicEnd_ / adjAivEnd_ ← 本 AICPU 分摊上界" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-part" vertex="1">
           <mxGeometry y="118" width="750" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-task" value="任务跟踪 (per-core 双缓冲)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="mgr" vertex="1">
+        <mxCell id="mgr-task" value="任务跟踪 (per-core 双缓冲 -&amp;gt; 相关管理数据结构需要考虑空间double，否则存在溢出风险)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="mgr" vertex="1">
           <mxGeometry y="177" width="750" height="146" as="geometry" />
         </mxCell>
         <mxCell id="mgr-task-f1" value="uint32_t runningIds_[MAX_AICORE_NUM]          ← 初始为AICORE_STATUS_INIT = 空闲" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-task" vertex="1">
