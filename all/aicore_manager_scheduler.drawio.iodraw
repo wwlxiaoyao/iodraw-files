@@ -450,7 +450,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pend-fsm" value="&lt;span style=&quot;font-size: 14px; font-weight: 700;&quot;&gt;corePendReadyCnt_ / lastPendReadyCoreIdx_ 可派发核池状态机&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="130" y="1610" width="750" height="380" as="geometry" />
+          <mxGeometry x="-50" y="1605" width="750" height="380" as="geometry" />
         </mxCell>
         <mxCell id="pend-s1" value="可派发&#xa;pendReadyCnt_ &gt; 0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="1670" width="180" height="60" as="geometry" />
@@ -486,7 +486,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pend-note" value="lastPendReadyCoreIdx_ 游标语义:&#xa;  ├─ 指向环形扫描的起始位置，跨 BatchSendTask 调用保持 round-robin 公平性&#xa;  ├─ 每次 BatchSendTask 第二阶段成功派发后推进: (lastProcCore + 1) % coreNum&#xa;  ├─ CalcAdjAicoreEnd 不重置游标（跨 devTask 保留连续性）&#xa;  └─ 只有 UpdateAiCoreBlockIndexSection (Init) 才初始化为 aicStart_/aivStart_&#xa;&#xa;corePendReadyCnt_ 计数语义:&#xa;  ├─ 表示可派发核配额，同时覆盖快表 (runReadyCoreIdx_) 和环形扫描核&#xa;  ├─ 派发时递减 (BatchSendTask), 核完成时递增 (ReleaseCoreByRegVal pending FINISH)&#xa;  ├─ running FINISH 不递增 (核已在 pending FINISH 时归还配额)&#xa;  └─ devTask 切换时 RESET 为 adj 范围 (CalcAdjAicoreEnd)" style="text;html=1;strokeColor=#82b366;fillColor=#f0fff0;align=left;verticalAlign=top;spacingLeft=6;spacingTop=8;fontSize=12;fontFamily=Courier New;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="900" y="1700" width="550" height="220" as="geometry" />
+          <mxGeometry x="900" y="1700" width="550" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
