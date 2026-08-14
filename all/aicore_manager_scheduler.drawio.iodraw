@@ -80,7 +80,7 @@
           <mxGeometry y="41" width="750" height="19" as="geometry" />
         </mxCell>
         <mxCell id="ctx" value="SchduleContext (跨 AICPU 共享)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-140" y="90" width="840" height="564" as="geometry" />
+          <mxGeometry x="-140" y="90" width="840" height="511" as="geometry" />
         </mxCell>
         <mxCell id="ctx-qd" value="快表派发 (第一阶段 BatchSendTask)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="ctx" vertex="1">
           <mxGeometry y="30" width="840" height="259" as="geometry" />
@@ -117,12 +117,6 @@
         </mxCell>
         <mxCell id="ctx-tw-f2" value="ParallelSchDeviceTaskContext schParallelDevTaskCtx  ← 并行 devTask 上下文" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-tw" vertex="1">
           <mxGeometry y="53" width="840" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ctx-cn" value="约束 (uint8_t 溢出风险)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="ctx" vertex="1">
-          <mxGeometry y="511" width="840" height="53" as="geometry" />
-        </mxCell>
-        <mxCell id="ctx-cn-f3" value="--coreRunReadyCnt_[type] 若 type 计数为 0 → 下溢到 255 → runReadyCoreIdx_[255] OOB" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;fontColor=#CC0000;" parent="ctx-cn" vertex="1">
-          <mxGeometry y="22" width="840" height="31" as="geometry" />
         </mxCell>
         <mxCell id="hw" value="Hardware Registers (通过 AicoreHAL 访问)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1040" y="350" width="670" height="144" as="geometry" />
@@ -445,6 +439,9 @@
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-10" value="CheckSTopTaskCanBeSent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wuAuFMzWLC_8M6y4LzJn-63">
           <mxGeometry x="140" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-64" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="100" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
