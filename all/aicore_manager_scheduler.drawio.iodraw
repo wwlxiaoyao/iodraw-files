@@ -88,7 +88,7 @@
         <mxCell id="part-d2" value="aicStart_=0  ───────────────────────────────────── aivEnd_=aicStart_+aicValidNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="part-detail" vertex="1">
           <mxGeometry y="46" width="610" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="part-d3" value="│←── AIC 段 ──→│←── AIV 段 ──→│" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=6;fontSize=13;fontFamily=Courier New;" parent="part-detail" vertex="1">
+        <mxCell id="part-d3" value="│←── AIC 段 ──→│←── AIV 段 ──→│" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="part-detail" vertex="1">
           <mxGeometry y="62" width="610" height="16" as="geometry" />
         </mxCell>
         <mxCell id="part-d4" value="aicStart_     aicEnd_=aivStart_     aivEnd_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="part-detail" vertex="1">
@@ -106,7 +106,7 @@
         <mxCell id="part-d8" value="aicStart_=schedIdx_*aicNum_   aicEnd_=aicStart_+aicNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="part-detail" vertex="1">
           <mxGeometry y="138" width="610" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="part-d9" value="aivStart_=schedIdx_*aivNum_   aivEnd_=aivStart_+aivNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="part-detail" vertex="1">
+        <mxCell id="part-d9" value="aivStart_=schedIdx_*aivNum_   aivEnd_=aivStart_+aivNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=13;fontFamily=Courier New;" parent="part-detail" vertex="1">
           <mxGeometry y="154" width="610" height="16" as="geometry" />
         </mxCell>
         <mxCell id="part-d10" value="adjAicEnd_/adjAivEnd_ 由 CalcAdjAicoreEnd 按 schedIdx_ 分摊" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="part-detail" vertex="1">
