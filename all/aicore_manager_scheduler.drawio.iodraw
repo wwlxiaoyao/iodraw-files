@@ -389,7 +389,7 @@
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-45" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;whiteSpace=wrap;strokeColor=#999999;rotation=-180;" vertex="1" parent="1">
           <mxGeometry x="1335" y="-691.31" width="250" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wuAuFMzWLC_8M6y4LzJn-46" value="AIC段&lt;div&gt;= aicNum_&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-46" value="AIV段&lt;div&gt;= aivNum_&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1402.51" y="-673.31" width="115.01" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-47" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="wuAuFMzWLC_8M6y4LzJn-44">
@@ -404,7 +404,7 @@
             <mxPoint x="1584.01" y="-719" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wuAuFMzWLC_8M6y4LzJn-49" value="aicStart_" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-49" value="aivStart_" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1305.01" y="-780" width="75.01" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-50" value="aicEnd_" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
