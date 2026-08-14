@@ -194,7 +194,7 @@
           <mxGeometry y="125" width="670" height="19" as="geometry" />
         </mxCell>
         <mxCell id="fsm" value="核状态机 (pending + running 双缓冲)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="540" y="510" width="380" height="176" as="geometry" />
+          <mxGeometry x="990" y="610" width="380" height="176" as="geometry" />
         </mxCell>
         <mxCell id="fsm-s1" value="空闲 (INIT)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="fsm" vertex="1">
           <mxGeometry y="26" width="380" height="30" as="geometry" />
