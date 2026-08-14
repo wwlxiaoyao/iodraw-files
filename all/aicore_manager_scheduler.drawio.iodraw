@@ -79,7 +79,7 @@
         <mxCell id="mgr-cnt-f2" value="bool isSendStop / taskCtrlDequeFinish / disableControlCore_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="mgr-cnt" vertex="1">
           <mxGeometry y="41" width="440" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="part-detail" value="4 字段分区模型" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="part-detail" value="4 字段分区模型" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1120" y="30" width="610" height="210" as="geometry" />
         </mxCell>
         <mxCell id="part-d1" value="DAV_2002 (A1) 动态分区" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=12;fontStyle=1" parent="part-detail" vertex="1">
@@ -88,7 +88,7 @@
         <mxCell id="part-d2" value="aicStart_=0  ───────────────────────────────────── aivEnd_=aicStart_+aicValidNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="part-detail" vertex="1">
           <mxGeometry y="46" width="610" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="part-d3" value="│←── AIC 段 ──→│←── AIV 段 ──→│" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="part-detail" vertex="1">
+        <mxCell id="part-d3" value="│←── AIC 段 ──→│←── AIV 段 ──→│" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=6;fontSize=13;fontFamily=Courier New;" parent="part-detail" vertex="1">
           <mxGeometry y="62" width="610" height="16" as="geometry" />
         </mxCell>
         <mxCell id="part-d4" value="aicStart_     aicEnd_=aivStart_     aivEnd_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="part-detail" vertex="1">
