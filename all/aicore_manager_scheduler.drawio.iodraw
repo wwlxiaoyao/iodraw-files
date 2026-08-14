@@ -283,7 +283,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fsm-note" value="ReleaseCoreByRegVal 读 GetFinishedTask(coreIdx) → finTaskRegVal&#xa;  ├─ finTaskId = REG_LOW_TASK_ID (低31位) 匹配 pendingIds_ / runningIds_&#xa;  ├─ finTaskState = REG_LOW_TASK_STATE (bit31): FINISH=1 完成, ACK=0 确认&#xa;  └─ aicpuCallCode = finTaskRegVal &gt;&gt; 32: CopyOut 场景&#xa;CheckStopTaskCanBeSent: 尾批 ACK 即标记完成, 不等 FINISH (并行化尾批停止)" style="text;html=1;strokeColor=#82b366;fillColor=#f0fff0;align=left;verticalAlign=top;spacingLeft=6;spacingTop=11;fontSize=12;fontFamily=Courier New;fontColor=#333333;spacing=4;" parent="1" vertex="1">
+        <mxCell id="fsm-note" value="ReleaseCoreByRegVal 读 GetFinishedTask(coreIdx) → finTaskRegVal&#xa;  ├─ finTaskId = REG_LOW_TASK_ID (低31位) 匹配 pendingIds_ / runningIds_&#xa;  ├─ finTaskState = REG_LOW_TASK_STATE (bit31): FINISH=1 完成, ACK=0 确认&#xa;  └─ aicpuCallCode = finTaskRegVal &gt;&gt; 32: CopyOut 场景&#xa;CheckStopTaskCanBeSent: 尾批 ACK 即标记完成, 不等 FINISH (并行化尾批停止)" style="text;html=1;strokeColor=#82b366;fillColor=#f0fff0;align=left;verticalAlign=middle;spacingLeft=6;spacingTop=11;fontSize=12;fontFamily=Courier New;fontColor=#333333;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="840" y="1130" width="620" height="110" as="geometry" />
         </mxCell>
       </root>
