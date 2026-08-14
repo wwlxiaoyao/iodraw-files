@@ -80,7 +80,7 @@
           <mxGeometry y="41" width="750" height="19" as="geometry" />
         </mxCell>
         <mxCell id="ctx" value="SchduleContext (跨 AICPU 共享)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="120" width="840" height="522" as="geometry" />
+          <mxGeometry x="-160" y="120" width="840" height="563" as="geometry" />
         </mxCell>
         <mxCell id="ctx-qd" value="快表派发 (第一阶段 BatchSendTask)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="ctx" vertex="1">
           <mxGeometry y="30" width="840" height="259" as="geometry" />
@@ -95,7 +95,7 @@
           <mxGeometry y="99" width="840" height="160" as="geometry" />
         </mxCell>
         <mxCell id="ctx-pr" value="环形扫描派发 (第二阶段 BatchSendTask)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="ctx" vertex="1">
-          <mxGeometry y="289" width="840" height="122" as="geometry" />
+          <mxGeometry y="289" width="840" height="163" as="geometry" />
         </mxCell>
         <mxCell id="ctx-pr-f1" value="uint8_t corePendReadyCnt_[2]        ← 可派发的核总数 (快表 + pend 扫描)：按照任务类型分别管理" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-pr" vertex="1">
           <mxGeometry y="22" width="840" height="29" as="geometry" />
@@ -106,8 +106,11 @@
         <mxCell id="ctx-pr-f3" value="bool wrapCoreAvail_[16]             ← 核是否空闲 (true=可用, false=已占用)： 仅A5使用，其他芯片均为True&lt;div&gt;&lt;span style=&quot;color: rgb(102, 102, 102);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 派发时设 false; tail task 完成时 CheckStopTaskCanBeSent 恢复 true&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-pr" vertex="1">
           <mxGeometry y="81" width="840" height="41" as="geometry" />
         </mxCell>
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-65" value="操作接口：散落在各个调用者" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" vertex="1" parent="ctx-pr">
+          <mxGeometry y="122" width="840" height="41" as="geometry" />
+        </mxCell>
         <mxCell id="ctx-tw" value="任务等待" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" parent="ctx" vertex="1">
-          <mxGeometry y="411" width="840" height="111" as="geometry" />
+          <mxGeometry y="452" width="840" height="111" as="geometry" />
         </mxCell>
         <mxCell id="ctx-tw-f1" value="uint32_t waitTaskCnt_[2]            ← 待处理任务计数器" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-tw" vertex="1">
           <mxGeometry y="22" width="840" height="31" as="geometry" />
@@ -439,9 +442,6 @@
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-10" value="CheckSTopTaskCanBeSent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wuAuFMzWLC_8M6y4LzJn-63">
           <mxGeometry x="140" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="wuAuFMzWLC_8M6y4LzJn-65" value="bool wrapCoreAvail_[16]             ← 核是否空闲 (true=可用, false=已占用)： 仅A5使用，其他芯片均为True&lt;div&gt;&lt;span style=&quot;color: rgb(102, 102, 102);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 派发时设 false; tail task 完成时 CheckStopTaskCanBeSent 恢复 true&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="500" width="840" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
