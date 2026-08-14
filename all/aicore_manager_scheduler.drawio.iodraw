@@ -85,7 +85,7 @@
         <mxCell id="ctx-qd" value="快表派发 (第一阶段 BatchSendTask)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="ctx" vertex="1">
           <mxGeometry y="30" width="700" height="139" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-qd-f1" value="uint8_t coreRunReadyCnt_[2]         ← 快表中的就绪核数 (AIC=0, AIV=1)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-qd" vertex="1">
+        <mxCell id="ctx-qd-f1" value="uint8_t coreRunReadyCnt_[2]         ← 快表中的就绪核数 (AIC=0, AIV=1)：按照任务类型分别管理" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-qd" vertex="1">
           <mxGeometry y="22" width="700" height="33" as="geometry" />
         </mxCell>
         <mxCell id="ctx-qd-f2" value="uint8_t runReadyCoreIdx_[2][8]      ← 快表：就绪核索引数组 [type][0..7]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-qd" vertex="1">
