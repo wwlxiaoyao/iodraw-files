@@ -450,7 +450,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pend-fsm" value="&lt;span style=&quot;font-size: 14px; font-weight: 700;&quot;&gt;corePendReadyCnt_ / lastPendReadyCoreIdx_ 可派发核池状态机&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="1605" width="750" height="380" as="geometry" />
+          <mxGeometry x="-150" y="1605" width="750" height="380" as="geometry" />
         </mxCell>
         <mxCell id="pend-s1" value="可派发&#xa;pendReadyCnt_ &gt; 0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="1670" width="180" height="60" as="geometry" />
