@@ -165,12 +165,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dep-task-ctx" value="pendingIds_/runningIds_ 依赖 wrapCoreAvail_ 校验" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#CC6600;strokeColor=#CC6600;strokeWidth=1;dashed=1;exitX=0.3;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mgr-task" target="ctx-pr-f3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-330" y="-139" />
-              <mxPoint x="-330" y="1013" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="legend" value="图例" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-420" y="1360" width="490" height="90" as="geometry" />
