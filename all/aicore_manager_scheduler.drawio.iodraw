@@ -157,7 +157,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dep-part-ctx" value="aicStart_/aicEnd_/aivStart_/aivEnd_ 控制派发范围" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#CC6600;strokeColor=#CC6600;strokeWidth=1;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mgr-part" target="ctx-qd-f1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-230" y="-713" />
+              <mxPoint x="-230" y="189" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="dep-task-ctx" value="pendingIds_/runningIds_ 依赖 wrapCoreAvail_ 校验" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#CC6600;strokeColor=#CC6600;strokeWidth=1;dashed=1;exitX=0.3;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mgr-task" target="ctx-pr-f3" edge="1">
           <mxGeometry relative="1" as="geometry">
