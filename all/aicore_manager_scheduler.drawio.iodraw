@@ -80,7 +80,7 @@
           <mxGeometry y="41" width="440" height="19" as="geometry" />
         </mxCell>
         <mxCell id="part-detail" value="4 字段分区模型" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="540" y="40" width="380" height="230" as="geometry" />
+          <mxGeometry x="940" y="20" width="380" height="210" as="geometry" />
         </mxCell>
         <mxCell id="part-d1" value="DAV_2002 (A1) 动态分区" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=12;fontStyle=1" parent="part-detail" vertex="1">
           <mxGeometry y="26" width="380" height="20" as="geometry" />
@@ -98,25 +98,25 @@
           <mxGeometry y="94" width="380" height="16" as="geometry" />
         </mxCell>
         <mxCell id="part-d6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;html=1;" parent="part-detail" vertex="1">
-          <mxGeometry y="118" width="380" height="8" as="geometry" />
+          <mxGeometry y="110" width="380" height="8" as="geometry" />
         </mxCell>
         <mxCell id="part-d7" value="DAV_2201/3510 静态分区" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=12;fontStyle=1" parent="part-detail" vertex="1">
-          <mxGeometry y="126" width="380" height="20" as="geometry" />
+          <mxGeometry y="118" width="380" height="20" as="geometry" />
         </mxCell>
         <mxCell id="part-d8" value="aicStart_=schedIdx_*aicNum_   aicEnd_=aicStart_+aicNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="part-detail" vertex="1">
-          <mxGeometry y="146" width="380" height="16" as="geometry" />
+          <mxGeometry y="138" width="380" height="16" as="geometry" />
         </mxCell>
         <mxCell id="part-d9" value="aivStart_=schedIdx_*aivNum_   aivEnd_=aivStart_+aivNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="part-detail" vertex="1">
-          <mxGeometry y="162" width="380" height="16" as="geometry" />
+          <mxGeometry y="154" width="380" height="16" as="geometry" />
         </mxCell>
         <mxCell id="part-d10" value="adjAicEnd_/adjAivEnd_ 由 CalcAdjAicoreEnd 按 schedIdx_ 分摊" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="part-detail" vertex="1">
-          <mxGeometry y="178" width="380" height="16" as="geometry" />
+          <mxGeometry y="170" width="380" height="16" as="geometry" />
         </mxCell>
         <mxCell id="part-d11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;html=1;" parent="part-detail" vertex="1">
-          <mxGeometry y="196" width="380" height="8" as="geometry" />
+          <mxGeometry y="186" width="380" height="8" as="geometry" />
         </mxCell>
         <mxCell id="part-d12" value="不变量: aicStart_ ≤ aicEnd_ ≤ aivStart_ ≤ aivEnd_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;fontColor=#CC0000;" parent="part-detail" vertex="1">
-          <mxGeometry y="204" width="380" height="16" as="geometry" />
+          <mxGeometry y="194" width="380" height="16" as="geometry" />
         </mxCell>
         <mxCell id="ctx" value="SchduleContext (跨 AICPU 共享)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="40" y="600" width="440" height="470" as="geometry" />
@@ -194,19 +194,19 @@
           <mxGeometry y="129" width="380" height="19" as="geometry" />
         </mxCell>
         <mxCell id="fsm" value="核状态机 (pending + running 双缓冲)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="800" y="580" width="380" height="176" as="geometry" />
+          <mxGeometry x="540" y="510" width="380" height="230" as="geometry" />
         </mxCell>
         <mxCell id="fsm-s1" value="空闲 (INIT)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="fsm" vertex="1">
-          <mxGeometry y="26" width="380" height="30" as="geometry" />
+          <mxGeometry x="20" y="36" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fsm-s2" value="pending (排队)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" parent="fsm" vertex="1">
-          <mxGeometry y="56" width="380" height="30" as="geometry" />
+          <mxGeometry x="160" y="36" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fsm-s3" value="running (执行中)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" parent="fsm" vertex="1">
-          <mxGeometry y="86" width="380" height="30" as="geometry" />
+          <mxGeometry x="160" y="100" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fsm-s4" value="pending+running" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" parent="fsm" vertex="1">
-          <mxGeometry y="116" width="380" height="30" as="geometry" />
+          <mxGeometry x="20" y="100" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fsm-e1" value="SendTask" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#006600;" parent="fsm" source="fsm-s1" target="fsm-s2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -247,7 +247,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fsm-note" value="ReleaseCoreByRegVal 解析硬件寄存器 &lt;br&gt;CheckStopTaskCanBeSent 处理尾批停止" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=10;fontColor=#666666;" parent="fsm" vertex="1">
-          <mxGeometry y="146" width="380" height="30" as="geometry" />
+          <mxGeometry x="20" y="150" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dep-mgr-ctx" value="context_*" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#0000CC;strokeColor=#0000CC;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mgr" target="ctx" edge="1">
           <mxGeometry relative="1" as="geometry">
