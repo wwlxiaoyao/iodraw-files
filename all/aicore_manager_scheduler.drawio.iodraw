@@ -232,10 +232,10 @@
           <mxGeometry y="74" width="490" height="16" as="geometry" />
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-2" value="空闲&#xa;pending=INIT&#xa;running=INIT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="740" width="150" height="60" as="geometry" />
+          <mxGeometry x="920" y="740" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-3" value="排队&#xa;pending=taskId&#xa;running=INIT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="740" width="150" height="60" as="geometry" />
+          <mxGeometry x="1350" y="740" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-4" value="执行中&#xa;pending=INIT&#xa;running=taskId" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="1000" width="210" height="60" as="geometry" />
