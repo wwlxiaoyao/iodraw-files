@@ -466,7 +466,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pend-e12" value="BatchSendTask 耗尽&#xa;pendReadyCnt_ -= sendCnt → 0&#xa;lastPendReadyCoreIdx_ 停在最后派发核" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#CC0000;strokeColor=#CC0000;strokeWidth=2;" edge="1" parent="1" source="pend-s1" target="pend-s2">
+        <mxCell id="pend-e12" value="BatchSendTask 耗尽&#xa;pendReadyCnt_ -= sendCnt → 0&#xa;lastPendReadyCoreIdx_ 停在最后派发核" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#CC0000;strokeColor=#CC0000;strokeWidth=2;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pend-s1" target="pend-s2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pend-e21" value="ReleaseCoreByRegVal (pending FINISH)&#xa;pendReadyCnt_++ → 核回到可派发池" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#CC6600;strokeColor=#CC6600;strokeWidth=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pend-s2" target="pend-s1">
