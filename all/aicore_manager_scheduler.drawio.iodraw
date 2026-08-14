@@ -444,9 +444,9 @@
           <mxGeometry x="1325" y="-420" width="75.01" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-59" value="&lt;span style=&quot;font-size: 14px; font-weight: 700;&quot;&gt;物理核资源状态图 - A2/A3/A5芯片（分离核）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="960" y="-880" width="625.01" height="330" as="geometry" />
+          <mxGeometry x="960" y="-880" width="625.01" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="wuAuFMzWLC_8M6y4LzJn-60" value="AIC段： 存放AIC任务&lt;div&gt;AIV段：存放AIV任务&lt;/div&gt;&lt;div&gt;二者共享同一份物理资源&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;" vertex="1" parent="1">
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-60" value="AIC段： 存放AIC任务&lt;div&gt;AIV段：存放AIV任务&lt;/div&gt;&lt;div&gt;二者独占不同的物理资源&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;" vertex="1" parent="1">
           <mxGeometry x="850" y="-550" width="200" height="70" as="geometry" />
         </mxCell>
       </root>
