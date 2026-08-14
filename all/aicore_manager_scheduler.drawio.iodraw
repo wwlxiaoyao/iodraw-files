@@ -519,7 +519,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fast-note" value="快表操作接口:&#xa;  AddReadyCoreIdx:        游离→在表, cnt++, 追加到尾部&#xa;  RemoveRunReadyCoreIdx:   在表→游离, cnt--, 尾交换保持数组紧凑&#xa;  RemoveReadyCoreIdxTail:  在表→游离, cnt--, 仅尾部弹出&#xa;&#xa;调用者:&#xa;  AddReadyCoreIdx 入口:&#xa;    HandShake (握手成功)&#xa;    ReleaseCoreByRegVal (pending FINISH 双完成)&#xa;    ReleaseCoreByRegVal (running FINISH, pending=INIT)&#xa;    CheckStopTaskCanBeSent (尾批停止)&#xa;    UpdateRunReadyCoreNum (adj 范围扩大, 增量)&#xa;    DynamicAdjustCorePartition (DAV_2002 分区翻转)&#xa;    UpdateAiCoreBlockIndexSection (DEV_IF_NONDEVICE 初始化)&#xa;&#xa;  RemoveRunReadyCoreIdx 入口:&#xa;    UpdateRunReadyCoreNum (adj 范围缩小)&#xa;    DynamicAdjustCorePartition (DAV_2002 分区翻转)&#xa;&#xa;  RemoveReadyCoreIdxTail 入口:&#xa;    BatchSendTask 第一阶段 (快表派发 LIFO)&#xa;&#xa;关键约束:&#xa;  coreRunReadyCnt_[type] ≤ coreNum (BatchSendTask 检查)&#xa;  coreIdxPosition_ 默认值 0 ≠ INVALID 0xff (潜在 bug)&#xa;  --coreRunReadyCnt_ 若为 0 则 uint8_t 下溢到 255" style="text;html=1;strokeColor=#82b366;fillColor=#f0fff0;align=left;verticalAlign=top;spacingLeft=6;spacingTop=8;fontSize=14;fontFamily=Courier New;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="660" y="1750" width="510" height="480" as="geometry" />
+          <mxGeometry x="810" y="1750" width="510" height="480" as="geometry" />
         </mxCell>
         <mxCell id="5aYVAsXicacRLBcelbmh-2" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
