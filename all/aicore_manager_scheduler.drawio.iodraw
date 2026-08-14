@@ -172,26 +172,26 @@
         <mxCell id="ctx-cn-f3" value="--coreRunReadyCnt_[type] 若 type 计数为 0 → 下溢到 255 → runReadyCoreIdx_[255] OOB" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;fontColor=#CC0000;" parent="ctx-cn" vertex="1">
           <mxGeometry y="60" width="440" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="hw" value="Hardware Registers (通过 AicoreHAL 访问)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="350" width="380" height="144" as="geometry" />
+        <mxCell id="hw" value="Hardware Registers (通过 AicoreHAL 访问)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="350" width="670" height="144" as="geometry" />
         </mxCell>
         <mxCell id="hw-f1" value="GetFinishedTask(coreIdx) → uint64_t finTaskRegVal" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="hw" vertex="1">
-          <mxGeometry y="30" width="380" height="19" as="geometry" />
+          <mxGeometry y="30" width="670" height="19" as="geometry" />
         </mxCell>
         <mxCell id="hw-f2" value="  │── REG_LOW_TASK_ID(val)      = val &amp; 0x7FFFFFFF (低31位 taskId)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="hw" vertex="1">
-          <mxGeometry y="49" width="380" height="19" as="geometry" />
+          <mxGeometry y="49" width="670" height="19" as="geometry" />
         </mxCell>
         <mxCell id="hw-f3" value="  │── REG_LOW_TASK_STATE(val)   = (val &gt;&gt; 31) &amp; 1   (FINISH=1, ACK=0)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="hw" vertex="1">
-          <mxGeometry y="68" width="380" height="19" as="geometry" />
+          <mxGeometry y="68" width="670" height="19" as="geometry" />
         </mxCell>
         <mxCell id="hw-f4" value="  └── aicpuCallCode            = val &gt;&gt; 32           (CopyOut 场景)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="hw" vertex="1">
-          <mxGeometry y="87" width="380" height="19" as="geometry" />
+          <mxGeometry y="87" width="670" height="19" as="geometry" />
         </mxCell>
         <mxCell id="hw-f5" value="SetReadyQueue(coreIdx, encodeTaskId + 1)  ← 写硬件 ready queue" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="hw" vertex="1">
-          <mxGeometry y="106" width="380" height="19" as="geometry" />
+          <mxGeometry y="106" width="670" height="19" as="geometry" />
         </mxCell>
         <mxCell id="hw-f6" value="TryHandShakeByGm(coreIdx, dotStatus)      ← 握手状态寄存器" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="hw" vertex="1">
-          <mxGeometry y="125" width="380" height="19" as="geometry" />
+          <mxGeometry y="125" width="670" height="19" as="geometry" />
         </mxCell>
         <mxCell id="fsm" value="核状态机 (pending + running 双缓冲)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="540" y="510" width="380" height="230" as="geometry" />
