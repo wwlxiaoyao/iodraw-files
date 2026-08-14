@@ -285,13 +285,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fsm-e13b" value="CopyOut (pending 提升)&#xa;ReleaseCoreByRegVal&#xa;pending→running, resolve old running" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#3366CC;strokeColor=#3366CC;strokeWidth=1.5;dashed=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.53;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wuAuFMzWLC_8M6y4LzJn-3" target="wuAuFMzWLC_8M6y4LzJn-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1403" y="920" />
-              <mxPoint x="972" y="920" />
-              <mxPoint x="972" y="1113" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fsm-e25" value="CopyOut (pending 提升)&#xa;ReleaseCoreByRegVal&#xa;pending→running, old running resolved" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#3366CC;strokeColor=#3366CC;strokeWidth=1.5;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wuAuFMzWLC_8M6y4LzJn-5" target="wuAuFMzWLC_8M6y4LzJn-4">
           <mxGeometry relative="1" as="geometry" />
