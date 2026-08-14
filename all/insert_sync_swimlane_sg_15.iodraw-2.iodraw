@@ -19,6 +19,9 @@
         <mxCell id="0SG2dGXFKj3a6mLSUL57-7" value="AicoreHAL aicoreHal_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="0SG2dGXFKj3a6mLSUL57-5">
           <mxGeometry y="29" width="270" height="25" as="geometry" />
         </mxCell>
+        <mxCell id="0SG2dGXFKj3a6mLSUL57-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.456;entryY=1.08;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0SG2dGXFKj3a6mLSUL57-5" target="0SG2dGXFKj3a6mLSUL57-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
