@@ -333,7 +333,10 @@
           <mxGeometry x="1260.01" y="-280.52" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-16" value="AIC段" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1034.99" y="-270" width="185.01" height="38.69" as="geometry" />
+          <mxGeometry x="1077.5" y="-261.31" width="115.01" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-17" value="AIC段" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1087.5" y="-251.31" width="115.01" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
