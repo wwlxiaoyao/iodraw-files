@@ -83,34 +83,13 @@
           <mxGeometry y="41" width="750" height="19" as="geometry" />
         </mxCell>
         <mxCell id="part-detail" value="4 字段分区模型" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="930" y="-110" width="740" height="297" as="geometry" />
-        </mxCell>
-        <mxCell id="part-d2" value="aicStart_=0  ───────────────────────────────────── aivEnd_=aicStart_+aicValidNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="part-detail" vertex="1">
-          <mxGeometry y="26" width="740" height="16" as="geometry" />
-        </mxCell>
-        <mxCell id="part-d4" value="aicStart_     aicEnd_=aivStart_     aivEnd_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="part-detail" vertex="1">
-          <mxGeometry y="42" width="740" height="16" as="geometry" />
-        </mxCell>
-        <mxCell id="part-d5" value="    0             分界点(动态)           aicValidNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="part-detail" vertex="1">
-          <mxGeometry y="58" width="740" height="20" as="geometry" />
+          <mxGeometry x="930" y="-110" width="740" height="111" as="geometry" />
         </mxCell>
         <mxCell id="part-d6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;html=1;" parent="part-detail" vertex="1">
-          <mxGeometry y="78" width="740" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="part-d8" value="aicStart_=schedIdx_*aicNum_   aicEnd_=aicStart_+aicNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="part-detail" vertex="1">
-          <mxGeometry y="120" width="740" height="16" as="geometry" />
-        </mxCell>
-        <mxCell id="part-d9" value="aivStart_=schedIdx_*aivNum_   aivEnd_=aivStart_+aivNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="part-detail" vertex="1">
-          <mxGeometry y="136" width="740" height="16" as="geometry" />
-        </mxCell>
-        <mxCell id="part-d10" value="adjAicEnd_/adjAivEnd_ 由 CalcAdjAicoreEnd 按 schedIdx_ 分摊" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="part-detail" vertex="1">
-          <mxGeometry y="152" width="740" height="16" as="geometry" />
+          <mxGeometry y="26" width="740" height="42" as="geometry" />
         </mxCell>
         <mxCell id="part-d11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;html=1;" parent="part-detail" vertex="1">
-          <mxGeometry y="168" width="740" height="43" as="geometry" />
-        </mxCell>
-        <mxCell id="part-d12" value="不变量: aicStart_ ≤ aicEnd_ ≤ aivStart_ ≤ aivEnd_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;fontColor=#CC0000;" parent="part-detail" vertex="1">
-          <mxGeometry y="211" width="740" height="86" as="geometry" />
+          <mxGeometry y="68" width="740" height="43" as="geometry" />
         </mxCell>
         <mxCell id="ctx" value="SchduleContext (跨 AICPU 共享)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-80" y="710" width="700" height="365" as="geometry" />
