@@ -112,11 +112,11 @@
         <mxCell id="part-d10" value="adjAicEnd_/adjAivEnd_ 由 CalcAdjAicoreEnd 按 schedIdx_ 分摊" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="part-detail" vertex="1">
           <mxGeometry y="170" width="740" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="part-d11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;html=1;" parent="part-detail" vertex="1">
-          <mxGeometry y="186" width="740" height="8" as="geometry" />
-        </mxCell>
         <mxCell id="part-d12" value="不变量: aicStart_ ≤ aicEnd_ ≤ aivStart_ ≤ aivEnd_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;fontColor=#CC0000;" parent="part-detail" vertex="1">
-          <mxGeometry y="194" width="740" height="86" as="geometry" />
+          <mxGeometry y="186" width="740" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="part-d11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;html=1;" parent="part-detail" vertex="1">
+          <mxGeometry y="272" width="740" height="8" as="geometry" />
         </mxCell>
         <mxCell id="ctx" value="SchduleContext (跨 AICPU 共享)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-80" y="710" width="700" height="365" as="geometry" />
