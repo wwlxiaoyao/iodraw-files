@@ -519,7 +519,7 @@
           <mxGeometry x="750" y="2280" width="510" height="480" as="geometry" />
         </mxCell>
         <mxCell id="fast-fsm" value="&lt;span style=&quot;font-size: 14px; font-weight: 700;&quot;&gt;coreRunReadyCnt_ / runReadyCoreIdx_ / coreIdxPosition_ 快表状态机&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-360" y="2270" width="1040" height="610" as="geometry" />
+          <mxGeometry x="-360" y="2270" width="840" height="610" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
