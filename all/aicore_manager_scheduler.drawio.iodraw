@@ -292,12 +292,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fsm-e25" value="CopyOut (pending 提升)&#xa;ReleaseCoreByRegVal&#xa;pending→running, old running resolved" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#3366CC;strokeColor=#3366CC;strokeWidth=1.5;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wuAuFMzWLC_8M6y4LzJn-5" target="wuAuFMzWLC_8M6y4LzJn-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1300" y="1030" />
-              <mxPoint x="1025" y="1030" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fsm-e33" value="CopyOut (running 继续)&#xa;resolveIndexBase 推进&#xa;ResolveCopyOutDepDyn" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#3366CC;strokeColor=#3366CC;strokeWidth=1.5;dashed=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="wuAuFMzWLC_8M6y4LzJn-4" target="wuAuFMzWLC_8M6y4LzJn-4">
           <mxGeometry relative="1" as="geometry">
