@@ -159,14 +159,14 @@
         <mxCell id="dep-part-ctx" value="aicStart_/aicEnd_/aivStart_/aivEnd_&lt;div&gt;&amp;nbsp;控制派发范围&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#CC6600;strokeColor=#CC6600;strokeWidth=1;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mgr-part" target="ctx-qd-f1" edge="1">
           <mxGeometry x="-0.5251" y="-10" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-280" y="-713" />
-              <mxPoint x="-280" y="189" />
+              <mxPoint x="-300" y="-713" />
+              <mxPoint x="-300" y="99" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dep-task-ctx" value="pendingIds_/runningIds_&lt;div&gt;A1 依赖 wrapCoreAvail_（强制True）校验&lt;/div&gt;&lt;div&gt;（可忽略）&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#CC6600;strokeColor=#CC6600;strokeWidth=1;dashed=1;exitX=0.3;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mgr-task" target="ctx-pr-f3" edge="1">
-          <mxGeometry x="0.3926" relative="1" as="geometry">
+          <mxGeometry x="0.5254" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-240" y="-506" />
               <mxPoint x="-240" y="426" />
