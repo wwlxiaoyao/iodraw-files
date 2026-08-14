@@ -345,7 +345,7 @@
           <mxGeometry x="1172.51" y="-211.31" width="115.01" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-32" value="AIC段： 存放AIC任务&lt;div&gt;AIV段：存放AIV任务&lt;/div&gt;&lt;div&gt;二者共享同一份物理资源，资源抢占：aicStart_/aicEnd_, aivStart_/aivEnd_需要动态调整，类似Ringbuffer的游标机制&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;" vertex="1" parent="1">
-          <mxGeometry x="967.77" y="-170" width="582.23" height="70" as="geometry" />
+          <mxGeometry x="967.77" y="-170" width="632.23" height="70" as="geometry" />
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="990" y="-720" width="250" height="30" as="geometry" />
