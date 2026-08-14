@@ -309,24 +309,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wuAuFMzWLC_8M6y4LzJn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="legend">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-330" y="1300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="legend" value="图例" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-120" y="1266" width="490" height="90" as="geometry" />
+          <mxGeometry x="-250" y="1266" width="490" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="leg1" value="── 实线 = 指针/引用关系 (context_*, aicoreHal_)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;" parent="legend" vertex="1">
+        <mxCell id="leg1" value="── 实线 = 指针/引用关系 (context_*, aicoreHal_)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=13;" parent="legend" vertex="1">
           <mxGeometry y="26" width="490" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="leg2" value="- - 虚线 = 数据依赖 (分区控制派发范围, task跟踪依赖 avail 校验)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;" parent="legend" vertex="1">
+        <mxCell id="leg2" value="- - 虚线 = 数据依赖 (分区控制派发范围, task跟踪依赖 avail 校验)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=13;" parent="legend" vertex="1">
           <mxGeometry y="42" width="490" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="leg3" value="红色文字 = 潜在 bug / 不变量约束" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontColor=#CC0000;" parent="legend" vertex="1">
+        <mxCell id="leg3" value="红色文字 = 潜在 bug / 不变量约束" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=13;fontColor=#CC0000;" parent="legend" vertex="1">
           <mxGeometry y="58" width="490" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="leg4" value="绿色填充 = 快表/状态机, 黄色填充 = 环形扫描, 红色填充 = HAL/等待, 紫色填充 = 分区/约束" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontColor=#666666;" parent="legend" vertex="1">
+        <mxCell id="leg4" value="绿色填充 = 快表/状态机, 黄色填充 = 环形扫描, 红色填充 = HAL/等待, 紫色填充 = 分区/约束" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=13;fontColor=#666666;" parent="legend" vertex="1">
           <mxGeometry y="74" width="490" height="16" as="geometry" />
         </mxCell>
       </root>
