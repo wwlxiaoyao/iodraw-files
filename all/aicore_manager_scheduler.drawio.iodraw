@@ -308,6 +308,9 @@
         <mxCell id="fsm-note" value="ReleaseCoreByRegVal 读 GetFinishedTask(coreIdx) → finTaskRegVal&#xa;  ├─ finTaskId = REG_LOW_TASK_ID (低31位) 匹配 pendingIds_ / runningIds_&#xa;  ├─ finTaskState = REG_LOW_TASK_STATE (bit31): FINISH=1 完成, ACK=0 确认&#xa;  ├─ aicpuCallCode = finTaskRegVal &gt;&gt; 32: ≠0 表示 CopyOut (部分输出已完成, 任务继续执行)&#xa;  └─ ResolveCopyOutDepDyn: 按 copyOutResolveCounter 推进依赖解析游标&#xa;CheckStopTaskCanBeSent: 尾批 ACK 即标记完成, 不等 FINISH (并行化尾批停止)" style="text;html=1;strokeColor=#82b366;fillColor=#f0fff0;align=left;verticalAlign=middle;spacingLeft=6;spacingTop=11;fontSize=12;fontFamily=Courier New;fontColor=#333333;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="860" y="1300" width="620" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
