@@ -526,14 +526,15 @@
             <mxPoint x="-510" y="2070" as="sourcePoint" />
             <mxPoint x="-200" y="2630" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-510" y="2570" />
+              <mxPoint x="-510" y="2600" />
+              <mxPoint x="-200" y="2600" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="5aYVAsXicacRLBcelbmh-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="2010" as="sourcePoint" />
-            <mxPoint x="-510" y="2070" as="targetPoint" />
+            <mxPoint x="87" y="2010" as="sourcePoint" />
+            <mxPoint x="-513" y="2070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
