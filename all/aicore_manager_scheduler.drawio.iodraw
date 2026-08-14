@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-7" value="&lt;span style=&quot;font-size: 14px; font-weight: 700;&quot;&gt;核状态转换图 (pendingIds_ / runningIds_ 双缓冲流水线)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="810" y="640" width="710" height="480" as="geometry" />
+          <mxGeometry x="810" y="640" width="880" height="480" as="geometry" />
         </mxCell>
         <mxCell id="mgr" value="AiCoreManager (Per-AICPU 实例)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-150" y="-340" width="750" height="496" as="geometry" />
@@ -241,7 +241,7 @@
           <mxGeometry x="920" y="1000" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-5" value="双缓冲&#xa;pending=taskId_B&#xa;running=taskId_A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="1000" width="150" height="60" as="geometry" />
+          <mxGeometry x="1350" y="1000" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fsm-e01" value="SendTaskToAiCore&#xa;写 SetReadyQueue" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#006600;strokeColor=#006600;strokeWidth=2;" edge="1" parent="1" source="wuAuFMzWLC_8M6y4LzJn-2" target="wuAuFMzWLC_8M6y4LzJn-3">
           <mxGeometry relative="1" as="geometry" />
