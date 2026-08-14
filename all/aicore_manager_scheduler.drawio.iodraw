@@ -485,10 +485,10 @@
           <mxGeometry x="690" y="1810" width="680" height="220" as="geometry" />
         </mxCell>
         <mxCell id="fast-s1" value="游离态&#xa;coreIdxPosition_ = INVALID (0xff)&#xa;不在快表中，只能环形扫描找到" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="2280" width="260" height="70" as="geometry" />
+          <mxGeometry x="-120" y="2320" width="260" height="70" as="geometry" />
         </mxCell>
         <mxCell id="fast-s2" value="在表态&#xa;coreIdxPosition_ = [0..cnt-1]&#xa;在快表中，可 O(1) 派发" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="2570" width="260" height="70" as="geometry" />
+          <mxGeometry x="-90" y="2640" width="450" height="70" as="geometry" />
         </mxCell>
         <mxCell id="fast-e12-add" value="AddReadyCoreIdx&#xa;coreRunReadyCnt_++&#xa;coreIdxPosition_[i] = cnt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#006600;strokeColor=#006600;strokeWidth=2;" edge="1" parent="1" source="fast-s1" target="fast-s2">
           <mxGeometry relative="1" as="geometry" />
