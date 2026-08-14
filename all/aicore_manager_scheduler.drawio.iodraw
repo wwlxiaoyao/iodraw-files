@@ -5,28 +5,28 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="mgr" value="AiCoreManager (Per-AICPU 实例)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="110" y="-720" width="750" height="515" as="geometry" />
+          <mxGeometry x="110" y="-720" width="750" height="526" as="geometry" />
         </mxCell>
         <mxCell id="mgr-part" value="4 字段分区 (aicStart_/aicEnd_/aivStart_/aivEnd_)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="mgr" vertex="1">
-          <mxGeometry y="30" width="750" height="116" as="geometry" />
+          <mxGeometry y="30" width="750" height="127" as="geometry" />
         </mxCell>
         <mxCell id="mgr-part-f1" value="int aicStart_ = 0          ← AIC 段起始核索引（含）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-part" vertex="1">
           <mxGeometry y="22" width="750" height="23" as="geometry" />
         </mxCell>
         <mxCell id="mgr-part-f2" value="int aicEnd_   = 0          ← AIC 段结束核索引（不含），DAV_2002 动态" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-part" vertex="1">
-          <mxGeometry y="45" width="750" height="19" as="geometry" />
+          <mxGeometry y="45" width="750" height="23" as="geometry" />
         </mxCell>
         <mxCell id="mgr-part-f3" value="int aivStart_ = 0          ← AIV 段起始核索引（含），= aicEnd_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-part" vertex="1">
-          <mxGeometry y="64" width="750" height="19" as="geometry" />
+          <mxGeometry y="68" width="750" height="25" as="geometry" />
         </mxCell>
         <mxCell id="mgr-part-f4" value="int aivEnd_   = 0          ← AIV 段结束核索引（不含），= aicStart_+aicValidNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-part" vertex="1">
-          <mxGeometry y="83" width="750" height="19" as="geometry" />
+          <mxGeometry y="93" width="750" height="20" as="geometry" />
         </mxCell>
         <mxCell id="mgr-part-f5" value="int adjAicEnd_ / adjAivEnd_ ← 本 AICPU 分摊上界" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-part" vertex="1">
-          <mxGeometry y="102" width="750" height="14" as="geometry" />
+          <mxGeometry y="113" width="750" height="14" as="geometry" />
         </mxCell>
         <mxCell id="mgr-task" value="任务跟踪 (per-core 双缓冲)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="mgr" vertex="1">
-          <mxGeometry y="146" width="750" height="117" as="geometry" />
+          <mxGeometry y="157" width="750" height="117" as="geometry" />
         </mxCell>
         <mxCell id="mgr-task-f1" value="uint32_t runningIds_[MAX_AICORE_NUM]          ← AICORE_STATUS_INIT = 空闲" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-task" vertex="1">
           <mxGeometry y="22" width="750" height="19" as="geometry" />
@@ -44,7 +44,7 @@
           <mxGeometry y="98" width="750" height="19" as="geometry" />
         </mxCell>
         <mxCell id="mgr-cfg" value="核配置" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="mgr" vertex="1">
-          <mxGeometry y="263" width="750" height="79" as="geometry" />
+          <mxGeometry y="274" width="750" height="79" as="geometry" />
         </mxCell>
         <mxCell id="mgr-cfg-f1" value="int aicValidNum_ ← 有效 AIC 核数 (pgmask 过滤后), aicNum_, aivNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-cfg" vertex="1">
           <mxGeometry y="22" width="750" height="19" as="geometry" />
@@ -56,7 +56,7 @@
           <mxGeometry y="60" width="750" height="19" as="geometry" />
         </mxCell>
         <mxCell id="mgr-hal" value="硬件抽象 &amp; 性能" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" parent="mgr" vertex="1">
-          <mxGeometry y="342" width="750" height="98" as="geometry" />
+          <mxGeometry y="353" width="750" height="98" as="geometry" />
         </mxCell>
         <mxCell id="mgr-hal-f1" value="AicoreHAL aicoreHal_        ← SetReadyQueue / GetFinishedTask / TryHandShakeByGm" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-hal" vertex="1">
           <mxGeometry y="22" width="750" height="19" as="geometry" />
@@ -71,7 +71,7 @@
           <mxGeometry y="79" width="750" height="19" as="geometry" />
         </mxCell>
         <mxCell id="mgr-cnt" value="统计计数器 (DEBUG)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="mgr" vertex="1">
-          <mxGeometry y="440" width="750" height="75" as="geometry" />
+          <mxGeometry y="451" width="750" height="75" as="geometry" />
         </mxCell>
         <mxCell id="mgr-cnt-f1" value="uint64_t procAicCoreFunctionCnt_ / procAivCoreFunctionCnt_ / procAicpuFunctionCnt_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-cnt" vertex="1">
           <mxGeometry y="22" width="750" height="27" as="geometry" />
