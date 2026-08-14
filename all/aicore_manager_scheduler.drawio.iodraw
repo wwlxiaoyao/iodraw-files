@@ -456,17 +456,17 @@
           <mxGeometry x="-310" y="1660" width="940" height="1290" as="geometry" />
         </mxCell>
         <mxCell id="pend-s1" value="可派发&#xa;pendReadyCnt_ &gt; 0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="19" y="2470" width="480" height="60" as="geometry" />
+          <mxGeometry x="-37" y="2439" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pend-s2" value="耗尽&#xa;pendReadyCnt_ == 0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="19" y="2820" width="480" height="60" as="geometry" />
+          <mxGeometry x="-37" y="2789" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pend-e11" value="BatchSendTask 部分消耗&#xa;pendReadyCnt_ -= sendCnt (仍 &gt; 0)&#xa;lastPendReadyCoreIdx_ 推进" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#006600;strokeColor=#006600;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;elbow=vertical;" parent="1" source="pend-s1" target="pend-s1" edge="1">
           <mxGeometry x="-0.1828" y="10" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="259" y="2430" />
-              <mxPoint x="549" y="2430" />
-              <mxPoint x="549" y="2515" />
+              <mxPoint x="203" y="2399" />
+              <mxPoint x="493" y="2399" />
+              <mxPoint x="493" y="2484" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -477,8 +477,8 @@
         <mxCell id="pend-e21" value="ReleaseCoreByRegVal (pending FINISH)&#xa;pendReadyCnt_++ → 核回到可派发池" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#CC6600;strokeColor=#CC6600;strokeWidth=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pend-s2" target="pend-s1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-101" y="2850" />
-              <mxPoint x="-101" y="2500" />
+              <mxPoint x="-157" y="2819" />
+              <mxPoint x="-157" y="2469" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -520,6 +520,12 @@
         </mxCell>
         <mxCell id="fast-note" value="快表操作接口:&#xa;  AddReadyCoreIdx:        游离→在表, cnt++, 追加到尾部&#xa;  RemoveRunReadyCoreIdx:   在表→游离, cnt--, 尾交换保持数组紧凑&#xa;  RemoveReadyCoreIdxTail:  在表→游离, cnt--, 仅尾部弹出&#xa;&#xa;调用者:&#xa;  AddReadyCoreIdx 入口:&#xa;    HandShake (握手成功)&#xa;    ReleaseCoreByRegVal (pending FINISH 双完成)&#xa;    ReleaseCoreByRegVal (running FINISH, pending=INIT)&#xa;    CheckStopTaskCanBeSent (尾批停止)&#xa;    UpdateRunReadyCoreNum (adj 范围扩大, 增量)&#xa;    DynamicAdjustCorePartition (DAV_2002 分区翻转)&#xa;    UpdateAiCoreBlockIndexSection (DEV_IF_NONDEVICE 初始化)&#xa;&#xa;  RemoveRunReadyCoreIdx 入口:&#xa;    UpdateRunReadyCoreNum (adj 范围缩小)&#xa;    DynamicAdjustCorePartition (DAV_2002 分区翻转)&#xa;&#xa;  RemoveReadyCoreIdxTail 入口:&#xa;    BatchSendTask 第一阶段 (快表派发 LIFO)&#xa;&#xa;关键约束:&#xa;  coreRunReadyCnt_[type] ≤ coreNum (BatchSendTask 检查)&#xa;  coreIdxPosition_ 默认值 0 ≠ INVALID 0xff (潜在 bug)&#xa;  --coreRunReadyCnt_ 若为 0 则 uint8_t 下溢到 255" style="text;html=1;strokeColor=#82b366;fillColor=#f0fff0;align=left;verticalAlign=top;spacingLeft=6;spacingTop=8;fontSize=14;fontFamily=Courier New;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="660" y="1750" width="510" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="5aYVAsXicacRLBcelbmh-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-490" y="2140" as="sourcePoint" />
+            <mxPoint x="-440" y="2090" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
