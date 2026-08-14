@@ -236,7 +236,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fsm-e32" value="SendTaskToAiCore (二次派发)&#xa;running 未完成时再派 pending&#xa;pending=taskId_B" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#006600;strokeColor=#006600;strokeWidth=2;" edge="1" parent="fsm" source="fsm-s3" target="fsm-s2">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="-0.35" y="-380" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="fsm-e20" value="FINISH (双完成)&#xa;ReleaseCoreByRegVal&#xa;pending=INIT, running=INIT&#xa;AddReadyCoreIdx, corePendReadyCnt_++" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#CC0000;strokeColor=#CC0000;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="fsm" source="fsm-s2" target="fsm-s0">
           <mxGeometry x="0.288" y="-345" relative="1" as="geometry">
@@ -288,8 +290,11 @@
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-2" value="空闲" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="950" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wuAuFMzWLC_8M6y4LzJn-3" value="空闲" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="1110" width="120" height="60" as="geometry" />
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-3" value="排队" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-4" value="排队" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
