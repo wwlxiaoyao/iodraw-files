@@ -119,10 +119,10 @@
           <mxGeometry y="194" width="610" height="86" as="geometry" />
         </mxCell>
         <mxCell id="ctx" value="SchduleContext (跨 AICPU 共享)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="40" y="600" width="440" height="470" as="geometry" />
+          <mxGeometry x="-280" y="690" width="440" height="365" as="geometry" />
         </mxCell>
         <mxCell id="ctx-qd" value="快表派发 (第一阶段 BatchSendTask)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="ctx" vertex="1">
-          <mxGeometry y="30" width="440" height="100" as="geometry" />
+          <mxGeometry y="30" width="440" height="98" as="geometry" />
         </mxCell>
         <mxCell id="ctx-qd-f1" value="uint8_t coreRunReadyCnt_[2]         ← 快表中的就绪核数 (AIC=0, AIV=1)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="ctx-qd" vertex="1">
           <mxGeometry y="22" width="440" height="19" as="geometry" />
@@ -137,7 +137,7 @@
           <mxGeometry y="79" width="440" height="19" as="geometry" />
         </mxCell>
         <mxCell id="ctx-pr" value="环形扫描派发 (第二阶段 BatchSendTask)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" parent="ctx" vertex="1">
-          <mxGeometry y="130" width="440" height="100" as="geometry" />
+          <mxGeometry y="128" width="440" height="98" as="geometry" />
         </mxCell>
         <mxCell id="ctx-pr-f1" value="uint8_t corePendReadyCnt_[2]        ← 可派发的核总数 (快表 + pend 扫描)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="ctx-pr" vertex="1">
           <mxGeometry y="22" width="440" height="19" as="geometry" />
@@ -152,7 +152,7 @@
           <mxGeometry y="79" width="440" height="19" as="geometry" />
         </mxCell>
         <mxCell id="ctx-tw" value="任务等待" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" parent="ctx" vertex="1">
-          <mxGeometry y="230" width="440" height="60" as="geometry" />
+          <mxGeometry y="226" width="440" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ctx-tw-f1" value="uint32_t waitTaskCnt_[2]            ← 待处理任务计数器" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="ctx-tw" vertex="1">
           <mxGeometry y="22" width="440" height="19" as="geometry" />
@@ -161,7 +161,7 @@
           <mxGeometry y="41" width="440" height="19" as="geometry" />
         </mxCell>
         <mxCell id="ctx-cn" value="约束 (uint8_t 溢出风险)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="ctx" vertex="1">
-          <mxGeometry y="290" width="440" height="80" as="geometry" />
+          <mxGeometry y="286" width="440" height="79" as="geometry" />
         </mxCell>
         <mxCell id="ctx-cn-f1" value="coreRunReadyCnt_[type] ≤ coreNum    ← BatchSendTask line 1079 检查" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="ctx-cn" vertex="1">
           <mxGeometry y="22" width="440" height="19" as="geometry" />
