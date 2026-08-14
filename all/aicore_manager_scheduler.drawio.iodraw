@@ -443,6 +443,10 @@
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.577;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="mgr-part-f5" target="wuAuFMzWLC_8M6y4LzJn-31">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-150" y="-220" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-380" y="-695" />
+              <mxPoint x="-380" y="1291" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-67" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
