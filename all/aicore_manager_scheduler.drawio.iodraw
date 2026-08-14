@@ -7,7 +7,7 @@
         <mxCell id="pend-fsm" value="&lt;span style=&quot;font-size: 14px; font-weight: 700;&quot;&gt;corePendReadyCnt_ / lastPendReadyCoreIdx_ 可派发核池状态机&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-360" y="1660" width="1110" height="1290" as="geometry" />
         </mxCell>
-        <mxCell id="fast-fsm" value="&lt;span style=&quot;font-size: 14px; font-weight: 700;&quot;&gt;coreRunReadyCnt_ / runReadyCoreIdx_ / coreIdxPosition_ 快表状态机&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="fast-fsm" value="&lt;span style=&quot;font-size: 14px; font-weight: 700;&quot;&gt;coreRunReadyCnt_ / runReadyCoreIdx_ / coreIdxPosition_ 快表状态机&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-230" y="1700" width="840" height="610" as="geometry" />
         </mxCell>
         <mxCell id="mgr" value="AiCoreManager (Per-AICPU 实例)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
@@ -564,7 +564,8 @@
             <mxPoint x="670" y="2510" as="sourcePoint" />
             <mxPoint x="910" y="2760" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="680" y="2100" />
+              <mxPoint x="660" y="2510" />
+              <mxPoint x="660" y="2100" />
             </Array>
           </mxGeometry>
         </mxCell>
