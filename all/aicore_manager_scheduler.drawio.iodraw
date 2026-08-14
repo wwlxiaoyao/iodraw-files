@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-31" value="&lt;span style=&quot;font-size: 14px; font-weight: 700;&quot;&gt;物理核资源状态图 - A1芯片（耦合核）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="960" y="-500" width="510" height="400" as="geometry" />
+          <mxGeometry x="960" y="-500" width="640" height="400" as="geometry" />
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-7" value="&lt;span style=&quot;font-size: 14px; font-weight: 700;&quot;&gt;核状态转换图 (pendingIds_ / runningIds_ 双缓冲流水线)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="800" y="640" width="800" height="630" as="geometry" />
@@ -444,10 +444,10 @@
           <mxGeometry x="1325" y="-420" width="75.01" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-59" value="&lt;span style=&quot;font-size: 14px; font-weight: 700;&quot;&gt;物理核资源状态图 - A2/A3/A5芯片（分离核）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="960" y="-880" width="625.01" height="380" as="geometry" />
+          <mxGeometry x="960" y="-880" width="640" height="380" as="geometry" />
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-60" value="AIC段： 存放AIC任务&lt;div&gt;AIV段：存放AIV任务&lt;/div&gt;&lt;div&gt;二者独占不同的物理资源，互不影响&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;align=left;" vertex="1" parent="1">
-          <mxGeometry x="972.51" y="-570" width="200" height="60" as="geometry" />
+          <mxGeometry x="972.51" y="-570" width="547.49" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
