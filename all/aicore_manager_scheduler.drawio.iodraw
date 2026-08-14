@@ -246,8 +246,8 @@
         <mxCell id="fsm-e01" value="SendTaskToAiCore&#xa;写 SetReadyQueue" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#006600;strokeColor=#006600;strokeWidth=2;" edge="1" parent="1" source="wuAuFMzWLC_8M6y4LzJn-2" target="wuAuFMzWLC_8M6y4LzJn-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fsm-e13" value="硬件 ACK&#xa;ReleaseCoreByRegVal&#xa;pending→running" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#CC6600;strokeColor=#CC6600;strokeWidth=2;" edge="1" parent="1" source="wuAuFMzWLC_8M6y4LzJn-3" target="wuAuFMzWLC_8M6y4LzJn-4">
-          <mxGeometry x="0.4023" y="55" relative="1" as="geometry">
+        <mxCell id="fsm-e13" value="硬件 ACK&#xa;ReleaseCoreByRegVal&#xa;pending→running" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#CC6600;strokeWidth=2;" edge="1" parent="1" source="wuAuFMzWLC_8M6y4LzJn-3" target="wuAuFMzWLC_8M6y4LzJn-4">
+          <mxGeometry x="0.3563" y="35" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
