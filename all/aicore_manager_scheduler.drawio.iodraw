@@ -302,7 +302,7 @@
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="850" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wuAuFMzWLC_8M6y4LzJn-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-7" value="核状态装换图（）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="1056" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
