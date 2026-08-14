@@ -297,11 +297,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fsm-e33" value="CopyOut (running 继续)&#xa;resolveIndexBase 推进&#xa;ResolveCopyOutDepDyn" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#3366CC;strokeColor=#3366CC;strokeWidth=1.5;dashed=1;exitX=0.161;exitY=1;exitDx=0;exitDy=0;entryX=0.987;entryY=0.917;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="wuAuFMzWLC_8M6y4LzJn-4" target="wuAuFMzWLC_8M6y4LzJn-4">
+        <mxCell id="fsm-e33" value="CopyOut (running 继续)&#xa;resolveIndexBase 推进&#xa;ResolveCopyOutDepDyn" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#3366CC;strokeColor=#3366CC;strokeWidth=1.5;dashed=1;exitX=0.161;exitY=1;exitDx=0;exitDy=0;entryX=0.844;entryY=0.972;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="wuAuFMzWLC_8M6y4LzJn-4" target="wuAuFMzWLC_8M6y4LzJn-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="954" y="1230" />
               <mxPoint x="1127" y="1230" />
+              <mxPoint x="1127" y="1168" />
             </Array>
           </mxGeometry>
         </mxCell>
