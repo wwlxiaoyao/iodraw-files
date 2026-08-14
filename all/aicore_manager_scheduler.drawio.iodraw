@@ -194,19 +194,19 @@
           <mxGeometry y="125" width="670" height="19" as="geometry" />
         </mxCell>
         <mxCell id="fsm" value="核状态转换图 (pendingIds_ / runningIds_ 双缓冲流水线)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="830" y="610" width="620" height="366" as="geometry" />
+          <mxGeometry x="830" y="610" width="460" height="366" as="geometry" />
         </mxCell>
         <mxCell id="fsm-s0" value="空闲&#xa;pending=INIT&#xa;running=INIT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" vertex="1" parent="fsm">
-          <mxGeometry y="26" width="620" height="60" as="geometry" />
+          <mxGeometry y="26" width="460" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fsm-s1" value="排队&#xa;pending=taskId&#xa;running=INIT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;" vertex="1" parent="fsm">
-          <mxGeometry y="86" width="620" height="60" as="geometry" />
+          <mxGeometry y="86" width="460" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fsm-s3" value="执行中&#xa;pending=INIT&#xa;running=taskId" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;" vertex="1" parent="fsm">
-          <mxGeometry y="146" width="620" height="60" as="geometry" />
+          <mxGeometry y="146" width="460" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fsm-s2" value="双缓冲&#xa;pending=taskId_B&#xa;running=taskId_A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1;" vertex="1" parent="fsm">
-          <mxGeometry y="206" width="620" height="60" as="geometry" />
+          <mxGeometry y="206" width="460" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fsm-e01" value="SendTaskToAiCore&#xa;写 SetReadyQueue, pending=taskId" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#006600;strokeColor=#006600;strokeWidth=2;" edge="1" parent="fsm" source="fsm-s0" target="fsm-s1">
           <mxGeometry relative="1" as="geometry" />
@@ -242,7 +242,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fsm-note" value="ReleaseCoreByRegVal 读 GetFinishedTask(coreIdx) → finTaskRegVal&#xa;  ├─ finTaskId = REG_LOW_TASK_ID (低31位) 匹配 pendingIds_ / runningIds_&#xa;  ├─ finTaskState = REG_LOW_TASK_STATE (bit31): FINISH=1 完成, ACK=0 确认&#xa;  └─ aicpuCallCode = finTaskRegVal &gt;&gt; 32: CopyOut 场景&#xa;CheckStopTaskCanBeSent: 尾批 ACK 即标记完成, 不等 FINISH (并行化尾批停止)" style="text;html=1;strokeColor=#82b366;fillColor=#f0fff0;align=left;verticalAlign=top;spacingLeft=6;spacingTop=4;fontSize=12;fontFamily=Courier New;fontColor=#333333;" parent="fsm" vertex="1">
-          <mxGeometry y="266" width="620" height="100" as="geometry" />
+          <mxGeometry y="266" width="460" height="100" as="geometry" />
         </mxCell>
         <mxCell id="dep-mgr-ctx" value="context_*" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#0000CC;strokeColor=#0000CC;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mgr" target="ctx" edge="1">
           <mxGeometry relative="1" as="geometry">
