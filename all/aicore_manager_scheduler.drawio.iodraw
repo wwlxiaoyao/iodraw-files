@@ -148,8 +148,13 @@
             <mxPoint x="260" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dep-mgr-hw" value="aicoreHal_ 读写" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#0000CC;strokeColor=#0000CC;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="mgr-hal" target="hw-f6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="dep-mgr-hw" value="aicoreHal_ 读写" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#0000CC;strokeColor=#0000CC;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.53;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mgr-hal" target="hw" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="673" y="-244" />
+              <mxPoint x="1002" y="-244" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="dep-part-ctx" value="aicStart_/aicEnd_/aivStart_/aivEnd_ 控制派发范围" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#CC6600;strokeColor=#CC6600;strokeWidth=1;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mgr-part" target="ctx-qd-f1" edge="1">
           <mxGeometry relative="1" as="geometry" />
