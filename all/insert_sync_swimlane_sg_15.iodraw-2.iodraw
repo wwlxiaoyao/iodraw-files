@@ -13,6 +13,9 @@
         <mxCell id="0SG2dGXFKj3a6mLSUL57-4" value="uint8_t corePendReadyCnt[]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="0SG2dGXFKj3a6mLSUL57-2">
           <mxGeometry y="54" width="270" height="25" as="geometry" />
         </mxCell>
+        <mxCell id="0SG2dGXFKj3a6mLSUL57-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0SG2dGXFKj3a6mLSUL57-5" target="0SG2dGXFKj3a6mLSUL57-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0SG2dGXFKj3a6mLSUL57-5" value="AicoreManager" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="80" y="940" width="270" height="70" as="geometry" />
         </mxCell>
@@ -29,7 +32,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0SG2dGXFKj3a6mLSUL57-13" value="AiCoreDump" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="230" y="1350" width="270" height="54" as="geometry" />
+          <mxGeometry x="250" y="1350" width="270" height="54" as="geometry" />
         </mxCell>
         <mxCell id="0SG2dGXFKj3a6mLSUL57-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0SG2dGXFKj3a6mLSUL57-7" target="0SG2dGXFKj3a6mLSUL57-13">
           <mxGeometry relative="1" as="geometry" />
