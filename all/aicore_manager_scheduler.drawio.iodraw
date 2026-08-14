@@ -4,175 +4,175 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mgr" value="AiCoreManager (Per-AICPU 实例)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="mgr" value="AiCoreManager (Per-AICPU 实例)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-150" y="-340" width="750" height="496" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-part" value="4 字段分区 (aicStart_/aicEnd_/aivStart_/aivEnd_)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="mgr" vertex="1">
+        <mxCell id="mgr-part" value="4 字段分区 (aicStart_/aicEnd_/aivStart_/aivEnd_)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="mgr" vertex="1">
           <mxGeometry y="30" width="750" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-part-f1" value="int aicStart_ = 0          ← AIC 段起始核索引（含）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="mgr-part" vertex="1">
+        <mxCell id="mgr-part-f1" value="int aicStart_ = 0          ← AIC 段起始核索引（含）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-part" vertex="1">
           <mxGeometry y="22" width="750" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-part-f2" value="int aicEnd_   = 0          ← AIC 段结束核索引（不含），DAV_2002 动态" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="mgr-part" vertex="1">
+        <mxCell id="mgr-part-f2" value="int aicEnd_   = 0          ← AIC 段结束核索引（不含），DAV_2002 动态" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-part" vertex="1">
           <mxGeometry y="41" width="750" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-part-f3" value="int aivStart_ = 0          ← AIV 段起始核索引（含），= aicEnd_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="mgr-part" vertex="1">
+        <mxCell id="mgr-part-f3" value="int aivStart_ = 0          ← AIV 段起始核索引（含），= aicEnd_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-part" vertex="1">
           <mxGeometry y="60" width="750" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-part-f4" value="int aivEnd_   = 0          ← AIV 段结束核索引（不含），= aicStart_+aicValidNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="mgr-part" vertex="1">
+        <mxCell id="mgr-part-f4" value="int aivEnd_   = 0          ← AIV 段结束核索引（不含），= aicStart_+aicValidNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-part" vertex="1">
           <mxGeometry y="79" width="750" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-part-f5" value="int adjAicEnd_ / adjAivEnd_ ← 本 AICPU 分摊上界" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="mgr-part" vertex="1">
+        <mxCell id="mgr-part-f5" value="int adjAicEnd_ / adjAivEnd_ ← 本 AICPU 分摊上界" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-part" vertex="1">
           <mxGeometry y="98" width="750" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-task" value="任务跟踪 (per-core 双缓冲)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="mgr" vertex="1">
+        <mxCell id="mgr-task" value="任务跟踪 (per-core 双缓冲)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="mgr" vertex="1">
           <mxGeometry y="142" width="750" height="117" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-task-f1" value="uint32_t runningIds_[MAX_AICORE_NUM]          ← AICORE_STATUS_INIT = 空闲" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="mgr-task" vertex="1">
+        <mxCell id="mgr-task-f1" value="uint32_t runningIds_[MAX_AICORE_NUM]          ← AICORE_STATUS_INIT = 空闲" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-task" vertex="1">
           <mxGeometry y="22" width="750" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-task-f2" value="uint32_t pendingIds_[MAX_AICORE_NUM]          ← 硬件预取队列中的任务" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="mgr-task" vertex="1">
+        <mxCell id="mgr-task-f2" value="uint32_t pendingIds_[MAX_AICORE_NUM]          ← 硬件预取队列中的任务" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-task" vertex="1">
           <mxGeometry y="41" width="750" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-task-f3" value="int runningResolveIndexList_[MAX_AICORE_NUM]  ← running 任务的 resolve 游标" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="mgr-task" vertex="1">
+        <mxCell id="mgr-task-f3" value="int runningResolveIndexList_[MAX_AICORE_NUM]  ← running 任务的 resolve 游标" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-task" vertex="1">
           <mxGeometry y="60" width="750" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-task-f4" value="int pendingResolveIndexList_[MAX_AICORE_NUM]  ← pending 任务的 resolve 游标" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="mgr-task" vertex="1">
+        <mxCell id="mgr-task-f4" value="int pendingResolveIndexList_[MAX_AICORE_NUM]  ← pending 任务的 resolve 游标" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-task" vertex="1">
           <mxGeometry y="79" width="750" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-task-f5" value="int startRecord_[], endRecord_[]               ← DFX execStart/execEnd 插槽" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="mgr-task" vertex="1">
+        <mxCell id="mgr-task-f5" value="int startRecord_[], endRecord_[]               ← DFX execStart/execEnd 插槽" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-task" vertex="1">
           <mxGeometry y="98" width="750" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-cfg" value="核配置" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" parent="mgr" vertex="1">
+        <mxCell id="mgr-cfg" value="核配置" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="mgr" vertex="1">
           <mxGeometry y="259" width="750" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-cfg-f1" value="int aicValidNum_ ← 有效 AIC 核数 (pgmask 过滤后), aicNum_, aivNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="mgr-cfg" vertex="1">
+        <mxCell id="mgr-cfg-f1" value="int aicValidNum_ ← 有效 AIC 核数 (pgmask 过滤后), aicNum_, aivNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-cfg" vertex="1">
           <mxGeometry y="22" width="750" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-cfg-f2" value="int aicpuIdx_ / schedIdx_ / aicpuNum_            ← 本 AICPU 线程ID / 调度索引 / 总线程数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="mgr-cfg" vertex="1">
+        <mxCell id="mgr-cfg-f2" value="int aicpuIdx_ / schedIdx_ / aicpuNum_            ← 本 AICPU 线程ID / 调度索引 / 总线程数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-cfg" vertex="1">
           <mxGeometry y="41" width="750" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-cfg-f3" value="bool enableFairSch_ / enableL2CacheSch_           ← 调度策略开关" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="mgr-cfg" vertex="1">
+        <mxCell id="mgr-cfg-f3" value="bool enableFairSch_ / enableL2CacheSch_           ← 调度策略开关" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-cfg" vertex="1">
           <mxGeometry y="60" width="750" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-hal" value="硬件抽象 &amp; 性能" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" parent="mgr" vertex="1">
+        <mxCell id="mgr-hal" value="硬件抽象 &amp; 性能" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" parent="mgr" vertex="1">
           <mxGeometry y="338" width="750" height="98" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-hal-f1" value="AicoreHAL aicoreHal_        ← SetReadyQueue / GetFinishedTask / TryHandShakeByGm" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="mgr-hal" vertex="1">
+        <mxCell id="mgr-hal-f1" value="AicoreHAL aicoreHal_        ← SetReadyQueue / GetFinishedTask / TryHandShakeByGm" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-hal" vertex="1">
           <mxGeometry y="22" width="750" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-hal-f2" value="AiCoreProf aicoreProf_      ← ProfStart / ProfStop / GetMetrics (F7A004)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="mgr-hal" vertex="1">
+        <mxCell id="mgr-hal-f2" value="AiCoreProf aicoreProf_      ← ProfStart / ProfStop / GetMetrics (F7A004)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-hal" vertex="1">
           <mxGeometry y="41" width="750" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-hal-f3" value="AicoreDump aicoreDump_      ← DoDump (tensor dump)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="mgr-hal" vertex="1">
+        <mxCell id="mgr-hal-f3" value="AicoreDump aicoreDump_      ← DoDump (tensor dump)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-hal" vertex="1">
           <mxGeometry y="60" width="750" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-hal-f4" value="AicpuTaskManager aicpuTaskManager_  ← SyncAicpuTaskFinish" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="mgr-hal" vertex="1">
+        <mxCell id="mgr-hal-f4" value="AicpuTaskManager aicpuTaskManager_  ← SyncAicpuTaskFinish" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-hal" vertex="1">
           <mxGeometry y="79" width="750" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-cnt" value="统计计数器 (DEBUG)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="mgr" vertex="1">
+        <mxCell id="mgr-cnt" value="统计计数器 (DEBUG)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="mgr" vertex="1">
           <mxGeometry y="436" width="750" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-cnt-f1" value="uint64_t procAicCoreFunctionCnt_ / procAivCoreFunctionCnt_ / procAicpuFunctionCnt_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="mgr-cnt" vertex="1">
+        <mxCell id="mgr-cnt-f1" value="uint64_t procAicCoreFunctionCnt_ / procAivCoreFunctionCnt_ / procAicpuFunctionCnt_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-cnt" vertex="1">
           <mxGeometry y="22" width="750" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-cnt-f2" value="bool isSendStop / taskCtrlDequeFinish / disableControlCore_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="mgr-cnt" vertex="1">
+        <mxCell id="mgr-cnt-f2" value="bool isSendStop / taskCtrlDequeFinish / disableControlCore_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-cnt" vertex="1">
           <mxGeometry y="41" width="750" height="19" as="geometry" />
         </mxCell>
         <mxCell id="part-detail" value="4 字段分区模型" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="930" y="-110" width="610" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="part-d1" value="DAV_2002 (A1) 动态分区" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=12;fontStyle=1" parent="part-detail" vertex="1">
+        <mxCell id="part-d1" value="DAV_2002 (A1) 动态分区" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontStyle=1" parent="part-detail" vertex="1">
           <mxGeometry y="26" width="610" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="part-d2" value="aicStart_=0  ───────────────────────────────────── aivEnd_=aicStart_+aicValidNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="part-detail" vertex="1">
+        <mxCell id="part-d2" value="aicStart_=0  ───────────────────────────────────── aivEnd_=aicStart_+aicValidNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="part-detail" vertex="1">
           <mxGeometry y="46" width="610" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="part-d3" value="│←── AIC 段 ──→│←── AIV 段 ──→│" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="part-detail" vertex="1">
+        <mxCell id="part-d3" value="│←── AIC 段 ──→│←── AIV 段 ──→│" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="part-detail" vertex="1">
           <mxGeometry y="62" width="610" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="part-d4" value="aicStart_     aicEnd_=aivStart_     aivEnd_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="part-detail" vertex="1">
+        <mxCell id="part-d4" value="aicStart_     aicEnd_=aivStart_     aivEnd_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="part-detail" vertex="1">
           <mxGeometry y="78" width="610" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="part-d5" value="    0             分界点(动态)           aicValidNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="part-detail" vertex="1">
+        <mxCell id="part-d5" value="    0             分界点(动态)           aicValidNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="part-detail" vertex="1">
           <mxGeometry y="94" width="610" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="part-d6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;html=1;" parent="part-detail" vertex="1">
+        <mxCell id="part-d6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;html=1;" parent="part-detail" vertex="1">
           <mxGeometry y="110" width="610" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="part-d7" value="DAV_2201/3510 静态分区" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=12;fontStyle=1" parent="part-detail" vertex="1">
+        <mxCell id="part-d7" value="DAV_2201/3510 静态分区" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontStyle=1" parent="part-detail" vertex="1">
           <mxGeometry y="118" width="610" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="part-d8" value="aicStart_=schedIdx_*aicNum_   aicEnd_=aicStart_+aicNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="part-detail" vertex="1">
+        <mxCell id="part-d8" value="aicStart_=schedIdx_*aicNum_   aicEnd_=aicStart_+aicNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="part-detail" vertex="1">
           <mxGeometry y="138" width="610" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="part-d9" value="aivStart_=schedIdx_*aivNum_   aivEnd_=aivStart_+aivNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=12;fontFamily=Courier New;" parent="part-detail" vertex="1">
+        <mxCell id="part-d9" value="aivStart_=schedIdx_*aivNum_   aivEnd_=aivStart_+aivNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="part-detail" vertex="1">
           <mxGeometry y="154" width="610" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="part-d10" value="adjAicEnd_/adjAivEnd_ 由 CalcAdjAicoreEnd 按 schedIdx_ 分摊" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="part-detail" vertex="1">
+        <mxCell id="part-d10" value="adjAicEnd_/adjAivEnd_ 由 CalcAdjAicoreEnd 按 schedIdx_ 分摊" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="part-detail" vertex="1">
           <mxGeometry y="170" width="610" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="part-d11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;html=1;" parent="part-detail" vertex="1">
+        <mxCell id="part-d11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;html=1;" parent="part-detail" vertex="1">
           <mxGeometry y="186" width="610" height="8" as="geometry" />
         </mxCell>
         <mxCell id="part-d12" value="不变量: aicStart_ ≤ aicEnd_ ≤ aivStart_ ≤ aivEnd_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;fontColor=#CC0000;" parent="part-detail" vertex="1">
           <mxGeometry y="194" width="610" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="ctx" value="SchduleContext (跨 AICPU 共享)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="ctx" value="SchduleContext (跨 AICPU 共享)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-80" y="815" width="700" height="365" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-qd" value="快表派发 (第一阶段 BatchSendTask)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="ctx" vertex="1">
+        <mxCell id="ctx-qd" value="快表派发 (第一阶段 BatchSendTask)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="ctx" vertex="1">
           <mxGeometry y="30" width="700" height="98" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-qd-f1" value="uint8_t coreRunReadyCnt_[2]         ← 快表中的就绪核数 (AIC=0, AIV=1)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="ctx-qd" vertex="1">
+        <mxCell id="ctx-qd-f1" value="uint8_t coreRunReadyCnt_[2]         ← 快表中的就绪核数 (AIC=0, AIV=1)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-qd" vertex="1">
           <mxGeometry y="22" width="700" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-qd-f2" value="uint8_t runReadyCoreIdx_[2][8]      ← 快表：就绪核索引数组 [type][0..7]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="ctx-qd" vertex="1">
+        <mxCell id="ctx-qd-f2" value="uint8_t runReadyCoreIdx_[2][8]      ← 快表：就绪核索引数组 [type][0..7]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-qd" vertex="1">
           <mxGeometry y="41" width="700" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-qd-f3" value="uint8_t coreIdxPosition_[16]        ← 核在 runReadyCoreIdx_[type] 中的位置" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="ctx-qd" vertex="1">
+        <mxCell id="ctx-qd-f3" value="uint8_t coreIdxPosition_[16]        ← 核在 runReadyCoreIdx_[type] 中的位置" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-qd" vertex="1">
           <mxGeometry y="60" width="700" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-qd-f4" value="  INVALID_COREIDX_POSITION = 0xff  ← 不在任何快表中; 默认值 0 是潜在 bug" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;fontColor=#CC0000;" parent="ctx-qd" vertex="1">
+        <mxCell id="ctx-qd-f4" value="  INVALID_COREIDX_POSITION = 0xff  ← 不在任何快表中; 默认值 0 是潜在 bug" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;fontColor=#CC0000;" parent="ctx-qd" vertex="1">
           <mxGeometry y="79" width="700" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-pr" value="环形扫描派发 (第二阶段 BatchSendTask)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" parent="ctx" vertex="1">
+        <mxCell id="ctx-pr" value="环形扫描派发 (第二阶段 BatchSendTask)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="ctx" vertex="1">
           <mxGeometry y="128" width="700" height="98" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-pr-f1" value="uint8_t corePendReadyCnt_[2]        ← 可派发的核总数 (快表 + pend 扫描)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="ctx-pr" vertex="1">
+        <mxCell id="ctx-pr-f1" value="uint8_t corePendReadyCnt_[2]        ← 可派发的核总数 (快表 + pend 扫描)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-pr" vertex="1">
           <mxGeometry y="22" width="700" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-pr-f2" value="uint8_t lastPendReadyCoreIdx_[2]    ← 环形扫描游标，记录上次扫描到的位置" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="ctx-pr" vertex="1">
+        <mxCell id="ctx-pr-f2" value="uint8_t lastPendReadyCoreIdx_[2]    ← 环形扫描游标，记录上次扫描到的位置" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-pr" vertex="1">
           <mxGeometry y="41" width="700" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-pr-f3" value="bool wrapCoreAvail_[16]             ← 核是否空闲 (true=可用, false=已占用)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="ctx-pr" vertex="1">
+        <mxCell id="ctx-pr-f3" value="bool wrapCoreAvail_[16]             ← 核是否空闲 (true=可用, false=已占用)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-pr" vertex="1">
           <mxGeometry y="60" width="700" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-pr-f4" value="  派发时设 false; tail task 完成时 CheckStopTaskCanBeSent 恢复 true" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=10;fontFamily=Courier New;fontColor=#666666;" parent="ctx-pr" vertex="1">
+        <mxCell id="ctx-pr-f4" value="  派发时设 false; tail task 完成时 CheckStopTaskCanBeSent 恢复 true" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;fontColor=#666666;" parent="ctx-pr" vertex="1">
           <mxGeometry y="79" width="700" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-tw" value="任务等待" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" parent="ctx" vertex="1">
+        <mxCell id="ctx-tw" value="任务等待" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" parent="ctx" vertex="1">
           <mxGeometry y="226" width="700" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-tw-f1" value="uint32_t waitTaskCnt_[2]            ← 待处理任务计数器" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="ctx-tw" vertex="1">
+        <mxCell id="ctx-tw-f1" value="uint32_t waitTaskCnt_[2]            ← 待处理任务计数器" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-tw" vertex="1">
           <mxGeometry y="22" width="700" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-tw-f2" value="ParallelSchDeviceTaskContext schParallelDevTaskCtx  ← 并行 devTask 上下文" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="ctx-tw" vertex="1">
+        <mxCell id="ctx-tw-f2" value="ParallelSchDeviceTaskContext schParallelDevTaskCtx  ← 并行 devTask 上下文" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-tw" vertex="1">
           <mxGeometry y="41" width="700" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-cn" value="约束 (uint8_t 溢出风险)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="ctx" vertex="1">
+        <mxCell id="ctx-cn" value="约束 (uint8_t 溢出风险)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="ctx" vertex="1">
           <mxGeometry y="286" width="700" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-cn-f1" value="coreRunReadyCnt_[type] ≤ coreNum    ← BatchSendTask line 1079 检查" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="ctx-cn" vertex="1">
+        <mxCell id="ctx-cn-f1" value="coreRunReadyCnt_[type] ≤ coreNum    ← BatchSendTask line 1079 检查" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-cn" vertex="1">
           <mxGeometry y="22" width="700" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-cn-f2" value="corePendReadyCnt_[type] ≤ coreNum   ← 超限返回 CORE_INFO_INVALID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;" parent="ctx-cn" vertex="1">
+        <mxCell id="ctx-cn-f2" value="corePendReadyCnt_[type] ≤ coreNum   ← 超限返回 CORE_INFO_INVALID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-cn" vertex="1">
           <mxGeometry y="41" width="700" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-cn-f3" value="--coreRunReadyCnt_[type] 若 type 计数为 0 → 下溢到 255 → runReadyCoreIdx_[255] OOB" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontFamily=Courier New;fontColor=#CC0000;" parent="ctx-cn" vertex="1">
+        <mxCell id="ctx-cn-f3" value="--coreRunReadyCnt_[type] 若 type 计数为 0 → 下溢到 255 → runReadyCoreIdx_[255] OOB" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;fontColor=#CC0000;" parent="ctx-cn" vertex="1">
           <mxGeometry y="60" width="700" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="hw" value="Hardware Registers (通过 AicoreHAL 访问)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="hw" value="Hardware Registers (通过 AicoreHAL 访问)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1040" y="350" width="670" height="144" as="geometry" />
         </mxCell>
         <mxCell id="hw-f1" value="GetFinishedTask(coreIdx) → uint64_t finTaskRegVal" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="hw" vertex="1">
@@ -193,75 +193,115 @@
         <mxCell id="hw-f6" value="TryHandShakeByGm(coreIdx, dotStatus)      ← 握手状态寄存器" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="hw" vertex="1">
           <mxGeometry y="125" width="670" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="fsm" value="核状态机 (pending + running 双缓冲)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="540" y="510" width="380" height="230" as="geometry" />
+        <mxCell id="fsm" value="核状态矩阵 (pendingIds_ × runningIds_ 双缓冲)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="540" y="510" width="620" height="846" as="geometry" />
         </mxCell>
-        <mxCell id="fsm-s1" value="空闲 (INIT)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="fsm" vertex="1">
-          <mxGeometry x="20" y="36" width="100" height="30" as="geometry" />
+        <mxCell id="fsm-h0" value="" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="fsm">
+          <mxGeometry y="26" width="620" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="fsm-s2" value="pending (排队)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" parent="fsm" vertex="1">
-          <mxGeometry x="160" y="36" width="100" height="30" as="geometry" />
+        <mxCell id="fsm-h1" value="pendingIds_" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;fontSize=14;fontFamily=Courier New;fontStyle=1;" vertex="1" parent="fsm">
+          <mxGeometry y="52" width="620" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="fsm-s3" value="running (执行中)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" parent="fsm" vertex="1">
-          <mxGeometry x="160" y="100" width="100" height="30" as="geometry" />
+        <mxCell id="fsm-h2" value="runningIds_" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;fontSize=14;fontFamily=Courier New;fontStyle=1;" vertex="1" parent="fsm">
+          <mxGeometry y="78" width="620" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="fsm-s4" value="pending+running" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" parent="fsm" vertex="1">
-          <mxGeometry x="20" y="100" width="100" height="30" as="geometry" />
+        <mxCell id="fsm-h3" value="状态含义" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="fsm">
+          <mxGeometry y="104" width="620" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="fsm-e1" value="SendTask" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#006600;" parent="fsm" source="fsm-s1" target="fsm-s2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="fsm-h4" value="触发函数" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="fsm">
+          <mxGeometry y="130" width="620" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="fsm-e2" value="ACK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#006600;" parent="fsm" source="fsm-s2" target="fsm-s3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="fsm-r1-c0" value="空闲" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="fsm">
+          <mxGeometry y="156" width="620" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="fsm-e3" value="FINISH" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#CC0000;" parent="fsm" source="fsm-s3" target="fsm-s1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="290" y="115" />
-              <mxPoint x="290" y="10" />
-              <mxPoint x="70" y="10" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="fsm-r1-c1" value="INIT (0xFFFFFFFF)" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=14;fontFamily=Courier New;" vertex="1" parent="fsm">
+          <mxGeometry y="182" width="620" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="fsm-e4" value="FINISH" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#CC0000;" parent="fsm" source="fsm-s4" target="fsm-s1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="10" y="115" />
-              <mxPoint x="10" y="10" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="fsm-r1-c2" value="INIT (0xFFFFFFFF)" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=14;fontFamily=Courier New;" vertex="1" parent="fsm">
+          <mxGeometry y="208" width="620" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="fsm-e5" value="SendTask" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#006600;" parent="fsm" source="fsm-s1" target="fsm-s4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="70" y="82" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="fsm-r1-c3" value="核空闲，可派发新任务" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=14;" vertex="1" parent="fsm">
+          <mxGeometry y="234" width="620" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="fsm-e6" value="ACK (尾批)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#006600;" parent="fsm" source="fsm-s2" target="fsm-s1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="210" y="10" />
-              <mxPoint x="70" y="10" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="fsm-r1-c4" value="AddReadyCoreIdx" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=14;fontFamily=Courier New;" vertex="1" parent="fsm">
+          <mxGeometry y="260" width="620" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="fsm-note" value="ReleaseCoreByRegVal 解析硬件寄存器 &lt;br&gt;CheckStopTaskCanBeSent 处理尾批停止" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=10;fontColor=#666666;" parent="fsm" vertex="1">
-          <mxGeometry x="20" y="150" width="340" height="30" as="geometry" />
+        <mxCell id="fsm-r2-c0" value="排队" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="fsm">
+          <mxGeometry y="286" width="620" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="dep-mgr-ctx" value="context_*" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#0000CC;strokeColor=#0000CC;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mgr" target="ctx" edge="1">
+        <mxCell id="fsm-r2-c1" value="taskId (非 INIT)" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;fontSize=14;fontFamily=Courier New;" vertex="1" parent="fsm">
+          <mxGeometry y="312" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fsm-r2-c2" value="INIT (0xFFFFFFFF)" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;fontSize=14;fontFamily=Courier New;" vertex="1" parent="fsm">
+          <mxGeometry y="338" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fsm-r2-c3" value="任务已派发，硬件预取中" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;fontSize=14;" vertex="1" parent="fsm">
+          <mxGeometry y="364" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fsm-r2-c4" value="SendTaskToAiCore" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;fontSize=14;fontFamily=Courier New;" vertex="1" parent="fsm">
+          <mxGeometry y="390" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fsm-r3-c0" value="双缓冲" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="fsm">
+          <mxGeometry y="416" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fsm-r3-c1" value="taskId_B (非 INIT)" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;fontSize=14;fontFamily=Courier New;" vertex="1" parent="fsm">
+          <mxGeometry y="442" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fsm-r3-c2" value="taskId_A (非 INIT)" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;fontSize=14;fontFamily=Courier New;" vertex="1" parent="fsm">
+          <mxGeometry y="468" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fsm-r3-c3" value="A 执行中 + B 排队中" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;fontSize=14;" vertex="1" parent="fsm">
+          <mxGeometry y="494" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fsm-r3-c4" value="SendTaskToAiCore (二次派发)" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;fontSize=14;fontFamily=Courier New;" vertex="1" parent="fsm">
+          <mxGeometry y="520" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fsm-r4-c0" value="执行中" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="fsm">
+          <mxGeometry y="546" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fsm-r4-c1" value="INIT (0xFFFFFFFF)" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;fontSize=14;fontFamily=Courier New;" vertex="1" parent="fsm">
+          <mxGeometry y="572" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fsm-r4-c2" value="taskId (非 INIT)" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;fontSize=14;fontFamily=Courier New;" vertex="1" parent="fsm">
+          <mxGeometry y="598" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fsm-r4-c3" value="仅 running 任务执行中" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;fontSize=14;" vertex="1" parent="fsm">
+          <mxGeometry y="624" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fsm-r4-c4" value="ReleaseCoreByRegVal (ACK)" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;fontSize=14;fontFamily=Courier New;" vertex="1" parent="fsm">
+          <mxGeometry y="650" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fsm-r5-c0" value="→ 空闲" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#CC0000;" vertex="1" parent="fsm">
+          <mxGeometry y="676" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fsm-r5-c1" value="→ INIT" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=14;fontFamily=Courier New;fontColor=#CC0000;" vertex="1" parent="fsm">
+          <mxGeometry y="702" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fsm-r5-c2" value="→ INIT" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=14;fontFamily=Courier New;fontColor=#CC0000;" vertex="1" parent="fsm">
+          <mxGeometry y="728" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fsm-r5-c3" value="FINISH 完成，核释放" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=14;fontColor=#CC0000;" vertex="1" parent="fsm">
+          <mxGeometry y="754" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fsm-r5-c4" value="ReleaseCoreByRegVal (FINISH)" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=14;fontFamily=Courier New;fontColor=#CC0000;" vertex="1" parent="fsm">
+          <mxGeometry y="780" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fsm-note" value="ReleaseCoreByRegVal 解析硬件寄存器 finTaskRegVal → 匹配 pending/running → 状态转换 + 依赖解析&#xa;CheckStopTaskCanBeSent 处理尾批: ACK 即可标记完成，不等 FINISH（并行化尾批停止）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontColor=#666666;" parent="fsm" vertex="1">
+          <mxGeometry y="806" width="620" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dep-mgr-ctx" value="context_*" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#0000CC;strokeColor=#0000CC;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mgr" target="ctx" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="260" y="570" as="sourcePoint" />
             <mxPoint x="260" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dep-mgr-hw" value="aicoreHal_ 读写" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#0000CC;strokeColor=#0000CC;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mgr-hal" target="hw" edge="1">
+        <mxCell id="dep-mgr-hw" value="aicoreHal_ 读写" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#0000CC;strokeColor=#0000CC;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mgr-hal" target="hw" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dep-part-ctx" value="aicStart_/aicEnd_/aivStart_/aivEnd_ 控制派发范围" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#CC6600;strokeColor=#CC6600;strokeWidth=1;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mgr-part" target="ctx-qd-f1" edge="1">
+        <mxCell id="dep-part-ctx" value="aicStart_/aicEnd_/aivStart_/aivEnd_ 控制派发范围" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#CC6600;strokeColor=#CC6600;strokeWidth=1;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mgr-part" target="ctx-qd-f1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dep-task-ctx" value="pendingIds_/runningIds_ 依赖 wrapCoreAvail_ 校验" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#CC6600;strokeColor=#CC6600;strokeWidth=1;dashed=1;exitX=0.3;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mgr-task" target="ctx-pr-f3" edge="1">
+        <mxCell id="dep-task-ctx" value="pendingIds_/runningIds_ 依赖 wrapCoreAvail_ 校验" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#CC6600;strokeColor=#CC6600;strokeWidth=1;dashed=1;exitX=0.3;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mgr-task" target="ctx-pr-f3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-330" y="-139" />
@@ -269,19 +309,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="legend" value="图例" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="legend" value="图例" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="900" y="1090" width="490" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="leg1" value="── 实线 = 指针/引用关系 (context_*, aicoreHal_)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=10;" parent="legend" vertex="1">
+        <mxCell id="leg1" value="── 实线 = 指针/引用关系 (context_*, aicoreHal_)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;" parent="legend" vertex="1">
           <mxGeometry y="26" width="490" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="leg2" value="- - 虚线 = 数据依赖 (分区控制派发范围, task跟踪依赖 avail 校验)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=10;" parent="legend" vertex="1">
+        <mxCell id="leg2" value="- - 虚线 = 数据依赖 (分区控制派发范围, task跟踪依赖 avail 校验)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;" parent="legend" vertex="1">
           <mxGeometry y="42" width="490" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="leg3" value="红色文字 = 潜在 bug / 不变量约束" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=10;fontColor=#CC0000;" parent="legend" vertex="1">
+        <mxCell id="leg3" value="红色文字 = 潜在 bug / 不变量约束" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontColor=#CC0000;" parent="legend" vertex="1">
           <mxGeometry y="58" width="490" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="leg4" value="绿色填充 = 快表/状态机, 黄色填充 = 环形扫描, 红色填充 = HAL/等待, 紫色填充 = 分区/约束" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=10;fontColor=#666666;" parent="legend" vertex="1">
+        <mxCell id="leg4" value="绿色填充 = 快表/状态机, 黄色填充 = 环形扫描, 红色填充 = HAL/等待, 紫色填充 = 分区/约束" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontColor=#666666;" parent="legend" vertex="1">
           <mxGeometry y="74" width="490" height="16" as="geometry" />
         </mxCell>
       </root>
