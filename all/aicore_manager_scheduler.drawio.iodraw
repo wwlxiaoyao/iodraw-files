@@ -119,7 +119,7 @@
           <mxGeometry y="194" width="610" height="86" as="geometry" />
         </mxCell>
         <mxCell id="ctx" value="SchduleContext (跨 AICPU 共享)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-280" y="690" width="440" height="365" as="geometry" />
+          <mxGeometry x="-50" y="720" width="440" height="365" as="geometry" />
         </mxCell>
         <mxCell id="ctx-qd" value="快表派发 (第一阶段 BatchSendTask)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="ctx" vertex="1">
           <mxGeometry y="30" width="440" height="98" as="geometry" />
@@ -258,11 +258,13 @@
         <mxCell id="dep-mgr-hw" value="aicoreHal_ 读写" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#0000CC;strokeColor=#0000CC;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mgr-hal" target="hw" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dep-part-ctx" value="aicStart_/aicEnd_/aivStart_/aivEnd_ 控制派发范围" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#CC6600;strokeColor=#CC6600;strokeWidth=1;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;" parent="1" source="mgr-part" target="ctx-qd" edge="1">
+        <mxCell id="dep-part-ctx" value="aicStart_/aicEnd_/aivStart_/aivEnd_ 控制派发范围" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#CC6600;strokeColor=#CC6600;strokeWidth=1;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mgr-part" target="ctx-qd-f1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="-180" y="95" />
               <mxPoint x="20" y="95" />
               <mxPoint x="20" y="650" />
+              <mxPoint x="-50" y="650" />
             </Array>
           </mxGeometry>
         </mxCell>
