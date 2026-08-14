@@ -241,7 +241,7 @@
           <mxGeometry x="920" y="1110" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-5" value="双缓冲&#xa;pending=taskId_B&#xa;running=taskId_A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="1000" width="210" height="60" as="geometry" />
+          <mxGeometry x="1350" y="1000" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="fsm-e01" value="&lt;div&gt;BatchSendTask -&amp;gt;&lt;/div&gt;SendTaskToAiCore&lt;br&gt;&lt;div&gt;写 SetReadyQueue&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#006600;strokeColor=#006600;strokeWidth=2;" edge="1" parent="1" source="wuAuFMzWLC_8M6y4LzJn-2" target="wuAuFMzWLC_8M6y4LzJn-3">
           <mxGeometry relative="1" as="geometry" />
