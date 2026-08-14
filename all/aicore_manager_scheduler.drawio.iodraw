@@ -286,8 +286,8 @@
         <mxCell id="fsm-e13b" value="CopyOut (pending 提升)&#xa;ReleaseCoreByRegVal&#xa;pending→running, resolve old running" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#3366CC;strokeColor=#3366CC;strokeWidth=1.5;dashed=1;entryX=0.53;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.526;exitY=0.944;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="wuAuFMzWLC_8M6y4LzJn-3" target="wuAuFMzWLC_8M6y4LzJn-4">
           <mxGeometry x="-0.2112" y="10" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1461" y="890" />
-              <mxPoint x="1031" y="890" />
+              <mxPoint x="1461" y="900" />
+              <mxPoint x="1031" y="900" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
