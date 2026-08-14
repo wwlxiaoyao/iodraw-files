@@ -450,7 +450,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pend-fsm" value="&lt;span style=&quot;font-size: 14px; font-weight: 700;&quot;&gt;corePendReadyCnt_ / lastPendReadyCoreIdx_ 可派发核池状态机&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-360" y="1720" width="1030" height="480" as="geometry" />
+          <mxGeometry x="-360" y="1650" width="1030" height="550" as="geometry" />
         </mxCell>
         <mxCell id="pend-s1" value="可派发&#xa;pendReadyCnt_ &gt; 0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="-110" y="1770" width="480" height="60" as="geometry" />
@@ -518,7 +518,7 @@
           <mxGeometry x="750" y="2280" width="510" height="480" as="geometry" />
         </mxCell>
         <mxCell id="fast-fsm" value="&lt;span style=&quot;font-size: 14px; font-weight: 700;&quot;&gt;coreRunReadyCnt_ / runReadyCoreIdx_ / coreIdxPosition_ 快表状态机&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-360" y="2270" width="750" height="420" as="geometry" />
+          <mxGeometry x="-360" y="2270" width="1040" height="610" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
