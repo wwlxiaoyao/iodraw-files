@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0" version="24.7.17">
   <diagram name="AICore Manager 数据结构视图" id="data-structure-view">
-    <mxGraphModel dx="3128" dy="2089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3328" dy="2089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,7 +80,7 @@
           <mxGeometry y="41" width="750" height="19" as="geometry" />
         </mxCell>
         <mxCell id="part-detail" value="4 字段分区模型" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="930" y="-110" width="740" height="349" as="geometry" />
+          <mxGeometry x="930" y="-110" width="740" height="353" as="geometry" />
         </mxCell>
         <mxCell id="part-d1" value="DAV_2002 (A1) 动态分区" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontStyle=1" parent="part-detail" vertex="1">
           <mxGeometry y="26" width="740" height="20" as="geometry" />
@@ -94,29 +94,29 @@
         <mxCell id="part-d4" value="aicStart_     aicEnd_=aivStart_     aivEnd_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="part-detail" vertex="1">
           <mxGeometry y="78" width="740" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="part-d6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;html=1;" parent="part-detail" vertex="1">
-          <mxGeometry y="94" width="740" height="42" as="geometry" />
-        </mxCell>
         <mxCell id="part-d5" value="    0             分界点(动态)           aicValidNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="part-detail" vertex="1">
-          <mxGeometry y="136" width="740" height="16" as="geometry" />
+          <mxGeometry y="94" width="740" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="part-d6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;html=1;" parent="part-detail" vertex="1">
+          <mxGeometry y="114" width="740" height="42" as="geometry" />
         </mxCell>
         <mxCell id="part-d7" value="DAV_2201/3510 静态分区" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontStyle=1" parent="part-detail" vertex="1">
-          <mxGeometry y="152" width="740" height="20" as="geometry" />
+          <mxGeometry y="156" width="740" height="20" as="geometry" />
         </mxCell>
         <mxCell id="part-d8" value="aicStart_=schedIdx_*aicNum_   aicEnd_=aicStart_+aicNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="part-detail" vertex="1">
-          <mxGeometry y="172" width="740" height="16" as="geometry" />
+          <mxGeometry y="176" width="740" height="16" as="geometry" />
         </mxCell>
         <mxCell id="part-d9" value="aivStart_=schedIdx_*aivNum_   aivEnd_=aivStart_+aivNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="part-detail" vertex="1">
-          <mxGeometry y="188" width="740" height="16" as="geometry" />
+          <mxGeometry y="192" width="740" height="16" as="geometry" />
         </mxCell>
         <mxCell id="part-d10" value="adjAicEnd_/adjAivEnd_ 由 CalcAdjAicoreEnd 按 schedIdx_ 分摊" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="part-detail" vertex="1">
-          <mxGeometry y="204" width="740" height="16" as="geometry" />
+          <mxGeometry y="208" width="740" height="16" as="geometry" />
         </mxCell>
         <mxCell id="part-d11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;html=1;" parent="part-detail" vertex="1">
-          <mxGeometry y="220" width="740" height="43" as="geometry" />
+          <mxGeometry y="224" width="740" height="43" as="geometry" />
         </mxCell>
         <mxCell id="part-d12" value="不变量: aicStart_ ≤ aicEnd_ ≤ aivStart_ ≤ aivEnd_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;fontColor=#CC0000;" parent="part-detail" vertex="1">
-          <mxGeometry y="263" width="740" height="86" as="geometry" />
+          <mxGeometry y="267" width="740" height="86" as="geometry" />
         </mxCell>
         <mxCell id="ctx" value="SchduleContext (跨 AICPU 共享)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-80" y="710" width="700" height="365" as="geometry" />
