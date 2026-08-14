@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="pend-fsm" value="&lt;span style=&quot;font-size: 14px; font-weight: 700;&quot;&gt;corePendReadyCnt_ / lastPendReadyCoreIdx_ 可派发核池状态机&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-403" y="1660" width="1110" height="1220" as="geometry" />
+          <mxGeometry x="-404" y="1660" width="1110" height="1220" as="geometry" />
         </mxCell>
         <mxCell id="fast-fsm" value="&lt;span style=&quot;font-size: 14px; font-weight: 700;&quot;&gt;coreRunReadyCnt_ / runReadyCoreIdx_ / coreIdxPosition_ 快表状态机&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-273" y="1700" width="840" height="610" as="geometry" />
+          <mxGeometry x="-274" y="1700" width="840" height="610" as="geometry" />
         </mxCell>
         <mxCell id="mgr" value="AiCoreManager (Per-AICPU 实例)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-115" y="-850" width="750" height="767" as="geometry" />
@@ -456,17 +456,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pend-s1" value="可派发&#xa;pendReadyCnt_ &gt; 0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="-80" y="2439" width="480" height="60" as="geometry" />
+          <mxGeometry x="-81" y="2439" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pend-s2" value="耗尽&#xa;pendReadyCnt_ == 0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="-80" y="2789" width="480" height="60" as="geometry" />
+          <mxGeometry x="-81" y="2789" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pend-e11" value="BatchSendTask 部分消耗&#xa;pendReadyCnt_ -= sendCnt (仍 &gt; 0)&#xa;lastPendReadyCoreIdx_ 推进" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#006600;strokeColor=#006600;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;elbow=vertical;" parent="1" source="pend-s1" target="pend-s1" edge="1">
           <mxGeometry x="-0.1828" y="10" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="160" y="2399" />
-              <mxPoint x="450" y="2399" />
-              <mxPoint x="450" y="2484" />
+              <mxPoint x="159" y="2399" />
+              <mxPoint x="449" y="2399" />
+              <mxPoint x="449" y="2484" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -477,8 +477,8 @@
         <mxCell id="pend-e21" value="ReleaseCoreByRegVal (pending FINISH)&#xa;pendReadyCnt_++ → 核回到可派发池" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#CC6600;strokeColor=#CC6600;strokeWidth=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pend-s2" target="pend-s1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-200" y="2819" />
-              <mxPoint x="-200" y="2469" />
+              <mxPoint x="-201" y="2819" />
+              <mxPoint x="-201" y="2469" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -486,13 +486,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pend-note" value="lastPendReadyCoreIdx_ 游标语义:&#xa;  ├─ 指向环形扫描的起始位置，跨 BatchSendTask 调用保持 round-robin 公平性&#xa;  ├─ 每次 BatchSendTask 第二阶段成功派发后推进: (lastProcCore + 1) % coreNum&#xa;  ├─ CalcAdjAicoreEnd 不重置游标（跨 devTask 保留连续性）&#xa;  └─ 只有 UpdateAiCoreBlockIndexSection (Init) 才初始化为 aicStart_/aivStart_&#xa;&#xa;corePendReadyCnt_ 计数语义:&#xa;  ├─ 表示可派发核配额，同时覆盖快表 (runReadyCoreIdx_) 和环形扫描核&#xa;  ├─ 派发时递减 (BatchSendTask), 核完成时递增 (ReleaseCoreByRegVal pending FINISH)&#xa;  ├─ running FINISH 不递增 (核已在 pending FINISH 时归还配额)&#xa;  └─ devTask 切换时 RESET 为 adj 范围 (CalcAdjAicoreEnd)" style="text;html=1;strokeColor=#82b366;fillColor=#f0fff0;align=left;verticalAlign=top;spacingLeft=6;spacingTop=8;fontSize=14;fontFamily=Courier New;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="720" y="2550" width="680" height="220" as="geometry" />
+          <mxGeometry x="719" y="2550" width="680" height="220" as="geometry" />
         </mxCell>
         <mxCell id="fast-s1" value="游离态&#xa;coreIdxPosition_ = INVALID (0xff)&#xa;不在快表中，只能环形扫描找到" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="-75" y="1750" width="480" height="70" as="geometry" />
+          <mxGeometry x="-76" y="1750" width="480" height="70" as="geometry" />
         </mxCell>
         <mxCell id="fast-s2" value="在表态&#xa;coreIdxPosition_ = [0..cnt-1]&#xa;在快表中，可 O(1) 派发" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="-45" y="2070" width="450" height="120" as="geometry" />
+          <mxGeometry x="-46" y="2070" width="450" height="120" as="geometry" />
         </mxCell>
         <mxCell id="fast-e12-add" value="AddReadyCoreIdx&#xa;coreRunReadyCnt_++&#xa;coreIdxPosition_[i] = cnt" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#006600;strokeColor=#006600;strokeWidth=2;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.189;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fast-s1" target="fast-s2">
           <mxGeometry relative="1" as="geometry" />
@@ -500,10 +500,10 @@
         <mxCell id="fast-e21-rm" value="RemoveRunReadyCoreIdx (mid)&#xa;tail-swap: 尾元素移到删除位&#xa;coreRunReadyCnt_--&#xa;coreIdxPosition_[i] = INVALID" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#CC0000;strokeColor=#CC0000;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fast-s2" target="fast-s1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-175" y="2130" />
-              <mxPoint x="-175" y="1785" />
+              <mxPoint x="-176" y="2130" />
+              <mxPoint x="-176" y="1785" />
             </Array>
-            <mxPoint x="-45" y="2090" as="sourcePoint" />
+            <mxPoint x="-46" y="2090" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fast-e21-tail" value="RemoveReadyCoreIdxTail (tail)&#xa;从快表尾部弹出 (LIFO)&#xa;coreRunReadyCnt_--&#xa;coreIdxPosition_[i] = INVALID" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#CC6600;strokeColor=#CC6600;strokeWidth=2;exitX=0.847;exitY=-0.008;exitDx=0;exitDy=0;entryX=0.844;entryY=0.986;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="fast-s2" target="fast-s1">
@@ -512,60 +512,60 @@
         <mxCell id="fast-e22-swap" value="RemoveRunReadyCoreIdx (间接)&#xa;其他核被 mid-remove 时&#xa;tail-swap 改变本核位置" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontColor=#999999;strokeColor=#999999;strokeWidth=1;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fast-s2" target="fast-s2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="495" y="2130" />
-              <mxPoint x="495" y="2260" />
-              <mxPoint x="180" y="2260" />
+              <mxPoint x="494" y="2130" />
+              <mxPoint x="494" y="2260" />
+              <mxPoint x="179" y="2260" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="fast-note" value="快表操作接口:&#xa;  AddReadyCoreIdx:        游离→在表, cnt++, 追加到尾部&#xa;  RemoveRunReadyCoreIdx:   在表→游离, cnt--, 尾交换保持数组紧凑&#xa;  RemoveReadyCoreIdxTail:  在表→游离, cnt--, 仅尾部弹出&#xa;&#xa;调用者:&#xa;  AddReadyCoreIdx 入口:&#xa;    HandShake (握手成功)&#xa;    ReleaseCoreByRegVal (pending FINISH 双完成)&#xa;    ReleaseCoreByRegVal (running FINISH, pending=INIT)&#xa;    CheckStopTaskCanBeSent (尾批停止)&#xa;    UpdateRunReadyCoreNum (adj 范围扩大, 增量)&#xa;    DynamicAdjustCorePartition (DAV_2002 分区翻转)&#xa;    UpdateAiCoreBlockIndexSection (DEV_IF_NONDEVICE 初始化)&#xa;&#xa;  RemoveRunReadyCoreIdx 入口:&#xa;    UpdateRunReadyCoreNum (adj 范围缩小)&#xa;    DynamicAdjustCorePartition (DAV_2002 分区翻转)&#xa;&#xa;  RemoveReadyCoreIdxTail 入口:&#xa;    BatchSendTask 第一阶段 (快表派发 LIFO)&#xa;&#xa;关键约束:&#xa;  coreRunReadyCnt_[type] ≤ coreNum (BatchSendTask 检查)&#xa;  coreIdxPosition_ 默认值 0 ≠ INVALID 0xff (潜在 bug)&#xa;  --coreRunReadyCnt_ 若为 0 则 uint8_t 下溢到 255" style="text;html=1;strokeColor=#82b366;fillColor=#f0fff0;align=left;verticalAlign=top;spacingLeft=6;spacingTop=8;fontSize=14;fontFamily=Courier New;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="790" y="1730" width="510" height="480" as="geometry" />
+          <mxGeometry x="789" y="1730" width="510" height="480" as="geometry" />
         </mxCell>
         <mxCell id="5aYVAsXicacRLBcelbmh-2" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeColor=#FF00FF;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-353" y="2080" as="sourcePoint" />
-            <mxPoint x="-193" y="2720" as="targetPoint" />
+            <mxPoint x="-354" y="2080" as="sourcePoint" />
+            <mxPoint x="-194" y="2720" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-353" y="2070" />
-              <mxPoint x="-353" y="2720" />
+              <mxPoint x="-354" y="2070" />
+              <mxPoint x="-354" y="2720" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="5aYVAsXicacRLBcelbmh-3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF00FF;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="44" y="2010" as="sourcePoint" />
-            <mxPoint x="-353" y="2070" as="targetPoint" />
+            <mxPoint x="43" y="2010" as="sourcePoint" />
+            <mxPoint x="-354" y="2070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5aYVAsXicacRLBcelbmh-5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF00FF;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="327" y="1870" as="sourcePoint" />
-            <mxPoint x="667" y="1960" as="targetPoint" />
+            <mxPoint x="326" y="1870" as="sourcePoint" />
+            <mxPoint x="666" y="1960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5aYVAsXicacRLBcelbmh-6" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeColor=#FF00FF;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="667" y="1960" as="sourcePoint" />
-            <mxPoint x="47" y="2600" as="targetPoint" />
+            <mxPoint x="666" y="1960" as="sourcePoint" />
+            <mxPoint x="46" y="2600" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="667" y="1960" />
-              <mxPoint x="667" y="2600" />
+              <mxPoint x="666" y="1960" />
+              <mxPoint x="666" y="2600" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="5aYVAsXicacRLBcelbmh-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;增量同步快表&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF00FF;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="279" y="2560" as="sourcePoint" />
-            <mxPoint x="629" y="2510" as="targetPoint" />
+            <mxPoint x="278" y="2560" as="sourcePoint" />
+            <mxPoint x="628" y="2510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5aYVAsXicacRLBcelbmh-8" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#FF00FF;" edge="1" parent="1" target="fast-s2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="627" y="2510" as="sourcePoint" />
-            <mxPoint x="867" y="2760" as="targetPoint" />
+            <mxPoint x="626" y="2510" as="sourcePoint" />
+            <mxPoint x="866" y="2760" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="617" y="2510" />
-              <mxPoint x="617" y="2100" />
+              <mxPoint x="616" y="2510" />
+              <mxPoint x="616" y="2100" />
             </Array>
           </mxGeometry>
         </mxCell>
