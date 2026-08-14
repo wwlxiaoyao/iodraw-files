@@ -338,6 +338,12 @@
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-17" value="AIV段" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1285" y="-261.31" width="115.01" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1210" y="29" as="sourcePoint" />
+            <mxPoint x="1260" y="-21" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
