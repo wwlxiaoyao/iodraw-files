@@ -106,7 +106,7 @@
         <mxCell id="ctx-pr-f3" value="bool wrapCoreAvail_[16]             ← 核是否空闲 (true=可用, false=已占用)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-pr" vertex="1">
           <mxGeometry y="81" width="840" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-pr-f4" value="  派发时设 false; tail task 完成时 CheckStopTaskCanBeSent 恢复 true" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;fontColor=#666666;" parent="ctx-pr" vertex="1">
+        <mxCell id="ctx-pr-f4" value="调度" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;fontColor=#666666;" parent="ctx-pr" vertex="1">
           <mxGeometry y="111" width="840" height="28" as="geometry" />
         </mxCell>
         <mxCell id="ctx-tw" value="任务等待" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" parent="ctx" vertex="1">
@@ -439,9 +439,6 @@
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-10" value="CheckSTopTaskCanBeSent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wuAuFMzWLC_8M6y4LzJn-63">
           <mxGeometry x="140" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="wuAuFMzWLC_8M6y4LzJn-64" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="100" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
