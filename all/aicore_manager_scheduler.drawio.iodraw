@@ -576,9 +576,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5aYVAsXicacRLBcelbmh-10" value="编译器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="81" y="-1480" width="399" height="60" as="geometry" />
+          <mxGeometry x="81" y="-1422" width="399" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5aYVAsXicacRLBcelbmh-12" value="AICPU" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="5aYVAsXicacRLBcelbmh-12" value="AICPU" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="136" y="-1270" width="314" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5aYVAsXicacRLBcelbmh-13" value="AICore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
