@@ -97,7 +97,7 @@
         <mxCell id="ctx-pr" value="环形扫描派发 (第二阶段 BatchSendTask)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="ctx" vertex="1">
           <mxGeometry y="289" width="840" height="139" as="geometry" />
         </mxCell>
-        <mxCell id="ctx-pr-f1" value="uint8_t corePendReadyCnt_[2]        ← 可派发的核总数 (快表 + pend 扫描)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-pr" vertex="1">
+        <mxCell id="ctx-pr-f1" value="uint8_t corePendReadyCnt_[2]        ← 可派发的核总数 (快表 + pend 扫描)：按照任务类型分别管理" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-pr" vertex="1">
           <mxGeometry y="22" width="840" height="29" as="geometry" />
         </mxCell>
         <mxCell id="ctx-pr-f2" value="uint8_t lastPendReadyCoreIdx_[2]    ← 环形扫描游标，记录上次扫描到的位置" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="ctx-pr" vertex="1">
