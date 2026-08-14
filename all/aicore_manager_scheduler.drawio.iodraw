@@ -310,7 +310,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="legend" value="图例" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="900" y="1090" width="490" height="90" as="geometry" />
+          <mxGeometry x="-120" y="1266" width="490" height="90" as="geometry" />
         </mxCell>
         <mxCell id="leg1" value="── 实线 = 指针/引用关系 (context_*, aicoreHal_)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;" parent="legend" vertex="1">
           <mxGeometry y="26" width="490" height="16" as="geometry" />
