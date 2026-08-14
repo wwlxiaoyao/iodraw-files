@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="mgr" value="AiCoreManager (Per-AICPU 实例)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="110" y="-720" width="750" height="646" as="geometry" />
+          <mxGeometry x="110" y="-720" width="750" height="648" as="geometry" />
         </mxCell>
         <mxCell id="mgr-part" value="4 字段分区 (aicStart_/aicEnd_/aivStart_/aivEnd_)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="mgr" vertex="1">
-          <mxGeometry y="30" width="750" height="184" as="geometry" />
+          <mxGeometry y="30" width="750" height="186" as="geometry" />
         </mxCell>
         <mxCell id="mgr-part-f1" value="int aicStart_ = 0          ← AIC 段起始核索引（含）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-part" vertex="1">
           <mxGeometry y="22" width="750" height="23" as="geometry" />
@@ -25,11 +25,11 @@
         <mxCell id="mgr-part-f5" value="int adjAicEnd_ / adjAivEnd_ ← 本 AICPU 分摊上界" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-part" vertex="1">
           <mxGeometry y="118" width="750" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="mgr-cfg-f1" value="int aicValidNum_ ← 有效 AIC 核数 (pgmask 过滤后), aicNum_, aivNum_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-part" vertex="1">
-          <mxGeometry y="147" width="750" height="37" as="geometry" />
+        <mxCell id="mgr-cfg-f1" value="int aicValidNum_ ← 有效 AIC 核数 (pgmask 过滤后)&lt;div&gt;int aicNum_&lt;/div&gt;&lt;div&gt;int aivNum_&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-part" vertex="1">
+          <mxGeometry y="147" width="750" height="39" as="geometry" />
         </mxCell>
         <mxCell id="mgr-task" value="任务跟踪 (per-core 双缓冲 -&amp;gt; 相关管理数据结构需要考虑空间double，否则存在溢出风险)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="mgr" vertex="1">
-          <mxGeometry y="214" width="750" height="199" as="geometry" />
+          <mxGeometry y="216" width="750" height="199" as="geometry" />
         </mxCell>
         <mxCell id="mgr-task-f1" value="uint32_t runningIds_[MAX_AICORE_NUM]          ← 初始为AICORE_STATUS_INIT = 空闲" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-task" vertex="1">
           <mxGeometry y="22" width="750" height="32" as="geometry" />
@@ -47,7 +47,7 @@
           <mxGeometry y="168" width="750" height="31" as="geometry" />
         </mxCell>
         <mxCell id="mgr-cfg" value="核配置" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="mgr" vertex="1">
-          <mxGeometry y="413" width="750" height="60" as="geometry" />
+          <mxGeometry y="415" width="750" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mgr-cfg-f2" value="int aicpuIdx_ / schedIdx_ / aicpuNum_            ← 本 AICPU 线程ID / 调度索引 / 总线程数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-cfg" vertex="1">
           <mxGeometry y="22" width="750" height="19" as="geometry" />
@@ -56,7 +56,7 @@
           <mxGeometry y="41" width="750" height="19" as="geometry" />
         </mxCell>
         <mxCell id="mgr-hal" value="硬件抽象 &amp; 性能" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" parent="mgr" vertex="1">
-          <mxGeometry y="473" width="750" height="98" as="geometry" />
+          <mxGeometry y="475" width="750" height="98" as="geometry" />
         </mxCell>
         <mxCell id="mgr-hal-f1" value="AicoreHAL aicoreHal_        ← SetReadyQueue / GetFinishedTask / TryHandShakeByGm" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-hal" vertex="1">
           <mxGeometry y="22" width="750" height="19" as="geometry" />
@@ -71,7 +71,7 @@
           <mxGeometry y="79" width="750" height="19" as="geometry" />
         </mxCell>
         <mxCell id="mgr-cnt" value="统计计数器 (DEBUG)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="mgr" vertex="1">
-          <mxGeometry y="571" width="750" height="75" as="geometry" />
+          <mxGeometry y="573" width="750" height="75" as="geometry" />
         </mxCell>
         <mxCell id="mgr-cnt-f1" value="uint64_t procAicCoreFunctionCnt_ / procAivCoreFunctionCnt_ / procAicpuFunctionCnt_" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="mgr-cnt" vertex="1">
           <mxGeometry y="22" width="750" height="27" as="geometry" />
