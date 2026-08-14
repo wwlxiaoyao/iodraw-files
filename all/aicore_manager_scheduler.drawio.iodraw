@@ -122,7 +122,7 @@
           <mxGeometry y="83" width="840" height="28" as="geometry" />
         </mxCell>
         <mxCell id="hw" value="Hardware Registers (通过 AicoreHAL 访问)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="970" y="-550" width="550" height="181" as="geometry" />
+          <mxGeometry x="900" y="-540" width="550" height="181" as="geometry" />
         </mxCell>
         <mxCell id="hw-f1" value="GetFinishedTask(coreIdx) → uint64_t finTaskRegVal" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=14;fontFamily=Courier New;" parent="hw" vertex="1">
           <mxGeometry y="30" width="550" height="25" as="geometry" />
