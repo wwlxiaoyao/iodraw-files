@@ -540,7 +540,7 @@
         <mxCell id="5aYVAsXicacRLBcelbmh-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="1870" as="sourcePoint" />
-            <mxPoint x="730" y="1960" as="targetPoint" />
+            <mxPoint x="710" y="1960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5aYVAsXicacRLBcelbmh-6" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
@@ -548,8 +548,8 @@
             <mxPoint x="720" y="1960" as="sourcePoint" />
             <mxPoint x="90" y="2600" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="730" y="1960" />
-              <mxPoint x="730" y="2600" />
+              <mxPoint x="710" y="1960" />
+              <mxPoint x="710" y="2600" />
             </Array>
           </mxGeometry>
         </mxCell>
