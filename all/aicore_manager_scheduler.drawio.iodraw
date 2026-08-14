@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0" version="24.7.17">
   <diagram name="AICore Manager 数据结构视图" id="data-structure-view">
-    <mxGraphModel dx="2187" dy="2948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2387" dy="2950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -283,8 +283,34 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fsm-note" value="ReleaseCoreByRegVal 读 GetFinishedTask(coreIdx) → finTaskRegVal&#xa;  ├─ finTaskId = REG_LOW_TASK_ID (低31位) 匹配 pendingIds_ / runningIds_&#xa;  ├─ finTaskState = REG_LOW_TASK_STATE (bit31): FINISH=1 完成, ACK=0 确认&#xa;  └─ aicpuCallCode = finTaskRegVal &gt;&gt; 32: CopyOut 场景&#xa;CheckStopTaskCanBeSent: 尾批 ACK 即标记完成, 不等 FINISH (并行化尾批停止)" style="text;html=1;strokeColor=#82b366;fillColor=#f0fff0;align=left;verticalAlign=middle;spacingLeft=6;spacingTop=11;fontSize=12;fontFamily=Courier New;fontColor=#333333;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="840" y="1130" width="620" height="110" as="geometry" />
+        <mxCell id="fsm-e13b" value="CopyOut (pending 提升)&#xa;ReleaseCoreByRegVal&#xa;pending→running, resolve old running" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#3366CC;strokeColor=#3366CC;strokeWidth=1.5;dashed=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wuAuFMzWLC_8M6y4LzJn-3" target="wuAuFMzWLC_8M6y4LzJn-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1402" y="920" />
+              <mxPoint x="972" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fsm-e25" value="CopyOut (pending 提升)&#xa;ReleaseCoreByRegVal&#xa;pending→running, old running resolved" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#3366CC;strokeColor=#3366CC;strokeWidth=1.5;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wuAuFMzWLC_8M6y4LzJn-5" target="wuAuFMzWLC_8M6y4LzJn-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1300" y="1030" />
+              <mxPoint x="1025" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fsm-e33" value="CopyOut (running 继续)&#xa;resolveIndexBase 推进&#xa;ResolveCopyOutDepDyn" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#3366CC;strokeColor=#3366CC;strokeWidth=1.5;dashed=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="wuAuFMzWLC_8M6y4LzJn-4" target="wuAuFMzWLC_8M6y4LzJn-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="1015" />
+              <mxPoint x="880" y="990" />
+              <mxPoint x="1160" y="990" />
+              <mxPoint x="1160" y="1015" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fsm-note" value="ReleaseCoreByRegVal 读 GetFinishedTask(coreIdx) → finTaskRegVal&#xa;  ├─ finTaskId = REG_LOW_TASK_ID (低31位) 匹配 pendingIds_ / runningIds_&#xa;  ├─ finTaskState = REG_LOW_TASK_STATE (bit31): FINISH=1 完成, ACK=0 确认&#xa;  ├─ aicpuCallCode = finTaskRegVal &gt;&gt; 32: ≠0 表示 CopyOut (部分输出已完成, 任务继续执行)&#xa;  └─ ResolveCopyOutDepDyn: 按 copyOutResolveCounter 推进依赖解析游标&#xa;CheckStopTaskCanBeSent: 尾批 ACK 即标记完成, 不等 FINISH (并行化尾批停止)" style="text;html=1;strokeColor=#82b366;fillColor=#f0fff0;align=left;verticalAlign=middle;spacingLeft=6;spacingTop=11;fontSize=12;fontFamily=Courier New;fontColor=#333333;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="840" y="1130" width="620" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
