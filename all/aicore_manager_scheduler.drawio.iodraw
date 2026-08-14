@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="pend-fsm" value="&lt;span style=&quot;font-size: 14px; font-weight: 700;&quot;&gt;corePendReadyCnt_ / lastPendReadyCoreIdx_ 可派发核池状态机&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-360" y="1660" width="1110" height="1290" as="geometry" />
+          <mxGeometry x="-360" y="1660" width="1110" height="1220" as="geometry" />
         </mxCell>
         <mxCell id="fast-fsm" value="&lt;span style=&quot;font-size: 14px; font-weight: 700;&quot;&gt;coreRunReadyCnt_ / runReadyCoreIdx_ / coreIdxPosition_ 快表状态机&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-230" y="1700" width="840" height="610" as="geometry" />
@@ -486,7 +486,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pend-note" value="lastPendReadyCoreIdx_ 游标语义:&#xa;  ├─ 指向环形扫描的起始位置，跨 BatchSendTask 调用保持 round-robin 公平性&#xa;  ├─ 每次 BatchSendTask 第二阶段成功派发后推进: (lastProcCore + 1) % coreNum&#xa;  ├─ CalcAdjAicoreEnd 不重置游标（跨 devTask 保留连续性）&#xa;  └─ 只有 UpdateAiCoreBlockIndexSection (Init) 才初始化为 aicStart_/aivStart_&#xa;&#xa;corePendReadyCnt_ 计数语义:&#xa;  ├─ 表示可派发核配额，同时覆盖快表 (runReadyCoreIdx_) 和环形扫描核&#xa;  ├─ 派发时递减 (BatchSendTask), 核完成时递增 (ReleaseCoreByRegVal pending FINISH)&#xa;  ├─ running FINISH 不递增 (核已在 pending FINISH 时归还配额)&#xa;  └─ devTask 切换时 RESET 为 adj 范围 (CalcAdjAicoreEnd)" style="text;html=1;strokeColor=#82b366;fillColor=#f0fff0;align=left;verticalAlign=top;spacingLeft=6;spacingTop=8;fontSize=14;fontFamily=Courier New;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="800" y="2430" width="680" height="220" as="geometry" />
+          <mxGeometry x="760" y="2499" width="680" height="220" as="geometry" />
         </mxCell>
         <mxCell id="fast-s1" value="游离态&#xa;coreIdxPosition_ = INVALID (0xff)&#xa;不在快表中，只能环形扫描找到" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="-32" y="1750" width="480" height="70" as="geometry" />
