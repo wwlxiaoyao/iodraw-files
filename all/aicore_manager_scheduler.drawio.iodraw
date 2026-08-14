@@ -453,7 +453,7 @@
           <mxGeometry x="580" y="1850" width="750" height="495" as="geometry" />
         </mxCell>
         <mxCell id="pend-s1" value="可派发&#xa;pendReadyCnt_ &gt; 0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry y="1670" width="370" height="60" as="geometry" />
+          <mxGeometry x="-120" y="1670" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pend-s2" value="耗尽&#xa;pendReadyCnt_ == 0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="-130" y="2020" width="490" height="60" as="geometry" />
