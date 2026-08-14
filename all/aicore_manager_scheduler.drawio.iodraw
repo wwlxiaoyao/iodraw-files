@@ -299,7 +299,7 @@
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-16" value="AIC段&lt;div&gt;!= aicNum_&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1077.5" y="-261.31" width="115.01" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wuAuFMzWLC_8M6y4LzJn-17" value="AIV段" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="wuAuFMzWLC_8M6y4LzJn-17" value="AIV段&lt;div&gt;!= aivNum_&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1285" y="-261.31" width="115.01" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wuAuFMzWLC_8M6y4LzJn-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="wuAuFMzWLC_8M6y4LzJn-12">
