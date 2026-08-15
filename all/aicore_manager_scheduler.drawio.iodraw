@@ -642,13 +642,8 @@
         <mxCell id="rte4" value="Finish fail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#CC0000;strokeColor=#CC0000;strokeWidth=2;" edge="1" parent="1" source="rts3" target="rts4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rte5" value="isStageFinish" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#006600;strokeColor=#006600;strokeWidth=2;" edge="1" parent="1" source="rts4" target="rts5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="340" y="3420" />
-              <mxPoint x="250" y="3420" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="rte5" value="isStageFinish" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#006600;strokeColor=#006600;strokeWidth=2;entryX=0.803;entryY=1.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rts4" target="rts5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rtnote" value="while(true) + switch(CurStage())&#xa;INIT: PreProcessTask - 首次RunCoreTask + AicpuTask Init&#xa;SEND_CORE_TASK: ProcessTaskLoop - 循环RunCoreTask下发所有core task&#xa;WAIT_TAIL_TASK_FINISH: SyncTaskFinish - 轮询等待tail task完成&#xa;WAIT_ALL_SCH_FINISH: TryWaitAllSchFinish - 多AICPU等待其他线程&#xa;FINISH: return DEVICE_MACHINE_OK&#xa;并行: !isStageFinish &amp;&amp; IsParallel() - return 让出CPU" style="text;html=1;strokeColor=#82b366;fillColor=#f0fff0;align=left;verticalAlign=top;spacingLeft=6;spacingTop=8;fontSize=12;fontFamily=Courier New;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="-330" y="3690" width="750" height="170" as="geometry" />
