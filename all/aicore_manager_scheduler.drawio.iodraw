@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0" version="24.7.17">
   <diagram name="AICore Manager 数据结构视图" id="data-structure-view">
-    <mxGraphModel dx="2760" dy="4812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2556" dy="4420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -613,7 +613,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="runtask-fsm" value="RunTask 设备任务执行状态机 (DevTaskExecStage)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;fontSize=14;fontStyle=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="3240" width="750" height="380" as="geometry" />
+          <mxGeometry x="-320" y="3170" width="750" height="450" as="geometry" />
         </mxCell>
         <mxCell id="rts1" value="INIT (0)&#xa;PreProcessTask" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="-240" y="3300" width="200" height="50" as="geometry" />
