@@ -621,10 +621,10 @@
           <mxGeometry x="-240" y="3520" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rts4" value="WAIT_ALL_SCH_FINISH (3)&#xa;TryWaitAllSchFinish" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="3530" width="200" height="50" as="geometry" />
+          <mxGeometry x="130" y="3530" width="300" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rts5" value="FINISH (4)&#xa;return OK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="136" y="3260" width="250" height="50" as="geometry" />
+          <mxGeometry x="136" y="3260" width="284" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rte1" value="isStageFinish" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#006600;strokeColor=#006600;strokeWidth=2;" edge="1" parent="1" source="rts1" target="rts2">
           <mxGeometry relative="1" as="geometry" />
