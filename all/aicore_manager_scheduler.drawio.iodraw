@@ -649,7 +649,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rtnote" value="while(true) + switch(CurStage())&#xa;INIT: PreProcessTask - 首次RunCoreTask + AicpuTask Init&#xa;SEND_CORE_TASK: ProcessTaskLoop - 循环RunCoreTask下发所有core task&#xa;WAIT_TAIL_TASK_FINISH: SyncTaskFinish - 轮询等待tail task完成&#xa;WAIT_ALL_SCH_FINISH: TryWaitAllSchFinish - 多AICPU等待其他线程&#xa;FINISH: return DEVICE_MACHINE_OK&#xa;并行: !isStageFinish &amp;&amp; IsParallel() - return 让出CPU" style="text;html=1;strokeColor=#82b366;fillColor=#f0fff0;align=left;verticalAlign=top;spacingLeft=6;spacingTop=8;fontSize=12;fontFamily=Courier New;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="-330" y="3690" width="750" height="170" as="geometry" />
+          <mxGeometry x="-320" y="3680" width="750" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
