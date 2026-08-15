@@ -511,9 +511,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="170" y="3420" />
-              <mxPoint x="110" y="3420" />
-              <mxPoint x="110" y="3370" />
-              <mxPoint x="180" y="3370" />
+              <mxPoint x="180" y="3420" />
             </Array>
             <mxPoint x="196" y="3601" as="sourcePoint" />
             <mxPoint x="180" y="3320" as="targetPoint" />
@@ -616,7 +614,7 @@
           <mxGeometry x="-240" y="3240" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rts2" value="SEND_CORE_TASK (1)&#xa;ProcessTaskLoop" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="3350" width="200" height="50" as="geometry" />
+          <mxGeometry x="-280" y="3350" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rts3" value="WAIT_TAIL_TASK_FINISH (2)&#xa;SyncTaskFinish" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="-240" y="3520" width="200" height="50" as="geometry" />
@@ -637,8 +635,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-107" y="3460" />
-              <mxPoint x="80" y="3460" />
-              <mxPoint x="80" y="3285" />
+              <mxPoint x="30" y="3460" />
+              <mxPoint x="30" y="3285" />
             </Array>
           </mxGeometry>
         </mxCell>
