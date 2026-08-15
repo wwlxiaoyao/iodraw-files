@@ -542,12 +542,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="5aYVAsXicacRLBcelbmh-3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF00FF;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="285" y="3481" as="sourcePoint" />
-            <mxPoint x="-112" y="3541" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="5aYVAsXicacRLBcelbmh-5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF00FF;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="308" y="2021" as="sourcePoint" />
@@ -638,7 +632,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rte3" value="Finish OK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#006600;strokeColor=#006600;strokeWidth=2;exitX=0.665;exitY=0.08;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.165;entryY=1.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rts3" target="rts5">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-107" y="3460" />
+              <mxPoint x="183" y="3460" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="rte4" value="Finish fail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#CC0000;strokeColor=#CC0000;strokeWidth=2;" edge="1" parent="1" source="rts3" target="rts4">
           <mxGeometry relative="1" as="geometry" />
