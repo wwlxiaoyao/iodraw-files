@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="runtask-fsm" value="RunTask 设备任务执行状态机 (DevTaskExecStage)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;fontSize=14;fontStyle=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="3170" width="840" height="450" as="geometry" />
+        </mxCell>
         <mxCell id="5aYVAsXicacRLBcelbmh-11" value="Runtime" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
           <mxGeometry x="80" y="-1330" width="400" height="270" as="geometry" />
         </mxCell>
@@ -611,9 +614,6 @@
         </mxCell>
         <mxCell id="5aYVAsXicacRLBcelbmh-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="5aYVAsXicacRLBcelbmh-12" target="5aYVAsXicacRLBcelbmh-18">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="runtask-fsm" value="RunTask 设备任务执行状态机 (DevTaskExecStage)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;fontSize=14;fontStyle=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="3170" width="840" height="450" as="geometry" />
         </mxCell>
         <mxCell id="rts1" value="INIT (0)&#xa;PreProcessTask" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="-240" y="3240" width="200" height="50" as="geometry" />
