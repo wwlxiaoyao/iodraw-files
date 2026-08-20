@@ -7,7 +7,7 @@
         <mxCell id="QxsTHReaoIxohX-J1azS-1" value="tiling" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QxsTHReaoIxohX-J1azS-2" value="kernel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QxsTHReaoIxohX-J1azS-2" value="kernel（ascendc）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-3" value="ascendc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
