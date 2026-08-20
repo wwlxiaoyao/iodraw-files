@@ -7,6 +7,9 @@
         <mxCell id="QxsTHReaoIxohX-J1azS-1" value="tiling" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="280" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="QxsTHReaoIxohX-J1azS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QxsTHReaoIxohX-J1azS-2" target="QxsTHReaoIxohX-J1azS-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-2" value="Process&amp;nbsp;&lt;div&gt;kernel（ascendc）&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;get block dim index&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="90" y="400" width="190" height="190" as="geometry" />
         </mxCell>
@@ -23,7 +26,7 @@
           <mxGeometry x="390" y="620" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="230" width="120" height="260" as="geometry" />
+          <mxGeometry x="-140" y="240" width="120" height="590" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-9" value="init" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="90" y="630" width="190" height="190" as="geometry" />
