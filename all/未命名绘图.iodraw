@@ -8,7 +8,7 @@
           <mxGeometry x="90" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-2" value="kernel（ascendc）&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;get block dim index&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="90" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="400" width="190" height="190" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-3" value="ascendc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="280" width="120" height="60" as="geometry" />
@@ -24,6 +24,9 @@
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-90" y="230" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="QxsTHReaoIxohX-J1azS-9" value="kernel（ascendc）&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;get block dim index&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="410" width="190" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
