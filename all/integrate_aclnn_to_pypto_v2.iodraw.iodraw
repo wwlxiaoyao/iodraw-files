@@ -20,22 +20,22 @@
           <mxGeometry x="390" y="60" width="430" height="170" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-34" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="40" y="1040" width="600" height="200" as="geometry" />
+          <mxGeometry x="40" y="1040" width="580" height="200" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-26" value="CANN ToolKit" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="QxsTHReaoIxohX-J1azS-34">
-          <mxGeometry width="600" height="200" as="geometry" />
+          <mxGeometry width="580" height="200" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-27" value="AscendC Ops" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="QxsTHReaoIxohX-J1azS-34">
-          <mxGeometry x="10" y="40" width="560" height="150" as="geometry" />
+          <mxGeometry x="9.666666666666666" y="40" width="541.3333333333334" height="150" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-32" value="第二阶段接口&lt;div&gt;注册绑定&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="QxsTHReaoIxohX-J1azS-34" source="QxsTHReaoIxohX-J1azS-30" target="QxsTHReaoIxohX-J1azS-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-30" value="&lt;b&gt;Host: &lt;/b&gt;二段式接口，支持动态shape&lt;br&gt;&lt;div&gt;aclnn&lt;font color=&quot;#ff3333&quot;&gt;XXX&lt;/font&gt;GetWorkSpace&lt;/div&gt;&lt;div&gt;aclnn&lt;span style=&quot;color: rgb(255, 51, 51); background-color: initial;&quot;&gt;XXX&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="QxsTHReaoIxohX-J1azS-34">
-          <mxGeometry x="20" y="80" width="210" height="90" as="geometry" />
+          <mxGeometry x="19.333333333333332" y="80" width="203" height="90" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-31" value="&lt;b&gt;Device: &lt;/b&gt;二段式接口, TilingKey找到关键实现&lt;br&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;extern &quot;C&quot;&amp;nbsp; XXX()&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;|-&amp;gt; Init()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;|-&amp;gt; Process()&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="QxsTHReaoIxohX-J1azS-34">
-          <mxGeometry x="320" y="80" width="230" height="90" as="geometry" />
+          <mxGeometry x="309.3333333333333" y="80" width="222.33333333333334" height="90" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-35" value="Host" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="620" width="340" height="40" as="geometry" />
