@@ -11,7 +11,7 @@
           <mxGeometry x="270" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-23" value="Compiler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="470" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-24" value="MPMD Runtime" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="140" y="585" width="390" height="335" as="geometry" />
@@ -71,7 +71,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-47" value="固定的核函数&lt;div&gt;KernelEntry&lt;/div&gt;&lt;div&gt;在内部计算被下发下来的子任务&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="555" y="846" width="190" height="60" as="geometry" />
+          <mxGeometry x="650" y="846" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
