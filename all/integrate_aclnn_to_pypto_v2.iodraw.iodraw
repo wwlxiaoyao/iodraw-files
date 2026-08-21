@@ -13,7 +13,7 @@
         <mxCell id="QxsTHReaoIxohX-J1azS-22" value="DSL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="250" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QxsTHReaoIxohX-J1azS-51" value="打包二进制" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QxsTHReaoIxohX-J1azS-23" target="QxsTHReaoIxohX-J1azS-50">
+        <mxCell id="QxsTHReaoIxohX-J1azS-51" value="打包二进制" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.477;exitY=0.299;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QxsTHReaoIxohX-J1azS-25" target="QxsTHReaoIxohX-J1azS-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-23" value="Compiler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
