@@ -85,7 +85,7 @@
         <mxCell id="QxsTHReaoIxohX-J1azS-50" value="tilefwk_program.bin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="510" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QxsTHReaoIxohX-J1azS-54" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QxsTHReaoIxohX-J1azS-35" target="QxsTHReaoIxohX-J1azS-38">
+        <mxCell id="QxsTHReaoIxohX-J1azS-54" value="aclrt接口加载到设备侧&lt;div&gt;实现持久化调度&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QxsTHReaoIxohX-J1azS-35" target="QxsTHReaoIxohX-J1azS-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
