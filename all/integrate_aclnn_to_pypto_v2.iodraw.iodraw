@@ -101,9 +101,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QxsTHReaoIxohX-J1azS-61" value="调用对应接口，获取PyPTO框架所需要的关键信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QxsTHReaoIxohX-J1azS-59">
+        <mxCell id="QxsTHReaoIxohX-J1azS-61" value="1. 调用对应接口，获取PyPTO框架所需要的关键信息&lt;div&gt;2. 把对应的Kernel obj信息嵌入到PyPTO的program中&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QxsTHReaoIxohX-J1azS-59">
           <mxGeometry x="0.4324" y="-1" relative="1" as="geometry">
-            <mxPoint x="96" y="-11" as="offset" />
+            <mxPoint x="101" y="-31" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
