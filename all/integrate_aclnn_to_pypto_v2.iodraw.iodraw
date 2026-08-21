@@ -87,7 +87,7 @@
           <mxGeometry x="60" y="1249" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-31" value="&lt;b&gt;Device: obj,&amp;nbsp;&lt;/b&gt;二段式接口, 基于TilingKey找到关键实现&lt;br&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;extern &quot;C&quot;&amp;nbsp; XXX()&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;|-&amp;gt; Init()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;|-&amp;gt; Process()&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="1249" width="261" height="90" as="geometry" />
+          <mxGeometry x="360" y="1249" width="270" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
