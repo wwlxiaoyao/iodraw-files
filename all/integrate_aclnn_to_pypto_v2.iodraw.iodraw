@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="QxsTHReaoIxohX-J1azS-25" value="PyPTO框架" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="120" y="270" width="440" height="470" as="geometry" />
+          <mxGeometry x="120" y="270" width="440" height="570" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-22" value="DSL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="360" width="120" height="60" as="geometry" />
@@ -14,7 +14,7 @@
           <mxGeometry x="260" y="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-24" value="MPMD Runtime" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="585" width="310" height="135" as="geometry" />
+          <mxGeometry x="190" y="585" width="310" height="225" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-28" value="vLLM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="60" width="430" height="170" as="geometry" />
