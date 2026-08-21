@@ -7,17 +7,17 @@
         <mxCell id="QxsTHReaoIxohX-J1azS-18" value="PyPTO框架" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="70" y="215" width="370" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="QxsTHReaoIxohX-J1azS-19" value="DSL" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="620" y="370" width="80" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-20" value="Compiler" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="620" y="510" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-21" value="MPMD Runtime" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="620" y="650" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="QxsTHReaoIxohX-J1azS-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QxsTHReaoIxohX-J1azS-22" value="DSL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QxsTHReaoIxohX-J1azS-23" value="Compiler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="530" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
