@@ -50,13 +50,13 @@
           <mxGeometry x="190" y="760" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-39" value="AICore" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="342" y="826" width="120" height="30" as="geometry" />
+          <mxGeometry x="342" y="841" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-40" value="AICore" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="352" y="836" width="120" height="30" as="geometry" />
+          <mxGeometry x="352" y="851" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-41" value="AICore" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="362" y="846" width="120" height="30" as="geometry" />
+          <mxGeometry x="362" y="861" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QxsTHReaoIxohX-J1azS-38" target="QxsTHReaoIxohX-J1azS-41">
           <mxGeometry relative="1" as="geometry" />
@@ -65,7 +65,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-45" value="任务下发&lt;div&gt;Task Dispatch&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="320" y="740" width="100" height="40" as="geometry" />
+          <mxGeometry x="352" y="740" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
