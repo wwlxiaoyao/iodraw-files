@@ -40,8 +40,11 @@
         <mxCell id="QxsTHReaoIxohX-J1azS-35" value="Host" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="234" y="600" width="226" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="QxsTHReaoIxohX-J1azS-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QxsTHReaoIxohX-J1azS-36" target="QxsTHReaoIxohX-J1azS-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-36" value="Device" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="730" width="120" height="60" as="geometry" />
+          <mxGeometry x="234" y="730" width="226" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
