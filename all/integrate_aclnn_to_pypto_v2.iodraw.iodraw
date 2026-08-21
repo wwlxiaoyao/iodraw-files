@@ -20,7 +20,7 @@
           <mxGeometry x="50" y="810" width="600" height="320" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-27" value="AscendC Ops" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="60" y="910" width="560" height="190" as="geometry" />
+          <mxGeometry x="60" y="930" width="560" height="150" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-28" value="vLLM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="60" width="430" height="170" as="geometry" />
