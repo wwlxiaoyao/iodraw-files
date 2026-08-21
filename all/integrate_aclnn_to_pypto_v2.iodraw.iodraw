@@ -38,16 +38,16 @@
           <mxGeometry x="320" y="80" width="230" height="90" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-35" value="Host" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="620" width="288" height="40" as="geometry" />
+          <mxGeometry x="170" y="620" width="340" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-36" value="Device" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="170" y="720" width="340" height="170" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-38" value="AICPU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="800" width="120" height="30" as="geometry" />
+          <mxGeometry x="190" y="770" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-39" value="AICore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="850" width="120" height="30" as="geometry" />
+          <mxGeometry x="320" y="840" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
