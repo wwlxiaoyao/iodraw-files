@@ -41,7 +41,7 @@
           <mxGeometry x="170" y="620" width="340" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-36" value="Device" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="170" y="720" width="340" height="170" as="geometry" />
+          <mxGeometry x="170" y="700" width="340" height="190" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QxsTHReaoIxohX-J1azS-38" target="QxsTHReaoIxohX-J1azS-39">
           <mxGeometry relative="1" as="geometry" />
@@ -65,7 +65,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-45" value="任务下发&lt;div&gt;Task Dispatch&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="330" y="740" width="100" height="40" as="geometry" />
+          <mxGeometry x="320" y="740" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
