@@ -7,8 +7,11 @@
         <mxCell id="QxsTHReaoIxohX-J1azS-18" value="PyPTO框架" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="70" y="215" width="370" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="QxsTHReaoIxohX-J1azS-19" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="QxsTHReaoIxohX-J1azS-19" value="DSL" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="620" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QxsTHReaoIxohX-J1azS-20" value="DSL" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="630" y="380" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
