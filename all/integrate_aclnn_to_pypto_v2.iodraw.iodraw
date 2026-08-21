@@ -76,6 +76,9 @@
         <mxCell id="QxsTHReaoIxohX-J1azS-47" value="固定的核函数&lt;div&gt;KernelEntry&lt;/div&gt;&lt;div&gt;在内部计算被下发下来的子任务&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="650" y="846" width="190" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="QxsTHReaoIxohX-J1azS-50" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="740" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
