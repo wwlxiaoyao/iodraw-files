@@ -28,11 +28,11 @@
         <mxCell id="band2" value="阶段 2 · 预处理扫描（KernelInfoInfer 从 .i 提取编译期元信息）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
           <mxGeometry x="40" y="400" width="1620" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="n2" value="compile_op() 入口（compile_op.py:2124）&#xa;→ bisheng -E 预处理产 .i&#xa;→ KernelInfoInfer.get_tiling_key_list_and_simple_infer_code_channel（:2200）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="band2" vertex="1">
+        <mxCell id="n2" value="compile_op() 入口（compile_op.py:2124）&#xa;→ bisheng -E 预处理产 .i&#xa;→ KernelInfoInfer.get_tiling_key_list_and_simple_infer_code_channel（:2200）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" parent="band2" vertex="1">
           <mxGeometry x="30" y="80" width="560" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="d2" value=".i 扫描产出（kernel_info_infer.py:118 find_tilingkey，:551-560 按源码出现序去重收集）：&#xa;· kernel 签名识别（cce_kernel 正则，legacy constants.py:17-21）&#xa;· tilingKey 全集 = 匹配 g_tilingKey==(N)（TILING_KEY_IS 展开态）→ tiling_key_list&#xa;★ 首键 = 扫描序第一分支（非最小键非默认键——MTU 首分支 TILING_KEY_IS(2) → tk2 载体；算子作者调分支序即变）&#xa;· 核型/代码通道推断（no_set_kernel_type 时编译探针兜底，compile_op.py:1914-1938）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" parent="band2" vertex="1">
-          <mxGeometry x="660" y="45" width="740" height="170" as="geometry" />
+        <mxCell id="d2" value=".i 扫描产出（kernel_info_infer.py:118 find_tilingkey，:551-560 按源码出现序去重收集）：&#xa;· kernel 签名识别（cce_kernel 正则，legacy constants.py:17-21）&#xa;· tilingKey 全集 = 匹配 g_tilingKey==(N)（TILING_KEY_IS 展开态）→ tiling_key_list&#xa;★ 首键 = 扫描序第一分支（非最小键非默认键——MTU 首分支 TILING_KEY_IS(2) → tk2 载体；算子作者调分支序即变）&#xa;· 核型/代码通道推断（no_set_kernel_type 时编译探针兜底，compile_op.py:1914-1938）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="band2" vertex="1">
+          <mxGeometry x="660" y="35" width="940" height="170" as="geometry" />
         </mxCell>
         <mxCell id="band3" value="阶段 3 · tiling 元信息与 autogen 源生成（gen_kernel_fun → _kernel.cpp）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
           <mxGeometry x="40" y="770" width="1620" height="330" as="geometry" />
