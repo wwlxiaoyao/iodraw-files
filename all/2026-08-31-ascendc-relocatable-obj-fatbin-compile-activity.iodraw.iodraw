@@ -71,7 +71,7 @@
           <mxGeometry x="115" y="340" width="410" height="100" as="geometry" />
         </mxCell>
         <mxCell id="1vTQEp4g6uKlRey9BI9b-2" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;TODO：&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;1. 显示标记为静态shape： 应该是ATB等算子？&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp; 2. 动态shape：基于aclnn可以在编译期确定是静态的，直接在AOT直接处理，否则就是动态shape: 当前已经支持。&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;3. 是否可以获取到Tiling计算函数？&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#A50040;fillColor=#d80073;fontSize=14;fontColor=#ffffff;" vertex="1" parent="band4">
-          <mxGeometry x="600" y="120" width="750" height="80" as="geometry" />
+          <mxGeometry x="600" y="140" width="750" height="80" as="geometry" />
         </mxCell>
         <mxCell id="band5" value="阶段 5 · 编译期键折叠：真体/桩分流 → per-key relocatable obj" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
           <mxGeometry x="20" y="1730" width="1640" height="610" as="geometry" />
@@ -197,7 +197,7 @@
         <mxCell id="s3" style="edgeStyle=none;html=1;dashed=1;strokeColor=#b3b3b3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="n4" target="d3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s4" style="edgeStyle=none;html=1;dashed=1;strokeColor=#b3b3b3;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n5" target="d4" edge="1">
+        <mxCell id="s4" style="edgeStyle=none;html=1;dashed=1;strokeColor=#b3b3b3;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="n5" target="d4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="s5" style="edgeStyle=none;html=1;dashed=1;strokeColor=#b3b3b3;" parent="1" source="dec2" target="d5" edge="1">
