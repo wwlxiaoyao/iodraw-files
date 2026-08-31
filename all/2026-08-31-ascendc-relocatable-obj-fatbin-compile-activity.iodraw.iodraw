@@ -95,19 +95,19 @@
           <mxGeometry x="760" y="350" width="640" height="80" as="geometry" />
         </mxCell>
         <mxCell id="band6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;阶段 6 · 链接：半链接（-r 合并）→ 最终静态链接（-static）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
-          <mxGeometry x="30" y="2400" width="1620" height="355" as="geometry" />
+          <mxGeometry x="20" y="2390" width="1620" height="355" as="geometry" />
         </mxCell>
         <mxCell id="n9" value="fatbin_objs（ascendc_compile_base.py:142-160，由 _compile_ascendc_cce :2430 调用）：&#xa;ld.lld -m aicorelinux -r -Ttext=0 -q [-x Release 丢弃 local 符号]&#xa;&amp;lt;全部 per-key objs&amp;gt; -static -o .o&#xa;→ 半链接合并 = tk-less base obj" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="band6" vertex="1">
           <mxGeometry x="22.5" y="80" width="605" height="110" as="geometry" />
         </mxCell>
         <mxCell id="d6" value="半链接效果：&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; -r 输出仍 relocatable；&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; weak COMDAT 去重（g_tPipePtr 208→1、g_sysWorkspaceReserved 210→1）；&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; g_opSystemRunCfg 首键强定义吸收（16 首键→1，$local 别名痕迹）&lt;br&gt;★ per-key objs 链后默认删除（base.py:161-165，除 debug_config/save_sub_op_files）&lt;br&gt;→ kernel_meta per-key obj 仅构建树存留（release 不带，PyPTO 须从构建树取——merged 路线自建流程不可退役的机制根源）&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="band6" vertex="1">
-          <mxGeometry x="720" y="50" width="830" height="140" as="geometry" />
+          <mxGeometry x="685" y="50" width="830" height="140" as="geometry" />
         </mxCell>
         <mxCell id="n10" value="link_kernel_obj（compile_op.py:2026）→ link_relocatable（base.py:168）：&#xa;ld.lld -m aicorelinux -Ttext=0  -static -o  -q（无 -r）&#xa;→ fat executable obj（.data VMA 已定；剩余重定位 = loader 专属 R_AICORE_*）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="band6" vertex="1">
           <mxGeometry x="45" y="230" width="560" height="100" as="geometry" />
         </mxCell>
         <mxCell id="1vTQEp4g6uKlRey9BI9b-4" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TODO： 动态函数在这个阶段进行半链接是更优的。-- 但是不能确定，aclnn全部都是动态的。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;这里去重的逻辑需要再pypto中进行幂等实现：比如去重weak COMDAT&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;- g_tPipePtr由算子kernel内部进行赋值。&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;- g_sysWorkspaceReserved由ascendc自动插入。&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;- g_opSystemRunCfg 也是由算子Kernel内部进行赋值：之所以首键强定义，目的是减少同obj中per-tk kernel重复逻辑。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#23445d;fillColor=#bac8d3;fontSize=14;" vertex="1" parent="band6">
-          <mxGeometry x="720" y="245" width="760" height="110" as="geometry" />
+          <mxGeometry x="700" y="220" width="760" height="110" as="geometry" />
         </mxCell>
         <mxCell id="band7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;阶段 7 · 元数据生成与发布布局&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
           <mxGeometry x="30" y="2800" width="1620" height="490" as="geometry" />
