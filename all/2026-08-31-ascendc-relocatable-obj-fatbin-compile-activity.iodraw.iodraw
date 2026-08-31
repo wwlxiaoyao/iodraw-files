@@ -86,7 +86,7 @@
           <mxGeometry x="40" y="310" width="560" height="80" as="geometry" />
         </mxCell>
         <mxCell id="band6" value="阶段 6 · 链接：半链接（-r 合并）→ 最终静态链接（-static）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
-          <mxGeometry x="40" y="2120" width="1620" height="310" as="geometry" />
+          <mxGeometry x="30" y="2330" width="1620" height="310" as="geometry" />
         </mxCell>
         <mxCell id="n9" value="fatbin_objs（ascendc_compile_base.py:142-160，由 _compile_ascendc_cce :2430 调用）：&#xa;ld.lld -m aicorelinux -r -Ttext=0 -q [-x Release 丢弃 local 符号]&#xa;&lt;全部 per-key objs&gt; -static -o &lt;dst&gt;.o&#xa;→ 半链接合并 = tk-less base obj" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band6" vertex="1">
           <mxGeometry x="40" y="40" width="560" height="110" as="geometry" />
