@@ -76,8 +76,8 @@
         <mxCell id="dec2" value="TILING_KEY_IS(tk) 常量折叠判定&#xa;（TILING_KEY_VAR==tk？）" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="band5" vertex="1">
           <mxGeometry x="130" y="70" width="400" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="d5" value="桩机制本质：TILING_KEY_IS(key) 是 inline constexpr 函数返回 TILING_KEY_VAR==key（非 #if 宏）→ 非匹配分支常量折叠 → DCE&lt;br&gt;&lt;br&gt;&lt;div&gt;#if __CCE_AICORE__==200 soc 守卫进一步消除 C1V2/C1V1 族（IFA 86/109 桩、真体仅 VALL/CALL/ATB）&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;fat obj kernelList 含桩 = 键枚举契约载体（产物侧不过滤真体）&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;强触桩 = wrapper prologue 跑完 + 空 user body + WriteBackOverflow → 输出 tensor 未写 → 静默 garbage（无错误回报）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" parent="band5" vertex="1">
-          <mxGeometry x="770" y="70" width="760" height="150" as="geometry" />
+        <mxCell id="d5" value="桩机制本质：TILING_KEY_IS(key) 是 inline constexpr 函数返回 TILING_KEY_VAR==key（非 #if 宏）→ 非匹配分支常量折叠 → DCE&lt;br&gt;&lt;br&gt;&lt;div&gt;#if __CCE_AICORE__==200 （A1） soc 守卫进一步消除 C1V2/C1V1 族（IFA 86/109 桩、真体仅 VALL/CALL/ATB）&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;fat obj kernelList 含桩 = 键枚举契约载体（产物侧不过滤真体）&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;强触桩 = wrapper prologue 跑完 + 空 user body + WriteBackOverflow → 输出 tensor 未写 → 静默 garbage（无错误回报）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" parent="band5" vertex="1">
+          <mxGeometry x="770" y="80" width="760" height="150" as="geometry" />
         </mxCell>
         <mxCell id="n7a" value="真体 obj 10~46KB&#xa;本 key 完整函数体&#xa;.text 仅 2 条 reloc 指向 weak 符号&#xa;（首键 obj 额外 D g_opSystemRunCfg）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="band5" vertex="1">
           <mxGeometry x="90" y="270" width="280" height="110" as="geometry" />
