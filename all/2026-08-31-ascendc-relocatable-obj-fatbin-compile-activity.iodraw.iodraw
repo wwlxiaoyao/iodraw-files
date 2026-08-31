@@ -50,7 +50,7 @@
           <mxGeometry x="660" y="40" width="890" height="370" as="geometry" />
         </mxCell>
         <mxCell id="band4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;阶段 4 · per-tilingKey 编译循环（一键一次 bisheng，make -j 并行）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1150" width="1620" height="450" as="geometry" />
+          <mxGeometry x="40" y="1160" width="1620" height="450" as="geometry" />
         </mxCell>
         <mxCell id="dec1" value="static_shape_flag？&#xa;（compile_op.py:2363）" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="band4" vertex="1">
           <mxGeometry x="160" y="40" width="340" height="80" as="geometry" />
