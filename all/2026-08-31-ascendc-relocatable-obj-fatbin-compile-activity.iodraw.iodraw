@@ -38,7 +38,7 @@
           <mxGeometry x="660" y="35" width="940" height="170" as="geometry" />
         </mxCell>
         <mxCell id="band3" value="阶段 3 · tiling 元信息与 autogen 源生成（gen_kernel_fun → _kernel.cpp）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
-          <mxGeometry x="40" y="770" width="1620" height="330" as="geometry" />
+          <mxGeometry x="40" y="740" width="1620" height="360" as="geometry" />
         </mxCell>
         <mxCell id="n3" value="get_tiling_info_by_tiling → TilingInfo&#xa;&lt;Op&gt;_&lt;hash&gt;_tiling_data.h 落盘（设备侧 tiling 解析结构）&#xa;tiling_key_list 定制过滤（customized_tiling_key_list）&#xa;（compile_op.py:1867-1910）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band3" vertex="1">
           <mxGeometry x="40" y="40" width="560" height="100" as="geometry" />
