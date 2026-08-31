@@ -5,13 +5,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="title1" value="AscendC kernel 编译期活动视图 —— .cpp → per-tk 可重定位 obj → fatbin（file:line 证据）" style="text;html=1;fontSize=18;fontStyle=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="50" y="-80" width="1300" height="30" as="geometry" />
+          <mxGeometry x="50" y="-280" width="1300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="title2" value="证据源：asc-devkit tools/build/asc_op_compile_base 源码精读 + 0827 远端构建树实证（2026-08-27-relocatable-obj-selection-and-fatbin-analysis.md §5/§5.9）；主线=310P（dav-m200，arch 2002）动态 shape 路径" style="text;html=1;fontSize=13;fontColor=#666666;align=left;" parent="1" vertex="1">
-          <mxGeometry x="50" y="-30" width="1400" height="20" as="geometry" />
+          <mxGeometry x="50" y="-230" width="1400" height="20" as="geometry" />
         </mxCell>
         <mxCell id="band0" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;阶段 0 · 输入：AscendC 算子源码包&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
-          <mxGeometry x="40" y="10" width="1620" height="230" as="geometry" />
+          <mxGeometry x="40" y="-190" width="1620" height="230" as="geometry" />
         </mxCell>
         <mxCell id="start" value="开始" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="band0" vertex="1">
           <mxGeometry x="40" y="63" width="140" height="44" as="geometry" />
@@ -22,7 +22,7 @@
         <mxCell id="band1" value="阶段 1 · 构建编排层（cmake → gen/*.sh → asc_opc CLI）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
           <mxGeometry x="40" y="260" width="1620" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="n1" value="cmake add_bin_compile_target → ascendc_bin_param_build.py 读 ops-info.ini&#xa;→ gen/&lt;Op&gt;-&lt;op&gt;-&lt;idx&gt;.sh（每 dtype 变体一份）&#xa;→ asc_opc &lt;op&gt;.py --main_func=&lt;op&gt; --input_param=&lt;Op&gt;_&lt;hash&gt;_param.json&#xa;--soc_version=Ascend310P3 --op_mode=dynamic --output=bin/&lt;op&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band1" vertex="1">
+        <mxCell id="n1" value="cmake add_bin_compile_target → ascendc_bin_param_build.py 读 ops-info.ini&#xa;→ gen/--.sh（每 dtype 变体一份）&#xa;→ asc_opc .py --main_func= --input_param=__param.json&#xa;--soc_version=Ascend310P3 --op_mode=dynamic --output=bin/" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="band1" vertex="1">
           <mxGeometry x="20" y="45" width="560" height="135" as="geometry" />
         </mxCell>
         <mxCell id="d1" value="证据：0827 文档 §5.1（远端构建树 .sh/_param.json 实证）；func.cmake add_bin_compile_target&#xa;_param.json：per-IO DTYPE/FORMAT/shape[-2]/paramType —— dtype 变体轴 = hash 的区分来源&#xa;（binList 一变体一 fat obj：IFA fp16 65cc…34键 / KV int8 e80e…75键）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="band1" vertex="1">
