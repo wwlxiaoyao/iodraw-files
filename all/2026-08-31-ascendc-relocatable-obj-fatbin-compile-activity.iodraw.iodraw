@@ -154,7 +154,7 @@
         <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;dashed=1;" parent="1" source="n7b" target="n8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e14" value="下一个 tilingKey（循环）" style="rounded=0;html=1;dashed=1;strokeColor=#666666;" parent="1" edge="1">
+        <mxCell id="e14" value="下一个 tilingKey（循环）" style="rounded=0;html=1;dashed=1;strokeColor=#666666;edgeStyle=orthogonalEdgeStyle;entryX=-0.005;entryY=0.58;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="n5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="190" y="2220" as="sourcePoint" />
             <mxPoint x="190" y="1435" as="targetPoint" />
