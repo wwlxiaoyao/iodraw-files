@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0" version="24.7.17">
   <diagram name="AscendC relocatable obj→fatbin 编译活动视图" id="ascendc-fatbin-activity-20260831">
-    <mxGraphModel dx="3774" dy="4147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="2960" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="4147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="2960" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -65,7 +65,7 @@
           <mxGeometry x="600" y="160" width="920" height="130" as="geometry" />
         </mxCell>
         <mxCell id="n6" value="compile_multi_tilingkey（ascendc_compile_base.py:362）：&#xa;write_mk 生成 &lt;pid&gt;.mk（每 key 一条编译规则）&#xa;→ make -f &lt;pid&gt;.mk -j N 并行执行全部 bisheng 编译" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band4" vertex="1">
-          <mxGeometry x="40" y="320" width="560" height="100" as="geometry" />
+          <mxGeometry x="115" y="320" width="410" height="100" as="geometry" />
         </mxCell>
         <mxCell id="band5" value="阶段 5 · 编译期键折叠：真体/桩分流 → per-key relocatable obj" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
           <mxGeometry x="40" y="1820" width="1620" height="520" as="geometry" />
@@ -160,8 +160,8 @@
             <mxPoint x="190" y="1435" as="targetPoint" />
             <Array as="points">
               <mxPoint x="190" y="1828" />
-              <mxPoint x="40" y="1828" />
-              <mxPoint x="40" y="1393" />
+              <mxPoint x="70" y="1828" />
+              <mxPoint x="70" y="1393" />
             </Array>
           </mxGeometry>
         </mxCell>
