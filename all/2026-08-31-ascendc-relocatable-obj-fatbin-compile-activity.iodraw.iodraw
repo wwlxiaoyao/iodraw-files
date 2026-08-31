@@ -20,7 +20,7 @@
           <mxGeometry x="240" y="35" width="620" height="145" as="geometry" />
         </mxCell>
         <mxCell id="band1" value="阶段 1 · 构建编排层（cmake → gen/*.sh → asc_opc CLI）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
-          <mxGeometry x="40" y="260" width="1620" height="190" as="geometry" />
+          <mxGeometry x="40" y="100" width="1620" height="210" as="geometry" />
         </mxCell>
         <mxCell id="n1" value="cmake add_bin_compile_target → ascendc_bin_param_build.py 读 ops-info.ini&#xa;→ gen/--.sh（每 dtype 变体一份）&#xa;→ asc_opc .py --main_func= --input_param=__param.json&#xa;--soc_version=Ascend310P3 --op_mode=dynamic --output=bin/" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="band1" vertex="1">
           <mxGeometry x="20" y="45" width="560" height="135" as="geometry" />
