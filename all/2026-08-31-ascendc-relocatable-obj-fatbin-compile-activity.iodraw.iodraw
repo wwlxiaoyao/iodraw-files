@@ -86,7 +86,7 @@
           <mxGeometry x="450" y="205" width="250" height="110" as="geometry" />
         </mxCell>
         <mxCell id="n8" value="per-key relocatable obj：kernel_meta/&lt;Op&gt;_&lt;hash&gt;_&lt;tk&gt;.o&#xa;（ET_REL，.data VMA=0，自包含：T 入口符号 + weak COMDAT g_tPipePtr/g_sysWorkspaceReserved）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band5" vertex="1">
-          <mxGeometry x="40" y="400" width="560" height="80" as="geometry" />
+          <mxGeometry x="80" y="400" width="520" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1vTQEp4g6uKlRey9BI9b-1" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TODO： 空函数需要进行标记&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;no-op,考虑直接在编译期进行丢弃&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#A50040;fillColor=#d80073;fontSize=14;fontColor=#ffffff;" vertex="1" parent="band5">
           <mxGeometry x="730" y="250" width="230" height="50" as="geometry" />
