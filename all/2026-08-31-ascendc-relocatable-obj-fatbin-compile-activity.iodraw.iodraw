@@ -86,7 +86,7 @@
           <mxGeometry x="40" y="310" width="560" height="80" as="geometry" />
         </mxCell>
         <mxCell id="band6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;阶段 6 · 链接：半链接（-r 合并）→ 最终静态链接（-static）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
-          <mxGeometry x="30" y="2330" width="1620" height="350" as="geometry" />
+          <mxGeometry x="40" y="2410" width="1620" height="350" as="geometry" />
         </mxCell>
         <mxCell id="n9" value="fatbin_objs（ascendc_compile_base.py:142-160，由 _compile_ascendc_cce :2430 调用）：&#xa;ld.lld -m aicorelinux -r -Ttext=0 -q [-x Release 丢弃 local 符号]&#xa;&lt;全部 per-key objs&gt; -static -o &lt;dst&gt;.o&#xa;→ 半链接合并 = tk-less base obj" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band6" vertex="1">
           <mxGeometry x="40" y="40" width="560" height="110" as="geometry" />
@@ -95,7 +95,7 @@
           <mxGeometry x="660" y="35" width="940" height="130" as="geometry" />
         </mxCell>
         <mxCell id="n10" value="link_kernel_obj（compile_op.py:2026）→ link_relocatable（base.py:168）：&#xa;ld.lld -m aicorelinux -Ttext=0 &lt;fat&gt; -static -o &lt;fat&gt; -q（无 -r）&#xa;→ fat executable obj（.data VMA 已定；剩余重定位 = loader 专属 R_AICORE_*）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band6" vertex="1">
-          <mxGeometry x="40" y="180" width="560" height="100" as="geometry" />
+          <mxGeometry x="40" y="210" width="560" height="100" as="geometry" />
         </mxCell>
         <mxCell id="band7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;阶段 7 · 元数据生成与发布布局&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
           <mxGeometry x="30" y="2800" width="1620" height="350" as="geometry" />
