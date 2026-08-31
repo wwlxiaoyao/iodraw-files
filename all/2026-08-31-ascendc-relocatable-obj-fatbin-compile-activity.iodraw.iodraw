@@ -91,8 +91,8 @@
         <mxCell id="n8" value="per-key relocatable obj：kernel_meta/&lt;Op&gt;_&lt;hash&gt;_&lt;tk&gt;.o&#xa;（ET_REL，.data VMA=0，自包含：T 入口符号 + weak COMDAT g_tPipePtr/g_sysWorkspaceReserved）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band5" vertex="1">
           <mxGeometry x="90" y="460" width="520" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1vTQEp4g6uKlRey9BI9b-1" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TODO： 空函数需要进行标记&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;no-op,考虑直接在编译期进行丢弃&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;- 目的：减少bin大小、任务数量。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#23445d;fillColor=#bac8d3;fontSize=14;" vertex="1" parent="band5">
-          <mxGeometry x="750" y="335" width="230" height="60" as="geometry" />
+        <mxCell id="1vTQEp4g6uKlRey9BI9b-1" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TODO： 空函数需要进行标记&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;no-op,考虑直接在编译期进行丢弃&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;- 目的：减少bin大小、任务数量。&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;- wrapper中直接走default：return&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#23445d;fillColor=#bac8d3;fontSize=14;" vertex="1" parent="band5">
+          <mxGeometry x="750" y="315" width="230" height="100" as="geometry" />
         </mxCell>
         <mxCell id="band6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;阶段 6 · 链接：半链接（-r 合并）→ 最终静态链接（-static）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
           <mxGeometry x="40" y="2410" width="1620" height="350" as="geometry" />
