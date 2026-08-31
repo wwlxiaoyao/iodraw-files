@@ -25,9 +25,6 @@
         <mxCell id="n1" value="cmake add_bin_compile_target → ascendc_bin_param_build.py 读 ops-info.ini&#xa;→ gen/--.sh（每 dtype 变体一份）&#xa;→ asc_opc .py --main_func= --input_param=__param.json&#xa;--soc_version=Ascend310P3 --op_mode=dynamic --output=bin/" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="band1" vertex="1">
           <mxGeometry x="20" y="45" width="560" height="175" as="geometry" />
         </mxCell>
-        <mxCell id="d1" value="证据：0827 文档 §5.1（远端构建树 .sh/_param.json 实证）；func.cmake add_bin_compile_target&#xa;_param.json：per-IO DTYPE/FORMAT/shape[-2]/paramType —— dtype 变体轴 = hash 的区分来源&#xa;（binList 一变体一 fat obj：IFA fp16 65cc…34键 / KV int8 e80e…75键）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" parent="band1" vertex="1">
-          <mxGeometry x="660" y="35" width="940" height="185" as="geometry" />
-        </mxCell>
         <mxCell id="band2" value="阶段 2 · 预处理扫描（KernelInfoInfer 从 .i 提取编译期元信息）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
           <mxGeometry x="40" y="490" width="1620" height="230" as="geometry" />
         </mxCell>
@@ -172,8 +169,10 @@
         <mxCell id="e19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#4d4d4d;" parent="1" source="n12" target="end" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s1" style="edgeStyle=none;html=1;dashed=1;strokeColor=#b3b3b3;" parent="1" source="n1" target="d1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="s1" style="edgeStyle=none;html=1;dashed=1;strokeColor=#b3b3b3;" parent="1" source="n1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="230.33132530120474" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="s2" style="edgeStyle=none;html=1;dashed=1;strokeColor=#b3b3b3;" parent="1" source="n2" target="d2" edge="1">
           <mxGeometry relative="1" as="geometry" />
