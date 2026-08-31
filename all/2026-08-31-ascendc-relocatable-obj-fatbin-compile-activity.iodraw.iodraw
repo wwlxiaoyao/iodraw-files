@@ -1,0 +1,202 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0" version="24.7.17">
+  <diagram name="AscendC relocatable obj→fatbin 编译活动视图" id="ascendc-fatbin-activity-20260831">
+    <mxGraphModel dx="2314" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="2960" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title1" value="AscendC kernel 编译期活动视图 —— .cpp → per-tk 可重定位 obj → fatbin（file:line 证据）" style="text;html=1;fontSize=18;fontStyle=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="1300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="title2" value="证据源：asc-devkit tools/build/asc_op_compile_base 源码精读 + 0827 远端构建树实证（2026-08-27-relocatable-obj-selection-and-fatbin-analysis.md §5/§5.9）；主线=310P（dav-m200，arch 2002）动态 shape 路径" style="text;html=1;fontSize=11;fontColor=#666666;align=left;" parent="1" vertex="1">
+          <mxGeometry x="40" y="52" width="1400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="band0" value="阶段 0 · 输入：AscendC 算子源码包" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
+          <mxGeometry x="40" y="90" width="1620" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="start" value="开始" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="band0" vertex="1">
+          <mxGeometry x="40" y="35" width="140" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="op_kernel/&lt;op&gt;.cpp：extern &quot;C&quot; __global__ __aicore__ void &lt;op&gt;(io..., GM_ADDR workspace, GM_ADDR tiling)&#xa;· 体内 TILING_KEY_IS(N) if-else 分支树（键集合的源码声明，constexpr 函数非宏）&#xa;· REGISTER_TILING_DEFAULT(T)（tiling 结构，sizeof 经 .ascendc_tiling.&lt;Struct&gt; 段导出）&#xa;op_host/&lt;op&gt;_tiling.cpp + ops-info.ini（dtype 变体声明 → _param.json 的来源）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band0" vertex="1">
+          <mxGeometry x="240" y="25" width="1360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="band1" value="阶段 1 · 构建编排层（cmake → gen/*.sh → asc_opc CLI）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
+          <mxGeometry x="40" y="280" width="1620" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="cmake add_bin_compile_target → ascendc_bin_param_build.py 读 ops-info.ini&#xa;→ gen/&lt;Op&gt;-&lt;op&gt;-&lt;idx&gt;.sh（每 dtype 变体一份）&#xa;→ asc_opc &lt;op&gt;.py --main_func=&lt;op&gt; --input_param=&lt;Op&gt;_&lt;hash&gt;_param.json&#xa;--soc_version=Ascend310P3 --op_mode=dynamic --output=bin/&lt;op&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band1" vertex="1">
+          <mxGeometry x="40" y="40" width="560" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" value="证据：0827 文档 §5.1（远端构建树 .sh/_param.json 实证）；func.cmake add_bin_compile_target&#xa;_param.json：per-IO DTYPE/FORMAT/shape[-2]/paramType —— dtype 变体轴 = hash 的区分来源&#xa;（binList 一变体一 fat obj：IFA fp16 65cc…34键 / KV int8 e80e…75键）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="band1" vertex="1">
+          <mxGeometry x="660" y="35" width="940" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="band2" value="阶段 2 · 预处理扫描（KernelInfoInfer 从 .i 提取编译期元信息）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
+          <mxGeometry x="40" y="490" width="1620" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="compile_op() 入口（compile_op.py:2124）&#xa;→ bisheng -E 预处理产 &lt;kernel&gt;.i&#xa;→ KernelInfoInfer.get_tiling_key_list_and_simple_infer_code_channel（:2200）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band2" vertex="1">
+          <mxGeometry x="40" y="40" width="560" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" value=".i 扫描产出（kernel_info_infer.py:118 find_tilingkey，:551-560 按源码出现序去重收集）：&#xa;· kernel 签名识别（cce_kernel 正则，legacy constants.py:17-21）&#xa;· tilingKey 全集 = 匹配 g_tilingKey==(N)（TILING_KEY_IS 展开态）→ tiling_key_list&#xa;★ 首键 = 扫描序第一分支（非最小键非默认键——MTU 首分支 TILING_KEY_IS(2) → tk2 载体；算子作者调分支序即变）&#xa;· 核型/代码通道推断（no_set_kernel_type 时编译探针兜底，compile_op.py:1914-1938）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="band2" vertex="1">
+          <mxGeometry x="660" y="35" width="940" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="band3" value="阶段 3 · tiling 元信息与 autogen 源生成（gen_kernel_fun → _kernel.cpp）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
+          <mxGeometry x="40" y="770" width="1620" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="get_tiling_info_by_tiling → TilingInfo&#xa;&lt;Op&gt;_&lt;hash&gt;_tiling_data.h 落盘（设备侧 tiling 解析结构）&#xa;tiling_key_list 定制过滤（customized_tiling_key_list）&#xa;（compile_op.py:1867-1910）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band3" vertex="1">
+          <mxGeometry x="40" y="40" width="560" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="gen_op_stub_kernel_func（:1429/:2049）→ gen_kernel_fun（:756）&#xa;生成 autogen &lt;Op&gt;_&lt;hash&gt;_kernel.cpp&#xa;+ WORKSPACE_PARAM_OFFSET 注入（:1481）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band3" vertex="1">
+          <mxGeometry x="40" y="170" width="560" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d3" value="autogen wrapper 四要素：&#xa;① 用户体 inline 化：#undef __global__ / #define __global__ inline / #include 用户源 / 恢复 __attribute__((cce_kernel))（compile_op.py:774-784）&#xa;② 首键 g_opSystemRunCfg 双分支：get_code_for_l2_cache（ascendc_compile_gen_code.py:111-144 取 tiling_key_list[0]）#if TILING_KEY_VAR==&lt;首键&gt;UL 强定义 {0} / #else extern（struct 仅 uint64_t l2Cacheoffset，L2 预取偏移）&#xa;③ ascendc_auto_gen_&lt;op&gt;_kernel 前奏：SetSysWorkspaceForce(workspace) → usrWorkspace=GetUserWorkspace(workspace)[+RESERVED_WORKSPACE] → 调用户体 → WriteBackOverflow(overflowStatus)（compile_op.py:622-654；首参 ffts_addr / 尾参 overflow）&#xa;④ 真入口 auto_gen_&lt;op&gt;_kernel（extern &quot;C&quot; __global__ [aicore]，:806-818）+ 逐 key #if TILING_KEY_VAR==N 的 DFX 段（:2344-2346）+ .ascendc_tiling.&lt;Struct&gt; 段（:685）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="band3" vertex="1">
+          <mxGeometry x="660" y="35" width="940" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="band4" value="阶段 4 · per-tilingKey 编译循环（一键一次 bisheng，make -j 并行）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1150" width="1620" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="dec1" value="static_shape_flag？&#xa;（compile_op.py:2363）" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="band4" vertex="1">
+          <mxGeometry x="160" y="40" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dstub" value="static 单键路径：tiling_key 单键直编（运行期 tiling 回填单键），不走多键循环；tiling 常量可 FORCE_TILING_CONST_PROPAGATION 编译期传播" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;dashed=1;fillColor=#f5f5f5;strokeColor=#999999;" parent="band4" vertex="1">
+          <mxGeometry x="660" y="45" width="940" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="for tk in tiling_key_list：&#xa;_compile_single_tiling 构造 bisheng 命令（compile_op.py:2316-2347）&#xa;dst = &lt;kernel_name&gt;_&lt;tk&gt;.o" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band4" vertex="1">
+          <mxGeometry x="40" y="170" width="560" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d4" value="三宏注入（.mk 实证）：&#xa;-DTILING_KEY_VAR=&lt;tk&gt;UL —— key 编译期常量化（TILING_KEY_IS 展开依据）&#xa;-D&lt;op&gt;=&lt;op&gt;_&lt;tk&gt;_tilingkey —— 用户入口宏改名（inline 唯一化）&#xa;-Dauto_gen_&lt;op&gt;_kernel=&lt;Op&gt;_&lt;hash&gt;_&lt;tk&gt; —— 最终符号名（= fat obj T 符号 / kernel_meta obj 文件名后缀）&#xa;-include &lt;Op&gt;_&lt;hash&gt;_tiling_data.h；bin 级 -DDTYPE_&lt;IO&gt;/-DORIG_DTYPE_&lt;IO&gt;/-DFORMAT_&lt;IO&gt; 轴；其余 -DASCENDC_TPL_KERNEL -DNOT_DYNAMIC_COMPILE --cce-long-call=true" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="band4" vertex="1">
+          <mxGeometry x="660" y="160" width="940" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="compile_multi_tilingkey（ascendc_compile_base.py:362）：&#xa;write_mk 生成 &lt;pid&gt;.mk（每 key 一条编译规则）&#xa;→ make -f &lt;pid&gt;.mk -j N 并行执行全部 bisheng 编译" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band4" vertex="1">
+          <mxGeometry x="40" y="310" width="560" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="band5" value="阶段 5 · 编译期键折叠：真体/桩分流 → per-key relocatable obj" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1650" width="1620" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="dec2" value="TILING_KEY_IS(tk) 常量折叠判定&#xa;（TILING_KEY_VAR==tk？）" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="band5" vertex="1">
+          <mxGeometry x="130" y="40" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="d5" value="桩机制本质：TILING_KEY_IS(key) 是 inline constexpr 函数返回 TILING_KEY_VAR==key（非 #if 宏）→ 非匹配分支常量折叠 → DCE&#xa;#if __CCE_AICORE__==200 soc 守卫进一步消除 C1V2/C1V1 族（IFA 86/109 桩、真体仅 VALL/CALL/ATB）&#xa;fat obj kernelList 含桩 = 键枚举契约载体（产物侧不过滤真体）&#xa;强触桩 = wrapper prologue 跑完 + 空 user body + WriteBackOverflow → 输出 tensor 未写 → 静默 garbage（无错误回报）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="band5" vertex="1">
+          <mxGeometry x="660" y="35" width="940" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n7a" value="真体 obj 10~46KB&#xa;本 key 完整函数体&#xa;.text 仅 2 条 reloc 指向 weak 符号&#xa;（首键 obj 额外 D g_opSystemRunCfg）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band5" vertex="1">
+          <mxGeometry x="40" y="170" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n7b" value="412B 桩&#xa;wrapper prologue + TPipe pipe; + ret&#xa;（死分支全消除；stub 与真体 .text 前 28 字节相同）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#f8cecc;strokeColor=#b85450;" parent="band5" vertex="1">
+          <mxGeometry x="350" y="170" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="per-key relocatable obj：kernel_meta/&lt;Op&gt;_&lt;hash&gt;_&lt;tk&gt;.o&#xa;（ET_REL，.data VMA=0，自包含：T 入口符号 + weak COMDAT g_tPipePtr/g_sysWorkspaceReserved）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band5" vertex="1">
+          <mxGeometry x="40" y="310" width="560" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="band6" value="阶段 6 · 链接：半链接（-r 合并）→ 最终静态链接（-static）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
+          <mxGeometry x="40" y="2120" width="1620" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="fatbin_objs（ascendc_compile_base.py:142-160，由 _compile_ascendc_cce :2430 调用）：&#xa;ld.lld -m aicorelinux -r -Ttext=0 -q [-x Release 丢弃 local 符号]&#xa;&lt;全部 per-key objs&gt; -static -o &lt;dst&gt;.o&#xa;→ 半链接合并 = tk-less base obj" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band6" vertex="1">
+          <mxGeometry x="40" y="40" width="560" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="d6" value="半链接效果：-r 输出仍 relocatable；weak COMDAT 去重（g_tPipePtr 208→1、g_sysWorkspaceReserved 210→1）；&#xa;g_opSystemRunCfg 首键强定义吸收（16 首键→1，$local 别名痕迹）&#xa;★ per-key objs 链后默认删除（base.py:161-165，除 debug_config/save_sub_op_files）&#xa;→ kernel_meta per-key obj 仅构建树存留（release 不带，PyPTO 须从构建树取——merged 路线自建流程不可退役的机制根源）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="band6" vertex="1">
+          <mxGeometry x="660" y="35" width="940" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="link_kernel_obj（compile_op.py:2026）→ link_relocatable（base.py:168）：&#xa;ld.lld -m aicorelinux -Ttext=0 &lt;fat&gt; -static -o &lt;fat&gt; -q（无 -r）&#xa;→ fat executable obj（.data VMA 已定；剩余重定位 = loader 专属 R_AICORE_*）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band6" vertex="1">
+          <mxGeometry x="40" y="180" width="560" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="band7" value="阶段 7 · 元数据生成与发布布局" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
+          <mxGeometry x="40" y="2480" width="1620" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="json 元数据生成：&#xa;tvm_callback_cce_postproc（cce_runtime.py:771：magic/coreType/taskRation/&#xa;blockDim/opParaSize=tiling+8/parameters/workspace）&#xa;+ _dynamic_kernel_list_to_json（kernelList 全 key 含桩）&#xa;+ _json_post_process（compile_op.py:308）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band7" vertex="1">
+          <mxGeometry x="40" y="40" width="560" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d7" value="关键字段语义：blockDim=-1（tiling 期 SetBlockDim 逐调用给）/ workspace=[-1]（tiling 现算）/ opParaSize=tiling 上界+8&#xa;parameters（入口 arity 校验）/ supportInfo.simplifiedKey（dtype→obj 选择轴）/ optionalInputMode&#xa;binFileName + magic + sha256（仅 CANN register+launch 路径用；PyPTO merged 路线不需要）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="band7" vertex="1">
+          <mxGeometry x="660" y="35" width="940" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="发布布局：&#xa;kernel_bin/&lt;op&gt;/&lt;Op&gt;_&lt;hash&gt;.o（fat executable）+ &lt;Op&gt;_&lt;hash&gt;.json&#xa;kernel_meta/&lt;Op&gt;_&lt;hash&gt;_&lt;tk&gt;.o（per-key，仅构建树）&#xa;（legacy 形态另经 ascendc_pack_kernel.sh 把设备二进制回填 host .so）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band7" vertex="1">
+          <mxGeometry x="40" y="190" width="560" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d8" value="PyPTO 消费点（merged 路线，step1-6）：&#xa;per-key obj = 半链接唯一可用形态（发布件 fat exec .o 不可 semi-link，0827 定论）&#xa;kernel_objs[tk] + base 进 ld.lld 链接清单；g_opSystemRunCfg 已落 weaken + 强定义 {0} 接管（7ec9e9cd2）&#xa;dispatcher = CallSubFuncTask switch（运行期 tk 分发）；真体过滤 = obj 尺寸阈值" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#d5e8d4;strokeColor=#82b366;" parent="band7" vertex="1">
+          <mxGeometry x="660" y="185" width="940" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="end" value="结束：fatbin 发布产物" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="band7" vertex="1">
+          <mxGeometry x="210" y="300" width="220" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#4d4d4d;" parent="1" source="start" target="n1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#4d4d4d;" parent="1" source="n1" target="n2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#4d4d4d;" parent="1" source="n2" target="n3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#4d4d4d;" parent="1" source="n3" target="n4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#4d4d4d;" parent="1" source="n4" target="dec1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" value="static" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#999999;" parent="1" source="dec1" target="dstub" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" value="dynamic（多键）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#4d4d4d;" parent="1" source="dec1" target="n5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#4d4d4d;" parent="1" source="n5" target="n6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#4d4d4d;" parent="1" source="n6" target="dec2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" value="本 key 匹配" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#4d4d4d;" parent="1" source="dec2" target="n7a" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" value="非匹配 / soc 守卫消除" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;" parent="1" source="dec2" target="n7b" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#4d4d4d;" parent="1" source="n7a" target="n8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;dashed=1;" parent="1" source="n7b" target="n8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" value="下一个 tilingKey（循环）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#666666;" parent="1" source="n8" target="n5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" value="tiling_key_list 编译完成（obj_files 清单）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#4d4d4d;" parent="1" source="n8" target="n9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#4d4d4d;" parent="1" source="n9" target="n10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#4d4d4d;" parent="1" source="n10" target="n11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#4d4d4d;" parent="1" source="n11" target="n12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#4d4d4d;" parent="1" source="n12" target="end" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" style="edgeStyle=none;html=1;dashed=1;strokeColor=#b3b3b3;" parent="1" source="n1" target="d1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" style="edgeStyle=none;html=1;dashed=1;strokeColor=#b3b3b3;" parent="1" source="n2" target="d2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" style="edgeStyle=none;html=1;dashed=1;strokeColor=#b3b3b3;" parent="1" source="n4" target="d3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s4" style="edgeStyle=none;html=1;dashed=1;strokeColor=#b3b3b3;" parent="1" source="n5" target="d4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5" style="edgeStyle=none;html=1;dashed=1;strokeColor=#b3b3b3;" parent="1" source="dec2" target="d5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s6" style="edgeStyle=none;html=1;dashed=1;strokeColor=#b3b3b3;" parent="1" source="n9" target="d6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s7" style="edgeStyle=none;html=1;dashed=1;strokeColor=#b3b3b3;" parent="1" source="n11" target="d7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s8" style="edgeStyle=none;html=1;dashed=1;strokeColor=#b3b3b3;" parent="1" source="n12" target="d8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
