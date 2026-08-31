@@ -59,10 +59,10 @@
           <mxGeometry x="660" y="45" width="940" height="70" as="geometry" />
         </mxCell>
         <mxCell id="n5" value="for tk in tiling_key_list：&#xa;_compile_single_tiling 构造 bisheng 命令（compile_op.py:2316-2347）&#xa;dst = &lt;kernel_name&gt;_&lt;tk&gt;.o" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band4" vertex="1">
-          <mxGeometry x="40" y="170" width="560" height="100" as="geometry" />
+          <mxGeometry x="110" y="175" width="420" height="100" as="geometry" />
         </mxCell>
         <mxCell id="d4" value="三宏注入（.mk 实证）：&#xa;-DTILING_KEY_VAR=&lt;tk&gt;UL —— key 编译期常量化（TILING_KEY_IS 展开依据）&#xa;-D&lt;op&gt;=&lt;op&gt;_&lt;tk&gt;_tilingkey —— 用户入口宏改名（inline 唯一化）&#xa;-Dauto_gen_&lt;op&gt;_kernel=&lt;Op&gt;_&lt;hash&gt;_&lt;tk&gt; —— 最终符号名（= fat obj T 符号 / kernel_meta obj 文件名后缀）&#xa;-include &lt;Op&gt;_&lt;hash&gt;_tiling_data.h；bin 级 -DDTYPE_&lt;IO&gt;/-DORIG_DTYPE_&lt;IO&gt;/-DFORMAT_&lt;IO&gt; 轴；其余 -DASCENDC_TPL_KERNEL -DNOT_DYNAMIC_COMPILE --cce-long-call=true" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="band4" vertex="1">
-          <mxGeometry x="660" y="160" width="940" height="130" as="geometry" />
+          <mxGeometry x="660" y="160" width="920" height="130" as="geometry" />
         </mxCell>
         <mxCell id="n6" value="compile_multi_tilingkey（ascendc_compile_base.py:362）：&#xa;write_mk 生成 &lt;pid&gt;.mk（每 key 一条编译规则）&#xa;→ make -f &lt;pid&gt;.mk -j N 并行执行全部 bisheng 编译" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band4" vertex="1">
           <mxGeometry x="40" y="310" width="560" height="100" as="geometry" />
