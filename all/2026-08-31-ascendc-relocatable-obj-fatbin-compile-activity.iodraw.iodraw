@@ -74,7 +74,7 @@
           <mxGeometry x="600" y="125" width="850" height="130" as="geometry" />
         </mxCell>
         <mxCell id="band5" value="阶段 5 · 编译期键折叠：真体/桩分流 → per-key relocatable obj" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
-          <mxGeometry x="20" y="1730" width="1640" height="610" as="geometry" />
+          <mxGeometry x="40" y="1740" width="1640" height="610" as="geometry" />
         </mxCell>
         <mxCell id="dec2" value="TILING_KEY_IS(tk) 常量折叠判定&#xa;（TILING_KEY_VAR==tk？）" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="band5" vertex="1">
           <mxGeometry x="130" y="70" width="400" height="90" as="geometry" />
@@ -107,7 +107,7 @@
           <mxGeometry x="45" y="230" width="560" height="100" as="geometry" />
         </mxCell>
         <mxCell id="1vTQEp4g6uKlRey9BI9b-4" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TODO： 动态函数在这个阶段进行半链接是更优的。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#23445d;fillColor=#bac8d3;fontSize=14;" vertex="1" parent="band6">
-          <mxGeometry x="820" y="260" width="350" height="60" as="geometry" />
+          <mxGeometry x="720" y="260" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="band7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;阶段 7 · 元数据生成与发布布局&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
           <mxGeometry x="30" y="2800" width="1620" height="350" as="geometry" />
