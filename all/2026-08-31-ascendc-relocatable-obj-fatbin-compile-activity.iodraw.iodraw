@@ -197,7 +197,7 @@
         <mxCell id="s3" style="edgeStyle=none;html=1;dashed=1;strokeColor=#b3b3b3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="n4" target="d3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s4" style="edgeStyle=none;html=1;dashed=1;strokeColor=#b3b3b3;" parent="1" source="n5" target="d4" edge="1">
+        <mxCell id="s4" style="edgeStyle=none;html=1;dashed=1;strokeColor=#b3b3b3;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n5" target="d4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="s5" style="edgeStyle=none;html=1;dashed=1;strokeColor=#b3b3b3;" parent="1" source="dec2" target="d5" edge="1">
