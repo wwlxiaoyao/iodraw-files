@@ -98,7 +98,7 @@
           <mxGeometry x="40" y="180" width="560" height="100" as="geometry" />
         </mxCell>
         <mxCell id="band7" value="阶段 7 · 元数据生成与发布布局" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
-          <mxGeometry x="40" y="2480" width="1620" height="350" as="geometry" />
+          <mxGeometry x="40" y="2650" width="1620" height="350" as="geometry" />
         </mxCell>
         <mxCell id="n11" value="json 元数据生成：&#xa;tvm_callback_cce_postproc（cce_runtime.py:771：magic/coreType/taskRation/&#xa;blockDim/opParaSize=tiling+8/parameters/workspace）&#xa;+ _dynamic_kernel_list_to_json（kernelList 全 key 含桩）&#xa;+ _json_post_process（compile_op.py:308）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band7" vertex="1">
           <mxGeometry x="40" y="40" width="560" height="120" as="geometry" />
