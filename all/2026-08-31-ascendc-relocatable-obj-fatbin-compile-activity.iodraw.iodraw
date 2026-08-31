@@ -62,13 +62,13 @@
           <mxGeometry x="110" y="175" width="420" height="100" as="geometry" />
         </mxCell>
         <mxCell id="d4" value="三宏注入（.mk 实证）：&#xa;-DTILING_KEY_VAR=UL —— key 编译期常量化（TILING_KEY_IS 展开依据）&#xa;-D=__tilingkey —— 用户入口宏改名（inline 唯一化）&#xa;-Dauto_gen__kernel=__ —— 最终符号名（= fat obj T 符号 / kernel_meta obj 文件名后缀）&#xa;-include __tiling_data.h；bin 级 -DDTYPE_/-DORIG_DTYPE_/-DFORMAT_ 轴；其余 -DASCENDC_TPL_KERNEL -DNOT_DYNAMIC_COMPILE --cce-long-call=true" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="band4" vertex="1">
-          <mxGeometry x="600" y="160" width="920" height="130" as="geometry" />
+          <mxGeometry x="620" y="200" width="920" height="130" as="geometry" />
         </mxCell>
         <mxCell id="n6" value="compile_multi_tilingkey（ascendc_compile_base.py:362）：&#xa;write_mk 生成 .mk（每 key 一条编译规则）&#xa;→ make -f .mk -j N 并行执行全部 bisheng 编译" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="band4" vertex="1">
           <mxGeometry x="115" y="340" width="410" height="100" as="geometry" />
         </mxCell>
         <mxCell id="1vTQEp4g6uKlRey9BI9b-2" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TODO： 显示标记为静态函数&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#A50040;fillColor=#d80073;fontSize=14;fontColor=#ffffff;" vertex="1" parent="band4">
-          <mxGeometry x="530" y="120" width="210" height="30" as="geometry" />
+          <mxGeometry x="580" y="130" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="band5" value="阶段 5 · 编译期键折叠：真体/桩分流 → per-key relocatable obj" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
           <mxGeometry x="40" y="1820" width="1620" height="520" as="geometry" />
