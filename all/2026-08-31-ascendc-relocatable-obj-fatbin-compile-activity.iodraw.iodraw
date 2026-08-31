@@ -68,7 +68,7 @@
           <mxGeometry x="40" y="320" width="560" height="100" as="geometry" />
         </mxCell>
         <mxCell id="band5" value="阶段 5 · 编译期键折叠：真体/桩分流 → per-key relocatable obj" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1640" width="1620" height="520" as="geometry" />
+          <mxGeometry x="40" y="1820" width="1620" height="520" as="geometry" />
         </mxCell>
         <mxCell id="dec2" value="TILING_KEY_IS(tk) 常量折叠判定&#xa;（TILING_KEY_VAR==tk？）" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="band5" vertex="1">
           <mxGeometry x="130" y="40" width="400" height="90" as="geometry" />
