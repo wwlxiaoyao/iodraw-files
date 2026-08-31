@@ -10,14 +10,14 @@
         <mxCell id="title2" value="证据源：asc-devkit tools/build/asc_op_compile_base 源码精读 + 0827 远端构建树实证（2026-08-27-relocatable-obj-selection-and-fatbin-analysis.md §5/§5.9）；主线=310P（dav-m200，arch 2002）动态 shape 路径" style="text;html=1;fontSize=13;fontColor=#666666;align=left;" parent="1" vertex="1">
           <mxGeometry x="50" y="-30" width="1400" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="band0" value="阶段 0 · 输入：AscendC 算子源码包" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
+        <mxCell id="band0" value="阶段 0 · 输入：AscendC 算子源码包" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
           <mxGeometry x="40" y="10" width="1620" height="200" as="geometry" />
         </mxCell>
         <mxCell id="start" value="开始" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="band0" vertex="1">
           <mxGeometry x="40" y="63" width="140" height="44" as="geometry" />
         </mxCell>
         <mxCell id="n0" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;op_kernel/.cpp：&lt;/font&gt;&lt;/b&gt;&lt;div&gt;extern &quot;C&quot; __global__ __aicore__ void (io..., GM_ADDR workspace, GM_ADDR tiling)&lt;br&gt;· 体内 TILING_KEY_IS(N) if-else 分支树（键集合的源码声明，constexpr 函数非宏）&lt;br&gt;· REGISTER_TILING_DEFAULT(T)（tiling 结构，sizeof 经 .ascendc_tiling. 段导出）&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;op_host/_tiling.cpp + ops-info.ini（dtype 变体声明 → _param.json 的来源）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="band0" vertex="1">
-          <mxGeometry x="240" y="35" width="670" height="145" as="geometry" />
+          <mxGeometry x="240" y="35" width="620" height="145" as="geometry" />
         </mxCell>
         <mxCell id="band1" value="阶段 1 · 构建编排层（cmake → gen/*.sh → asc_opc CLI）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
           <mxGeometry x="40" y="280" width="1620" height="170" as="geometry" />
