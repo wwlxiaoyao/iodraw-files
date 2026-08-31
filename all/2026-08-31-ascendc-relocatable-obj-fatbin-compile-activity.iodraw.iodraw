@@ -77,7 +77,7 @@
           <mxGeometry x="130" y="40" width="400" height="90" as="geometry" />
         </mxCell>
         <mxCell id="d5" value="桩机制本质：TILING_KEY_IS(key) 是 inline constexpr 函数返回 TILING_KEY_VAR==key（非 #if 宏）→ 非匹配分支常量折叠 → DCE&#xa;#if __CCE_AICORE__==200 soc 守卫进一步消除 C1V2/C1V1 族（IFA 86/109 桩、真体仅 VALL/CALL/ATB）&#xa;fat obj kernelList 含桩 = 键枚举契约载体（产物侧不过滤真体）&#xa;强触桩 = wrapper prologue 跑完 + 空 user body + WriteBackOverflow → 输出 tensor 未写 → 静默 garbage（无错误回报）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" parent="band5" vertex="1">
-          <mxGeometry x="730" y="35" width="730" height="150" as="geometry" />
+          <mxGeometry x="740" y="40" width="730" height="150" as="geometry" />
         </mxCell>
         <mxCell id="n7a" value="真体 obj 10~46KB&#xa;本 key 完整函数体&#xa;.text 仅 2 条 reloc 指向 weak 符号&#xa;（首键 obj 额外 D g_opSystemRunCfg）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="band5" vertex="1">
           <mxGeometry x="90" y="190" width="280" height="110" as="geometry" />
@@ -160,12 +160,12 @@
         <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#b85450;dashed=1;" parent="1" source="n7b" target="n8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e14" value="下一个 tilingKey（循环）" style="rounded=0;html=1;dashed=1;strokeColor=#666666;edgeStyle=orthogonalEdgeStyle;entryX=-0.005;entryY=0.58;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="n5" edge="1">
+        <mxCell id="e14" value="下一个 tilingKey（循环）" style="rounded=0;html=1;dashed=1;strokeColor=#666666;edgeStyle=orthogonalEdgeStyle;entryX=-0.005;entryY=0.58;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="n8" target="n5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="190" y="2220" as="sourcePoint" />
             <mxPoint x="190" y="1435" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="100" y="2220" />
+              <mxPoint x="100" y="2260" />
               <mxPoint x="100" y="1700" />
               <mxPoint x="70" y="1700" />
               <mxPoint x="70" y="1393" />
