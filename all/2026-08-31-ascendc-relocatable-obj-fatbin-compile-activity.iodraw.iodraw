@@ -95,7 +95,7 @@
           <mxGeometry x="720" y="50" width="550" height="190" as="geometry" />
         </mxCell>
         <mxCell id="n10" value="link_kernel_obj（compile_op.py:2026）→ link_relocatable（base.py:168）：&#xa;ld.lld -m aicorelinux -Ttext=0  -static -o  -q（无 -r）&#xa;→ fat executable obj（.data VMA 已定；剩余重定位 = loader 专属 R_AICORE_*）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="band6" vertex="1">
-          <mxGeometry x="45" y="220" width="560" height="100" as="geometry" />
+          <mxGeometry x="30" y="230" width="560" height="100" as="geometry" />
         </mxCell>
         <mxCell id="band7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;阶段 7 · 元数据生成与发布布局&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
           <mxGeometry x="30" y="2800" width="1620" height="350" as="geometry" />
