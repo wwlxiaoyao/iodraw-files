@@ -58,14 +58,14 @@
         <mxCell id="dstub" value="static 单键路径：tiling_key 单键直编（运行期 tiling 回填单键），不走多键循环；tiling 常量可 FORCE_TILING_CONST_PROPAGATION 编译期传播" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;dashed=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=14;" parent="band4" vertex="1">
           <mxGeometry x="560" y="45" width="940" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="n5" value="for tk in tiling_key_list：&#xa;_compile_single_tiling 构造 bisheng 命令（compile_op.py:2316-2347）&#xa;dst = &lt;kernel_name&gt;_&lt;tk&gt;.o" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band4" vertex="1">
+        <mxCell id="n5" value="for tk in tiling_key_list：&#xa;_compile_single_tiling 构造 bisheng 命令（compile_op.py:2316-2347）&#xa;dst = _.o" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="band4" vertex="1">
           <mxGeometry x="110" y="175" width="420" height="100" as="geometry" />
         </mxCell>
         <mxCell id="d4" value="三宏注入（.mk 实证）：&#xa;-DTILING_KEY_VAR=UL —— key 编译期常量化（TILING_KEY_IS 展开依据）&#xa;-D=__tilingkey —— 用户入口宏改名（inline 唯一化）&#xa;-Dauto_gen__kernel=__ —— 最终符号名（= fat obj T 符号 / kernel_meta obj 文件名后缀）&#xa;-include __tiling_data.h；bin 级 -DDTYPE_/-DORIG_DTYPE_/-DFORMAT_ 轴；其余 -DASCENDC_TPL_KERNEL -DNOT_DYNAMIC_COMPILE --cce-long-call=true" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="band4" vertex="1">
           <mxGeometry x="600" y="160" width="920" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="n6" value="compile_multi_tilingkey（ascendc_compile_base.py:362）：&#xa;write_mk 生成 &lt;pid&gt;.mk（每 key 一条编译规则）&#xa;→ make -f &lt;pid&gt;.mk -j N 并行执行全部 bisheng 编译" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band4" vertex="1">
-          <mxGeometry x="115" y="320" width="410" height="100" as="geometry" />
+        <mxCell id="n6" value="compile_multi_tilingkey（ascendc_compile_base.py:362）：&#xa;write_mk 生成 .mk（每 key 一条编译规则）&#xa;→ make -f .mk -j N 并行执行全部 bisheng 编译" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="band4" vertex="1">
+          <mxGeometry x="115" y="340" width="410" height="100" as="geometry" />
         </mxCell>
         <mxCell id="band5" value="阶段 5 · 编译期键折叠：真体/桩分流 → per-key relocatable obj" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
           <mxGeometry x="40" y="1820" width="1620" height="520" as="geometry" />
