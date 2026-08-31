@@ -17,7 +17,7 @@
           <mxGeometry x="40" y="35" width="140" height="44" as="geometry" />
         </mxCell>
         <mxCell id="n0" value="op_kernel/&lt;op&gt;.cpp：extern &quot;C&quot; __global__ __aicore__ void &lt;op&gt;(io..., GM_ADDR workspace, GM_ADDR tiling)&#xa;· 体内 TILING_KEY_IS(N) if-else 分支树（键集合的源码声明，constexpr 函数非宏）&#xa;· REGISTER_TILING_DEFAULT(T)（tiling 结构，sizeof 经 .ascendc_tiling.&lt;Struct&gt; 段导出）&#xa;op_host/&lt;op&gt;_tiling.cpp + ops-info.ini（dtype 变体声明 → _param.json 的来源）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band0" vertex="1">
-          <mxGeometry x="240" y="25" width="1360" height="100" as="geometry" />
+          <mxGeometry x="240" y="35" width="1360" height="100" as="geometry" />
         </mxCell>
         <mxCell id="band1" value="阶段 1 · 构建编排层（cmake → gen/*.sh → asc_opc CLI）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
           <mxGeometry x="40" y="280" width="1620" height="170" as="geometry" />
