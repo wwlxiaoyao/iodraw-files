@@ -89,7 +89,7 @@
           <mxGeometry x="40" y="2410" width="1620" height="350" as="geometry" />
         </mxCell>
         <mxCell id="n9" value="fatbin_objs（ascendc_compile_base.py:142-160，由 _compile_ascendc_cce :2430 调用）：&#xa;ld.lld -m aicorelinux -r -Ttext=0 -q [-x Release 丢弃 local 符号]&#xa;&amp;lt;全部 per-key objs&amp;gt; -static -o .o&#xa;→ 半链接合并 = tk-less base obj" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="band6" vertex="1">
-          <mxGeometry x="40" y="40" width="570" height="110" as="geometry" />
+          <mxGeometry x="45" y="50" width="570" height="110" as="geometry" />
         </mxCell>
         <mxCell id="d6" value="半链接效果：-r 输出仍 relocatable；weak COMDAT 去重（g_tPipePtr 208→1、g_sysWorkspaceReserved 210→1）；&#xa;g_opSystemRunCfg 首键强定义吸收（16 首键→1，$local 别名痕迹）&#xa;★ per-key objs 链后默认删除（base.py:161-165，除 debug_config/save_sub_op_files）&#xa;→ kernel_meta per-key obj 仅构建树存留（release 不带，PyPTO 须从构建树取——merged 路线自建流程不可退役的机制根源）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="band6" vertex="1">
           <mxGeometry x="780" y="40" width="730" height="130" as="geometry" />
