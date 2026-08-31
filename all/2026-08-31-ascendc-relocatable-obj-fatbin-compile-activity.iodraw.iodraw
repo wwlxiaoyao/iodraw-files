@@ -38,13 +38,13 @@
           <mxGeometry x="660" y="35" width="940" height="170" as="geometry" />
         </mxCell>
         <mxCell id="band3" value="阶段 3 · tiling 元信息与 autogen 源生成（gen_kernel_fun → _kernel.cpp）" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;swimlane;startSize=26;" parent="1" vertex="1">
-          <mxGeometry x="40" y="740" width="1620" height="360" as="geometry" />
+          <mxGeometry x="40" y="680" width="1620" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="n3" value="get_tiling_info_by_tiling → TilingInfo&#xa;&lt;Op&gt;_&lt;hash&gt;_tiling_data.h 落盘（设备侧 tiling 解析结构）&#xa;tiling_key_list 定制过滤（customized_tiling_key_list）&#xa;（compile_op.py:1867-1910）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band3" vertex="1">
+        <mxCell id="n3" value="get_tiling_info_by_tiling → TilingInfo&#xa;__tiling_data.h 落盘（设备侧 tiling 解析结构）&#xa;tiling_key_list 定制过滤（customized_tiling_key_list）&#xa;（compile_op.py:1867-1910）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="band3" vertex="1">
           <mxGeometry x="40" y="40" width="560" height="100" as="geometry" />
         </mxCell>
         <mxCell id="n4" value="gen_op_stub_kernel_func（:1429/:2049）→ gen_kernel_fun（:756）&#xa;生成 autogen &lt;Op&gt;_&lt;hash&gt;_kernel.cpp&#xa;+ WORKSPACE_PARAM_OFFSET 注入（:1481）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band3" vertex="1">
-          <mxGeometry x="40" y="170" width="560" height="100" as="geometry" />
+          <mxGeometry x="40" y="200" width="560" height="100" as="geometry" />
         </mxCell>
         <mxCell id="d3" value="autogen wrapper 四要素：&#xa;① 用户体 inline 化：#undef __global__ / #define __global__ inline / #include 用户源 / 恢复 __attribute__((cce_kernel))（compile_op.py:774-784）&#xa;② 首键 g_opSystemRunCfg 双分支：get_code_for_l2_cache（ascendc_compile_gen_code.py:111-144 取 tiling_key_list[0]）#if TILING_KEY_VAR==&lt;首键&gt;UL 强定义 {0} / #else extern（struct 仅 uint64_t l2Cacheoffset，L2 预取偏移）&#xa;③ ascendc_auto_gen_&lt;op&gt;_kernel 前奏：SetSysWorkspaceForce(workspace) → usrWorkspace=GetUserWorkspace(workspace)[+RESERVED_WORKSPACE] → 调用户体 → WriteBackOverflow(overflowStatus)（compile_op.py:622-654；首参 ffts_addr / 尾参 overflow）&#xa;④ 真入口 auto_gen_&lt;op&gt;_kernel（extern &quot;C&quot; __global__ [aicore]，:806-818）+ 逐 key #if TILING_KEY_VAR==N 的 DFX 段（:2344-2346）+ .ascendc_tiling.&lt;Struct&gt; 段（:685）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#fff2cc;strokeColor=#d6b656;" parent="band3" vertex="1">
           <mxGeometry x="660" y="35" width="940" height="240" as="geometry" />
