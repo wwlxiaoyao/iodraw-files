@@ -77,10 +77,10 @@
           <mxGeometry x="660" y="35" width="940" height="150" as="geometry" />
         </mxCell>
         <mxCell id="n7a" value="真体 obj 10~46KB&#xa;本 key 完整函数体&#xa;.text 仅 2 条 reloc 指向 weak 符号&#xa;（首键 obj 额外 D g_opSystemRunCfg）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="band5" vertex="1">
-          <mxGeometry x="20" y="170" width="280" height="110" as="geometry" />
+          <mxGeometry x="90" y="190" width="280" height="110" as="geometry" />
         </mxCell>
         <mxCell id="n7b" value="412B 桩&#xa;wrapper prologue + TPipe pipe; + ret&#xa;（死分支全消除；stub 与真体 .text 前 28 字节相同）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" parent="band5" vertex="1">
-          <mxGeometry x="370" y="170" width="250" height="110" as="geometry" />
+          <mxGeometry x="460" y="185" width="250" height="110" as="geometry" />
         </mxCell>
         <mxCell id="n8" value="per-key relocatable obj：kernel_meta/&lt;Op&gt;_&lt;hash&gt;_&lt;tk&gt;.o&#xa;（ET_REL，.data VMA=0，自包含：T 入口符号 + weak COMDAT g_tPipePtr/g_sysWorkspaceReserved）" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="band5" vertex="1">
           <mxGeometry x="40" y="400" width="560" height="80" as="geometry" />
