@@ -109,8 +109,8 @@
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-1" value="AscendC算子框架" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="960" y="180" width="620" height="740" as="geometry" />
         </mxCell>
-        <mxCell id="5eRNpVH-V7YMr0wqcR8z-2" value="DSL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="260" width="390" height="60" as="geometry" />
+        <mxCell id="5eRNpVH-V7YMr0wqcR8z-2" value="torch_npu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="300" width="390" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
