@@ -115,7 +115,10 @@
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-2" value="torch_npu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1000" y="260" width="530" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5eRNpVH-V7YMr0wqcR8z-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-3" target="5eRNpVH-V7YMr0wqcR8z-4">
+        <mxCell id="5eRNpVH-V7YMr0wqcR8z-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-3" target="5eRNpVH-V7YMr0wqcR8z-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5eRNpVH-V7YMr0wqcR8z-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-3" target="5eRNpVH-V7YMr0wqcR8z-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-3" value="op_plugin (PTA： 算子路由模块)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
