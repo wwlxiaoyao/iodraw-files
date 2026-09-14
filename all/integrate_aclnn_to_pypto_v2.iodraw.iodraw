@@ -20,7 +20,7 @@
           <mxGeometry x="140" y="340" width="390" height="110" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-24" value="MPMD Runtime" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="140" y="585" width="390" height="335" as="geometry" />
+          <mxGeometry x="140" y="530" width="390" height="390" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-28" value="vLLM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="1440" width="600" height="170" as="geometry" />
