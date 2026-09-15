@@ -87,8 +87,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="N0bWfw8bpWiSEuFC9uZB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N0bWfw8bpWiSEuFC9uZB-10" target="5eRNpVH-V7YMr0wqcR8z-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="N0bWfw8bpWiSEuFC9uZB-10" value="PyPTO DSL开发者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="920" y="-360" width="30" height="60" as="geometry" />
+          <mxGeometry x="920" y="-353" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
