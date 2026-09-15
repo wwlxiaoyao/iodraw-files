@@ -25,8 +25,8 @@
         <mxCell id="N0bWfw8bpWiSEuFC9uZB-10" value="PyPTO DSL开发者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="920" y="-340" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="D2OadWDrofsbmUMrNOWF-1" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;运行时发布件&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1870" y="-480" width="650" height="390" as="geometry" />
+        <mxCell id="D2OadWDrofsbmUMrNOWF-1" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;运行时发布件&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="-490" width="650" height="390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
