@@ -42,7 +42,7 @@
         <mxCell id="D2OadWDrofsbmUMrNOWF-4" value="&lt;div&gt;生成&lt;/div&gt;运行时发布件" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.266;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-90" target="D2OadWDrofsbmUMrNOWF-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D2OadWDrofsbmUMrNOWF-6" value="tilefwk_program&lt;span style=&quot;background-color: initial;&quot;&gt;.bin&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="D2OadWDrofsbmUMrNOWF-6" value="tilefwk_program&lt;span style=&quot;background-color: initial;&quot;&gt;.bin&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1570" y="60" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
