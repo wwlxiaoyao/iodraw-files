@@ -336,8 +336,11 @@
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-80" value="ops-nn" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1058" y="-479.9999999999998" width="210" height="38.33" as="geometry" />
         </mxCell>
+        <mxCell id="5eRNpVH-V7YMr0wqcR8z-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-81" target="5eRNpVH-V7YMr0wqcR8z-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-81" value="Opbase仓&lt;div&gt;（功能定制，仅需要Tiling计算功能、json树注册能力）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1022.5" y="-319" width="295" height="50" as="geometry" />
+          <mxGeometry x="1020" y="-237" width="295" height="49" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-82" value="发布件" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1450" y="-680" width="730" height="522.5" as="geometry" />
