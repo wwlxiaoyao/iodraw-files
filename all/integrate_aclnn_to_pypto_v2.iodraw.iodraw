@@ -107,7 +107,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-1" value="AscendC算子框架" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="960" y="180" width="760" height="920" as="geometry" />
+          <mxGeometry x="960" y="180" width="760" height="560" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-2" target="5eRNpVH-V7YMr0wqcR8z-3">
           <mxGeometry relative="1" as="geometry" />
@@ -196,7 +196,7 @@
           <mxGeometry x="200" y="1950" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-35" value="TBE算子&lt;div&gt;（python实现，现场编译obj）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="550" width="250" height="60" as="geometry" />
+          <mxGeometry x="1430" y="555" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
