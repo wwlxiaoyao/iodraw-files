@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="N0bWfw8bpWiSEuFC9uZB-8" value="源码仓" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-1810" width="730" height="670" as="geometry" />
+        </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-76" value="asc-devkit仓&lt;div&gt;(定制与接管逻辑)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="835" y="-1524" width="295" height="50" as="geometry" />
         </mxCell>
@@ -83,9 +86,6 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="N0bWfw8bpWiSEuFC9uZB-8" value="源码仓" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="480" y="-1810" width="730" height="522.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
