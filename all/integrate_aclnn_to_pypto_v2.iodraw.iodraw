@@ -121,8 +121,18 @@
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.561;exitY=1.06;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-3" target="5eRNpVH-V7YMr0wqcR8z-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5eRNpVH-V7YMr0wqcR8z-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-3" target="5eRNpVH-V7YMr0wqcR8z-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="215" />
+              <mxPoint x="970" y="385" />
+              <mxPoint x="980" y="385" />
+              <mxPoint x="980" y="555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-3" value="op_plugin (PTA： 算子路由模块)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="190" width="670" height="50" as="geometry" />
+          <mxGeometry x="1050" y="190" width="620" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-53" value="注册" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-4" target="5eRNpVH-V7YMr0wqcR8z-39">
           <mxGeometry relative="1" as="geometry" />
