@@ -322,7 +322,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-70" value="Opbase仓&lt;div&gt;（功能定制，仅需要Tiling计算功能、json树注册能力）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1025" y="1200" width="295" height="50" as="geometry" />
+          <mxGeometry x="997.5" y="1200" width="295" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-72" value="aclnn算子仓库&lt;div&gt;(不修改，仅重新构建)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="1020" y="960" width="240" height="210" as="geometry" />
