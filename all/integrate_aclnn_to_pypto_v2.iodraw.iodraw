@@ -192,8 +192,8 @@
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.528;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-29" target="5eRNpVH-V7YMr0wqcR8z-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5eRNpVH-V7YMr0wqcR8z-34" value="asc-devkit toolchain:&lt;div style=&quot;font-size: 14px;&quot;&gt;编排脚本加工&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="375" y="2020" width="150" height="50" as="geometry" />
+        <mxCell id="5eRNpVH-V7YMr0wqcR8z-34" value="asc-devkit toolchain:&lt;div style=&quot;font-size: 14px;&quot;&gt;编排脚本加工： 按照编译语义进行剥离，加工&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;利用SuperKernel特性实现自动插同步&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="295" y="2015" width="310" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
