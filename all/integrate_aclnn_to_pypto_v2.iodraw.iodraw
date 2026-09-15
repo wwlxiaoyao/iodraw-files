@@ -225,7 +225,7 @@
           <mxGeometry x="1090" y="770" width="170" height="37.5" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-45" value="libops_nn.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="813.5" width="170" height="37.5" as="geometry" />
+          <mxGeometry x="1090" y="813.5" width="170" height="35.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
