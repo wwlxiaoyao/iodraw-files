@@ -213,7 +213,10 @@
           <mxGeometry x="840" y="459" width="157" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-40" value="libopp_registery.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="571" width="157" height="60" as="geometry" />
+          <mxGeometry x="840" y="564" width="157" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5eRNpVH-V7YMr0wqcR8z-42" value="阶段1： &amp;lt;op&amp;gt;GetWorkSpace" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="695" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
