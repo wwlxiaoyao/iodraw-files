@@ -325,16 +325,16 @@
           <mxGeometry x="1020" y="-400" width="295" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-77" value="aclnn算子仓库&lt;div&gt;(不修改，仅重新构建)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="-640" width="240" height="210" as="geometry" />
+          <mxGeometry x="1020" y="-640" width="290" height="210" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-78" value="ops-transformer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1038" y="-589.44" width="210" height="49.44" as="geometry" />
+          <mxGeometry x="1042" y="-589.44" width="210" height="49.44" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-79" value="ops-math" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="-529.1699999999998" width="210" height="38.33" as="geometry" />
+          <mxGeometry x="1044" y="-529.1699999999998" width="210" height="38.33" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-80" value="ops-nn" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1038" y="-479.9999999999998" width="210" height="38.33" as="geometry" />
+          <mxGeometry x="1042" y="-479.9999999999998" width="210" height="38.33" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-81" value="Opbase仓&lt;div&gt;（功能定制，仅需要Tiling计算功能、json树注册能力）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1022.5" y="-320" width="295" height="50" as="geometry" />
