@@ -107,7 +107,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-1" value="AscendC算子框架" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="820" y="70" width="900" height="740" as="geometry" />
+          <mxGeometry x="960" y="70" width="760" height="740" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-2" target="5eRNpVH-V7YMr0wqcR8z-3">
           <mxGeometry relative="1" as="geometry" />
@@ -123,6 +123,9 @@
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-3" value="op_plugin (PTA： 算子路由模块)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1000" y="190" width="670" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5eRNpVH-V7YMr0wqcR8z-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-4" target="5eRNpVH-V7YMr0wqcR8z-39">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-4" value="aclnn算子" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1052" y="280" width="240" height="180" as="geometry" />
