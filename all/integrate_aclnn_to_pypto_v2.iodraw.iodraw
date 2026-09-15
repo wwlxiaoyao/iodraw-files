@@ -143,7 +143,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-11" value="op kernel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="900" width="210" height="40" as="geometry" />
+          <mxGeometry x="997" y="960" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF00FF;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-12" target="5eRNpVH-V7YMr0wqcR8z-15">
           <mxGeometry relative="1" as="geometry" />
@@ -215,8 +215,8 @@
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-40" value="libopp_registery.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="564" width="157" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5eRNpVH-V7YMr0wqcR8z-42" value="Tiling库&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1067" y="690" width="210" height="160" as="geometry" />
+        <mxCell id="5eRNpVH-V7YMr0wqcR8z-42" value="Tiling库&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1067" y="690" width="210" height="170" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-43" value="libops_transformer.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1090" y="722.5" width="170" height="37.5" as="geometry" />
