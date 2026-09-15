@@ -128,7 +128,7 @@
           <mxGeometry x="1000" y="430" width="240" height="230" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-5" value="atb算子" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="430" width="250" height="60" as="geometry" />
+          <mxGeometry x="1380" y="430" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-6" value="阶段1： &amp;lt;op&amp;gt;GetWorkSpace" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="490" width="210" height="60" as="geometry" />
@@ -201,8 +201,10 @@
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-35" value="TBE算子&lt;div&gt;（python实现，现场编译obj）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1450" y="555" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5eRNpVH-V7YMr0wqcR8z-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.6;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-3" target="5eRNpVH-V7YMr0wqcR8z-35">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="5eRNpVH-V7YMr0wqcR8z-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.6;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="5eRNpVH-V7YMr0wqcR8z-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1600" y="395" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
