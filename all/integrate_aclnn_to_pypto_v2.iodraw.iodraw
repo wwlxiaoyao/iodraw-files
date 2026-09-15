@@ -221,8 +221,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5eRNpVH-V7YMr0wqcR8z-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-39" target="QxsTHReaoIxohX-J1azS-30">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="5eRNpVH-V7YMr0wqcR8z-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-39" target="QxsTHReaoIxohX-J1azS-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1750" y="494" />
+              <mxPoint x="1750" y="1014" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-39" value="Opbase&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Tiling计算引擎：纯Host计算&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="980" y="469" width="380" height="50" as="geometry" />
