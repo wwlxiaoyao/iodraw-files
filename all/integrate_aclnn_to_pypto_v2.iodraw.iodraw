@@ -22,7 +22,7 @@
         <mxCell id="QxsTHReaoIxohX-J1azS-24" value="MPMD Runtime" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1900" y="329" width="390" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="5eRNpVH-V7YMr0wqcR8z-67" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.43;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QxsTHReaoIxohX-J1azS-28" target="5eRNpVH-V7YMr0wqcR8z-1">
+        <mxCell id="5eRNpVH-V7YMr0wqcR8z-67" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.256;exitY=1.071;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QxsTHReaoIxohX-J1azS-28" target="5eRNpVH-V7YMr0wqcR8z-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-69" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5eRNpVH-V7YMr0wqcR8z-67">
@@ -36,7 +36,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-28" value="vLLM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="801" y="-80" width="1520" height="42" as="geometry" />
+          <mxGeometry x="801" y="-58" width="1520" height="42" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-35" value="Host" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1935" y="369" width="340" height="50" as="geometry" />
