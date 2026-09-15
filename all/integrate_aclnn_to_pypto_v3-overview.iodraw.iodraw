@@ -93,7 +93,7 @@
         <mxCell id="N0bWfw8bpWiSEuFC9uZB-10" value="PyPTO DSL开发者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="920" y="-340" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N0bWfw8bpWiSEuFC9uZB-14" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.forms.splitter;strokeColor=#999999;direction=north;" vertex="1" parent="1">
+        <mxCell id="N0bWfw8bpWiSEuFC9uZB-14" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.forms.splitter;strokeColor=#999999;direction=north;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="724" y="-759" width="10" height="350" as="geometry" />
         </mxCell>
       </root>
