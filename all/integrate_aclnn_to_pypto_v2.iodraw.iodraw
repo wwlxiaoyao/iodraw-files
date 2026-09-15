@@ -77,7 +77,7 @@
         <mxCell id="QxsTHReaoIxohX-J1azS-26" value="CANN ToolKit -&amp;gt; 重新构建的幂等产物" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1900" y="889" width="610" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="QxsTHReaoIxohX-J1azS-27" value="AscendC Ops" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="QxsTHReaoIxohX-J1azS-27" value="AscendC Ops" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1910" y="929" width="590" height="150" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-32" value="第二阶段接口&lt;div&gt;注册绑定&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QxsTHReaoIxohX-J1azS-30" target="QxsTHReaoIxohX-J1azS-31" edge="1">
