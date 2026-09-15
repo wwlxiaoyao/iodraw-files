@@ -239,6 +239,11 @@
             <mxPoint x="947.9699999999998" y="697" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="5eRNpVH-V7YMr0wqcR8z-52" value="解耦：无效依赖&lt;div&gt;仅需要Tiling逻辑&lt;/div&gt;&lt;div&gt;其他都不需要&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5eRNpVH-V7YMr0wqcR8z-49">
+          <mxGeometry x="-0.2657" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-50" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="990" y="625" width="30" height="35" as="geometry" />
         </mxCell>
