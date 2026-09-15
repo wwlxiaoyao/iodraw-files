@@ -107,7 +107,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-1" value="AscendC算子框架" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="820" y="180" width="900" height="620" as="geometry" />
+          <mxGeometry x="820" y="180" width="900" height="700" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-2" target="5eRNpVH-V7YMr0wqcR8z-3">
           <mxGeometry relative="1" as="geometry" />
@@ -216,10 +216,10 @@
           <mxGeometry x="840" y="564" width="157" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-42" value="Tiling库&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1067" y="690" width="210" height="45" as="geometry" />
+          <mxGeometry x="1067" y="690" width="210" height="110" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-43" value="libops_transformer.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="740" width="210" height="45" as="geometry" />
+          <mxGeometry x="1090" y="740" width="170" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
