@@ -95,8 +95,8 @@
         <mxCell id="QxsTHReaoIxohX-J1azS-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0000FF;" parent="1" source="QxsTHReaoIxohX-J1azS-23" target="QxsTHReaoIxohX-J1azS-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1940" y="204" />
-              <mxPoint x="1940" y="819" />
+              <mxPoint x="1900" y="204" />
+              <mxPoint x="1900" y="819" />
               <mxPoint x="2015" y="819" />
             </Array>
           </mxGeometry>
