@@ -139,7 +139,7 @@
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-13" value="2. 手写SuperKernel算子&lt;div&gt;SyncAll隐式同步&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-11" target="5eRNpVH-V7YMr0wqcR8z-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5eRNpVH-V7YMr0wqcR8z-21" value="3. 依赖need_auto_sync插入同步指令" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-11" target="5eRNpVH-V7YMr0wqcR8z-20">
+        <mxCell id="5eRNpVH-V7YMr0wqcR8z-21" value="3. 依赖need_auto_sync插入同步指令&lt;div&gt;静态shape&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-11" target="5eRNpVH-V7YMr0wqcR8z-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-11" value="op kernel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -167,7 +167,7 @@
           <mxGeometry y="384" width="269" height="160" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-20" value="op kernel： MoeTokenUnpermute&lt;div&gt;&lt;div style=&quot;text-align: left; color: rgb(101, 123, 131); background-color: rgb(253, 246, 227); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;color: rgb(203, 75, 22); text-align: center;&quot;&gt;KernelMoeTokenUnpermute&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: #cb4b16;&quot;&gt;::Process()&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(101, 123, 131); background-color: rgb(253, 246, 227); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;text-align: left; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #268bd2;&quot;&gt;  |-&amp;gt; Loop&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #268bd2;&quot;&gt;        |-&amp;gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(38, 139, 210); text-align: center;&quot;&gt;CalMultiOutToken&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="861" width="270" height="119" as="geometry" />
+          <mxGeometry x="1300" y="861" width="270" height="119" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
