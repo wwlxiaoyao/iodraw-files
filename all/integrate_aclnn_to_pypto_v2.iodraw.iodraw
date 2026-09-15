@@ -210,10 +210,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-39" value="Opbase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="430" width="157" height="60" as="geometry" />
+          <mxGeometry x="850" y="431" width="157" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-40" value="libopp_registery.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="851" y="565" width="157" height="60" as="geometry" />
+          <mxGeometry x="850" y="565" width="157" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
