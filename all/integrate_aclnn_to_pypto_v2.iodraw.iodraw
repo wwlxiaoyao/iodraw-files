@@ -107,7 +107,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-1" value="AscendC算子框架" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="960" y="180" width="760" height="490" as="geometry" />
+          <mxGeometry x="820" y="180" width="900" height="620" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-2" target="5eRNpVH-V7YMr0wqcR8z-3">
           <mxGeometry relative="1" as="geometry" />
