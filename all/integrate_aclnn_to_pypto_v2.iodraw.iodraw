@@ -22,7 +22,10 @@
         <mxCell id="QxsTHReaoIxohX-J1azS-24" value="MPMD Runtime" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1900" y="329" width="390" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="5eRNpVH-V7YMr0wqcR8z-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QxsTHReaoIxohX-J1azS-28" target="5eRNpVH-V7YMr0wqcR8z-1">
+        <mxCell id="5eRNpVH-V7YMr0wqcR8z-67" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QxsTHReaoIxohX-J1azS-28" target="5eRNpVH-V7YMr0wqcR8z-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5eRNpVH-V7YMr0wqcR8z-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QxsTHReaoIxohX-J1azS-28" target="QxsTHReaoIxohX-J1azS-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-28" value="vLLM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
