@@ -34,8 +34,8 @@
         <mxCell id="D2OadWDrofsbmUMrNOWF-4" value="&lt;div&gt;生成&lt;/div&gt;运行时发布件" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.266;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-90" target="D2OadWDrofsbmUMrNOWF-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D2OadWDrofsbmUMrNOWF-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="-540" width="120" height="60" as="geometry" />
+        <mxCell id="D2OadWDrofsbmUMrNOWF-6" value="program.tilefwk.bin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="-60" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
