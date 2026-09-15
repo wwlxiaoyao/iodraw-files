@@ -213,7 +213,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-39" value="Opbase&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Tiling计算引擎：纯Host计算&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="670" width="157" height="40" as="geometry" />
+          <mxGeometry x="1010" y="660" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-40" value="&lt;div&gt;基础依赖库&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;libopp_registery.so&lt;div&gt;libgexxx.so&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#828282;fontColor=#000000;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="970" y="836" width="157" height="60" as="geometry" />
