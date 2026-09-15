@@ -75,7 +75,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-26" value="CANN ToolKit -&amp;gt; 重新构建的幂等产物" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1810" y="889" width="610" height="200" as="geometry" />
+          <mxGeometry x="1810" y="886" width="610" height="200" as="geometry" />
         </mxCell>
         <mxCell id="QxsTHReaoIxohX-J1azS-27" value="AscendC Ops" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1820" y="929" width="590" height="150" as="geometry" />
