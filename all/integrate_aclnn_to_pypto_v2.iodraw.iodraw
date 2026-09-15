@@ -107,13 +107,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-1" value="AscendC算子框架" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="820" y="220" width="900" height="740" as="geometry" />
+          <mxGeometry x="820" y="70" width="900" height="740" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-2" target="5eRNpVH-V7YMr0wqcR8z-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-2" value="torch_npu" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="260" width="670" height="60" as="geometry" />
+          <mxGeometry x="1000" y="110" width="670" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.266;exitY=1.06;exitDx=0;exitDy=0;strokeWidth=3;exitPerimeter=0;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-3" target="5eRNpVH-V7YMr0wqcR8z-4">
           <mxGeometry relative="1" as="geometry" />
@@ -122,19 +122,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-3" value="op_plugin (PTA： 算子路由模块)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="340" width="670" height="50" as="geometry" />
+          <mxGeometry x="1000" y="190" width="670" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-4" value="aclnn算子" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1052" y="430" width="240" height="180" as="geometry" />
+          <mxGeometry x="1052" y="280" width="240" height="180" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-5" value="atb算子" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="1318" y="430" width="116" height="60" as="geometry" />
+          <mxGeometry x="1318" y="280" width="116" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-6" value="阶段1： &amp;lt;op&amp;gt;GetWorkSpace" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="465" width="210" height="60" as="geometry" />
+          <mxGeometry x="1070" y="315" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-7" value="阶段2： &amp;lt;op&amp;gt;计算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="535" width="210" height="60" as="geometry" />
+          <mxGeometry x="1070" y="385" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-13" value="2. 手写SuperKernel算子&lt;div&gt;SyncAll隐式同步&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-11" target="5eRNpVH-V7YMr0wqcR8z-12">
           <mxGeometry relative="1" as="geometry" />
@@ -199,11 +199,11 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-35" value="TBE算子&lt;div&gt;（python实现，现场编译obj）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="1448" y="555" width="250" height="60" as="geometry" />
+          <mxGeometry x="1448" y="405" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.6;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="5eRNpVH-V7YMr0wqcR8z-35">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1600" y="395" as="sourcePoint" />
+            <mxPoint x="1600" y="245" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-39" target="5eRNpVH-V7YMr0wqcR8z-40">
@@ -213,22 +213,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-39" value="Opbase&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Tiling计算引擎：纯Host计算&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="660" width="360" height="50" as="geometry" />
+          <mxGeometry x="1010" y="510" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-40" value="&lt;div&gt;基础依赖库&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;libopp_registery.so&lt;div&gt;libgexxx.so&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#828282;fontColor=#000000;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="970" y="836" width="157" height="60" as="geometry" />
+          <mxGeometry x="970" y="686" width="157" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-42" value="Tiling库&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1234" y="745" width="210" height="170" as="geometry" />
+          <mxGeometry x="1234" y="595" width="210" height="170" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-43" value="libops_transformer.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1257" y="777.5" width="170" height="37.5" as="geometry" />
+          <mxGeometry x="1257" y="627.5" width="170" height="37.5" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-44" value="libops_math.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1257" y="825" width="170" height="37.5" as="geometry" />
+          <mxGeometry x="1257" y="675" width="170" height="37.5" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-45" value="libops_nn.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1257" y="868.5" width="170" height="35.5" as="geometry" />
+          <mxGeometry x="1257" y="718.5" width="170" height="35.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
