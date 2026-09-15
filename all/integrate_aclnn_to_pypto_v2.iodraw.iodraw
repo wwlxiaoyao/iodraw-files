@@ -209,10 +209,10 @@
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-39" target="5eRNpVH-V7YMr0wqcR8z-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5eRNpVH-V7YMr0wqcR8z-39" value="Opbase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5eRNpVH-V7YMr0wqcR8z-39" value="Opbase" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="840" y="459" width="157" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5eRNpVH-V7YMr0wqcR8z-40" value="libopp_registery.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5eRNpVH-V7YMr0wqcR8z-40" value="libopp_registery.so" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#828282;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="840" y="564" width="157" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-42" value="Tiling库&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
