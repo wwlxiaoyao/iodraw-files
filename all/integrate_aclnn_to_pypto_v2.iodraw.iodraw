@@ -132,7 +132,7 @@
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-3" value="op_plugin (PTA： 算子路由模块)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1050" y="190" width="620" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5eRNpVH-V7YMr0wqcR8z-53" value="注册" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;" edge="1" parent="1" target="5eRNpVH-V7YMr0wqcR8z-39">
+        <mxCell id="5eRNpVH-V7YMr0wqcR8z-53" value="注册" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;entryX=0.267;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="5eRNpVH-V7YMr0wqcR8z-39">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1160" y="460" as="sourcePoint" />
           </mxGeometry>
@@ -262,6 +262,9 @@
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-7" value="阶段2： &amp;lt;op&amp;gt;计算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5eRNpVH-V7YMr0wqcR8z-55">
           <mxGeometry x="18" y="105" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5eRNpVH-V7YMr0wqcR8z-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-4" target="5eRNpVH-V7YMr0wqcR8z-42">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
