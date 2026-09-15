@@ -263,7 +263,7 @@
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-7" value="阶段2： &amp;lt;op&amp;gt;计算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5eRNpVH-V7YMr0wqcR8z-55">
           <mxGeometry x="18" y="105" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5eRNpVH-V7YMr0wqcR8z-56" value="构建发布" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-4" target="5eRNpVH-V7YMr0wqcR8z-42">
+        <mxCell id="5eRNpVH-V7YMr0wqcR8z-56" value="构建发布" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=12;strokeColor=#0000FF;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-4" target="5eRNpVH-V7YMr0wqcR8z-42">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1274" y="500" />
