@@ -366,6 +366,11 @@
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-91" target="5eRNpVH-V7YMr0wqcR8z-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5eRNpVH-V7YMr0wqcR8z-97" value="构建发布" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5eRNpVH-V7YMr0wqcR8z-96">
+          <mxGeometry x="-0.3292" y="-4" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-91" value="pypto框架源码仓" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="835" y="-1170" width="295" height="49" as="geometry" />
         </mxCell>
