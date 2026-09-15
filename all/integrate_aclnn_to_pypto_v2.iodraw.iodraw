@@ -222,11 +222,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-62" value="libpypto_opbase_tiling.so" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF3333;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-39" target="QxsTHReaoIxohX-J1azS-30">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.244" y="-6" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1710" y="494" />
               <mxPoint x="1710" y="1014" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-39" value="Opbase&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Tiling计算引擎：纯Host计算&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -285,7 +286,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-61" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=12 12;strokeColor=#FF3333;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="5eRNpVH-V7YMr0wqcR8z-58" target="QxsTHReaoIxohX-J1azS-31">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1540" y="1100" />
+              <mxPoint x="2265" y="1100" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="5eRNpVH-V7YMr0wqcR8z-58" value="&lt;div&gt;Fat Bin Kernel&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1435" y="554" width="210" height="170" as="geometry" />
