@@ -256,8 +256,8 @@
         <mxCell id="pHIcsdiq7cOAqBkEhWou-4" value="" style="shape=cross;whiteSpace=wrap;html=1;" vertex="1" parent="pHIcsdiq7cOAqBkEhWou-8">
           <mxGeometry x="79" y="15" width="19" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="pHIcsdiq7cOAqBkEhWou-9" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. Block-Local变量&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 耦合架构下：只能AIC写，AIV共享&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="207" y="950" width="220" height="40" as="geometry" />
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-9" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. Block-Local变量&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 耦合架构下：只能AIC写，与AIV共享（AIV只读）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="207" y="950" width="300" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
