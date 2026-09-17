@@ -365,7 +365,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pHIcsdiq7cOAqBkEhWou-47" value="GM内存区" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="423" y="1224" width="120" height="356" as="geometry" />
+          <mxGeometry x="423" y="990" width="1017" height="590" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
