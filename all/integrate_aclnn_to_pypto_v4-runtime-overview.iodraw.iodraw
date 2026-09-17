@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="CC58f3iPPgubeKsQJ7hM">
-    <mxGraphModel dx="1720" dy="917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2547" dy="917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -262,11 +262,14 @@
         <mxCell id="pHIcsdiq7cOAqBkEhWou-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=140;" vertex="1" parent="1">
           <mxGeometry x="757" y="672" width="31.56" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="pHIcsdiq7cOAqBkEhWou-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pHIcsdiq7cOAqBkEhWou-11" target="cMhzeq0Zt9Co84mevK6i-22">
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pHIcsdiq7cOAqBkEhWou-11" target="cMhzeq0Zt9Co84mevK6i-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pHIcsdiq7cOAqBkEhWou-11" value="slot" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="50" y="1011" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-13" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. Block-Local变量&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 耦合架构下：只能AIC写，与AIV共享（AIV只读）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-3" y="940" width="300" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
