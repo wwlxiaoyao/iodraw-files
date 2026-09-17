@@ -307,7 +307,7 @@
         <mxCell id="pHIcsdiq7cOAqBkEhWou-29" value="int64_t *regAddrs_" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="1075" y="1180" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pHIcsdiq7cOAqBkEhWou-30" value="512B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-30" value="2MB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1038" y="1220" width="203" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pHIcsdiq7cOAqBkEhWou-31" value="512B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
