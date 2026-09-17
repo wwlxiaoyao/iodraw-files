@@ -259,8 +259,15 @@
         <mxCell id="pHIcsdiq7cOAqBkEhWou-9" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. Block-Local变量&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 耦合架构下：只能AIC写，与AIV共享（AIV只读）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="212" y="950" width="300" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pHIcsdiq7cOAqBkEhWou-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pHIcsdiq7cOAqBkEhWou-10" target="pHIcsdiq7cOAqBkEhWou-14">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="pHIcsdiq7cOAqBkEhWou-10" target="pHIcsdiq7cOAqBkEhWou-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="783" y="732" />
+              <mxPoint x="940" y="732" />
+              <mxPoint x="940" y="894" />
+              <mxPoint x="720" y="894" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="pHIcsdiq7cOAqBkEhWou-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=140;" vertex="1" parent="1">
           <mxGeometry x="757" y="672" width="31.56" height="120" as="geometry" />
