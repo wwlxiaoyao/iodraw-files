@@ -154,6 +154,12 @@
         <mxCell id="cMhzeq0Zt9Co84mevK6i-52" value="Vector" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="630" y="712" width="90" height="44" as="geometry" />
         </mxCell>
+        <mxCell id="cMhzeq0Zt9Co84mevK6i-53" value="Device 2&lt;div&gt;（chip 0）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="780" width="355" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cMhzeq0Zt9Co84mevK6i-54" value="Device 1&lt;div&gt;（chip 1）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="405" y="780" width="355" height="220" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
