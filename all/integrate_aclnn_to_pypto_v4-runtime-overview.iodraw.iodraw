@@ -378,8 +378,8 @@
             <mxPoint x="620" y="1330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pHIcsdiq7cOAqBkEhWou-49" value="__gm__ 变量， 比如__gm__ KernelArgs* arg&lt;div&gt;必须映射到一块GM区间&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="147" y="1316" width="260" height="40" as="geometry" />
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-49" value="&lt;b&gt;__gm__ 变量&lt;/b&gt;， 比如__gm__ KernelArgs* arg&lt;div&gt;必须映射到一块GM区间&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="142" y="1311" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pHIcsdiq7cOAqBkEhWou-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF3333;verticalAlign=top;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="560" width="723" height="325" as="geometry" />
