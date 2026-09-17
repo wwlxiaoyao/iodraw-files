@@ -376,8 +376,8 @@
         <mxCell id="pHIcsdiq7cOAqBkEhWou-49" value="__gm__ 变量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="627" y="1564" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pHIcsdiq7cOAqBkEhWou-50" value="slot" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="1031" width="40" height="30" as="geometry" />
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-50" value="一卡双芯" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="-75" y="1031" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
