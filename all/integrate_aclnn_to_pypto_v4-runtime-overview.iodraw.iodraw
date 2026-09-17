@@ -370,8 +370,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pHIcsdiq7cOAqBkEhWou-48" value="每个Slot映射一块，共计8块&lt;div&gt;通过&lt;b&gt;blockIdx&lt;/b&gt;进行索引 (软件概念)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="307" y="1209" width="200" height="40" as="geometry" />
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-48" value="nrValidAic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="367" y="1214" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
