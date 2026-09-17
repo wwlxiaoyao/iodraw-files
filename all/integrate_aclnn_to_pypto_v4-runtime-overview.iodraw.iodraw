@@ -376,8 +376,8 @@
         <mxCell id="pHIcsdiq7cOAqBkEhWou-49" value="__gm__ 变量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="627" y="1564" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pHIcsdiq7cOAqBkEhWou-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#FF3333;verticalAlign=top;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="560" width="720" height="320" as="geometry" />
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF3333;verticalAlign=top;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="560" width="720" height="324" as="geometry" />
         </mxCell>
         <mxCell id="pHIcsdiq7cOAqBkEhWou-51" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="pHIcsdiq7cOAqBkEhWou-50" target="cMhzeq0Zt9Co84mevK6i-26">
           <mxGeometry relative="1" as="geometry" />
