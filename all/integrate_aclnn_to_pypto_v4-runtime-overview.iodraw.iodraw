@@ -101,7 +101,7 @@
           <mxGeometry x="325" y="791" width="90" height="44" as="geometry" />
         </mxCell>
         <mxCell id="cMhzeq0Zt9Co84mevK6i-28" value="Device 1&lt;div&gt;（chip 1）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="460" y="567" width="355" height="273" as="geometry" />
+          <mxGeometry x="460" y="567" width="355" height="293" as="geometry" />
         </mxCell>
         <mxCell id="cMhzeq0Zt9Co84mevK6i-29" value="AICore 0" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="475" y="689" width="250" height="94" as="geometry" />
