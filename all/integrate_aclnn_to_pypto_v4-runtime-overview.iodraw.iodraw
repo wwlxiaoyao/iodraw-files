@@ -302,7 +302,7 @@
           <mxGeometry x="822" y="1056" width="30" height="396" as="geometry" />
         </mxCell>
         <mxCell id="pHIcsdiq7cOAqBkEhWou-28" value="每个Slot映射一块，共计8块&lt;div&gt;通过blockIdx进行索引&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="840" y="1225" width="170" height="40" as="geometry" />
+          <mxGeometry x="830" y="1264" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pHIcsdiq7cOAqBkEhWou-29" value="int64_t *regAddrs_" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="1075" y="1180" width="120" height="30" as="geometry" />
@@ -336,6 +336,9 @@
         </mxCell>
         <mxCell id="pHIcsdiq7cOAqBkEhWou-39" value="2MB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1038" y="1670" width="203" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-40" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="832" y="1066" width="30" height="396" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
