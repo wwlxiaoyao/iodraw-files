@@ -274,6 +274,21 @@
         <mxCell id="pHIcsdiq7cOAqBkEhWou-14" value="KernelSharedBuffer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="617" y="990" width="130" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-15" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="730" y="1080" width="203" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pHIcsdiq7cOAqBkEhWou-15">
+          <mxGeometry width="203" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-17" value="block" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="pHIcsdiq7cOAqBkEhWou-15">
+          <mxGeometry x="15" y="10" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-18" value="subblock" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="pHIcsdiq7cOAqBkEhWou-15">
+          <mxGeometry x="111" y="10" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-19" value="" style="shape=cross;whiteSpace=wrap;html=1;" vertex="1" parent="pHIcsdiq7cOAqBkEhWou-15">
+          <mxGeometry x="79" y="15" width="19" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
