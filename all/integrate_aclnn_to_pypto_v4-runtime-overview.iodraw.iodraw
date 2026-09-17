@@ -340,8 +340,8 @@
         <mxCell id="pHIcsdiq7cOAqBkEhWou-40" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="1260" y="1220" width="30" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="pHIcsdiq7cOAqBkEhWou-41" value="每个Slot映射一块，共计8块&lt;div&gt;通过blockIdx进行索引&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="840" y="1274" width="170" height="40" as="geometry" />
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-41" value="每个Slot映射一块，共计10块&lt;div&gt;通过coreId or phyIdx进行索引&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="1454" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
