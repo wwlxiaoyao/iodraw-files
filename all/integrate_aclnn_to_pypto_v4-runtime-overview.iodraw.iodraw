@@ -382,8 +382,8 @@
         <mxCell id="pHIcsdiq7cOAqBkEhWou-51" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="pHIcsdiq7cOAqBkEhWou-50" target="pHIcsdiq7cOAqBkEhWou-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pHIcsdiq7cOAqBkEhWou-50" value="一卡双芯&lt;div&gt;特点：&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="955" width="70" height="40" as="geometry" />
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-50" value="一卡双芯，&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;特点：&lt;/span&gt;&lt;div&gt;1. 地址空间固定划分，&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="-145" y="955" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
