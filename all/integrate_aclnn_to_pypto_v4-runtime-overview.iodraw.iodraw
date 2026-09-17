@@ -11,10 +11,10 @@
           <mxGeometry x="405" y="450" width="355" height="219" as="geometry" />
         </mxCell>
         <mxCell id="cMhzeq0Zt9Co84mevK6i-55" value="Device 4&lt;div&gt;（chip 0）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="67" y="483" width="355" height="219" as="geometry" />
+          <mxGeometry x="67" y="483" width="355" height="222" as="geometry" />
         </mxCell>
         <mxCell id="cMhzeq0Zt9Co84mevK6i-56" value="Device 5&lt;div&gt;（chip 1）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="422" y="483" width="355" height="219" as="geometry" />
+          <mxGeometry x="422" y="483" width="355" height="222" as="geometry" />
         </mxCell>
         <mxCell id="cMhzeq0Zt9Co84mevK6i-53" value="Device 2&lt;div&gt;（chip 0）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="85" y="527" width="355" height="219" as="geometry" />
