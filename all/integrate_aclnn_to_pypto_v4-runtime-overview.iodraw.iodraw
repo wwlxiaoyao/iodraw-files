@@ -379,11 +379,11 @@
         <mxCell id="pHIcsdiq7cOAqBkEhWou-51" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="pHIcsdiq7cOAqBkEhWou-50" target="cMhzeq0Zt9Co84mevK6i-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="85" y="567" width="715" height="313" as="geometry" />
+        </mxCell>
         <mxCell id="pHIcsdiq7cOAqBkEhWou-50" value="一卡双芯" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="-110" y="960" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="pHIcsdiq7cOAqBkEhWou-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="870" y="542" width="355" height="313" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
