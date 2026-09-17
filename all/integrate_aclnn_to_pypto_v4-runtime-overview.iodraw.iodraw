@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cMhzeq0Zt9Co84mevK6i-26" value="Device 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="55" y="560" width="315" height="140" as="geometry" />
+        </mxCell>
         <mxCell id="cMhzeq0Zt9Co84mevK6i-3" value="AICore 0" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="70" y="596" width="250" height="94" as="geometry" />
         </mxCell>
@@ -78,9 +81,6 @@
         </mxCell>
         <mxCell id="cMhzeq0Zt9Co84mevK6i-25" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="-60" y="596" width="20" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="cMhzeq0Zt9Co84mevK6i-26" value="Device 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="65" y="460" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
