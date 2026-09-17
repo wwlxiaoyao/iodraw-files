@@ -271,8 +271,8 @@
         <mxCell id="pHIcsdiq7cOAqBkEhWou-13" value="&lt;div&gt;Slot语义&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="92" y="945" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pHIcsdiq7cOAqBkEhWou-14" value="uint8_t KernelSharedBuffer&lt;div&gt;存放KernelArgs args;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="632" y="1010" width="170" height="40" as="geometry" />
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-14" value="uint8_t KernelSharedBuffer&lt;div&gt;存放KernelArgs args; // 含DevTaskEtnry&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="597" y="1010" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pHIcsdiq7cOAqBkEhWou-16" value="512B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="617" y="1054" width="203" height="50" as="geometry" />
@@ -305,7 +305,7 @@
           <mxGeometry x="840" y="1230" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pHIcsdiq7cOAqBkEhWou-29" value="KernelSharedBuffer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="1224" width="130" height="30" as="geometry" />
+          <mxGeometry x="1070" y="1180" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
