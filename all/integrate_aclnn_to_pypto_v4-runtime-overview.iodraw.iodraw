@@ -361,6 +361,9 @@
         <mxCell id="pHIcsdiq7cOAqBkEhWou-43" value="10选8（个可用核）,&lt;div style=&quot;font-size: 14px;&quot;&gt;blockIdx映射到哪一个coreId是不确定的&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="829" y="1433" width="270" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.557;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pHIcsdiq7cOAqBkEhWou-10" target="pHIcsdiq7cOAqBkEhWou-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
