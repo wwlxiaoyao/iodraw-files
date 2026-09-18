@@ -410,6 +410,9 @@
         <mxCell id="cyZXgnxNM618He5T7poR-4" value="开发人员" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" vertex="1" parent="1">
           <mxGeometry x="20" y="1340" width="26.5" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="cyZXgnxNM618He5T7poR-7" value="" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.android.action_bar;fillColor=#1A1A1A;strokeColor=#c0c0c0;strokeWidth=2;fontColor=#FFFFFF;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1390" width="185" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
