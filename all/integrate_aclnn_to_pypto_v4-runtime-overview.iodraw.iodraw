@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="CC58f3iPPgubeKsQJ7hM">
-    <mxGraphModel dx="1631" dy="1614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1797" dy="1614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -302,7 +302,7 @@
         <mxCell id="pHIcsdiq7cOAqBkEhWou-23" value="512B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="617" y="1254" width="203" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="pHIcsdiq7cOAqBkEhWou-24" value="512B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-24" value="512B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="617" y="1304" width="203" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pHIcsdiq7cOAqBkEhWou-25" value="512B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -389,6 +389,9 @@
         </mxCell>
         <mxCell id="pHIcsdiq7cOAqBkEhWou-50" value="&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;一卡双芯，&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;background-color: initial; font-size: 13px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;特点&lt;/font&gt;&lt;/b&gt;：&lt;/span&gt;&lt;div&gt;1. 地址空间固定划分，间隔0x800-0000-00000&lt;/div&gt;&lt;div&gt;2. AICPU的sched_nr连续编制[0, 15]&lt;/div&gt;&lt;div&gt;3.亲和性：按照60%比例预留，即启动3个线程选择1个即为亲和&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="-182" y="1089" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-54" value="&lt;b&gt;__gm__ 变量&lt;/b&gt;， 比如__gm__ KernelArgs* arg&lt;div&gt;必须映射到一块GM区间&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="152" y="1321" width="270" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
