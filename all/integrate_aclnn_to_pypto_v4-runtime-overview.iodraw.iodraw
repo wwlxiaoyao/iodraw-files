@@ -414,7 +414,7 @@
           <mxGeometry x="9.5" y="160" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-3" value="Device" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="308" y="1300" width="932" height="410" as="geometry" />
+          <mxGeometry x="308" y="1300" width="932" height="530" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-11" value="AICPU" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
           <mxGeometry x="769" y="23" width="162" height="370" as="geometry" />
@@ -475,7 +475,7 @@
         <mxCell id="OMkcz7sWdKdGO9VFPGOo-9" value="Register per slot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
           <mxGeometry x="621" y="290" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OMkcz7sWdKdGO9VFPGOo-19" value="GM Mem" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
+        <mxCell id="OMkcz7sWdKdGO9VFPGOo-19" value="GM Mem" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
           <mxGeometry x="23" y="320" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cyZXgnxNM618He5T7poR-4" target="cyZXgnxNM618He5T7poR-8">
