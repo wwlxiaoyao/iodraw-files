@@ -417,10 +417,10 @@
           <mxGeometry x="308" y="1300" width="852" height="590" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-11" value="AICPU" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
-          <mxGeometry x="203" y="23" width="183" height="370" as="geometry" />
+          <mxGeometry x="669" y="23" width="183" height="370" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-12" value="AICore0" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
-          <mxGeometry x="350" y="23" width="220" height="370" as="geometry" />
+          <mxGeometry x="245" y="23" width="220" height="370" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-21" value="&lt;b&gt;__gm__ DeviceArgs* devArgs&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="cyZXgnxNM618He5T7poR-12">
           <mxGeometry x="15" y="97" width="190" height="30" as="geometry" />
