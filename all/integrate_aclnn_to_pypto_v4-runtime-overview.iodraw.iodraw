@@ -437,6 +437,9 @@
         <mxCell id="cyZXgnxNM618He5T7poR-18" value="Init Mem" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="cyZXgnxNM618He5T7poR-13" target="cyZXgnxNM618He5T7poR-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="cyZXgnxNM618He5T7poR-21" value="&lt;b&gt;__gm__ 变量用法示意图&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="237" y="1280" width="160" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
