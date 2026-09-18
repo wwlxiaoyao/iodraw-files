@@ -420,7 +420,7 @@
           <mxGeometry x="769" y="23" width="162" height="370" as="geometry" />
         </mxCell>
         <mxCell id="OMkcz7sWdKdGO9VFPGOo-10" value="&lt;div&gt;&lt;b&gt;DynDeviceTask task;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="cyZXgnxNM618He5T7poR-11">
-          <mxGeometry x="11" y="116" width="140" height="30" as="geometry" />
+          <mxGeometry x="4" y="116" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-12" value="AICore0" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
           <mxGeometry x="245" y="23" width="325" height="370" as="geometry" />
@@ -481,8 +481,8 @@
         <mxCell id="OMkcz7sWdKdGO9VFPGOo-20" value="OS: Map GM （PhyAddr, PA） to User App (VirtAddr, VA)&lt;div&gt;用户操作虚拟地址空间(透明)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1.002;exitY=0.317;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=8 8;strokeColor=#FF00FF;" edge="1" parent="cyZXgnxNM618He5T7poR-3" source="OMkcz7sWdKdGO9VFPGOo-10" target="OMkcz7sWdKdGO9VFPGOo-19">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="920" y="160" />
-              <mxPoint x="942" y="160" />
+              <mxPoint x="920" y="140" />
+              <mxPoint x="942" y="140" />
               <mxPoint x="942" y="460" />
               <mxPoint x="83" y="460" />
             </Array>
