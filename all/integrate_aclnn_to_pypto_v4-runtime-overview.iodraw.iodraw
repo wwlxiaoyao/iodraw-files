@@ -402,7 +402,7 @@
           <mxGeometry x="227" y="1270" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-2" value="Host" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="1300" width="167" height="590" as="geometry" />
+          <mxGeometry x="140" y="1300" width="167" height="410" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cyZXgnxNM618He5T7poR-2" source="cyZXgnxNM618He5T7poR-8" target="cyZXgnxNM618He5T7poR-13">
           <mxGeometry relative="1" as="geometry" />
@@ -466,7 +466,7 @@
         <mxCell id="OMkcz7sWdKdGO9VFPGOo-11" value="Reg write" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="cyZXgnxNM618He5T7poR-3" source="OMkcz7sWdKdGO9VFPGOo-10" target="OMkcz7sWdKdGO9VFPGOo-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OMkcz7sWdKdGO9VFPGOo-12" value="Reg read" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.497;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="cyZXgnxNM618He5T7poR-3" source="OMkcz7sWdKdGO9VFPGOo-8" target="cyZXgnxNM618He5T7poR-21">
+        <mxCell id="OMkcz7sWdKdGO9VFPGOo-12" value="Reg read" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.497;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="cyZXgnxNM618He5T7poR-3" source="OMkcz7sWdKdGO9VFPGOo-7" target="cyZXgnxNM618He5T7poR-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cyZXgnxNM618He5T7poR-4" target="cyZXgnxNM618He5T7poR-8">
