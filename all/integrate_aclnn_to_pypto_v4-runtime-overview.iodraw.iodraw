@@ -413,17 +413,14 @@
         <mxCell id="cyZXgnxNM618He5T7poR-3" value="Device" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="307" y="1300" width="573" height="590" as="geometry" />
         </mxCell>
-        <mxCell id="cyZXgnxNM618He5T7poR-9" value="GM" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
-          <mxGeometry y="23" width="167" height="370" as="geometry" />
-        </mxCell>
-        <mxCell id="cyZXgnxNM618He5T7poR-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cyZXgnxNM618He5T7poR-9">
-          <mxGeometry x="33" y="87" width="97" height="113" as="geometry" />
-        </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-11" value="AICPU" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
           <mxGeometry x="167" y="23" width="183" height="370" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-12" value="AICPU" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
           <mxGeometry x="350" y="23" width="186" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="cyZXgnxNM618He5T7poR-15" value="GM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
+          <mxGeometry x="33" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-4" value="开发人员" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" vertex="1" parent="1">
           <mxGeometry x="20" y="1340" width="26.5" height="50" as="geometry" />
