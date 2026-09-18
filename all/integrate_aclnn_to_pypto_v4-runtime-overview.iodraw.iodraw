@@ -402,7 +402,7 @@
           <mxGeometry x="227" y="1270" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-2" value="Host" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="1300" width="166" height="410" as="geometry" />
+          <mxGeometry x="142" y="1300" width="166" height="410" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cyZXgnxNM618He5T7poR-2" source="cyZXgnxNM618He5T7poR-8" target="cyZXgnxNM618He5T7poR-13">
           <mxGeometry relative="1" as="geometry" />
@@ -414,7 +414,7 @@
           <mxGeometry x="9.5" y="160" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-3" value="Device" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="308" y="1300" width="882" height="410" as="geometry" />
+          <mxGeometry x="308" y="1300" width="932" height="410" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-11" value="AICPU" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
           <mxGeometry x="720" y="23" width="162" height="370" as="geometry" />
