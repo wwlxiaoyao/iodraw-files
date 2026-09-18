@@ -423,10 +423,10 @@
           <mxGeometry x="26" y="116" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-12" value="AICore0" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
-          <mxGeometry x="245" y="23" width="220" height="370" as="geometry" />
+          <mxGeometry x="245" y="23" width="245" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="cyZXgnxNM618He5T7poR-21" value="&lt;b&gt;__gm__ DeviceArgs* devArgs;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="cyZXgnxNM618He5T7poR-12">
-          <mxGeometry x="10" y="101" width="200" height="60" as="geometry" />
+        <mxCell id="cyZXgnxNM618He5T7poR-21" value="&lt;b&gt;__gm__ DeviceArgs* devArgs;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;__gm__ uinit64_t* g_pypto_handshake_buf&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="cyZXgnxNM618He5T7poR-12">
+          <mxGeometry x="-25" y="101" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-15" value="GM per slot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
           <mxGeometry x="23" y="130" width="120" height="40" as="geometry" />
