@@ -402,7 +402,7 @@
           <mxGeometry x="227" y="1270" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-2" value="Host" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="1300" width="167" height="370" as="geometry" />
+          <mxGeometry x="140" y="1300" width="167" height="590" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-8" value="rtMemAlloc" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="cyZXgnxNM618He5T7poR-2">
           <mxGeometry x="28.5" y="90" width="110" height="40" as="geometry" />
