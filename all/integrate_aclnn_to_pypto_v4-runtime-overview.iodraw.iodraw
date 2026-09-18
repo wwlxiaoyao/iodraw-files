@@ -393,8 +393,8 @@
         <mxCell id="pHIcsdiq7cOAqBkEhWou-54" value="&lt;b&gt;__gm__ 变量&lt;/b&gt;， 比如__gm__ KernelArgs* arg&lt;div&gt;必须映射到一块GM区间&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="402" y="1790" width="270" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pHIcsdiq7cOAqBkEhWou-55" value="512B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="627" y="1064" width="203" height="50" as="geometry" />
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-55" value="Host" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="257" y="1690" width="203" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
