@@ -391,10 +391,10 @@
           <mxGeometry x="-182" y="1089" width="360" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pHIcsdiq7cOAqBkEhWou-54" value="&lt;b&gt;__gm__ 变量用法示意图&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="577" y="1905" width="160" height="30" as="geometry" />
+          <mxGeometry x="597" y="1930" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pHIcsdiq7cOAqBkEhWou-60" value="Host" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="477" y="1960" width="200" height="200" as="geometry" />
+          <mxGeometry x="560" y="1960" width="117" height="370" as="geometry" />
         </mxCell>
         <mxCell id="pHIcsdiq7cOAqBkEhWou-61" value="Device" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="677" y="1960" width="200" height="200" as="geometry" />
