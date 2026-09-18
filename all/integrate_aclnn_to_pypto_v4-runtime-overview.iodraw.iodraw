@@ -422,8 +422,8 @@
         <mxCell id="cyZXgnxNM618He5T7poR-12" value="AICore0" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
           <mxGeometry x="245" y="23" width="220" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="cyZXgnxNM618He5T7poR-21" value="&lt;b&gt;__gm__ DeviceArgs* devArgs&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="cyZXgnxNM618He5T7poR-12">
-          <mxGeometry x="15" y="97" width="190" height="30" as="geometry" />
+        <mxCell id="cyZXgnxNM618He5T7poR-21" value="&lt;b&gt;__gm__ DeviceArgs* devArgs;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="cyZXgnxNM618He5T7poR-12">
+          <mxGeometry x="10" y="82" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-15" value="GM per slot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
           <mxGeometry x="23" y="130" width="120" height="40" as="geometry" />
@@ -449,7 +449,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-4" value="开发人员" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" vertex="1" parent="1">
-          <mxGeometry x="21" y="1342" width="26.5" height="50" as="geometry" />
+          <mxGeometry x="91" y="1342" width="26.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-16" value="Alloc Addr" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cyZXgnxNM618He5T7poR-8" target="cyZXgnxNM618He5T7poR-15">
           <mxGeometry relative="1" as="geometry" />
