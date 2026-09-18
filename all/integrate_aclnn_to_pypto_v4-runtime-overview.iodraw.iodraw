@@ -420,7 +420,7 @@
           <mxGeometry x="640" y="23" width="242" height="370" as="geometry" />
         </mxCell>
         <mxCell id="OMkcz7sWdKdGO9VFPGOo-10" value="&lt;div&gt;&lt;b&gt;DynDeviceTask&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="cyZXgnxNM618He5T7poR-11">
-          <mxGeometry x="66" y="84" width="110" height="30" as="geometry" />
+          <mxGeometry x="66" y="112" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-12" value="AICore0" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
           <mxGeometry x="245" y="23" width="220" height="370" as="geometry" />
@@ -462,6 +462,9 @@
         </mxCell>
         <mxCell id="OMkcz7sWdKdGO9VFPGOo-9" value="Register per slot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
           <mxGeometry x="482" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OMkcz7sWdKdGO9VFPGOo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="cyZXgnxNM618He5T7poR-3" source="OMkcz7sWdKdGO9VFPGOo-10" target="OMkcz7sWdKdGO9VFPGOo-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cyZXgnxNM618He5T7poR-4" target="cyZXgnxNM618He5T7poR-8">
           <mxGeometry relative="1" as="geometry" />
