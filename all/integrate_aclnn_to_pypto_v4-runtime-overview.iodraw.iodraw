@@ -423,13 +423,13 @@
           <mxGeometry x="350" y="23" width="186" height="370" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-15" value="GM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
-          <mxGeometry x="23" y="140" width="120" height="40" as="geometry" />
+          <mxGeometry x="23" y="130" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cyZXgnxNM618He5T7poR-4" target="cyZXgnxNM618He5T7poR-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-4" value="开发人员" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1340" width="26.5" height="50" as="geometry" />
+          <mxGeometry x="20" y="1342" width="26.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cyZXgnxNM618He5T7poR-8" target="cyZXgnxNM618He5T7poR-15">
           <mxGeometry relative="1" as="geometry" />
