@@ -130,7 +130,7 @@
           <mxGeometry y="560" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wNrqFLAceP40xkS9LdYJ-2" value="AscendC Kernel Wrapper Func" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="540" width="220" height="50" as="geometry" />
+          <mxGeometry x="280" y="535" width="220" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
