@@ -417,7 +417,7 @@
           <mxGeometry x="308" y="1300" width="852" height="590" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-11" value="AICPU" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
-          <mxGeometry x="669" y="23" width="183" height="370" as="geometry" />
+          <mxGeometry x="610" y="23" width="242" height="370" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-12" value="AICore0" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
           <mxGeometry x="245" y="23" width="220" height="370" as="geometry" />
@@ -431,7 +431,7 @@
         <mxCell id="cyZXgnxNM618He5T7poR-22" value="GM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
           <mxGeometry x="23" y="170" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OMkcz7sWdKdGO9VFPGOo-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cyZXgnxNM618He5T7poR-3" source="cyZXgnxNM618He5T7poR-21" target="cyZXgnxNM618He5T7poR-15">
+        <mxCell id="OMkcz7sWdKdGO9VFPGOo-1" value="地址映射&lt;div&gt;进行访问&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cyZXgnxNM618He5T7poR-3" source="cyZXgnxNM618He5T7poR-21" target="cyZXgnxNM618He5T7poR-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cyZXgnxNM618He5T7poR-4" target="cyZXgnxNM618He5T7poR-8">
