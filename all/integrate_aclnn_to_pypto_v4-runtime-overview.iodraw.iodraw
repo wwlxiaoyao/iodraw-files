@@ -410,6 +410,9 @@
         <mxCell id="cyZXgnxNM618He5T7poR-4" value="开发人员" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" vertex="1" parent="1">
           <mxGeometry x="20" y="1340" width="26.5" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="cyZXgnxNM618He5T7poR-8" value="Action" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1460" width="160" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
