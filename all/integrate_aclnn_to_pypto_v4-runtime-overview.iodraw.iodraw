@@ -417,7 +417,7 @@
           <mxGeometry x="308" y="1300" width="882" height="600" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-11" value="AICPU" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
-          <mxGeometry x="640" y="23" width="242" height="370" as="geometry" />
+          <mxGeometry x="690" y="23" width="192" height="370" as="geometry" />
         </mxCell>
         <mxCell id="OMkcz7sWdKdGO9VFPGOo-10" value="&lt;div&gt;&lt;b&gt;DynDeviceTask&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="cyZXgnxNM618He5T7poR-11">
           <mxGeometry x="66" y="112" width="110" height="30" as="geometry" />
