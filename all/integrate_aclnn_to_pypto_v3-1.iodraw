@@ -127,7 +127,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wNrqFLAceP40xkS9LdYJ-1" value="AscendC Kernel Relocatable Obj" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="560" width="220" height="50" as="geometry" />
+          <mxGeometry y="560" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wNrqFLAceP40xkS9LdYJ-2" value="AscendC Kernel Wrapper Func" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="535" width="220" height="50" as="geometry" />
