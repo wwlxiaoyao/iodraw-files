@@ -481,8 +481,9 @@
         <mxCell id="OMkcz7sWdKdGO9VFPGOo-20" value="OS: Map GM （PhyAddr, PA） to User App (VirtAddr, VA)&lt;div&gt;用户操作虚拟地址空间(透明)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1.002;exitY=0.317;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=8 8;strokeColor=#FF00FF;" edge="1" parent="cyZXgnxNM618He5T7poR-3" source="OMkcz7sWdKdGO9VFPGOo-10" target="OMkcz7sWdKdGO9VFPGOo-19">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="912" y="149" />
-              <mxPoint x="912" y="460" />
+              <mxPoint x="920" y="160" />
+              <mxPoint x="922" y="160" />
+              <mxPoint x="922" y="460" />
               <mxPoint x="83" y="460" />
             </Array>
           </mxGeometry>
