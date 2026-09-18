@@ -426,7 +426,7 @@
           <mxGeometry x="245" y="23" width="325" height="370" as="geometry" />
         </mxCell>
         <mxCell id="OMkcz7sWdKdGO9VFPGOo-13" value="&lt;b style=&quot;white-space: nowrap;&quot;&gt;__gm__ DeviceArgs* devArgs;&lt;/b&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;&lt;b&gt;__gm__ uinit64_t* g_pypto_buf;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;&lt;b&gt;__aicore__ PrepareFunc()&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;&lt;b&gt;{&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; g_pypto_buf = kernelArgs-&amp;gt;extBlkInfoAddr;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="cyZXgnxNM618He5T7poR-12">
-          <mxGeometry x="10" y="60" width="220" height="160" as="geometry" />
+          <mxGeometry x="10" y="60" width="300" height="160" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-15" value="GM per slot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
           <mxGeometry x="23" y="130" width="120" height="40" as="geometry" />
