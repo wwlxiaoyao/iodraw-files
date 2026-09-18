@@ -414,7 +414,7 @@
           <mxGeometry x="9.5" y="160" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-3" value="Device" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="308" y="1300" width="852" height="590" as="geometry" />
+          <mxGeometry x="308" y="1300" width="852" height="600" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-11" value="AICPU" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
           <mxGeometry x="610" y="23" width="242" height="370" as="geometry" />
@@ -454,8 +454,11 @@
         <mxCell id="OMkcz7sWdKdGO9VFPGOo-7" value="Register per slot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
           <mxGeometry x="472" y="480" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OMkcz7sWdKdGO9VFPGOo-8" value="Register per slot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
+        <mxCell id="OMkcz7sWdKdGO9VFPGOo-8" value="..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
           <mxGeometry x="472" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OMkcz7sWdKdGO9VFPGOo-9" value="Register per slot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="cyZXgnxNM618He5T7poR-3">
+          <mxGeometry x="472" y="560" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cyZXgnxNM618He5T7poR-4" target="cyZXgnxNM618He5T7poR-8">
           <mxGeometry relative="1" as="geometry" />
@@ -468,9 +471,6 @@
         </mxCell>
         <mxCell id="cyZXgnxNM618He5T7poR-18" value="Init Mem" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="cyZXgnxNM618He5T7poR-13" target="cyZXgnxNM618He5T7poR-15">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OMkcz7sWdKdGO9VFPGOo-9" value="Register per slot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="790" y="1830" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
