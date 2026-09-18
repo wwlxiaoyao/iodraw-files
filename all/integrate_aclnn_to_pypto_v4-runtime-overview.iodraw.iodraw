@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-55" value="Host" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="257" y="1690" width="253" height="250" as="geometry" />
+        </mxCell>
         <mxCell id="pHIcsdiq7cOAqBkEhWou-47" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 13px;&quot;&gt;GM内存区&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="580" y="960" width="780" height="660" as="geometry" />
         </mxCell>
@@ -391,10 +394,10 @@
           <mxGeometry x="-182" y="1089" width="360" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pHIcsdiq7cOAqBkEhWou-54" value="&lt;b&gt;__gm__ 变量&lt;/b&gt;， 比如__gm__ KernelArgs* arg&lt;div&gt;必须映射到一块GM区间&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="402" y="1790" width="270" height="40" as="geometry" />
+          <mxGeometry x="528" y="1810" width="270" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pHIcsdiq7cOAqBkEhWou-55" value="Host" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="257" y="1690" width="203" height="50" as="geometry" />
+        <mxCell id="pHIcsdiq7cOAqBkEhWou-56" value="Host" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="567" y="1705" width="253" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
