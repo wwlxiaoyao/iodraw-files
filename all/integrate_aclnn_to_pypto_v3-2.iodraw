@@ -150,6 +150,12 @@
         <mxCell id="JvmYFWqVrkInTVdwp-bs-9" value="ext op" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="650" width="120" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.35;exitY=0.86;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="251" y="500" as="sourcePoint" />
+            <mxPoint x="160" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
