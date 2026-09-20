@@ -353,6 +353,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="428" y="2220" as="sourcePoint" />
             <mxPoint x="190" y="2445" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="418" y="2392" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-86" value="动态shape调度元信息" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
