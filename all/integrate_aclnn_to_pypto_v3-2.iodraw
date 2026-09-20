@@ -126,7 +126,7 @@
         <mxCell id="JvmYFWqVrkInTVdwp-bs-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-1" target="JvmYFWqVrkInTVdwp-bs-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JvmYFWqVrkInTVdwp-bs-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-1" target="JvmYFWqVrkInTVdwp-bs-21">
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-1" target="JvmYFWqVrkInTVdwp-bs-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-1" value="ext op" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -202,6 +202,9 @@
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-21" value="ext op" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="645" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-23" value="静态shape&lt;div&gt;直接复制blockDim份&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="570" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
