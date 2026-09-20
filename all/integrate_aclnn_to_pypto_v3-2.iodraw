@@ -203,7 +203,7 @@
         <mxCell id="JvmYFWqVrkInTVdwp-bs-18" value="ext kernel obj" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="115" y="880" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JvmYFWqVrkInTVdwp-bs-21" value="ext op" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-21" value="ext op" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="310" y="645" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-23" value="动态shape&lt;div&gt;保持原样，即1份ext op&lt;/div&gt;&lt;div&gt;（blockDim未知）,&lt;/div&gt;&lt;div&gt;同时生成动态dup代码片段&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
