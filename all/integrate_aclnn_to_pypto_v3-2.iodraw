@@ -311,7 +311,7 @@
           <mxGeometry x="483.25" y="2380" width="93" height="95" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-82" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-105" y="2490" width="285" height="380" as="geometry" />
+          <mxGeometry x="-105" y="2330" width="285" height="380" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-51" value="统一TilingData区域" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="JvmYFWqVrkInTVdwp-bs-82">
           <mxGeometry x="115" width="170" height="380" as="geometry" />
@@ -353,9 +353,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="428" y="2220" as="sourcePoint" />
             <mxPoint x="190" y="2445" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="418" y="2292" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-86" value="动态shape调度元信息" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
