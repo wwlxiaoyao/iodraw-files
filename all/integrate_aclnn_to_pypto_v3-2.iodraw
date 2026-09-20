@@ -385,7 +385,10 @@
           <mxGeometry x="2" y="2760" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-92" value="内存布局表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="200" y="2048" width="80" height="30" as="geometry" />
+          <mxGeometry x="207" y="2010" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-93" value="内存布局表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="422" y="2000" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
