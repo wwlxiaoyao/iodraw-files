@@ -341,7 +341,7 @@
           <mxGeometry x="-102" y="1960" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-74" value="funcIdx&lt;div&gt;flags(isStatic)&lt;/div&gt;&lt;div&gt;variantHash&lt;/div&gt;&lt;div&gt;tilingKey&lt;/div&gt;&lt;div&gt;offset&lt;/div&gt;&lt;div&gt;size&lt;/div&gt;&lt;div&gt;metaIndex&lt;/div&gt;&lt;div&gt;reservedEntry&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
-          <mxGeometry x="567" y="1890" width="170" height="130" as="geometry" />
+          <mxGeometry x="567" y="1875" width="170" height="125" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
