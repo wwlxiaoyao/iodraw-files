@@ -277,6 +277,9 @@
         <mxCell id="JvmYFWqVrkInTVdwp-bs-42" value="controlFlow_xxx_.cpp&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp;LOOP(VAR_extb0, 0, RUNTIME_ExtDynBlockDim(0ULL), 1) {&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// ext block idx -&amp;gt; symbol table (per-dup snapshot)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; VALUE_ext_block_idx_3149900409756625664 = VAR_extb0;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint64_t *exprList0 = (uint64_t *)RUNTIME_RootAlloc(0ULL);&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; SetExprBatch_0_0(ctx, symbolTable, runtimeCallList, startArgs, exprList0);&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; RUNTIME_RootStitch(0ULL);&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp;}&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="597.5" width="430" height="155" as="geometry" />
         </mxCell>
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.514;entryY=0.13;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-42" target="JvmYFWqVrkInTVdwp-bs-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
