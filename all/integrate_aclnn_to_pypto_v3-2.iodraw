@@ -119,7 +119,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hjRNnKDigZjmDd0-OzsA" name="逻辑架构图">
-    <mxGraphModel dx="804" dy="1614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1631" dy="1614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -292,8 +292,8 @@
         <mxCell id="JvmYFWqVrkInTVdwp-bs-58" value="offset(Y+3): Tiling Data Y+3&lt;div&gt;(All Zeros)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="10" y="1840" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JvmYFWqVrkInTVdwp-bs-59" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="295" y="772.5" width="35" height="420" as="geometry" />
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-59" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="1540" width="35" height="420" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
