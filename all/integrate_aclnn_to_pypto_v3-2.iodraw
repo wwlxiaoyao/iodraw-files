@@ -259,6 +259,9 @@
         <mxCell id="JvmYFWqVrkInTVdwp-bs-36" value="dyn_kernel.o" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="243" y="1062" width="120" height="38" as="geometry" />
         </mxCell>
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-38" value="dyn_kernel.o" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="1182.5" width="120" height="38" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
