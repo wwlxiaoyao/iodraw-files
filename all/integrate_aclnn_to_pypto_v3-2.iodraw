@@ -265,6 +265,9 @@
         <mxCell id="JvmYFWqVrkInTVdwp-bs-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.487;entryY=0.137;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-36" target="JvmYFWqVrkInTVdwp-bs-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-40" value="dyn_kernel.o" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="253" y="1072" width="120" height="38" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
