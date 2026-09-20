@@ -384,8 +384,8 @@
         <mxCell id="JvmYFWqVrkInTVdwp-bs-91" value="MetaData&lt;div&gt;for Dynamic Shape&lt;/div&gt;&lt;div&gt;（Host Launch期初始化）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2" y="2760" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JvmYFWqVrkInTVdwp-bs-92" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="215" y="2048" width="50" height="30" as="geometry" />
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-92" value="内存布局表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="2048" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
