@@ -206,6 +206,26 @@
         <mxCell id="JvmYFWqVrkInTVdwp-bs-23" value="动态shape&lt;div&gt;保持原样，即1份&lt;/div&gt;&lt;div&gt;（blockDim未知）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="275" y="560" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-24" value="1:1映射" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-25" target="JvmYFWqVrkInTVdwp-bs-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-25" value="ext wrapper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="800" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-26" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="175" y="655" width="20" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.499;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-26" target="JvmYFWqVrkInTVdwp-bs-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-28" value="通过唯一的funcIdx进行映射" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JvmYFWqVrkInTVdwp-bs-27">
+          <mxGeometry x="-0.3415" y="7" relative="1" as="geometry">
+            <mxPoint x="-1" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-29" value="ext kernel obj" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="890" width="120" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
