@@ -269,7 +269,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-51" value="统一TilingData区域" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="10" y="1480" width="170" height="380" as="geometry" />
+          <mxGeometry x="10" y="1480" width="170" height="460" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-52" value="offset1: Tiling Data 1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="10" y="1540" width="170" height="50" as="geometry" />
@@ -286,8 +286,11 @@
         <mxCell id="JvmYFWqVrkInTVdwp-bs-56" value="offset(Y+1): Tiling Data Y+1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="10" y="1740" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JvmYFWqVrkInTVdwp-bs-57" value="offset(Y+1): Tiling Data Y+1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-57" value="offset(Y+2): Tiling Data Y+2" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="10" y="1790" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-58" value="offset(Y+2): Tiling Data Y+2" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1800" width="170" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
