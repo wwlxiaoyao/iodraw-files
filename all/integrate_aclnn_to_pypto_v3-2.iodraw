@@ -358,8 +358,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JvmYFWqVrkInTVdwp-bs-86" value="TilingDynMetaEntry (X+Y)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="20" y="2190" width="170" height="50" as="geometry" />
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-86" value="动态shape调度元信息" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="10" y="2230" width="170" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
