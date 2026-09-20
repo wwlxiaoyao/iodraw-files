@@ -274,8 +274,8 @@
         <mxCell id="JvmYFWqVrkInTVdwp-bs-52" value="offset1: Tiling Data 1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="10" y="1540" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JvmYFWqVrkInTVdwp-bs-53" value="offset1: Tiling Data 1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1550" width="170" height="50" as="geometry" />
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-53" value="offset1: Tiling Data 2" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1590" width="170" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
