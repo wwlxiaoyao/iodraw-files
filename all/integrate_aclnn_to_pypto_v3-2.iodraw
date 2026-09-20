@@ -308,7 +308,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-78" value="funcIdx&lt;div&gt;valid&lt;/div&gt;&lt;div&gt;blockDim&lt;/div&gt;&lt;div&gt;tilingKey&lt;/div&gt;&lt;div&gt;workspaceSize&lt;/div&gt;&lt;div&gt;scheduleMode&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
-          <mxGeometry x="610" y="2450" width="93" height="95" as="geometry" />
+          <mxGeometry x="347" y="2560" width="93" height="95" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-82" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-105" y="2230" width="285" height="380" as="geometry" />
