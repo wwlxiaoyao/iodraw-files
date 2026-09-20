@@ -254,12 +254,7 @@
           <mxGeometry x="530" y="597.5" width="430" height="155" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.514;entryY=0.13;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-42" target="JvmYFWqVrkInTVdwp-bs-40">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="745" y="1030" />
-              <mxPoint x="552" y="1030" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-47" value="CodeGen" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry y="710" width="550" height="400" as="geometry" />
