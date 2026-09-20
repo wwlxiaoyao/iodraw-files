@@ -347,8 +347,8 @@
         <mxCell id="JvmYFWqVrkInTVdwp-bs-59" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=0;" vertex="1" parent="JvmYFWqVrkInTVdwp-bs-82">
           <mxGeometry x="85" y="30" width="20" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="JvmYFWqVrkInTVdwp-bs-60" value="Static Shape" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="JvmYFWqVrkInTVdwp-bs-82">
-          <mxGeometry x="10" y="78" width="90" height="30" as="geometry" />
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-60" value="Static Shape&lt;div&gt;AOT期初始化&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="JvmYFWqVrkInTVdwp-bs-82">
+          <mxGeometry x="5" y="73" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-61" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=0;" vertex="1" parent="JvmYFWqVrkInTVdwp-bs-82">
           <mxGeometry x="85" y="180" width="20" height="200" as="geometry" />
@@ -382,7 +382,7 @@
           <mxGeometry x="100" y="2710" width="20" height="150" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-91" value="MetaData&lt;div&gt;for Dynamic Shape&lt;/div&gt;&lt;div&gt;（Host Launch期初始化）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-15" y="2760" width="160" height="60" as="geometry" />
+          <mxGeometry x="-30" y="2760" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
