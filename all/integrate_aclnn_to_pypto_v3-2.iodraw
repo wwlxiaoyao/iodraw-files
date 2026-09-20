@@ -288,6 +288,9 @@
         <mxCell id="JvmYFWqVrkInTVdwp-bs-49" value="IR层" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry y="395" width="550" height="165" as="geometry" />
         </mxCell>
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-50" value="构图层" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="320" width="550" height="150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
