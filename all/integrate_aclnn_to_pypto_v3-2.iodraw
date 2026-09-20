@@ -291,8 +291,8 @@
         <mxCell id="JvmYFWqVrkInTVdwp-bs-48" value="构图层" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry y="560" width="550" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="JvmYFWqVrkInTVdwp-bs-49" value="构图层" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="10" y="570" width="550" height="150" as="geometry" />
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-49" value="IR层" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="410" width="550" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
