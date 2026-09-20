@@ -119,7 +119,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hjRNnKDigZjmDd0-OzsA" name="逻辑架构图">
-    <mxGraphModel dx="823" dy="1591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1650" dy="1591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -284,6 +284,9 @@
               <mxPoint x="552" y="1030" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-45" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry y="585" width="20" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
