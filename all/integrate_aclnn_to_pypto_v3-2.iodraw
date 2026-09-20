@@ -334,8 +334,11 @@
         <mxCell id="JvmYFWqVrkInTVdwp-bs-72" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="-32" y="1890" width="20" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="JvmYFWqVrkInTVdwp-bs-73" value="Dynamic Shape" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-117" y="1960" width="110" height="30" as="geometry" />
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-73" value="MetaData" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-102" y="1960" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-74" value="条目1： 48B" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="295" y="2170" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
