@@ -349,10 +349,13 @@
         <mxCell id="JvmYFWqVrkInTVdwp-bs-62" value="Dynamic Shape" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="JvmYFWqVrkInTVdwp-bs-82">
           <mxGeometry y="250" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JvmYFWqVrkInTVdwp-bs-85" value="(offset, size)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-85" value="(offset, size)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.008;entryY=0.644;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-74" target="JvmYFWqVrkInTVdwp-bs-52">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="428" y="2220" as="sourcePoint" />
             <mxPoint x="190" y="2445" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="418" y="2292" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
