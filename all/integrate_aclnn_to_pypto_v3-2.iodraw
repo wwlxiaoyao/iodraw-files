@@ -381,8 +381,8 @@
         <mxCell id="JvmYFWqVrkInTVdwp-bs-90" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="-20" y="2710" width="20" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="JvmYFWqVrkInTVdwp-bs-91" value="MetaData" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="2760" width="80" height="30" as="geometry" />
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-91" value="MetaData&lt;div&gt;for Dynamic Shape&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="2755" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
