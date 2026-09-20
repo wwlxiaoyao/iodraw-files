@@ -250,17 +250,14 @@
             <mxPoint x="520" y="578" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JvmYFWqVrkInTVdwp-bs-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-34" target="JvmYFWqVrkInTVdwp-bs-36">
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-37" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;全链接为唯一一个fatbin文件&lt;/span&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;dyn_kernel.o&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-34" target="JvmYFWqVrkInTVdwp-bs-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-34" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="285" y="762.5" width="35" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="JvmYFWqVrkInTVdwp-bs-35" value="全链接为唯一一个fatbin文件&lt;div&gt;dyn_kernel.o&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="220" y="983" width="170" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-36" value="dyn_kernel.o" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="243" y="1050" width="120" height="50" as="geometry" />
+          <mxGeometry x="243" y="1051" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
