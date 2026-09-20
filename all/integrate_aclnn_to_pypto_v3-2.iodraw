@@ -355,9 +355,6 @@
           <mxGeometry x="0.1947" relative="1" as="geometry">
             <mxPoint x="428" y="2220" as="sourcePoint" />
             <mxPoint x="190" y="2445" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="418" y="2392" />
-            </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
