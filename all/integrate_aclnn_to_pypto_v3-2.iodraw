@@ -285,8 +285,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JvmYFWqVrkInTVdwp-bs-47" value="CodeGen" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="710" width="520" height="160" as="geometry" />
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-47" value="CodeGen" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="710" width="520" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
