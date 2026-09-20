@@ -235,12 +235,6 @@
             <mxPoint x="490" y="1320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JvmYFWqVrkInTVdwp-bs-33" value="构图层" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="180" as="sourcePoint" />
-            <mxPoint x="600" y="180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-37" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;全链接为唯一一个fatbin文件&lt;/span&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;dyn_kernel.o&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-34" target="JvmYFWqVrkInTVdwp-bs-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -282,8 +276,8 @@
         <mxCell id="JvmYFWqVrkInTVdwp-bs-49" value="IR层" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry y="395" width="550" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="JvmYFWqVrkInTVdwp-bs-50" value="构图层" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry y="245" width="550" height="150" as="geometry" />
+        <mxCell id="JvmYFWqVrkInTVdwp-bs-50" value="DSL层" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="280" width="550" height="115" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
