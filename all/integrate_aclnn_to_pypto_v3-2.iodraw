@@ -118,22 +118,22 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="hjRNnKDigZjmDd0-OzsA" name="逻辑架构图">
-    <mxGraphModel dx="970" dy="1614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="hjRNnKDigZjmDd0-OzsA" name="TilingData-And-Compile">
+    <mxGraphModel dx="2105" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="JvmYFWqVrkInTVdwp-bs-50" value="DSL层" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry y="280" width="550" height="115" as="geometry" />
+          <mxGeometry x="10" y="20" width="550" height="115" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-49" value="IR层" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry y="395" width="550" height="165" as="geometry" />
+          <mxGeometry x="10" y="135" width="550" height="165" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-48" value="构图层" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry y="560" width="550" height="150" as="geometry" />
+          <mxGeometry x="10" y="300" width="550" height="150" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-47" value="CodeGen" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry y="710" width="550" height="400" as="geometry" />
+          <mxGeometry x="10" y="450" width="550" height="400" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-1" target="JvmYFWqVrkInTVdwp-bs-4">
           <mxGeometry relative="1" as="geometry" />
@@ -145,64 +145,64 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-1" value="ext op" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="440" width="120" height="50" as="geometry" />
+          <mxGeometry x="210" y="180" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-2" target="JvmYFWqVrkInTVdwp-bs-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-2" value="ext CallOp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="300" width="120" height="50" as="geometry" />
+          <mxGeometry x="210" y="40" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-4" value="ext op" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="610" width="120" height="50" as="geometry" />
+          <mxGeometry x="100" y="350" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-6" value="ext op" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="620" width="120" height="50" as="geometry" />
+          <mxGeometry x="110" y="360" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-7" value="ext op" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="630" width="120" height="50" as="geometry" />
+          <mxGeometry x="120" y="370" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-8" value="ext op" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="640" width="120" height="50" as="geometry" />
+          <mxGeometry x="130" y="380" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-9" value="ext op" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="650" width="120" height="50" as="geometry" />
+          <mxGeometry x="140" y="390" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.383;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-1" target="JvmYFWqVrkInTVdwp-bs-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="490" as="sourcePoint" />
-            <mxPoint x="160" y="620" as="targetPoint" />
+            <mxPoint x="250" y="230" as="sourcePoint" />
+            <mxPoint x="170" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.383;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-1" target="JvmYFWqVrkInTVdwp-bs-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="500" as="sourcePoint" />
-            <mxPoint x="200" y="660" as="targetPoint" />
+            <mxPoint x="260" y="240" as="sourcePoint" />
+            <mxPoint x="210" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.366;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="200" y="449" as="sourcePoint" />
-            <mxPoint x="162" y="630" as="targetPoint" />
+            <mxPoint x="210" y="189" as="sourcePoint" />
+            <mxPoint x="172" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.36;exitY=1.049;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.452;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-1" target="JvmYFWqVrkInTVdwp-bs-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="520" as="sourcePoint" />
-            <mxPoint x="220" y="680" as="targetPoint" />
+            <mxPoint x="280" y="260" as="sourcePoint" />
+            <mxPoint x="230" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-14" value="静态shape&lt;div&gt;直接复制blockDim份&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="160" y="510" width="130" height="40" as="geometry" />
+          <mxGeometry x="170" y="250" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-19" value="1:1映射" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-15" target="JvmYFWqVrkInTVdwp-bs-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-15" value="ext wrapper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="115" y="790" width="120" height="50" as="geometry" />
+          <mxGeometry x="125" y="530" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="165" y="645" width="20" height="170" as="geometry" />
+          <mxGeometry x="175" y="385" width="20" height="170" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.499;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-16" target="JvmYFWqVrkInTVdwp-bs-15">
           <mxGeometry relative="1" as="geometry" />
@@ -213,22 +213,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-18" value="ext kernel obj" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="115" y="880" width="120" height="50" as="geometry" />
+          <mxGeometry x="125" y="620" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-21" value="ext op" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="310" y="645" width="120" height="50" as="geometry" />
+          <mxGeometry x="320" y="385" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-23" value="动态shape&lt;div&gt;保持原样，即1份ext op&lt;/div&gt;&lt;div&gt;（blockDim未知）,&lt;/div&gt;&lt;div&gt;同时生成动态dup代码片段&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="290" y="495" width="160" height="70" as="geometry" />
+          <mxGeometry x="300" y="235" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-24" value="1:1映射" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-25" target="JvmYFWqVrkInTVdwp-bs-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-25" value="ext wrapper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="790" width="120" height="50" as="geometry" />
+          <mxGeometry x="330" y="530" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-26" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="370" y="645" width="20" height="170" as="geometry" />
+          <mxGeometry x="380" y="385" width="20" height="170" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.499;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-26" target="JvmYFWqVrkInTVdwp-bs-25">
           <mxGeometry relative="1" as="geometry" />
@@ -239,37 +239,37 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-29" value="ext kernel obj" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="880" width="120" height="50" as="geometry" />
+          <mxGeometry x="330" y="620" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-37" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;全链接为唯一一个fatbin文件&lt;/span&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;dyn_kernel.o&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-34" target="JvmYFWqVrkInTVdwp-bs-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-34" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="285" y="762.5" width="35" height="420" as="geometry" />
+          <mxGeometry x="295" y="502.5" width="35" height="420" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-36" value="dyn_kernel.o" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="243" y="1062" width="120" height="38" as="geometry" />
+          <mxGeometry x="253" y="802" width="120" height="38" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-38" value="tilefwk_program.bin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="353" y="1230" width="120" height="38" as="geometry" />
+          <mxGeometry x="363" y="970" width="120" height="38" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.487;entryY=0.137;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-36" target="JvmYFWqVrkInTVdwp-bs-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-40" value="其他" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="582" y="1062" width="120" height="38" as="geometry" />
+          <mxGeometry x="592" y="802" width="120" height="38" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.499;entryY=0.137;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-40" target="JvmYFWqVrkInTVdwp-bs-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-42" value="controlFlow_xxx_.cpp&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp;LOOP(VAR_extb0, 0, RUNTIME_ExtDynBlockDim(0ULL), 1) {&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// ext block idx -&amp;gt; symbol table (per-dup snapshot)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; VALUE_ext_block_idx_3149900409756625664 = VAR_extb0;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uint64_t *exprList0 = (uint64_t *)RUNTIME_RootAlloc(0ULL);&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; SetExprBatch_0_0(ctx, symbolTable, runtimeCallList, startArgs, exprList0);&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; RUNTIME_RootStitch(0ULL);&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp;}&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="567" y="560.5" width="430" height="155" as="geometry" />
+          <mxGeometry x="577" y="300.5" width="430" height="155" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.514;entryY=0.13;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JvmYFWqVrkInTVdwp-bs-42" target="JvmYFWqVrkInTVdwp-bs-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-94" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="2" y="2054" width="560" height="806" as="geometry" />
+          <mxGeometry x="50" y="1190" width="560" height="806" as="geometry" />
         </mxCell>
         <mxCell id="JvmYFWqVrkInTVdwp-bs-63" value="TilingDynMetaEntry 1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JvmYFWqVrkInTVdwp-bs-94">
           <mxGeometry x="160" y="76" width="170" height="50" as="geometry" />
