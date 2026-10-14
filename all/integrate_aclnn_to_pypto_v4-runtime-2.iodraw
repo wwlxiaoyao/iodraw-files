@@ -518,18 +518,6 @@
         <mxCell id="6QuQa9uAZZkOfv21vvpA-13" value="libtile_fwk_runtime.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-23">
           <mxGeometry x="46" y="81" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6QuQa9uAZZkOfv21vvpA-6" value="libtilefwk_backend_server.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-23">
-          <mxGeometry x="46" y="191" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="6QuQa9uAZZkOfv21vvpA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6QuQa9uAZZkOfv21vvpA-23" source="6QuQa9uAZZkOfv21vvpA-6" target="6QuQa9uAZZkOfv21vvpA-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6QuQa9uAZZkOfv21vvpA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6QuQa9uAZZkOfv21vvpA-23" source="6QuQa9uAZZkOfv21vvpA-13" target="6QuQa9uAZZkOfv21vvpA-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6QuQa9uAZZkOfv21vvpA-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="6QuQa9uAZZkOfv21vvpA-23" source="6QuQa9uAZZkOfv21vvpA-6" target="6QuQa9uAZZkOfv21vvpA-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-24" value="Host" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-670" y="140" width="1100" height="1020" as="geometry" />
         </mxCell>
@@ -582,10 +570,13 @@
           <mxGeometry x="152" y="400" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-33" value="&lt;div&gt;DSL py源码&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="80" y="221" width="850" height="58" as="geometry" />
+          <mxGeometry x="150" y="221" width="780" height="58" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-35" value="PyPTO框架" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
           <mxGeometry x="30" y="130" width="1400" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-6" value="libtilefwk_backend_server.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-35">
+          <mxGeometry x="1116" y="89" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-36" value="CANN Toolkit" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
           <mxGeometry x="30" y="570" width="1400" height="440" as="geometry" />
@@ -610,6 +601,15 @@
             <mxPoint x="-280" y="1120" as="sourcePoint" />
             <mxPoint x="-280" y="530" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6QuQa9uAZZkOfv21vvpA-6" target="6QuQa9uAZZkOfv21vvpA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6QuQa9uAZZkOfv21vvpA-13" target="6QuQa9uAZZkOfv21vvpA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="6QuQa9uAZZkOfv21vvpA-6" target="6QuQa9uAZZkOfv21vvpA-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
