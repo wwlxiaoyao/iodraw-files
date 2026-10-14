@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="u1nXyVkyoZLEqr631z6I-23" value="编译期" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="820" width="260" height="700" as="geometry" />
+        </mxCell>
         <mxCell id="u1nXyVkyoZLEqr631z6I-1" value="ultralytics" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="760" width="240" height="60" as="geometry" />
         </mxCell>
@@ -55,8 +58,8 @@
         <mxCell id="u1nXyVkyoZLEqr631z6I-20" value="&lt;div&gt;推理精度测试&lt;/div&gt;detect_infer.py" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="940" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="u1nXyVkyoZLEqr631z6I-23" value="编译期" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="820" width="260" height="700" as="geometry" />
+        <mxCell id="u1nXyVkyoZLEqr631z6I-24" value="编译期" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="820" width="260" height="700" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
