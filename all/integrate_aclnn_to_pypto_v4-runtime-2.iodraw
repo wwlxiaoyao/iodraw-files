@@ -540,7 +540,7 @@
           <mxGeometry x="420" y="515" width="200" height="35" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-21" value="&lt;div&gt;pv/ca model驱动&lt;/div&gt;libnpu_drv.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="460" y="645" width="120" height="280" as="geometry" />
+          <mxGeometry x="460" y="645" width="120" height="295" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6QuQa9uAZZkOfv21vvpA-24" source="6QuQa9uAZZkOfv21vvpA-12" target="6QuQa9uAZZkOfv21vvpA-21">
           <mxGeometry relative="1" as="geometry" />
