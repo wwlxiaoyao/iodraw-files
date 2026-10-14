@@ -57,7 +57,7 @@
         <mxCell id="u1nXyVkyoZLEqr631z6I-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="u1nXyVkyoZLEqr631z6I-17" target="u1nXyVkyoZLEqr631z6I-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u1nXyVkyoZLEqr631z6I-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="u1nXyVkyoZLEqr631z6I-17" target="u1nXyVkyoZLEqr631z6I-20" edge="1">
+        <mxCell id="u1nXyVkyoZLEqr631z6I-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF00FF;" parent="1" source="u1nXyVkyoZLEqr631z6I-17" target="u1nXyVkyoZLEqr631z6I-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="300" y="1470" />
@@ -86,7 +86,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="on5am6bMCCE2DxpbEq2P" name="第 2 页">
+  <diagram id="on5am6bMCCE2DxpbEq2P" name="vLLM">
     <mxGraphModel dx="954" dy="2307" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
