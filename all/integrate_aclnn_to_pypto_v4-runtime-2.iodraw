@@ -19,7 +19,7 @@
         <mxCell id="u1nXyVkyoZLEqr631z6I-5" value="&lt;div style=&quot;&quot;&gt;yolo26权重文件&lt;/div&gt;&lt;div style=&quot;&quot;&gt;|-&amp;gt; yolo26n.pt&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="40" y="690" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="u1nXyVkyoZLEqr631z6I-7" value="yolo26n.pt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u1nXyVkyoZLEqr631z6I-7" value="yolo26n.onnx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u1nXyVkyoZLEqr631z6I-10" value="yolo26n.pt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
