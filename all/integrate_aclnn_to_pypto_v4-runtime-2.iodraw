@@ -585,7 +585,7 @@
           <mxGeometry x="80" y="221" width="850" height="58" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-35" value="PyPTO框架" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="30" y="370" width="200" height="200" as="geometry" />
+          <mxGeometry x="30" y="370" width="1010" height="200" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-30" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-440" y="-590" width="741.88" height="641.5" as="geometry" />
