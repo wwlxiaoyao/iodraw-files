@@ -102,10 +102,13 @@
           <mxGeometry x="640" y="600" width="560" height="200" as="geometry" />
         </mxCell>
         <mxCell id="Nz-F-WcK4_SdOk7iX3pV-8" value="运行期" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="830" width="280" height="700" as="geometry" />
+          <mxGeometry x="920" y="820" width="280" height="700" as="geometry" />
         </mxCell>
         <mxCell id="Nz-F-WcK4_SdOk7iX3pV-9" value="编译期" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="830" width="280" height="700" as="geometry" />
+          <mxGeometry x="640" y="820" width="280" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz-F-WcK4_SdOk7iX3pV-10" value="yolo26n.onnx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="942" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
