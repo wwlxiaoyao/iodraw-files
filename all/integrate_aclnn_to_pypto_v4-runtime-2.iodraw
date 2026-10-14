@@ -567,7 +567,7 @@
           <mxGeometry x="460" y="945" width="594" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-5" value="bisheng compiler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="100" y="930" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="930" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-17" value="libtile_fwk_compiler.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
           <mxGeometry x="80" y="410" width="200" height="60" as="geometry" />
