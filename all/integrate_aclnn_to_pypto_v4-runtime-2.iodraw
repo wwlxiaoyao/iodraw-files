@@ -600,11 +600,11 @@
           <mxGeometry x="-390" y="1720" width="1240" height="440" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-15" value="libaicpu_extend_kernels.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-36">
-          <mxGeometry x="1080" y="80" width="200" height="100" as="geometry" />
+          <mxGeometry x="990" y="140" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="6QuQa9uAZZkOfv21vvpA-39" value="dlopen" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6QuQa9uAZZkOfv21vvpA-15">
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-39" value="dlopen" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6QuQa9uAZZkOfv21vvpA-15" target="6QuQa9uAZZkOfv21vvpA-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="710" y="1560" as="targetPoint" />
+            <mxPoint x="700" y="1620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6QuQa9uAZZkOfv21vvpA-13" target="6QuQa9uAZZkOfv21vvpA-15">
