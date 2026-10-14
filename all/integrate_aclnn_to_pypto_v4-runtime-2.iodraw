@@ -509,7 +509,7 @@
         <mxCell id="6QuQa9uAZZkOfv21vvpA-23" value="Device:&amp;nbsp; AICPU" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="1336" width="250" height="824" as="geometry" />
         </mxCell>
-        <mxCell id="6QuQa9uAZZkOfv21vvpA-24" value="Host" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-24" value="Host" style="swimlane;whiteSpace=wrap;html=1;fillColor=#828282;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-390" y="1336" width="990" height="824" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-30" value="" style="group" vertex="1" connectable="0" parent="1">
