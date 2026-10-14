@@ -125,7 +125,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nz-F-WcK4_SdOk7iX3pV-16" value="依赖" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.69;exitY=0.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Nz-F-WcK4_SdOk7iX3pV-10" target="Nz-F-WcK4_SdOk7iX3pV-3">
+        <mxCell id="Nz-F-WcK4_SdOk7iX3pV-16" value="依赖" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.69;exitY=0.008;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#0000FF;" edge="1" parent="1" source="Nz-F-WcK4_SdOk7iX3pV-10" target="Nz-F-WcK4_SdOk7iX3pV-3">
           <mxGeometry x="-0.5747" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
