@@ -567,7 +567,7 @@
           <mxGeometry x="150" y="221" width="780" height="58" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-35" value="PyPTO框架" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="30" y="210" width="1400" height="360" as="geometry" />
+          <mxGeometry x="30" y="190" width="1400" height="380" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-6" value="libtilefwk_backend_server.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-35">
           <mxGeometry x="1080" y="220" width="200" height="60" as="geometry" />
