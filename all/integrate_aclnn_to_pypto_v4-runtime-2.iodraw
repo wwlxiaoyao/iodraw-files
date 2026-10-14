@@ -527,7 +527,7 @@
         <mxCell id="6QuQa9uAZZkOfv21vvpA-9" value="调测&lt;br&gt;&lt;div&gt;libascend_dump.so&lt;/div&gt;&lt;div&gt;libprofapi.so&lt;/div&gt;&lt;div&gt;libunified_dlog.so&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
           <mxGeometry x="854" y="645" width="146" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="6QuQa9uAZZkOfv21vvpA-11" value="&lt;div&gt;NPU Driver:&lt;/div&gt;&lt;div&gt;libascend_hal.so&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-11" value="&lt;div&gt;NPU Driver: 开放寄存器映射&lt;/div&gt;&lt;div&gt;libascend_hal.so&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
           <mxGeometry x="630" y="864" width="370" height="76" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-4" value="&lt;div&gt;隐式依赖&lt;/div&gt;dlsym" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6QuQa9uAZZkOfv21vvpA-24" source="6QuQa9uAZZkOfv21vvpA-1" target="6QuQa9uAZZkOfv21vvpA-3">
