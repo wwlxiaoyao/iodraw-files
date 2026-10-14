@@ -86,7 +86,7 @@
         <mxCell id="Nz-F-WcK4_SdOk7iX3pV-1" value="TO-BE：yolo26@PyPTO E2E解决方案" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="720" y="580" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Nz-F-WcK4_SdOk7iX3pV-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Nz-F-WcK4_SdOk7iX3pV-2" value="yolo26.yaml" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="1670" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
