@@ -22,7 +22,7 @@
         <mxCell id="u1nXyVkyoZLEqr631z6I-2" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;语料库 dataset&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; |-&amp;gt; coco2017labels-seqments&lt;/div&gt;&lt;div&gt;&amp;nbsp; |-&amp;gt; val2017&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="300" y="620" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="u1nXyVkyoZLEqr631z6I-9" value="&lt;div&gt;工具&lt;/div&gt;pth2onnx.py" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u1nXyVkyoZLEqr631z6I-5" target="u1nXyVkyoZLEqr631z6I-7">
+        <mxCell id="u1nXyVkyoZLEqr631z6I-9" value="&lt;div&gt;工具&lt;/div&gt;pth2onnx.py" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="u1nXyVkyoZLEqr631z6I-5" target="u1nXyVkyoZLEqr631z6I-7">
           <mxGeometry x="0.6693" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
