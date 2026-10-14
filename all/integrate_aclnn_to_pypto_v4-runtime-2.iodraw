@@ -527,6 +527,9 @@
         <mxCell id="6QuQa9uAZZkOfv21vvpA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6QuQa9uAZZkOfv21vvpA-6" target="6QuQa9uAZZkOfv21vvpA-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6QuQa9uAZZkOfv21vvpA-6" target="6QuQa9uAZZkOfv21vvpA-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-6" value="libtilefwk_backend_server.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="340" width="200" height="60" as="geometry" />
         </mxCell>
@@ -549,7 +552,7 @@
           <mxGeometry x="450" y="230" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-15" value="libaicpu_extend_kernels.so&lt;div&gt;libcontrol_flow.so&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="830" width="200" height="180" as="geometry" />
+          <mxGeometry x="500" y="850" width="200" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
