@@ -507,7 +507,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6QuQa9uAZZkOfv21vvpA-23" value="Device:&amp;nbsp; AICPU" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="150" width="250" height="1011" as="geometry" />
+          <mxGeometry x="590" y="1330" width="250" height="1011" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-24" value="Host" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-630" y="150" width="1060" height="1010" as="geometry" />
@@ -594,7 +594,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-13" value="&lt;div&gt;统一运行时模块&lt;/div&gt;libtile_fwk_runtime.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-35">
-          <mxGeometry x="390" y="180" width="510" height="56" as="geometry" />
+          <mxGeometry x="310" y="160" width="510" height="56" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-36" value="CANN Toolkit" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-390" y="1720" width="1240" height="440" as="geometry" />
