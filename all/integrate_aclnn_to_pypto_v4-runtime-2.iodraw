@@ -518,7 +518,7 @@
         <mxCell id="6QuQa9uAZZkOfv21vvpA-2" value="libc_sec.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-80" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6QuQa9uAZZkOfv21vvpA-3" value="libascendcl.so&lt;div&gt;libruntime.so&lt;/div&gt;&lt;div&gt;libascend_hal.so&lt;/div&gt;&lt;div&gt;libhccl.so&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-3" value="libascendcl.so&lt;div&gt;libruntime.so&lt;/div&gt;&lt;div&gt;libhccl.so&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-20" y="830" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-5" value="bisheng compiler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
