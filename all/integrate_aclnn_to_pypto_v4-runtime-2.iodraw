@@ -28,8 +28,8 @@
         <mxCell id="u1nXyVkyoZLEqr631z6I-10" value="yolo26n_opt.onnx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="u1nXyVkyoZLEqr631z6I-12" value="yolo26n_opt.onnx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="1150" width="120" height="60" as="geometry" />
+        <mxCell id="u1nXyVkyoZLEqr631z6I-12" value="yolo26n_opt_fp16.onnx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
