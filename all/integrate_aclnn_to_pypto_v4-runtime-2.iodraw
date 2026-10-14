@@ -510,7 +510,7 @@
           <mxGeometry x="600" y="1336" width="250" height="824" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-24" value="Host" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-460" y="1328" width="1060" height="1010" as="geometry" />
+          <mxGeometry x="-390" y="1336" width="990" height="1010" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-30" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-440" y="-590" width="741.88" height="641.5" as="geometry" />
