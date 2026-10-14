@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="u1nXyVkyoZLEqr631z6I-24" value="运行期" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="820" width="260" height="700" as="geometry" />
+          <mxGeometry x="280" y="820" width="280" height="700" as="geometry" />
         </mxCell>
         <mxCell id="u1nXyVkyoZLEqr631z6I-25" value="依赖" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.719;exitY=-0.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="u1nXyVkyoZLEqr631z6I-23" target="u1nXyVkyoZLEqr631z6I-1">
           <mxGeometry relative="1" as="geometry" />
@@ -77,7 +77,7 @@
         <mxCell id="u1nXyVkyoZLEqr631z6I-20" value="&lt;div&gt;推理精度测试&lt;/div&gt;detect_infer.py" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="930" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="u1nXyVkyoZLEqr631z6I-28" value="开源三方件" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u1nXyVkyoZLEqr631z6I-28" value="开源三方件" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry y="600" width="560" height="200" as="geometry" />
         </mxCell>
       </root>
