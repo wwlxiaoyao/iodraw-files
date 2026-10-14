@@ -110,7 +110,7 @@
         <mxCell id="Nz-F-WcK4_SdOk7iX3pV-9" value="编译期" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="820" width="280" height="700" as="geometry" />
         </mxCell>
-        <mxCell id="Nz-F-WcK4_SdOk7iX3pV-10" value="@pypto.jit&lt;div&gt;xx&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Nz-F-WcK4_SdOk7iX3pV-9">
+        <mxCell id="Nz-F-WcK4_SdOk7iX3pV-10" value="&lt;div&gt;detect_infer_pypto.py&lt;/div&gt;@pypto.jit&lt;div&gt;xx&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. 精度校验&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. 推理吞吐性能测试&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Nz-F-WcK4_SdOk7iX3pV-9">
           <mxGeometry x="50" y="150" width="200" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Nz-F-WcK4_SdOk7iX3pV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.435;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Nz-F-WcK4_SdOk7iX3pV-6" target="Nz-F-WcK4_SdOk7iX3pV-10">
