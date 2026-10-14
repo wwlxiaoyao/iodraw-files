@@ -502,16 +502,10 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Q5GmRSw9fSCIBwqndCej" name="发布件">
-    <mxGraphModel dx="2979" dy="2356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2979" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="6QuQa9uAZZkOfv21vvpA-18" value="工具直接调用" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6QuQa9uAZZkOfv21vvpA-17" target="6QuQa9uAZZkOfv21vvpA-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6QuQa9uAZZkOfv21vvpA-17" value="libtile_fwk_compiler.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="-240" width="200" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-23" value="Device:&amp;nbsp; AICPU" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="140" width="350" height="1020" as="geometry" />
         </mxCell>
@@ -574,6 +568,12 @@
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-5" value="bisheng compiler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
           <mxGeometry x="100" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-17" value="libtile_fwk_compiler.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
+          <mxGeometry x="80" y="410" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-18" value="工具直接调用" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6QuQa9uAZZkOfv21vvpA-24" source="6QuQa9uAZZkOfv21vvpA-17" target="6QuQa9uAZZkOfv21vvpA-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
