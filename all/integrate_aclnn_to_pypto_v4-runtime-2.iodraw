@@ -509,7 +509,7 @@
         <mxCell id="6QuQa9uAZZkOfv21vvpA-23" value="Device:&amp;nbsp; AICPU" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="1336" width="250" height="824" as="geometry" />
         </mxCell>
-        <mxCell id="6QuQa9uAZZkOfv21vvpA-24" value="Host" style="swimlane;whiteSpace=wrap;html=1;fillColor=#828282;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-24" value="Host" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-390" y="1336" width="990" height="824" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-30" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -581,7 +581,7 @@
         <mxCell id="6QuQa9uAZZkOfv21vvpA-33" value="&lt;div&gt;DSL py源码&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-350" y="1371" width="780" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="6QuQa9uAZZkOfv21vvpA-35" value="PyPTO框架" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;swimlaneFillColor=#CCCCCC;" vertex="1" parent="1">
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-35" value="PyPTO框架" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-390" y="1360" width="1240" height="360" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-6" value="libtilefwk_backend_server.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-35">
