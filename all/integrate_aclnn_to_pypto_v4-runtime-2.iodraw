@@ -509,9 +509,6 @@
         <mxCell id="6QuQa9uAZZkOfv21vvpA-23" value="Device:&amp;nbsp; AICPU" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="140" width="350" height="1020" as="geometry" />
         </mxCell>
-        <mxCell id="6QuQa9uAZZkOfv21vvpA-15" value="libaicpu_extend_kernels.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-23">
-          <mxGeometry x="46" y="650" width="200" height="100" as="geometry" />
-        </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-24" value="Host" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-670" y="150" width="1100" height="1020" as="geometry" />
         </mxCell>
@@ -582,10 +579,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-13" value="&lt;div&gt;统一运行时模块&lt;/div&gt;libtile_fwk_runtime.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-35">
-          <mxGeometry x="390" y="246" width="510" height="60" as="geometry" />
+          <mxGeometry x="390" y="250" width="510" height="56" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-36" value="CANN Toolkit" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
           <mxGeometry x="30" y="570" width="1400" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-15" value="libaicpu_extend_kernels.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-36">
+          <mxGeometry x="1080" y="80" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="6QuQa9uAZZkOfv21vvpA-24" source="6QuQa9uAZZkOfv21vvpA-6" target="6QuQa9uAZZkOfv21vvpA-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-30" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-440" y="-590" width="741.88" height="641.5" as="geometry" />
@@ -607,9 +610,6 @@
             <mxPoint x="-280" y="1120" as="sourcePoint" />
             <mxPoint x="-280" y="530" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="6QuQa9uAZZkOfv21vvpA-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="6QuQa9uAZZkOfv21vvpA-6" target="6QuQa9uAZZkOfv21vvpA-15">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
