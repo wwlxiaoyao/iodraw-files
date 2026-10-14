@@ -83,8 +83,8 @@
         <mxCell id="u1nXyVkyoZLEqr631z6I-29" value="AS-IS：yolo26 E2E解决方案" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="110" y="570" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Nz-F-WcK4_SdOk7iX3pV-1" value="AS-IS：yolo26 E2E解决方案" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="120" y="580" width="280" height="30" as="geometry" />
+        <mxCell id="Nz-F-WcK4_SdOk7iX3pV-1" value="TO-BE：yolo26@PyPTO E2E解决方案" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="570" width="280" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
