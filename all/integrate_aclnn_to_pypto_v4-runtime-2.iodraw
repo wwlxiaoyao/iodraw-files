@@ -552,7 +552,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-24" value="Host" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="140" width="410" height="1020" as="geometry" />
+          <mxGeometry x="-100" y="140" width="530" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-20" value="libtile_fwk_cann_host_runtime.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
           <mxGeometry x="120" y="90" width="200" height="60" as="geometry" />
@@ -561,13 +561,13 @@
           <mxGeometry x="120" y="180" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-3" value="libascendcl.so&lt;div&gt;libruntime.so&lt;/div&gt;&lt;div&gt;libhccl.so&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;|&lt;/div&gt;&lt;div&gt;\/&lt;/div&gt;&lt;div&gt;libruntime_common.so&lt;/div&gt;&lt;div&gt;liberror_manager.so&lt;/div&gt;&lt;div&gt;libmmpa.so&lt;/div&gt;&lt;div&gt;libplatform.so&lt;/div&gt;&lt;div&gt;libascend_watchdog.so&lt;/div&gt;&lt;div&gt;libascend_protobuf.so&lt;/div&gt;&lt;div&gt;....&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="-26" y="720" width="200" height="180" as="geometry" />
+          <mxGeometry x="55" y="700" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-9" value="调测&lt;br&gt;&lt;div&gt;libascend_dump.so&lt;/div&gt;&lt;div&gt;libprofapi.so&lt;/div&gt;&lt;div&gt;libunified_dlog.so&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="194" y="720" width="200" height="180" as="geometry" />
+          <mxGeometry x="275" y="700" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-11" value="&lt;div&gt;NPU Driver:&lt;/div&gt;&lt;div&gt;libascend_hal.so&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="-26" y="920" width="420" height="70" as="geometry" />
+          <mxGeometry x="55" y="900" width="420" height="70" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-4" value="&lt;div&gt;隐式依赖&lt;/div&gt;dlsym" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6QuQa9uAZZkOfv21vvpA-24" source="6QuQa9uAZZkOfv21vvpA-1" target="6QuQa9uAZZkOfv21vvpA-3">
           <mxGeometry relative="1" as="geometry" />
