@@ -579,7 +579,7 @@
           <mxGeometry x="70" y="300" width="860" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-31" value="libtile_fwk_codegen.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="80" y="490" width="200" height="60" as="geometry" />
+          <mxGeometry x="80" y="340" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-30" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-440" y="-590" width="741.88" height="641.5" as="geometry" />
