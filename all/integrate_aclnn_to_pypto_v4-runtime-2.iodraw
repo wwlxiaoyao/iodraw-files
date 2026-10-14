@@ -23,13 +23,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u1nXyVkyoZLEqr631z6I-7" value="yolo26n.onnx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="880" width="200" height="60" as="geometry" />
+          <mxGeometry x="40" y="881" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u1nXyVkyoZLEqr631z6I-13" value="&lt;div&gt;AICPU算子优化GatheElements&lt;/div&gt;onnx_castfp16.py" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u1nXyVkyoZLEqr631z6I-10" target="u1nXyVkyoZLEqr631z6I-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u1nXyVkyoZLEqr631z6I-10" value="yolo26n_opt.onnx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1053" width="200" height="60" as="geometry" />
+          <mxGeometry x="40" y="1076" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u1nXyVkyoZLEqr631z6I-15" value="AOE自动调优" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u1nXyVkyoZLEqr631z6I-12" target="u1nXyVkyoZLEqr631z6I-14">
           <mxGeometry relative="1" as="geometry" />
@@ -41,7 +41,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u1nXyVkyoZLEqr631z6I-14" value="yolo26n_opt_fp16.onnx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1320" width="202" height="60" as="geometry" />
+          <mxGeometry x="40" y="1314" width="202" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u1nXyVkyoZLEqr631z6I-17" value="yolo26n_opt.om" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="1440" width="200" height="60" as="geometry" />
