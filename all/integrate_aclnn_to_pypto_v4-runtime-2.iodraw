@@ -509,6 +509,9 @@
         <mxCell id="6QuQa9uAZZkOfv21vvpA-4" value="&lt;div&gt;隐式依赖&lt;/div&gt;dlsym" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6QuQa9uAZZkOfv21vvpA-1" target="6QuQa9uAZZkOfv21vvpA-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6QuQa9uAZZkOfv21vvpA-1" target="6QuQa9uAZZkOfv21vvpA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-1" value="libtile_fwk_adapter.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="330" width="200" height="60" as="geometry" />
         </mxCell>
@@ -532,6 +535,9 @@
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-9" value="调测&lt;br&gt;&lt;div&gt;libascend_dump.so&lt;/div&gt;&lt;div&gt;libprofapi.so&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="830" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-11" value="libascendcl.so&lt;div&gt;libruntime.so&lt;/div&gt;&lt;div&gt;libascend_hal.so&lt;/div&gt;&lt;div&gt;libhccl.so&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="840" width="200" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
