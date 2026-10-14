@@ -7,8 +7,8 @@
         <mxCell id="u1nXyVkyoZLEqr631z6I-1" value="ultralytics" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="u1nXyVkyoZLEqr631z6I-2" value="语料库 dataset&lt;div&gt;|-&amp;gt; coco2017labels-seqments&lt;/div&gt;&lt;div&gt;|-&amp;gt; val2017&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="590" width="120" height="60" as="geometry" />
+        <mxCell id="u1nXyVkyoZLEqr631z6I-2" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;语料库 dataset&lt;/span&gt;&lt;/div&gt;&lt;div&gt;|-&amp;gt; coco2017labels-seqments&lt;/div&gt;&lt;div&gt;|-&amp;gt; val2017&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="100" y="590" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
