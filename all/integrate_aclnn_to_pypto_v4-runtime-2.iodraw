@@ -23,7 +23,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u1nXyVkyoZLEqr631z6I-7" value="yolo26n.onnx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="880" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="880" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u1nXyVkyoZLEqr631z6I-13" value="&lt;div&gt;AICPU算子优化GatheElements&lt;/div&gt;onnx_castfp16.py" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u1nXyVkyoZLEqr631z6I-10" target="u1nXyVkyoZLEqr631z6I-12">
           <mxGeometry relative="1" as="geometry" />
