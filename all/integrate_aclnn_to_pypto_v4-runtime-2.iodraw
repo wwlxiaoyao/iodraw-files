@@ -17,13 +17,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u1nXyVkyoZLEqr631z6I-5" value="&lt;div style=&quot;&quot;&gt;yolo26权重文件&lt;/div&gt;&lt;div style=&quot;&quot;&gt;|-&amp;gt; yolo26n.pt&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="40" y="690" width="200" height="60" as="geometry" />
+          <mxGeometry x="40" y="742" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u1nXyVkyoZLEqr631z6I-11" value="&lt;div&gt;图知识库(优化结构并改图)&lt;/div&gt;msIT + Surgeon" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u1nXyVkyoZLEqr631z6I-7" target="u1nXyVkyoZLEqr631z6I-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u1nXyVkyoZLEqr631z6I-7" value="yolo26n.onnx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="881" width="200" height="60" as="geometry" />
+          <mxGeometry x="40" y="932" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u1nXyVkyoZLEqr631z6I-13" value="&lt;div&gt;AICPU算子优化GatheElements&lt;/div&gt;onnx_castfp16.py" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u1nXyVkyoZLEqr631z6I-10" target="u1nXyVkyoZLEqr631z6I-12">
           <mxGeometry relative="1" as="geometry" />
