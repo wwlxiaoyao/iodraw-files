@@ -542,6 +542,9 @@
         <mxCell id="6QuQa9uAZZkOfv21vvpA-12" value="libtile_fwk_cann_host_runtime.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-130" y="440" width="200" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-13" value="libtilefwk_backend_server.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="230" width="200" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
