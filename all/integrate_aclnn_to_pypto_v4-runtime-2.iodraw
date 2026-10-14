@@ -78,7 +78,7 @@
           <mxGeometry x="320" y="930" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u1nXyVkyoZLEqr631z6I-28" value="Horizontal Container" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="585" width="570" height="215" as="geometry" />
+          <mxGeometry y="585" width="560" height="215" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
