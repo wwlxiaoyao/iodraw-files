@@ -543,7 +543,7 @@
           <mxGeometry x="-50" y="-240" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-20" value="libtile_fwk_cann_host_runtime.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="450" width="200" height="60" as="geometry" />
+          <mxGeometry x="-140" y="440" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-21" value="&lt;div&gt;pv/ca model驱动&lt;/div&gt;libnpu_drv.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-190" y="840" width="120" height="60" as="geometry" />
@@ -555,7 +555,7 @@
           <mxGeometry x="220" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-15" value="libaicpu_extend_kernels.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-23">
-          <mxGeometry x="20" y="640" width="200" height="100" as="geometry" />
+          <mxGeometry x="46" y="630" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-13" value="libtile_fwk_runtime.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-23">
           <mxGeometry x="46" y="81" width="200" height="60" as="geometry" />
