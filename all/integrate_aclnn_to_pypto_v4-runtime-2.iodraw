@@ -35,7 +35,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u1nXyVkyoZLEqr631z6I-12" value="yolo26n_opt_fp16.onnx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="1270" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="1270" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u1nXyVkyoZLEqr631z6I-18" value="ATC工具生成om文件&lt;div&gt;再次优化&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u1nXyVkyoZLEqr631z6I-14" target="u1nXyVkyoZLEqr631z6I-17">
           <mxGeometry relative="1" as="geometry" />
