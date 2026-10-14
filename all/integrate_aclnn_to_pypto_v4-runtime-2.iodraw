@@ -516,7 +516,7 @@
           <mxGeometry x="-670" y="140" width="1100" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-20" value="libtile_fwk_cann_host_runtime.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="420" y="443" width="510" height="50" as="geometry" />
+          <mxGeometry x="420" y="451" width="510" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-1" value="libtile_fwk_adapter.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
           <mxGeometry x="730" y="510" width="200" height="40" as="geometry" />
@@ -582,7 +582,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-13" value="libtile_fwk_runtime.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-35">
-          <mxGeometry x="390" y="240" width="510" height="60" as="geometry" />
+          <mxGeometry x="390" y="243" width="510" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-36" value="CANN Toolkit" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
           <mxGeometry x="30" y="570" width="1400" height="440" as="geometry" />
