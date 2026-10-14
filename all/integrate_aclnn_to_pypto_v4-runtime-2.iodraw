@@ -549,10 +549,10 @@
           <mxGeometry x="389" y="140" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-3" value="libascendcl.so&lt;div&gt;libruntime.so&lt;/div&gt;&lt;div&gt;libhccl.so&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;|&lt;/div&gt;&lt;div&gt;\/&lt;/div&gt;&lt;div&gt;libruntime_common.so&lt;/div&gt;&lt;div&gt;liberror_manager.so&lt;/div&gt;&lt;div&gt;libmmpa.so&lt;/div&gt;&lt;div&gt;libplatform.so&lt;/div&gt;&lt;div&gt;libascend_watchdog.so&lt;/div&gt;&lt;div&gt;libascend_protobuf.so&lt;/div&gt;&lt;div&gt;....&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="324" y="660" width="200" height="180" as="geometry" />
+          <mxGeometry x="324" y="630" width="200" height="210" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-9" value="调测&lt;br&gt;&lt;div&gt;libascend_dump.so&lt;/div&gt;&lt;div&gt;libprofapi.so&lt;/div&gt;&lt;div&gt;libunified_dlog.so&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="544" y="660" width="200" height="180" as="geometry" />
+          <mxGeometry x="544" y="630" width="200" height="210" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-11" value="&lt;div&gt;NPU Driver:&lt;/div&gt;&lt;div&gt;libascend_hal.so&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
           <mxGeometry x="130" y="860" width="614" height="50" as="geometry" />
