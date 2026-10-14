@@ -546,7 +546,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-2" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;libc_sec.so 安全函数库&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="460" y="945" width="850" height="40" as="geometry" />
+          <mxGeometry x="460" y="945" width="850" height="25" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-5" value="bisheng compiler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
           <mxGeometry x="172" y="930" width="160" height="60" as="geometry" />
