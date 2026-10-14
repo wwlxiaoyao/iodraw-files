@@ -510,7 +510,7 @@
           <mxGeometry x="430" y="140" width="350" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-24" value="Host" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-670" y="150" width="1100" height="1020" as="geometry" />
+          <mxGeometry x="-670" y="150" width="1310" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-20" value="libtile_fwk_cann_host_runtime.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
           <mxGeometry x="420" y="451" width="510" height="50" as="geometry" />
@@ -546,7 +546,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-2" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;libc_sec.so 安全函数库&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="460" y="945" width="594" height="40" as="geometry" />
+          <mxGeometry x="460" y="945" width="850" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-5" value="bisheng compiler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
           <mxGeometry x="172" y="930" width="160" height="60" as="geometry" />
