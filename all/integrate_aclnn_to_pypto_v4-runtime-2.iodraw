@@ -546,7 +546,7 @@
           <mxGeometry x="110" y="360" width="510" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-1" value="libtile_fwk_adapter.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="420" y="430" width="200" height="60" as="geometry" />
+          <mxGeometry x="420" y="450" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-3" value="libascendcl.so&lt;div&gt;libruntime.so&lt;/div&gt;&lt;div&gt;libhccl.so&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;|&lt;/span&gt;&lt;/div&gt;&lt;div&gt;\/&lt;/div&gt;&lt;div&gt;libruntime_common.so&lt;/div&gt;&lt;div&gt;liberror_manager.so&lt;/div&gt;&lt;div&gt;libmmpa.so&lt;/div&gt;&lt;div&gt;libplatform.so&lt;/div&gt;&lt;div&gt;libascend_watchdog.so&lt;/div&gt;&lt;div&gt;libascend_protobuf.so&lt;/div&gt;&lt;div&gt;....&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
           <mxGeometry x="324" y="630" width="200" height="210" as="geometry" />
@@ -564,7 +564,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-12" value="libtile_fwk_simulation_pv.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="110" y="445" width="200" height="60" as="geometry" />
+          <mxGeometry x="110" y="470" width="200" height="35" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-21" value="&lt;div&gt;pv/ca model驱动&lt;/div&gt;libnpu_drv.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
           <mxGeometry x="150" y="630" width="120" height="280" as="geometry" />
