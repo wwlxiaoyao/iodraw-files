@@ -56,7 +56,7 @@
           <mxGeometry x="400" y="940" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u1nXyVkyoZLEqr631z6I-23" value="编译期" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="820" width="260" height="200" as="geometry" />
+          <mxGeometry x="20" y="820" width="260" height="700" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
