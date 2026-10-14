@@ -575,8 +575,8 @@
         <mxCell id="6QuQa9uAZZkOfv21vvpA-18" value="工具直接调用" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6QuQa9uAZZkOfv21vvpA-24" source="6QuQa9uAZZkOfv21vvpA-17" target="6QuQa9uAZZkOfv21vvpA-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6QuQa9uAZZkOfv21vvpA-26" value="libtile_fwk_cann_host_runtime.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="560" width="510" height="50" as="geometry" />
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-26" value="libtile_fwk_cann_host_runtime.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
+          <mxGeometry x="70" y="300" width="860" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
