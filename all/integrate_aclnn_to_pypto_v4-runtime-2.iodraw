@@ -502,7 +502,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Q5GmRSw9fSCIBwqndCej" name="发布件">
-    <mxGraphModel dx="2726" dy="2356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2410" dy="2158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -536,13 +536,13 @@
         <mxCell id="6QuQa9uAZZkOfv21vvpA-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6QuQa9uAZZkOfv21vvpA-3" target="6QuQa9uAZZkOfv21vvpA-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6QuQa9uAZZkOfv21vvpA-3" value="libascendcl.so&lt;div&gt;libruntime.so&lt;/div&gt;&lt;div&gt;libhccl.so&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;|&lt;/span&gt;&lt;/div&gt;&lt;div&gt;\/&lt;/div&gt;&lt;div&gt;libruntime_common.so&lt;/div&gt;&lt;div&gt;liberror_manager.so&lt;/div&gt;&lt;div&gt;libmmpa.so&lt;/div&gt;&lt;div&gt;libplatform.so&lt;/div&gt;&lt;div&gt;libascend_watchdog.so&lt;/div&gt;&lt;div&gt;libascend_protobuf.so&lt;/div&gt;&lt;div&gt;....&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-3" value="libascendcl.so&lt;div&gt;libruntime.so&lt;/div&gt;&lt;div&gt;libhccl.so&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;|&lt;/span&gt;&lt;/div&gt;&lt;div&gt;\/&lt;/div&gt;&lt;div&gt;libruntime_common.so&lt;/div&gt;&lt;div&gt;liberror_manager.so&lt;/div&gt;&lt;div&gt;libmmpa.so&lt;/div&gt;&lt;div&gt;libplatform.so&lt;/div&gt;&lt;div&gt;libascend_watchdog.so&lt;/div&gt;&lt;div&gt;libascend_protobuf.so&lt;/div&gt;&lt;div&gt;....&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="134" y="1795" width="200" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="6QuQa9uAZZkOfv21vvpA-9" value="调测&lt;br&gt;&lt;div&gt;libascend_dump.so&lt;/div&gt;&lt;div&gt;libprofapi.so&lt;/div&gt;&lt;div&gt;libunified_dlog.so&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-9" value="调测&lt;br&gt;&lt;div&gt;libascend_dump.so&lt;/div&gt;&lt;div&gt;libprofapi.so&lt;/div&gt;&lt;div&gt;libunified_dlog.so&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="354" y="1795" width="146" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="6QuQa9uAZZkOfv21vvpA-11" value="&lt;div&gt;NPU Driver: 开放寄存器映射&lt;/div&gt;&lt;div&gt;libascend_hal.so&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-11" value="&lt;div&gt;NPU Driver: 开放寄存器映射&lt;/div&gt;&lt;div&gt;libascend_hal.so&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="130" y="2014" width="370" height="76" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-4" value="&lt;div&gt;隐式依赖&lt;/div&gt;dlsym" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6QuQa9uAZZkOfv21vvpA-1" target="6QuQa9uAZZkOfv21vvpA-3">
@@ -554,13 +554,13 @@
         <mxCell id="6QuQa9uAZZkOfv21vvpA-12" value="libtile_fwk_simulation_pv.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-80" y="1665" width="200" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="6QuQa9uAZZkOfv21vvpA-21" value="&lt;div&gt;pv/ca model驱动&lt;/div&gt;libnpu_drv.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-21" value="&lt;div&gt;pv/ca model驱动&lt;/div&gt;libnpu_drv.so" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-40" y="1795" width="120" height="295" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-22" value="接口直接调用" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6QuQa9uAZZkOfv21vvpA-12" target="6QuQa9uAZZkOfv21vvpA-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6QuQa9uAZZkOfv21vvpA-2" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;libc_sec.so 安全函数库&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-2" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;libc_sec.so 安全函数库&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-40" y="2095" width="850" height="25" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-5" value="bisheng compiler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
@@ -602,7 +602,7 @@
         <mxCell id="6QuQa9uAZZkOfv21vvpA-36" value="CANN Toolkit" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-390" y="1720" width="1240" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="6QuQa9uAZZkOfv21vvpA-15" value="libaicpu_extend_kernels.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-36">
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-15" value="libaicpu_extend_kernels.so" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-36">
           <mxGeometry x="1008" y="140" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-39" value="dlopen" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6QuQa9uAZZkOfv21vvpA-15" target="6QuQa9uAZZkOfv21vvpA-6">
