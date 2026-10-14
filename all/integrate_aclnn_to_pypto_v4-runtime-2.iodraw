@@ -25,6 +25,9 @@
         <mxCell id="u1nXyVkyoZLEqr631z6I-7" value="yolo26n.onnx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="880" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="u1nXyVkyoZLEqr631z6I-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u1nXyVkyoZLEqr631z6I-10" target="u1nXyVkyoZLEqr631z6I-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="u1nXyVkyoZLEqr631z6I-10" value="yolo26n_opt.onnx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
