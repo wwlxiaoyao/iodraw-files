@@ -543,19 +543,19 @@
           <mxGeometry x="-670" y="140" width="1100" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-20" value="libtile_fwk_cann_host_runtime.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="110" y="395" width="510" height="50" as="geometry" />
+          <mxGeometry x="420" y="410" width="510" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-1" value="libtile_fwk_adapter.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="420" y="465" width="200" height="40" as="geometry" />
+          <mxGeometry x="730" y="480" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-3" value="libascendcl.so&lt;div&gt;libruntime.so&lt;/div&gt;&lt;div&gt;libhccl.so&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;|&lt;/span&gt;&lt;/div&gt;&lt;div&gt;\/&lt;/div&gt;&lt;div&gt;libruntime_common.so&lt;/div&gt;&lt;div&gt;liberror_manager.so&lt;/div&gt;&lt;div&gt;libmmpa.so&lt;/div&gt;&lt;div&gt;libplatform.so&lt;/div&gt;&lt;div&gt;libascend_watchdog.so&lt;/div&gt;&lt;div&gt;libascend_protobuf.so&lt;/div&gt;&lt;div&gt;....&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="324" y="630" width="200" height="210" as="geometry" />
+          <mxGeometry x="634" y="645" width="200" height="210" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-9" value="调测&lt;br&gt;&lt;div&gt;libascend_dump.so&lt;/div&gt;&lt;div&gt;libprofapi.so&lt;/div&gt;&lt;div&gt;libunified_dlog.so&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="544" y="630" width="200" height="210" as="geometry" />
+          <mxGeometry x="854" y="645" width="200" height="210" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-11" value="&lt;div&gt;NPU Driver:&lt;/div&gt;&lt;div&gt;libascend_hal.so&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="320" y="860" width="424" height="50" as="geometry" />
+          <mxGeometry x="630" y="875" width="424" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-4" value="&lt;div&gt;隐式依赖&lt;/div&gt;dlsym" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6QuQa9uAZZkOfv21vvpA-24" source="6QuQa9uAZZkOfv21vvpA-1" target="6QuQa9uAZZkOfv21vvpA-3">
           <mxGeometry relative="1" as="geometry" />
@@ -564,16 +564,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-12" value="libtile_fwk_simulation_pv.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="110" y="470" width="200" height="35" as="geometry" />
+          <mxGeometry x="420" y="485" width="200" height="35" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-21" value="&lt;div&gt;pv/ca model驱动&lt;/div&gt;libnpu_drv.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="150" y="630" width="120" height="280" as="geometry" />
+          <mxGeometry x="460" y="645" width="120" height="280" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6QuQa9uAZZkOfv21vvpA-24" source="6QuQa9uAZZkOfv21vvpA-12" target="6QuQa9uAZZkOfv21vvpA-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-2" value="libc_sec.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-24">
-          <mxGeometry x="150" y="930" width="594" height="40" as="geometry" />
+          <mxGeometry x="460" y="945" width="594" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
