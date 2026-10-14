@@ -71,7 +71,7 @@
         <mxCell id="u1nXyVkyoZLEqr631z6I-19" value="&lt;div&gt;纯推理模式吞吐性能测试&lt;/div&gt;ais_bench" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="1070" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="u1nXyVkyoZLEqr631z6I-22" value="依赖" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="u1nXyVkyoZLEqr631z6I-20" target="u1nXyVkyoZLEqr631z6I-1">
+        <mxCell id="u1nXyVkyoZLEqr631z6I-22" value="依赖" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#0000FF;" edge="1" parent="1" source="u1nXyVkyoZLEqr631z6I-20" target="u1nXyVkyoZLEqr631z6I-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u1nXyVkyoZLEqr631z6I-20" value="&lt;div&gt;推理精度测试&lt;/div&gt;detect_infer.py" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
