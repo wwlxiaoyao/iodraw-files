@@ -587,7 +587,7 @@
         <mxCell id="6QuQa9uAZZkOfv21vvpA-15" value="libaicpu_extend_kernels.so" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6QuQa9uAZZkOfv21vvpA-36">
           <mxGeometry x="1080" y="80" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="6QuQa9uAZZkOfv21vvpA-39" value="dlopen" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.33;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="6QuQa9uAZZkOfv21vvpA-24" source="6QuQa9uAZZkOfv21vvpA-15" target="6QuQa9uAZZkOfv21vvpA-6">
+        <mxCell id="6QuQa9uAZZkOfv21vvpA-39" value="dlopen" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="6QuQa9uAZZkOfv21vvpA-24" source="6QuQa9uAZZkOfv21vvpA-15" target="6QuQa9uAZZkOfv21vvpA-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6QuQa9uAZZkOfv21vvpA-30" value="" style="group" vertex="1" connectable="0" parent="1">
